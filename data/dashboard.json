@@ -1,0 +1,1809 @@
+{
+ "collectedAt": "2026-09-19T01:50:38.625Z",
+ "collectedAtText": "2026-09-19 10:50",
+ "blogId": "gold_ggu",
+ "elapsedMs": 2591,
+ "errors": [],
+ "summary": {
+  "publicCount": 26,
+  "queueCount": 11,
+  "totalCount": 37,
+  "todayCv": 113,
+  "yesterdayCv": 609,
+  "todayVisitor": 0,
+  "buddyCount": 37,
+  "citations": {
+   "cumulative": 1260,
+   "month": 1260,
+   "selectionPeriod": 0,
+   "currentMonth": 9,
+   "selectionPeriodMonth": 7
+  },
+  "unansweredComments": 0,
+  "totalComments": 6,
+  "v5Pending": 1,
+  "searchOff": 0,
+  "totalReadCount": 1282
+ },
+ "alerts": [
+  {
+   "level": "warn",
+   "type": "v5",
+   "logNo": "224415205495",
+   "text": "v5 레이아웃 미적용: #32 리프트바운드 오리진 출시일 가격 제품 5종 총정리, 예약 구매처까지"
+  },
+  {
+   "level": "info",
+   "type": "links",
+   "logNo": "224415045587",
+   "text": "관련 글·로드맵 링크 보강 대기: #20"
+  },
+  {
+   "level": "info",
+   "type": "links",
+   "logNo": "224415046460",
+   "text": "관련 글·로드맵 링크 보강 대기: #26"
+  }
+ ],
+ "posts": [
+  {
+   "no": 1,
+   "logNo": "224414205485",
+   "title": "포켓몬카드 등급 레어도 총정리 RR AR SAR MUR FUR 뜻",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 입문 가이드",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-16 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414205485",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 61,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 2,
+   "logNo": "224414207388",
+   "title": "포켓몬카드 30th CELEBRATION 정가 구성 응모 방법 총정리",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 신제품·개봉기",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-16 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414207388",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 33,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 3,
+   "logNo": "224414208211",
+   "title": "포켓몬카드 MEGA 확장팩 발매 순서 정가 총정리, 가격 인상 비교",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 신제품·개봉기",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-16 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414208211",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 23,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 6,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 4,
+   "logNo": "224414209036",
+   "title": "포켓몬카드 시세 2026 고레어 실거래 BEST, 조회하는 곳 5곳",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 시세·수집",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-16 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414209036",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 99,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 5,
+   "logNo": "224414209725",
+   "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 입문 가이드",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-16 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414209725",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 126,
+   "commentCount": 2,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 6,
+   "logNo": "224414211054",
+   "title": "PSA 등급 받는 법 비용 기간 대행 총정리, 포켓몬카드 처음이라면",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 시세·수집",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-16 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414211054",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 68,
+   "commentCount": 4,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": true
+  },
+  {
+   "no": 7,
+   "logNo": "224414211890",
+   "title": "포켓몬카드 하는 법 기본 룰 총정리, 덱 60장 프라이즈 6장이면 끝",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 덱·룰·대회",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-16 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414211890",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 6,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 6,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 8,
+   "logNo": "224414212748",
+   "title": "2026 포켓몬 게임 신작 총정리 레전드 Z-A 포코피아 윈드 웨이브",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 게임·신작 소식",
+   "keyword": "포켓몬신작",
+   "publishedText": "2026-09-16 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414212748",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 41,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 6,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 9,
+   "logNo": "224414213436",
+   "title": "포켓몬카드 보관법 슬리브 탑로더 바인더 순서와 가품 구별법 7가지",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 입문 가이드",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-16 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414213436",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 75,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 10,
+   "logNo": "224414562775",
+   "title": "포켓몬카드 용어 총정리 서치 특일 노스알 힛카드 봉입률 슈링크 뜻",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 입문 가이드",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-17 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414562775",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 33,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": true
+  },
+  {
+   "no": 11,
+   "logNo": "224414564455",
+   "title": "포켓몬카드 일본판 한글판 차이 총정리 시세 서치 대회 사용 가능 여부",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 입문 가이드",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-17 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414564455",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 75,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 12,
+   "logNo": "224414567568",
+   "title": "포켓몬카드 레귤레이션 마크 2026 사용 가능 H I J와 로테이션",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 덱·룰·대회",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-17 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414567568",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 3,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 13,
+   "logNo": "224414569984",
+   "title": "포켓몬카드 대회 2026 참가 방법, 미니리그부터 코리안리그까지",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 덱·룰·대회",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-17 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414569984",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 2,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 14,
+   "logNo": "224414573930",
+   "title": "포켓몬 월드챔피언십 2026 결과 우승 덱과 2027 싱가포르 일정",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 덱·룰·대회",
+   "keyword": "포켓몬월드챔피언십",
+   "publishedText": "2026-09-17 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414573930",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 1,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": true
+  },
+  {
+   "no": 15,
+   "logNo": "224414566792",
+   "title": "포켓몬카드 스타트 덱 100 가격 구성과 입문 구축덱 고르는 법",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 입문 가이드",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-17 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414566792",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 26,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 6,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 16,
+   "logNo": "224414571492",
+   "title": "포켓몬카드 티어 덱 2026, 월챔과 코리안리그 우승 덱 레시피 정리",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 덱·룰·대회",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-17 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414571492",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 13,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 17,
+   "logNo": "224414574805",
+   "title": "포켓몬카드 Pocket 로켓단의 야망 정리, TCG Live 한국은?",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 게임·신작 소식",
+   "keyword": "포켓몬카드게임Pocket",
+   "publishedText": "2026-09-17 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414574805",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 4,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 6,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 18,
+   "logNo": "224414565203",
+   "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 굿즈·이벤트",
+   "keyword": "포켓몬카드샵",
+   "publishedText": "2026-09-17 발행",
+   "url": "https://blog.naver.com/gold_ggu/224414565203",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 111,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 19,
+   "logNo": "224415047301",
+   "title": "리자몽 포켓몬카드 시세 TOP 정리, 메가리자몽X MUR부터 초판까지",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 시세·수집",
+   "keyword": "포켓몬카드리자몽",
+   "publishedText": "2026-09-19 19:00",
+   "postDate": 1789812000000,
+   "url": "https://blog.naver.com/gold_ggu/224415047301",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 20,
+   "logNo": "224415045587",
+   "title": "30th CELEBRATION 피카츄 30종 일러스트레이터 총정리",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 시세·수집",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-18 07:30",
+   "url": "https://blog.naver.com/gold_ggu/224415045587",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 5,
+   "relatedLinksPending": true,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 21,
+   "logNo": "224415049835",
+   "title": "포켓몬카드 매입 파는법 카드샵 크림 번개장터 수수료 비교 2026",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 시세·수집",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-21 19:00",
+   "postDate": 1789984800000,
+   "url": "https://blog.naver.com/gold_ggu/224415049835",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 22,
+   "logNo": "224415048979",
+   "title": "포켓몬카드 슬리브 사이즈 총정리 이너 아우터 탑로더 35pt 다이소",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 입문 가이드",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-21 07:30",
+   "postDate": 1789943400000,
+   "url": "https://blog.naver.com/gold_ggu/224415048979",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 23,
+   "logNo": "224415050715",
+   "title": "포켓몬 레전드 Z-A 메가진화 목록, 본편과 DLC 신규 메가 총정리",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 게임·신작 소식",
+   "keyword": "포켓몬레전드ZA",
+   "publishedText": "2026-09-22 12:30",
+   "postDate": 1790047800000,
+   "url": "https://blog.naver.com/gold_ggu/224415050715",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 24,
+   "logNo": "224415052300",
+   "title": "포코피아 초반 공략 핵심 정리, 익스팬션 패스와 스위치1 가능 여부",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 게임·신작 소식",
+   "keyword": "포코피아",
+   "publishedText": "2026-09-23 19:00",
+   "postDate": 1790157600000,
+   "url": "https://blog.naver.com/gold_ggu/224415052300",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 25,
+   "logNo": "224414560316",
+   "title": "포켓몬고 9월 10월 이벤트 2026 조로아 커뮤니티데이 한복 피카츄",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 게임·신작 소식",
+   "keyword": "포켓몬고",
+   "publishedText": "2026-09-17 15:00",
+   "url": "https://blog.naver.com/gold_ggu/224414560316",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 19,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 4,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 26,
+   "logNo": "224415046460",
+   "title": "포켓몬카드 10월 발매 예정 FUTURISTIC BOX 정가와 구성",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 신제품·개봉기",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-18 19:00",
+   "url": "https://blog.naver.com/gold_ggu/224415046460",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 8,
+   "commentCount": 2,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 5,
+   "relatedLinksPending": true,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 27,
+   "logNo": "224415051543",
+   "title": "포켓몬카드 재테크 현실 데이터, 크림 거래액 208배와 카드깡 수익률",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 시세·수집",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-22 19:00",
+   "postDate": 1790071200000,
+   "url": "https://blog.naver.com/gold_ggu/224415051543",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 28,
+   "logNo": "224415048223",
+   "title": "포켓몬카드 사기 사례 2026, 재포장 박스 구별법과 안전거래 방법",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 시세·수집",
+   "keyword": "포켓몬카드",
+   "publishedText": "2026-09-20 19:00",
+   "postDate": 1789898400000,
+   "url": "https://blog.naver.com/gold_ggu/224415048223",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 29,
+   "logNo": "224414559583",
+   "title": "포켓몬 메가페스타 2026 피카츄의 가을 나들이 일정 예약 굿즈 정리",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 굿즈·이벤트",
+   "keyword": "포켓몬메가페스타",
+   "publishedText": "2026-09-17 11:00",
+   "url": "https://blog.naver.com/gold_ggu/224414559583",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 57,
+   "commentCount": 2,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 30,
+   "logNo": "224415077034",
+   "title": "포켓몬카드 입문 순서 총정리, 등급 읽기부터 시세 확인까지 5단계",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 입문 가이드",
+   "keyword": "포켓몬카드 입문",
+   "publishedText": "2026-09-18 12:30",
+   "url": "https://blog.naver.com/gold_ggu/224415077034",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 2,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 29,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 31,
+   "logNo": "224415150323",
+   "title": "포켓몬카드 30주년 궁금증 7가지, 파는곳 봉입 중복 RGB 시세까지",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 신제품·개봉기",
+   "keyword": "포켓몬카드 30주년",
+   "publishedText": "2026-09-17 19:00",
+   "url": "https://blog.naver.com/gold_ggu/224415150323",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 288,
+   "commentCount": 2,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 32,
+   "logNo": "224415205495",
+   "title": "리프트바운드 오리진 출시일 가격 제품 5종 총정리, 예약 구매처까지",
+   "status": "공개",
+   "game": "리프트바운드",
+   "category": "리프트바운드 신제품·가격",
+   "keyword": "리프트바운드",
+   "publishedText": "2026-09-19 07:30",
+   "url": "https://blog.naver.com/gold_ggu/224415205495",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 1,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "internalLinks": 15,
+   "imgs": 4,
+   "relatedLinksPending": false,
+   "priceUpdate": {
+    "logNo": "224415205495",
+    "due": "2026-09-26",
+    "note": "#32 리프트바운드 가격: 라이엇 공식 정가 발표 시 갱신"
+   },
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 33,
+   "logNo": "224415206012",
+   "title": "리프트바운드 룰 초보 가이드, 8포인트 승리 조건과 덱 구성 40장",
+   "status": "예약",
+   "game": "리프트바운드",
+   "category": "리프트바운드 입문·룰",
+   "keyword": "리프트바운드",
+   "publishedText": "2026-09-19 12:30",
+   "postDate": 1789788600000,
+   "url": "https://blog.naver.com/gold_ggu/224415206012",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 34,
+   "logNo": "224415206636",
+   "title": "리프트바운드 카드 레어도 봉입률 총정리, 아리 구미호 확률과 프로모",
+   "status": "예약",
+   "game": "리프트바운드",
+   "category": "리프트바운드 덱·대회",
+   "keyword": "리프트바운드",
+   "publishedText": "2026-09-20 07:30",
+   "postDate": 1789857000000,
+   "url": "https://blog.naver.com/gold_ggu/224415206636",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 35,
+   "logNo": "224415288070",
+   "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 시세·수집",
+   "keyword": "포켓몬카드시세",
+   "publishedText": "2026-09-17 22:30 발행(예약 앞당김)",
+   "url": "https://blog.naver.com/gold_ggu/224415288070",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 107,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 4,
+   "relatedLinksPending": false,
+   "priceUpdate": {
+    "logNo": "224415288070",
+    "due": "2026-10-01",
+    "note": "#35 30th 시세: 한글판 체결 반영"
+   },
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 36,
+   "logNo": "224415315942",
+   "title": "포켓몬카드 박스 시세 2026 미개봉 TOP 10과 일본판 비교",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 시세·수집",
+   "keyword": "포켓몬카드박스시세",
+   "publishedText": "2026-09-22 07:30",
+   "postDate": 1790029800000,
+   "url": "https://blog.naver.com/gold_ggu/224415315942",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 37,
+   "logNo": "224415309687",
+   "title": "원피스카드 시세 2026 고가 TOP 15와 박스 시세 총정리",
+   "status": "예약",
+   "game": "원피스",
+   "category": "원피스 카드 시세·수집",
+   "keyword": "원피스카드시세",
+   "publishedText": "2026-09-21 12:30",
+   "postDate": 1789961400000,
+   "url": "https://blog.naver.com/gold_ggu/224415309687",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  }
+ ],
+ "queue": [
+  {
+   "logNo": "224415206012",
+   "title": "리프트바운드 룰 초보 가이드, 8포인트 승리 조건과 덱 구성 40장",
+   "postDate": 1789788600000,
+   "postDateText": "2026-09-19 12:30",
+   "addDate": 1789638946150
+  },
+  {
+   "logNo": "224415047301",
+   "title": "리자몽 포켓몬카드 시세 TOP 정리, 메가리자몽X MUR부터 초판까지",
+   "postDate": 1789812000000,
+   "postDateText": "2026-09-19 19:00",
+   "addDate": 1789629840821
+  },
+  {
+   "logNo": "224415206636",
+   "title": "리프트바운드 카드 레어도 봉입률 총정리, 아리 구미호 확률과 프로모",
+   "postDate": 1789857000000,
+   "postDateText": "2026-09-20 07:30",
+   "addDate": 1789638991733
+  },
+  {
+   "logNo": "224415048223",
+   "title": "포켓몬카드 사기 사례 2026, 재포장 박스 구별법과 안전거래 방법",
+   "postDate": 1789898400000,
+   "postDateText": "2026-09-20 19:00",
+   "addDate": 1789629884673
+  },
+  {
+   "logNo": "224415048979",
+   "title": "포켓몬카드 슬리브 사이즈 총정리 이너 아우터 탑로더 35pt 다이소",
+   "postDate": 1789943400000,
+   "postDateText": "2026-09-21 07:30",
+   "addDate": 1789629923094
+  },
+  {
+   "logNo": "224415309687",
+   "title": "원피스카드 시세 2026 고가 TOP 15와 박스 시세 총정리",
+   "postDate": 1789961400000,
+   "postDateText": "2026-09-21 12:30",
+   "addDate": 1789646919016
+  },
+  {
+   "logNo": "224415049835",
+   "title": "포켓몬카드 매입 파는법 카드샵 크림 번개장터 수수료 비교 2026",
+   "postDate": 1789984800000,
+   "postDateText": "2026-09-21 19:00",
+   "addDate": 1789629965489
+  },
+  {
+   "logNo": "224415315942",
+   "title": "포켓몬카드 박스 시세 2026 미개봉 TOP 10과 일본판 비교",
+   "postDate": 1790029800000,
+   "postDateText": "2026-09-22 07:30",
+   "addDate": 1789647362527
+  },
+  {
+   "logNo": "224415050715",
+   "title": "포켓몬 레전드 Z-A 메가진화 목록, 본편과 DLC 신규 메가 총정리",
+   "postDate": 1790047800000,
+   "postDateText": "2026-09-22 12:30",
+   "addDate": 1789630010751
+  },
+  {
+   "logNo": "224415051543",
+   "title": "포켓몬카드 재테크 현실 데이터, 크림 거래액 208배와 카드깡 수익률",
+   "postDate": 1790071200000,
+   "postDateText": "2026-09-22 19:00",
+   "addDate": 1789630054483
+  },
+  {
+   "logNo": "224415052300",
+   "title": "포코피아 초반 공략 핵심 정리, 익스팬션 패스와 스위치1 가능 여부",
+   "postDate": 1790157600000,
+   "postDateText": "2026-09-23 19:00",
+   "addDate": 1789630095768
+  }
+ ],
+ "comments": [
+  {
+   "logNo": "224415046460",
+   "commentNo": "905208754205622304",
+   "parentCommentNo": "905208664028086453",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "구할수있기를...!",
+   "regTime": "2026-09-18T19:09:07+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224415046460",
+   "commentNo": "905208664028086453",
+   "parentCommentNo": "905208664028086453",
+   "replyLevel": 1,
+   "userName": "겜카",
+   "contents": "드디어 나옵니까",
+   "regTime": "2026-09-18T19:07:43+0900",
+   "mine": false,
+   "replyCount": 1,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224414211054",
+   "commentNo": "905194446998470662",
+   "parentCommentNo": "905131177248030949",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "도움이 되셨다니 다행이에요. 접수하시고 결과 나오면 등급 공유해 주시면 다른 분들께도 참고가 될 것 같아요. 좋은 결과 있길 바랍니다!",
+   "regTime": "2026-09-18T15:27:02+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224414211054",
+   "commentNo": "905175825916100610",
+   "parentCommentNo": "905131177248030949",
+   "replyLevel": 2,
+   "userName": "wjstjsal1",
+   "contents": "세세한 답변 감사합니다.",
+   "regTime": "2026-09-18T10:38:01+0900",
+   "mine": false,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224414209725",
+   "commentNo": "905174517410693370",
+   "parentCommentNo": "905105723292123426",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "여행하는 J님 반갑습니다, 고몽이입니다. 좋게 봐주셔서 감사해요. 앞으로도 포켓몬카드와 TCG 정보 꾸준히 올릴 테니 자주 들러주세요. 남은 한 주도 멋지게 보내세요!",
+   "regTime": "2026-09-18T10:17:43+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224415150323",
+   "commentNo": "905174504911667382",
+   "parentCommentNo": "905166783684542615",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "희요님 안녕하세요, 고몽이입니다. 서이추 수락 감사드려요. 저도 자주 놀러가서 소통할게요. 즐거운 하루 보내세요!",
+   "regTime": "2026-09-18T10:17:30+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224414211054",
+   "commentNo": "905174484158251067",
+   "parentCommentNo": "905131177248030949",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "안녕하세요, 고몽이입니다. 질문 감사해요.<br><br>1) 익스프레스는 필수가 아니에요. 빨리 받고 싶을 때만 고르는 상위 옵션이고, 급하지 않으면 가장 저렴한 스탠다드(일반)로 접수하시면 됩니다. 9월 18일 하비코리아 그레이딩 사이트 기준으로 카드 1장당 스탠다드 약 12만원, 익",
+   "regTime": "2026-09-18T10:17:12+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224415150323",
+   "commentNo": "905166783684542615",
+   "parentCommentNo": "905166783684542615",
+   "replyLevel": 1,
+   "userName": "희요",
+   "contents": "서이추 감사해요☺️인사드리러 왔어요:)<br>저도 앞으로 자주 놀러갈게요!💛<br>자주 소통 하면서 즐거운 블로그 생활 함께 해요✨<br>오늘 하루도 행복하게 보내세요💐",
+   "regTime": "2026-09-18T08:17:40+0900",
+   "mine": false,
+   "replyCount": 1,
+   "deleted": false,
+   "secret": true,
+   "unanswered": false
+  },
+  {
+   "logNo": "224414211054",
+   "commentNo": "905131177248030949",
+   "parentCommentNo": "905131177248030949",
+   "replyLevel": 1,
+   "userName": "wjstjsal1",
+   "contents": "안녕하세요. 아이가 카드를 psa에 보내고 싶다고 하는데 메가레쿠쟈 mur인데 이걸 익스프레스로 해서 신청하고 보내는건가요? 그리고 이게 한 장당 비용인가요?<br>아니면 여러장을 보낼수도 있는건가요?",
+   "regTime": "2026-09-17T23:04:58+0900",
+   "mine": false,
+   "replyCount": 3,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224414209725",
+   "commentNo": "905105723292123426",
+   "parentCommentNo": "905105723292123426",
+   "replyLevel": 1,
+   "userName": "여행하는 J",
+   "contents": "고몽이님 반갑습니당'◡'<br>이번 포스팅 넘 인상깊게 봐써용,,ㅎㅎ<br>글을 쭉,, 읽다보니 고몽이님 블로그를 알게된게 행운인거 가타요,,❤<br>남은 목요일도 멋지게 보내시구용!",
+   "regTime": "2026-09-17T16:29:53+0900",
+   "mine": false,
+   "replyCount": 1,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224414559583",
+   "commentNo": "905101920232800538",
+   "parentCommentNo": "905086903265526008",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "넵",
+   "regTime": "2026-09-17T15:30:51+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": true,
+   "unanswered": false
+  },
+  {
+   "logNo": "224414559583",
+   "commentNo": "905086903265526008",
+   "parentCommentNo": "905086903265526008",
+   "replyLevel": 1,
+   "userName": "성수진",
+   "contents": "좋은 블로그 글 잘보구갑니다:) 블로그 타깃으로 협업 관련하여 문의드려요! https://channell25.uzu.kr",
+   "regTime": "2026-09-17T11:37:46+0900",
+   "mine": false,
+   "replyCount": 1,
+   "deleted": false,
+   "secret": true,
+   "unanswered": false
+  }
+ ],
+ "stats": {
+  "dailyCv": [
+   {
+    "date": "2026-09-19",
+    "total": 113,
+    "friend": 3,
+    "follow": 0,
+    "etc": 110
+   },
+   {
+    "date": "2026-09-18",
+    "total": 609,
+    "friend": 6,
+    "follow": 0,
+    "etc": 603
+   },
+   {
+    "date": "2026-09-17",
+    "total": 558,
+    "friend": 2,
+    "follow": 0,
+    "etc": 556
+   },
+   {
+    "date": "2026-09-16",
+    "total": 29,
+    "friend": 0,
+    "follow": 0,
+    "etc": 29
+   },
+   {
+    "date": "2026-09-15",
+    "total": 0,
+    "friend": 0,
+    "follow": 0,
+    "etc": 0
+   },
+   {
+    "date": "2026-09-14",
+    "total": 0,
+    "friend": 0,
+    "follow": 0,
+    "etc": 0
+   },
+   {
+    "date": "2026-09-13",
+    "total": 0,
+    "friend": 0,
+    "follow": 0,
+    "etc": 0
+   },
+   {
+    "date": "2026-09-12",
+    "total": 0,
+    "friend": 0,
+    "follow": 0,
+    "etc": 0
+   },
+   {
+    "date": "2026-09-11",
+    "total": 0,
+    "friend": 0,
+    "follow": 0,
+    "etc": 0
+   },
+   {
+    "date": "2026-09-10",
+    "total": 1,
+    "friend": 0,
+    "follow": 0,
+    "etc": 1
+   },
+   {
+    "date": "2026-09-09",
+    "total": 0,
+    "friend": 0,
+    "follow": 0,
+    "etc": 0
+   },
+   {
+    "date": "2026-09-08",
+    "total": 0,
+    "friend": 0,
+    "follow": 0,
+    "etc": 0
+   },
+   {
+    "date": "2026-09-07",
+    "total": 0,
+    "friend": 0,
+    "follow": 0,
+    "etc": 0
+   },
+   {
+    "date": "2026-09-06",
+    "total": 0,
+    "friend": 0,
+    "follow": 0,
+    "etc": 0
+   },
+   {
+    "date": "2026-09-05",
+    "total": 0,
+    "friend": 0,
+    "follow": 0,
+    "etc": 0
+   }
+  ],
+  "today": {
+   "date": "2026-09-19",
+   "utime": "2026-09-19T10:50:38",
+   "dashboard": {
+    "dailyComment": 0,
+    "dailyPlayCount": "0",
+    "dailyCv": 113,
+    "dailyLike": 0,
+    "dailyCommentUtime": "2026-09-19T10:50:38",
+    "dailyRelationDeltaUtime": "2026-09-19T10:50:38",
+    "dailyRelationDelta": 0,
+    "isToday": true,
+    "dailyLikeUtime": "2026-09-19T10:50:38",
+    "dailyCvUtime": "2026-09-19T10:50:38"
+   },
+   "dailyCv": [
+    {
+     "date": "2026-09-19",
+     "cv": 113
+    },
+    {
+     "date": "2026-09-18",
+     "cv": 609
+    },
+    {
+     "date": "2026-09-17",
+     "cv": 558
+    },
+    {
+     "date": "2026-09-16",
+     "cv": 29
+    },
+    {
+     "date": "2026-09-15",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-14",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-13",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-12",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-11",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-10",
+     "cv": 1
+    },
+    {
+     "date": "2026-09-09",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-08",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-07",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-06",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-05",
+     "cv": 0
+    }
+   ],
+   "rankCv": [
+    {
+     "rank": 1,
+     "cv": 24,
+     "title": "포켓몬카드 30주년 궁금증 7가지, 파는곳 봉입 중복 RGB 시세까지",
+     "logNo": "224415150323",
+     "createDate": "2026.09.17. 19:00"
+    },
+    {
+     "rank": 2,
+     "cv": 16,
+     "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
+     "logNo": "224414565203",
+     "createDate": "2026.09.17. 09:35"
+    },
+    {
+     "rank": 3,
+     "cv": 12,
+     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
+     "logNo": "224414209725",
+     "createDate": "2026.09.16. 22:28"
+    },
+    {
+     "rank": 4,
+     "cv": 10,
+     "title": "포켓몬카드 용어 총정리 서치 특일 노스알 힛카드 봉입률 슈링크 뜻",
+     "logNo": "224414562775",
+     "createDate": "2026.09.17. 09:33"
+    },
+    {
+     "rank": 5,
+     "cv": 9,
+     "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
+     "logNo": "224415288070",
+     "createDate": "2026.09.17. 20:41"
+    },
+    {
+     "rank": 6,
+     "cv": 7,
+     "title": "포켓몬카드 일본판 한글판 차이 총정리 시세 서치 대회 사용 가능 여부",
+     "logNo": "224414564455",
+     "createDate": "2026.09.17. 09:34"
+    }
+   ],
+   "referer": [
+    {
+     "name": "네이버 통합검색_모바일",
+     "cv": 43,
+     "pct": 40.2
+    },
+    {
+     "name": "네이버 메인_모바일_홈판",
+     "cv": 27,
+     "pct": 25.2
+    },
+    {
+     "name": "네이버 블로그검색_모바일",
+     "cv": 12,
+     "pct": 11.2
+    },
+    {
+     "name": "네이버 블로그_PC",
+     "cv": 9,
+     "pct": 8.4
+    },
+    {
+     "name": "네이버 블로그_모바일",
+     "cv": 6,
+     "pct": 5.6
+    },
+    {
+     "name": "네이버 통합검색_PC",
+     "cv": 5,
+     "pct": 4.7
+    },
+    {
+     "name": "네이버 블로그검색_PC",
+     "cv": 2,
+     "pct": 1.9
+    },
+    {
+     "name": "Daum 검색_모바일",
+     "cv": 1,
+     "pct": 0.9
+    },
+    {
+     "name": "네이버 메인_PC",
+     "cv": 1,
+     "pct": 0.9
+    },
+    {
+     "name": "네이버 메인_모바일",
+     "cv": 1,
+     "pct": 0.9
+    }
+   ],
+   "searchQueries": [
+    {
+     "query": "포켓몬카드 서치 뜻",
+     "cv": 4,
+     "pct": 9.3
+    },
+    {
+     "query": "g마켓 포켓몬코리아",
+     "cv": 2,
+     "pct": 4.7
+    },
+    {
+     "query": "psa 등급 비용",
+     "cv": 2,
+     "pct": 4.7
+    },
+    {
+     "query": "30주년 rgb뮤",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "30주년 한글판 서치",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "CHR 포켓몬 뜻",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "fur 카드 뜻",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "mur fur 차이",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "psa등급 비용",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "rgb 뮤 레드 가격",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "강릉 카드웨이브",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "구리 포켓몬센터 위치",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "논 슈링크 뜻 포켓몬카드",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "대전 포켓몬센터 위치",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "목동 포켓몬센터",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "뮤 RGB",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "뮤 rgv",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "뮤rgb확률",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "역삼 이마트 포켓몬",
+     "cv": 1,
+     "pct": 2.3
+    },
+    {
+     "query": "원주이마트 포켓몬카드 판매",
+     "cv": 1,
+     "pct": 2.3
+    }
+   ]
+  },
+  "yesterday": {
+   "date": "2026-09-18",
+   "utime": "2026-09-19T10:50:19",
+   "dashboard": {
+    "dailyComment": 8,
+    "dailyPlayCount": "0",
+    "dailyCv": 609,
+    "dailyLike": 0,
+    "dailyCommentUtime": "2026-09-19T10:50:19",
+    "dailyRelationDeltaUtime": "2026-09-19T10:50:19",
+    "dailyRelationDelta": 1,
+    "isToday": false,
+    "dailyLikeUtime": "2026-09-19T10:50:19",
+    "dailyCvUtime": "2026-09-19T10:50:19"
+   },
+   "dailyCv": [
+    {
+     "date": "2026-09-18",
+     "cv": 609
+    },
+    {
+     "date": "2026-09-17",
+     "cv": 558
+    },
+    {
+     "date": "2026-09-16",
+     "cv": 29
+    },
+    {
+     "date": "2026-09-15",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-14",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-13",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-12",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-11",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-10",
+     "cv": 1
+    },
+    {
+     "date": "2026-09-09",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-08",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-07",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-06",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-05",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-04",
+     "cv": 0
+    }
+   ],
+   "rankCv": [
+    {
+     "rank": 1,
+     "cv": 203,
+     "title": "포켓몬카드 30주년 궁금증 7가지, 파는곳 봉입 중복 RGB 시세까지",
+     "logNo": "224415150323",
+     "createDate": "2026.09.17. 19:00"
+    },
+    {
+     "rank": 2,
+     "cv": 75,
+     "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
+     "logNo": "224414565203",
+     "createDate": "2026.09.17. 09:35"
+    },
+    {
+     "rank": 3,
+     "cv": 74,
+     "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
+     "logNo": "224415288070",
+     "createDate": "2026.09.17. 20:41"
+    },
+    {
+     "rank": 4,
+     "cv": 61,
+     "title": "포켓몬카드 일본판 한글판 차이 총정리 시세 서치 대회 사용 가능 여부",
+     "logNo": "224414564455",
+     "createDate": "2026.09.17. 09:34"
+    },
+    {
+     "rank": 5,
+     "cv": 33,
+     "title": "포켓몬 메가페스타 2026 피카츄의 가을 나들이 일정 예약 굿즈 정리",
+     "logNo": "224414559583",
+     "createDate": "2026.09.17. 11:00"
+    },
+    {
+     "rank": 6,
+     "cv": 22,
+     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
+     "logNo": "224414209725",
+     "createDate": "2026.09.16. 22:28"
+    }
+   ],
+   "referer": [
+    {
+     "name": "네이버 메인_모바일_홈판",
+     "cv": 251,
+     "pct": 42.8
+    },
+    {
+     "name": "네이버 통합검색_모바일",
+     "cv": 180,
+     "pct": 30.7
+    },
+    {
+     "name": "네이버 블로그검색_모바일",
+     "cv": 72,
+     "pct": 12.3
+    },
+    {
+     "name": "네이버 블로그_모바일",
+     "cv": 26,
+     "pct": 4.4
+    },
+    {
+     "name": "네이버 통합검색_PC",
+     "cv": 24,
+     "pct": 4.1
+    },
+    {
+     "name": "네이버 메인_모바일",
+     "cv": 14,
+     "pct": 2.4
+    },
+    {
+     "name": "네이버 블로그검색_PC",
+     "cv": 13,
+     "pct": 2.2
+    },
+    {
+     "name": "네이버 블로그_PC",
+     "cv": 5,
+     "pct": 0.9
+    },
+    {
+     "name": "Daum_모바일",
+     "cv": 1,
+     "pct": 0.2
+    }
+   ],
+   "searchQueries": [
+    {
+     "cv": 251,
+     "pct": 100
+    }
+   ]
+  }
+ },
+ "games": {
+  "count": {
+   "포켓몬": 33,
+   "리프트바운드": 3,
+   "원피스": 1
+  },
+  "target": {
+   "포켓몬": 40,
+   "리프트바운드": 25,
+   "원피스": 15,
+   "용품·공통": 20
+  }
+ },
+ "rankHistory": [],
+ "aiCited": [
+  {
+   "date": "2026-09-18",
+   "query": "포켓몬카드 노스알 뜻",
+   "no": 10,
+   "logNo": "224414562775",
+   "type": "단독 출처 즉답"
+  },
+  {
+   "date": "2026-09-18",
+   "query": "포켓몬카드 용어 서치 뜻",
+   "no": 10,
+   "logNo": "224414562775",
+   "type": "멀티출처 첫 문장"
+  },
+  {
+   "date": "2026-09-18",
+   "query": "PSA 등급 비용",
+   "no": 6,
+   "logNo": "224414211054",
+   "type": "상단 출처 카드"
+  },
+  {
+   "date": "2026-09-18",
+   "query": "포켓몬 월드챔피언십 2026 우승 덱",
+   "no": 14,
+   "logNo": "224414573930",
+   "type": "1순위 출처 (문장+표)"
+  }
+ ],
+ "routines": [
+  {
+   "id": "QpvEkhhKszQTC7jX",
+   "name": "9/19 19:30 예약글 #32·#33·#19 공개 확인 + v5 레이아웃 적용",
+   "kind": "heartbeat",
+   "state": "active",
+   "rrule": null,
+   "runAt": "2026-09-19T10:30:00.000Z",
+   "nextRunAt": "2026-09-19T10:30:00.000Z",
+   "lastRunAt": null
+  },
+  {
+   "id": "1npLAD0wuozLwqfW",
+   "name": "고몽이 TCG 센터 주간 신규 글 3개 작성·예약",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=WEEKLY;BYDAY=WE;BYHOUR=9;BYMINUTE=30",
+   "runAt": null,
+   "nextRunAt": "2026-09-23T00:30:00.000Z",
+   "lastRunAt": null
+  },
+  {
+   "id": "K1DofV6ZppeCneRz",
+   "name": "고몽이 TCG 센터 주간 노출순위 + AI 브리핑 인용수 + 월간 AI인용 점검",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
+   "runAt": null,
+   "nextRunAt": "2026-09-21T00:00:00.000Z",
+   "lastRunAt": null
+  }
+ ],
+ "ops": {
+  "_comment": "운영 추적 파일. 수집기(tools/dashboard_collect.js)가 읽어 대시보드 할 일에 반영한다. 처리 완료 시 항목을 지운다.",
+  "relatedLinksPending": [
+   "224415047301",
+   "224415045587",
+   "224415049835",
+   "224415048979",
+   "224415050715",
+   "224415052300",
+   "224415046460",
+   "224415051543",
+   "224415048223"
+  ],
+  "priceUpdates": [
+   {
+    "logNo": "224415288070",
+    "due": "2026-10-01",
+    "note": "#35 30th 시세: 한글판 체결 반영"
+   },
+   {
+    "logNo": "224415315942",
+    "due": "2026-10-06",
+    "note": "#36 박스 시세 TOP 10: 2주 갱신"
+   },
+   {
+    "logNo": "224415309687",
+    "due": "2026-10-05",
+    "note": "#37 원피스카드 시세 TOP 15: 2주 갱신"
+   },
+   {
+    "logNo": "224415205495",
+    "due": "2026-09-26",
+    "note": "#32 리프트바운드 가격: 라이엇 공식 정가 발표 시 갱신"
+   }
+  ],
+  "notes": []
+ }
+}

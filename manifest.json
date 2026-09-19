@@ -1,0 +1,16 @@
+{
+  "name": "고몽이 TCG 센터 관제",
+  "short_name": "고몽이 관제",
+  "description": "네이버 블로그 고몽이의 TCG 센터 운영 대시보드 (읽기 전용)",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#c8102e",
+  "theme_color": "#c8102e",
+  "lang": "ko",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#c8102e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="고몽이 관제">
+<title>고몽이 TCG 센터 관제</title>
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icons/icon-192.png">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <img src="./icons/icon-192.png" alt="" class="logo">
+    <div>
+      <div class="title">고몽이 TCG 센터 관제</div>
+      <div class="sub" id="updated">불러오는 중...</div>
+    </div>
+  </div>
+  <button class="refresh" id="refreshBtn" title="새로고침">↻</button>
+</header>
+
+<main id="view" class="view"></main>
+
+<nav class="tabs">
+  <button data-tab="home" class="active"><span class="ico">⌂</span>홈</button>
+  <button data-tab="queue"><span class="ico">◷</span>예약</button>
+  <button data-tab="posts"><span class="ico">≣</span>글</button>
+  <button data-tab="comments"><span class="ico">✎</span>댓글<span class="dot" id="cmtDot" hidden></span></button>
+  <button data-tab="stats"><span class="ico">▤</span>성과</button>
+</nav>
+
+<script src="./app.js"></script>
+</body>
+</html>
