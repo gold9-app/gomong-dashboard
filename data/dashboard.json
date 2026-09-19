@@ -1,14 +1,14 @@
 {
- "collectedAt": "2026-09-19T02:28:02.722Z",
- "collectedAtText": "2026-09-19 11:28",
+ "collectedAt": "2026-09-19T02:37:22.184Z",
+ "collectedAtText": "2026-09-19 11:37",
  "blogId": "gold_ggu",
- "elapsedMs": 3078,
+ "elapsedMs": 2789,
  "errors": [],
  "summary": {
   "publicCount": 26,
   "queueCount": 11,
   "totalCount": 37,
-  "todayCv": 123,
+  "todayCv": 129,
   "yesterdayCv": 609,
   "todayVisitor": 0,
   "buddyCount": 37,
@@ -23,7 +23,7 @@
   "totalComments": 6,
   "v5Pending": 1,
   "searchOff": 0,
-  "totalReadCount": 1292
+  "totalReadCount": 1296
  },
  "alerts": [
   {
@@ -104,7 +104,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414208211",
    "openType": "2",
    "searchYn": true,
-   "readCount": 23,
+   "readCount": 24,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -127,7 +127,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414209036",
    "openType": "2",
    "searchYn": true,
-   "readCount": 99,
+   "readCount": 100,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -734,7 +734,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415150323",
    "openType": "2",
    "searchYn": true,
-   "readCount": 289,
+   "readCount": 291,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -1243,23 +1243,23 @@
   ],
   "today": {
    "date": "2026-09-19",
-   "utime": "2026-09-19T11:28:02",
+   "utime": "2026-09-19T11:37:21",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 123,
+    "dailyCv": 129,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-19T11:28:02",
-    "dailyRelationDeltaUtime": "2026-09-19T11:28:02",
+    "dailyCommentUtime": "2026-09-19T11:37:21",
+    "dailyRelationDeltaUtime": "2026-09-19T11:37:22",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-19T11:28:02",
-    "dailyCvUtime": "2026-09-19T11:28:02"
+    "dailyLikeUtime": "2026-09-19T11:37:21",
+    "dailyCvUtime": "2026-09-19T11:37:21"
    },
    "dailyCv": [
     {
      "date": "2026-09-19",
-     "cv": 123
+     "cv": 129
     },
     {
      "date": "2026-09-18",
