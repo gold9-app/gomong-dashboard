@@ -1,17 +1,17 @@
 {
- "collectedAt": "2026-09-19T04:04:51.602Z",
- "collectedAtText": "2026-09-19 13:04",
+ "collectedAt": "2026-09-19T08:57:31.650Z",
+ "collectedAtText": "2026-09-19 17:57",
  "blogId": "gold_ggu",
- "elapsedMs": 2868,
+ "elapsedMs": 3193,
  "errors": [],
  "summary": {
   "publicCount": 27,
   "queueCount": 10,
   "totalCount": 37,
-  "todayCv": 156,
+  "todayCv": 207,
   "yesterdayCv": 609,
   "todayVisitor": 0,
-  "buddyCount": 37,
+  "buddyCount": 38,
   "citations": {
    "cumulative": 1260,
    "month": 1260,
@@ -23,7 +23,7 @@
   "totalComments": 6,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 1323
+  "totalReadCount": 1374
  },
  "alerts": [
   {
@@ -64,7 +64,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414205485",
    "openType": "2",
    "searchYn": true,
-   "readCount": 63,
+   "readCount": 66,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -133,7 +133,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414209036",
    "openType": "2",
    "searchYn": true,
-   "readCount": 100,
+   "readCount": 101,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -156,7 +156,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414209725",
    "openType": "2",
    "searchYn": true,
-   "readCount": 131,
+   "readCount": 137,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -179,7 +179,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414211054",
    "openType": "2",
    "searchYn": true,
-   "readCount": 69,
+   "readCount": 71,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -202,7 +202,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414211890",
    "openType": "2",
    "searchYn": true,
-   "readCount": 6,
+   "readCount": 7,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -271,7 +271,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414562775",
    "openType": "2",
    "searchYn": true,
-   "readCount": 36,
+   "readCount": 41,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -294,7 +294,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414564455",
    "openType": "2",
    "searchYn": true,
-   "readCount": 75,
+   "readCount": 76,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -386,7 +386,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414566792",
    "openType": "2",
    "searchYn": true,
-   "readCount": 33,
+   "readCount": 38,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -409,7 +409,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414571492",
    "openType": "2",
    "searchYn": true,
-   "readCount": 14,
+   "readCount": 16,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -455,7 +455,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414565203",
    "openType": "2",
    "searchYn": true,
-   "readCount": 118,
+   "readCount": 128,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -606,7 +606,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414560316",
    "openType": "2",
    "searchYn": true,
-   "readCount": 19,
+   "readCount": 21,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -694,7 +694,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414559583",
    "openType": "2",
    "searchYn": true,
-   "readCount": 57,
+   "readCount": 58,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -740,7 +740,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415150323",
    "openType": "2",
    "searchYn": true,
-   "readCount": 293,
+   "readCount": 299,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -790,7 +790,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415206012",
    "openType": "2",
    "searchYn": true,
-   "readCount": 0,
+   "readCount": 1,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -834,7 +834,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415288070",
    "openType": "2",
    "searchYn": true,
-   "readCount": 112,
+   "readCount": 117,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1138,10 +1138,10 @@
   "dailyCv": [
    {
     "date": "2026-09-19",
-    "total": 154,
+    "total": 207,
     "friend": 3,
     "follow": 0,
-    "etc": 151
+    "etc": 204
    },
    {
     "date": "2026-09-18",
@@ -1244,23 +1244,23 @@
   ],
   "today": {
    "date": "2026-09-19",
-   "utime": "2026-09-19T13:04:51",
+   "utime": "2026-09-19T17:57:31",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 156,
+    "dailyCv": 207,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-19T13:04:51",
-    "dailyRelationDeltaUtime": "2026-09-19T13:04:51",
+    "dailyCommentUtime": "2026-09-19T17:57:31",
+    "dailyRelationDeltaUtime": "2026-09-19T17:57:31",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-19T13:04:51",
-    "dailyCvUtime": "2026-09-19T13:04:51"
+    "dailyLikeUtime": "2026-09-19T17:57:31",
+    "dailyCvUtime": "2026-09-19T17:57:31"
    },
    "dailyCv": [
     {
      "date": "2026-09-19",
-     "cv": 156
+     "cv": 207
     },
     {
      "date": "2026-09-18",
@@ -1322,42 +1322,42 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 29,
+     "cv": 35,
      "title": "포켓몬카드 30주년 궁금증 7가지, 파는곳 봉입 중복 RGB 시세까지",
      "logNo": "224415150323",
      "createDate": "2026.09.17. 19:00"
     },
     {
      "rank": 2,
-     "cv": 23,
+     "cv": 33,
      "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
      "logNo": "224414565203",
      "createDate": "2026.09.17. 09:35"
     },
     {
      "rank": 3,
-     "cv": 16,
+     "cv": 23,
      "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
      "logNo": "224414209725",
      "createDate": "2026.09.16. 22:28"
     },
     {
      "rank": 4,
-     "cv": 14,
+     "cv": 19,
      "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
      "logNo": "224415288070",
      "createDate": "2026.09.17. 20:41"
     },
     {
      "rank": 5,
-     "cv": 13,
+     "cv": 18,
      "title": "포켓몬카드 용어 총정리 서치 특일 노스알 힛카드 봉입률 슈링크 뜻",
      "logNo": "224414562775",
      "createDate": "2026.09.17. 09:33"
     },
     {
      "rank": 6,
-     "cv": 10,
+     "cv": 15,
      "title": "포켓몬카드 스타트 덱 100 가격 구성과 입문 구축덱 고르는 법",
      "logNo": "224414566792",
      "createDate": "2026.09.17. 09:37"
@@ -1366,172 +1366,182 @@
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 63,
-     "pct": 43.2
+     "cv": 92,
+     "pct": 46.2
     },
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 35,
-     "pct": 24
+     "cv": 40,
+     "pct": 20.1
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 18,
-     "pct": 12.3
+     "cv": 31,
+     "pct": 15.6
     },
     {
      "name": "네이버 블로그_모바일",
-     "cv": 10,
-     "pct": 6.8
+     "cv": 12,
+     "pct": 6
     },
     {
      "name": "네이버 블로그_PC",
      "cv": 9,
-     "pct": 6.2
+     "pct": 4.5
     },
     {
      "name": "네이버 통합검색_PC",
-     "cv": 6,
-     "pct": 4.1
+     "cv": 7,
+     "pct": 3.5
     },
     {
      "name": "네이버 블로그검색_PC",
-     "cv": 2,
-     "pct": 1.4
+     "cv": 3,
+     "pct": 1.5
     },
     {
      "name": "Daum 검색_모바일",
      "cv": 1,
-     "pct": 0.7
+     "pct": 0.5
+    },
+    {
+     "name": "Daum_모바일",
+     "cv": 1,
+     "pct": 0.5
+    },
+    {
+     "name": "gold9-app.github.io",
+     "cv": 1,
+     "pct": 0.5
     },
     {
      "name": "네이버 메인_PC",
      "cv": 1,
-     "pct": 0.7
+     "pct": 0.5
     },
     {
      "name": "네이버 메인_모바일",
      "cv": 1,
-     "pct": 0.7
+     "pct": 0.5
     }
    ],
    "searchQueries": [
     {
      "query": "포켓몬카드 서치 뜻",
-     "cv": 4,
-     "pct": 6.3
+     "cv": 5,
+     "pct": 5.4
+    },
+    {
+     "query": "포캣몬 스타트덱",
+     "cv": 3,
+     "pct": 3.3
     },
     {
      "query": "g마켓 포켓몬코리아",
      "cv": 2,
-     "pct": 3.2
+     "pct": 2.2
+    },
+    {
+     "query": "mur fur 차이",
+     "cv": 2,
+     "pct": 2.2
     },
     {
      "query": "psa 등급 비용",
      "cv": 2,
-     "pct": 3.2
+     "pct": 2.2
+    },
+    {
+     "query": "강릉 카드웨이브",
+     "cv": 2,
+     "pct": 2.2
     },
     {
      "query": "역삼 이마트 포켓몬",
      "cv": 2,
-     "pct": 3.2
+     "pct": 2.2
+    },
+    {
+     "query": "편의점 포켓몬 카드 자판기",
+     "cv": 2,
+     "pct": 2.2
+    },
+    {
+     "query": "포켓몬 30주년 힛카드 시세",
+     "cv": 2,
+     "pct": 2.2
+    },
+    {
+     "query": "포켓몬 슈링크 뜻",
+     "cv": 2,
+     "pct": 2.2
+    },
+    {
+     "query": "포켓몬카드 슈링크 확인",
+     "cv": 2,
+     "pct": 2.2
     },
     {
      "query": "30주년 rgb뮤",
      "cv": 1,
-     "pct": 1.6
+     "pct": 1.1
+    },
+    {
+     "query": "30주년 일본판 힛카드",
+     "cv": 1,
+     "pct": 1.1
     },
     {
      "query": "30주년 팩 파는곳대구",
      "cv": 1,
-     "pct": 1.6
+     "pct": 1.1
     },
     {
      "query": "30주년 한글판 서치",
      "cv": 1,
-     "pct": 1.6
+     "pct": 1.1
     },
     {
      "query": "CHR 포켓몬 뜻",
      "cv": 1,
-     "pct": 1.6
+     "pct": 1.1
+    },
+    {
+     "query": "fur 뜻",
+     "cv": 1,
+     "pct": 1.1
     },
     {
      "query": "fur 카드 뜻",
      "cv": 1,
-     "pct": 1.6
+     "pct": 1.1
     },
     {
      "query": "icu.gg",
      "cv": 1,
-     "pct": 1.6
+     "pct": 1.1
     },
     {
-     "query": "mur fur 차이",
+     "query": "psa 등급 대행",
      "cv": 1,
-     "pct": 1.6
-    },
-    {
-     "query": "psa10 등급받는법",
-     "cv": 1,
-     "pct": 1.6
-    },
-    {
-     "query": "psa등급 비용",
-     "cv": 1,
-     "pct": 1.6
-    },
-    {
-     "query": "rgb 뮤 레드 가격",
-     "cv": 1,
-     "pct": 1.6
-    },
-    {
-     "query": "rgb뮤 가격",
-     "cv": 1,
-     "pct": 1.6
-    },
-    {
-     "query": "강릉 카드웨이브",
-     "cv": 1,
-     "pct": 1.6
-    },
-    {
-     "query": "강릉 포켓몬카드 정가샵",
-     "cv": 1,
-     "pct": 1.6
-    },
-    {
-     "query": "구리 포켓몬센터 위치",
-     "cv": 1,
-     "pct": 1.6
-    },
-    {
-     "query": "논 슈링크 뜻 포켓몬카드",
-     "cv": 1,
-     "pct": 1.6
-    },
-    {
-     "query": "대구30주년 팩 파는곳",
-     "cv": 1,
-     "pct": 1.6
+     "pct": 1.1
     }
    ]
   },
   "yesterday": {
    "date": "2026-09-18",
-   "utime": "2026-09-19T13:01:54",
+   "utime": "2026-09-19T17:57:32",
    "dashboard": {
     "dailyComment": 8,
     "dailyPlayCount": "0",
     "dailyCv": 609,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-19T13:01:54",
-    "dailyRelationDeltaUtime": "2026-09-19T13:01:54",
+    "dailyCommentUtime": "2026-09-19T17:57:32",
+    "dailyRelationDeltaUtime": "2026-09-19T17:57:32",
     "dailyRelationDelta": 1,
     "isToday": false,
-    "dailyLikeUtime": "2026-09-19T13:01:54",
-    "dailyCvUtime": "2026-09-19T13:01:54"
+    "dailyLikeUtime": "2026-09-19T17:57:32",
+    "dailyCvUtime": "2026-09-19T17:57:32"
    },
    "dailyCv": [
     {
