@@ -85,6 +85,7 @@ button { font: inherit; color: inherit; }
 .card h3 small { font-weight: 400; color: var(--muted); margin-left: 6px; }
 .bento { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 .bento > .span2 { grid-column: span 2; }
+.bento > .kpi.cafe { grid-column: span 2; cursor: pointer; }
 @media (min-width: 720px) { .bento { grid-template-columns: repeat(6, minmax(0, 1fr)); } .bento > .span2 { grid-column: span 6; } .bento > .kpi { grid-column: span 2; } .bento > .primary { grid-column: span 6; } }
 @media (min-width: 1024px) { .bento { grid-template-columns: repeat(12, minmax(0, 1fr)); } .bento > .primary { grid-column: span 6; grid-row: span 2; } .bento > .kpi { grid-column: span 2; } .bento > .span2 { grid-column: span 6; } }
 

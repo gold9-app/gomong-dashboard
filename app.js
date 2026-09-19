@@ -146,8 +146,12 @@ function home() {
     ...todayQ.map(q => { const p = findPost(q.logNo) || {}; return { time: q.postDateText.slice(11, 16), title: q.title, no: p.no, game: p.game, logNo: q.logNo, state: ['info', I.clock, '예약'] }; }),
   ].sort((a, b) => a.time.localeCompare(b.time));
   const order = { danger: 0, warn: 1, info: 2 };
-  const alerts = (D.alerts || []).slice().sort((a, b) => order[a.level] - order[b.level]);
-  const kind = { searchOff: '검색 노출 꺼짐', v5: 'v5 레이아웃 미적용', links: '관련 글·로드맵 링크 보강', price: '시세 갱신 도래', queue: '예약 큐 점검', comment: '미답변 댓글', archive: 'CSV 미등록 글', missing: 'CSV에만 있는 글' };
+  const cafeAlerts = (C?.alerts || []).filter(a => a.level !== 'info').map(a => ({ ...a, cafe: true, type: 'cafe_' + a.type }));
+  const alerts = [...(D.alerts || []), ...cafeAlerts].sort((a, b) => (order[a.level] ?? 3) - (order[b.level] ?? 3));
+  const kind = { searchOff: '검색 노출 꺼짐', v5: 'v5 레이아웃 미적용', links: '관련 글·로드맵 링크 보강', price: '시세 갱신 도래', queue: '예약 큐 점검', comment: '미답변 댓글', archive: 'CSV 미등록 글', missing: 'CSV에만 있는 글', cafe_levelup: '카페 등업 신청 대기', cafe_question: '카페 미답변 질문', cafe_trade: '카페 거래 글 규칙 위반', cafe_greeting: '카페 새 가입인사' };
+  const cafeIssues = (C?.pendingLevelUps || 0) + (C?.unansweredQuestions || []).length + (C?.ruleFlags || []).length;
+  const cafePrev = CH.length >= 2 ? CH[CH.length - 2] : null;
+  const cafeMDelta = cafePrev && cafePrev.members != null && C?.members != null ? C.members - cafePrev.members : null;
   const routines = (D.routines || []).slice().sort((a, b) => (a.nextRunAt || '').localeCompare(b.nextRunAt || ''));
   return `${staleBanner()}${errBanner()}
   <div class="bento">
@@ -161,13 +165,14 @@ function home() {
     <section class="card kpi ${s.unansweredComments ? 'alert' : ''}"><div class="l">${I.chat}미답변 댓글</div><div class="v" data-tick="${s.unansweredComments}">${n(s.unansweredComments)}</div><div class="d">전체 ${n(s.totalComments)}개</div></section>
     <section class="card kpi"><div class="l">${I.doc}공개 / 예약</div><div class="v"><span data-tick="${s.publicCount}">${n(s.publicCount)}</span><small> / ${n(s.queueCount)}</small></div><div class="d">누적 조회 ${n(s.totalReadCount)}</div></section>
     <section class="card kpi"><div class="l">${I.users}이웃</div><div class="v" data-tick="${s.buddyCount ?? 0}">${n(s.buddyCount)}</div><div class="d">${s.v5Pending ? `<span class="badge warn">v5 대기 ${s.v5Pending}</span>` : `<span class="badge ok">${I.check}레이아웃 정상</span>`}${s.searchOff ? `<span class="badge danger">검색 OFF ${s.searchOff}</span>` : ''}</div></section>
+    ${C ? `<section class="card kpi cafe ${cafeIssues ? 'alert' : ''}" data-goto="cafe" role="link" tabindex="0"><div class="l">${I.users}카페 멤버 · 글</div><div class="v"><span data-tick="${C.members ?? 0}">${n(C.members)}</span><small> / ${n(C.articles)}</small></div><div class="d">${cafeMDelta != null ? delta(cafeMDelta) : ''}${C.pendingLevelUps ? `<span class="badge warn">등업 대기 ${C.pendingLevelUps}</span>` : ''}${(C.unansweredQuestions || []).length ? `<span class="badge danger">질문 ${C.unansweredQuestions.length}</span>` : ''}${(C.ruleFlags || []).length ? `<span class="badge danger">거래 경고 ${C.ruleFlags.length}</span>` : ''}${!cafeIssues ? `<span class="badge ok">${I.check}${esc(C.grade || '정상')}</span>` : ''}</div></section>` : ''}
   </div>
 
   <div class="h-sec"><h2>오늘 일정</h2><span class="meta">${cards.length}건</span></div>
   <section class="card"><div class="list">${cards.length ? cards.map(c => item({ href: postUrl(c.logNo), time: c.time, no: c.no, game: c.game, badges: `<span class="badge ${c.state[0]}">${c.state[1]}${c.state[2]}</span>`, title: c.title })).join('') : empty('오늘 예약·발행 글 없음')}</div></section>
 
   <div class="h-sec"><h2>할 일</h2><span class="meta">${alerts.length}건</span></div>
-  <section class="card">${alerts.length ? alerts.map(a => { const p = a.logNo ? findPost(a.logNo) : null; const tag = a.logNo ? `a href="${postUrl(a.logNo)}" target="_blank" rel="noopener"` : 'div'; const body = p ? `<div>${p.no ? `<span class="badge">#${p.no}</span> ` : ''}${esc(p.title)}</div>${a.priceUpdate || a.type === 'price' ? `<div class="pt">${esc(a.text.split(': ').slice(1).join(': '))}</div>` : ''}` : esc(a.text); return `<${tag} class="todo ${a.level}"><span class="ic">${a.level === 'danger' ? I.alert : a.level === 'warn' ? I.warn : I.info}</span><div><div class="k">${esc(kind[a.type] || a.type)}</div>${body}</div></${a.logNo ? 'a' : 'div'}>`; }).join('') : `<div class="empty">${I.check}<span>처리할 항목 없음</span></div>`}</section>
+  <section class="card">${alerts.length ? alerts.map(a => { const p = a.logNo ? findPost(a.logNo) : null; const tag = a.logNo ? `a href="${postUrl(a.logNo)}" target="_blank" rel="noopener"` : (a.cafe && a.url) ? `a href="${esc(a.url)}" target="_blank" rel="noopener"` : 'div'; const body = p ? `<div>${p.no ? `<span class="badge">#${p.no}</span> ` : ''}${esc(p.title)}</div>${a.priceUpdate || a.type === 'price' ? `<div class="pt">${esc(a.text.split(': ').slice(1).join(': '))}</div>` : ''}` : esc(a.text); return `<${tag} class="todo ${a.level}"><span class="ic">${a.level === 'danger' ? I.alert : a.level === 'warn' ? I.warn : I.info}</span><div><div class="k">${esc(kind[a.type] || a.type)}</div>${body}</div></${a.logNo || (a.cafe && a.url) ? 'a' : 'div'}>`; }).join('') : `<div class="empty">${I.check}<span>처리할 항목 없음</span></div>`}</section>
 
   <div class="h-sec"><h2>자동 루틴</h2><span class="meta">${routines.length}개</span></div>
   <section class="card">${routines.length ? routines.map(r => { const w = r.nextRunAt ? fmtIso(r.nextRunAt) : null; return `<div class="rt"><span class="ic">${I.bot}</span><div><div class="n">${esc(r.name)}</div><div class="w">${r.rrule ? '반복' : r.kind === 'cron' ? '이벤트' : '1회'} · ${r.state === 'active' ? '활성' : esc(r.state)}</div></div>${w ? `<div class="when">다음<b>${w.d} ${w.t}</b></div>` : '<div class="when">앱 버튼<b>대기</b></div>'}</div>`; }).join('') : empty('루틴 정보 없음')}</section>`;
@@ -382,6 +387,7 @@ async function runRefresh(pin) {
 
 /* ---------- events ---------- */
 function bind() {
+  document.querySelectorAll('[data-goto]').forEach(el => { const go = () => { tab = el.dataset.goto; expand = {}; render(true); }; el.onclick = go; el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } }; });
   view.querySelectorAll('.chip').forEach(b => b.onclick = () => { filters[b.dataset.f] = b.dataset.v; render(false); });
   view.querySelectorAll('[data-day]').forEach(b => b.onclick = () => { statDay = b.dataset.day; render(false); });
   view.querySelectorAll('[data-more]').forEach(b => b.onclick = () => { expand[b.dataset.more] = !expand[b.dataset.more]; render(false); });
