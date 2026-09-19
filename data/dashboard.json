@@ -1,8 +1,8 @@
 {
- "collectedAt": "2026-09-19T11:01:19.192Z",
- "collectedAtText": "2026-09-19 20:01",
+ "collectedAt": "2026-09-19T11:02:00.150Z",
+ "collectedAtText": "2026-09-19 20:02",
  "blogId": "gold_ggu",
- "elapsedMs": 3246,
+ "elapsedMs": 3224,
  "errors": [],
  "summary": {
   "publicCount": 28,
@@ -1245,18 +1245,18 @@
   ],
   "today": {
    "date": "2026-09-19",
-   "utime": "2026-09-19T20:01:19",
+   "utime": "2026-09-19T20:02",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
     "dailyCv": 239,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-19T20:01:19",
-    "dailyRelationDeltaUtime": "2026-09-19T20:01:19",
+    "dailyCommentUtime": "2026-09-19T20:02",
+    "dailyRelationDeltaUtime": "2026-09-19T20:02",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-19T20:01:19",
-    "dailyCvUtime": "2026-09-19T20:01:19"
+    "dailyLikeUtime": "2026-09-19T20:02",
+    "dailyCvUtime": "2026-09-19T20:02"
    },
    "dailyCv": [
     {
