@@ -1,14 +1,14 @@
 {
- "collectedAt": "2026-09-19T11:02:00.150Z",
- "collectedAtText": "2026-09-19 20:02",
+ "collectedAt": "2026-09-19T14:01:12.207Z",
+ "collectedAtText": "2026-09-19 23:01",
  "blogId": "gold_ggu",
- "elapsedMs": 3224,
+ "elapsedMs": 3804,
  "errors": [],
  "summary": {
   "publicCount": 28,
   "queueCount": 9,
   "totalCount": 37,
-  "todayCv": 239,
+  "todayCv": 251,
   "yesterdayCv": 609,
   "todayVisitor": 0,
   "buddyCount": 38,
@@ -23,7 +23,7 @@
   "totalComments": 6,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 1406
+  "totalReadCount": 1417
  },
  "alerts": [
   {
@@ -277,7 +277,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414562775",
    "openType": "2",
    "searchYn": true,
-   "readCount": 42,
+   "readCount": 43,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -461,7 +461,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414565203",
    "openType": "2",
    "searchYn": true,
-   "readCount": 136,
+   "readCount": 138,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -637,7 +637,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415046460",
    "openType": "2",
    "searchYn": true,
-   "readCount": 9,
+   "readCount": 10,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -748,7 +748,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415150323",
    "openType": "2",
    "searchYn": true,
-   "readCount": 302,
+   "readCount": 304,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -842,7 +842,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415288070",
    "openType": "2",
    "searchYn": true,
-   "readCount": 123,
+   "readCount": 128,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1139,10 +1139,10 @@
   "dailyCv": [
    {
     "date": "2026-09-19",
-    "total": 239,
+    "total": 251,
     "friend": 3,
     "follow": 0,
-    "etc": 236
+    "etc": 248
    },
    {
     "date": "2026-09-18",
@@ -1245,23 +1245,23 @@
   ],
   "today": {
    "date": "2026-09-19",
-   "utime": "2026-09-19T20:02",
+   "utime": "2026-09-19T23:01:09",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 239,
+    "dailyCv": 251,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-19T20:02",
-    "dailyRelationDeltaUtime": "2026-09-19T20:02",
+    "dailyCommentUtime": "2026-09-19T23:01:09",
+    "dailyRelationDeltaUtime": "2026-09-19T23:01:09",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-19T20:02",
-    "dailyCvUtime": "2026-09-19T20:02"
+    "dailyLikeUtime": "2026-09-19T23:01:09",
+    "dailyCvUtime": "2026-09-19T23:01:09"
    },
    "dailyCv": [
     {
      "date": "2026-09-19",
-     "cv": 239
+     "cv": 251
     },
     {
      "date": "2026-09-18",
@@ -1323,35 +1323,35 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 41,
+     "cv": 43,
      "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
      "logNo": "224414565203",
      "createDate": "2026.09.17. 09:35"
     },
     {
      "rank": 2,
-     "cv": 38,
+     "cv": 40,
      "title": "포켓몬카드 30주년 궁금증 7가지, 파는곳 봉입 중복 RGB 시세까지",
      "logNo": "224415150323",
      "createDate": "2026.09.17. 19:00"
     },
     {
      "rank": 3,
+     "cv": 30,
+     "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
+     "logNo": "224415288070",
+     "createDate": "2026.09.17. 20:41"
+    },
+    {
+     "rank": 4,
      "cv": 26,
      "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
      "logNo": "224414209725",
      "createDate": "2026.09.16. 22:28"
     },
     {
-     "rank": 4,
-     "cv": 25,
-     "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
-     "logNo": "224415288070",
-     "createDate": "2026.09.17. 20:41"
-    },
-    {
      "rank": 5,
-     "cv": 19,
+     "cv": 20,
      "title": "포켓몬카드 용어 총정리 서치 특일 노스알 힛카드 봉입률 슈링크 뜻",
      "logNo": "224414562775",
      "createDate": "2026.09.17. 09:33"
@@ -1367,43 +1367,43 @@
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 109,
-     "pct": 47.2
+     "cv": 115,
+     "pct": 47.3
     },
     {
      "name": "네이버 메인_모바일_홈판",
      "cv": 44,
-     "pct": 19
+     "pct": 18.1
     },
     {
      "name": "네이버 블로그검색_모바일",
      "cv": 39,
-     "pct": 16.9
+     "pct": 16
     },
     {
      "name": "네이버 블로그_모바일",
      "cv": 14,
-     "pct": 6.1
+     "pct": 5.8
     },
     {
      "name": "네이버 블로그_PC",
-     "cv": 9,
-     "pct": 3.9
+     "cv": 11,
+     "pct": 4.5
     },
     {
      "name": "네이버 통합검색_PC",
-     "cv": 7,
-     "pct": 3
+     "cv": 10,
+     "pct": 4.1
     },
     {
      "name": "네이버 블로그검색_PC",
      "cv": 3,
-     "pct": 1.3
+     "pct": 1.2
     },
     {
      "name": "gold9-app.github.io",
      "cv": 2,
-     "pct": 0.9
+     "pct": 0.8
     },
     {
      "name": "Daum 검색_모바일",
@@ -1412,6 +1412,11 @@
     },
     {
      "name": "Daum_모바일",
+     "cv": 1,
+     "pct": 0.4
+    },
+    {
+     "name": "네이버 Keep_모바일",
      "cv": 1,
      "pct": 0.4
     },
@@ -1430,67 +1435,82 @@
     {
      "query": "포켓몬카드 서치 뜻",
      "cv": 6,
-     "pct": 5.5
+     "pct": 5.2
     },
     {
      "query": "포켓몬 30주년 카드 시세",
      "cv": 4,
-     "pct": 3.7
+     "pct": 3.5
     },
     {
      "query": "psa 등급 비용",
      "cv": 3,
-     "pct": 2.8
+     "pct": 2.6
     },
     {
      "query": "강릉 카드웨이브",
      "cv": 3,
-     "pct": 2.8
+     "pct": 2.6
     },
     {
      "query": "포캣몬 스타트덱",
      "cv": 3,
-     "pct": 2.8
+     "pct": 2.6
     },
     {
      "query": "포켓몬 30주년 힛카드 시세",
      "cv": 3,
-     "pct": 2.8
+     "pct": 2.6
     },
     {
      "query": "g마켓 포켓몬코리아",
      "cv": 2,
-     "pct": 1.8
+     "pct": 1.7
     },
     {
      "query": "mur fur 차이",
      "cv": 2,
-     "pct": 1.8
+     "pct": 1.7
     },
     {
      "query": "rgb 시세",
      "cv": 2,
-     "pct": 1.8
+     "pct": 1.7
     },
     {
      "query": "역삼 이마트 포켓몬",
      "cv": 2,
-     "pct": 1.8
+     "pct": 1.7
     },
     {
      "query": "편의점 포켓몬 카드 자판기",
      "cv": 2,
-     "pct": 1.8
+     "pct": 1.7
     },
     {
      "query": "포켓몬 슈링크 뜻",
      "cv": 2,
-     "pct": 1.8
+     "pct": 1.7
+    },
+    {
+     "query": "포켓몬 카드 30주년 카드 시세",
+     "cv": 2,
+     "pct": 1.7
+    },
+    {
+     "query": "포켓몬 팝업 30주년 구매",
+     "cv": 2,
+     "pct": 1.7
+    },
+    {
+     "query": "포켓몬카드 슈링크 뜻",
+     "cv": 2,
+     "pct": 1.7
     },
     {
      "query": "포켓몬카드 슈링크 확인",
      "cv": 2,
-     "pct": 1.8
+     "pct": 1.7
     },
     {
      "query": "30주년 rgb뮤",
@@ -1508,22 +1528,7 @@
      "pct": 0.9
     },
     {
-     "query": "30주년 한글판 서치",
-     "cv": 1,
-     "pct": 0.9
-    },
-    {
-     "query": "CHR 포켓몬 뜻",
-     "cv": 1,
-     "pct": 0.9
-    },
-    {
-     "query": "fur 뜻",
-     "cv": 1,
-     "pct": 0.9
-    },
-    {
-     "query": "fur 카드 뜻",
+     "query": "30주년 포켓몬카드 시세",
      "cv": 1,
      "pct": 0.9
     }
@@ -1531,18 +1536,18 @@
   },
   "yesterday": {
    "date": "2026-09-18",
-   "utime": "2026-09-19T20:01:09",
+   "utime": "2026-09-19T23:01:10",
    "dashboard": {
     "dailyComment": 8,
     "dailyPlayCount": "0",
     "dailyCv": 609,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-19T20:01:09",
-    "dailyRelationDeltaUtime": "2026-09-19T20:01:09",
+    "dailyCommentUtime": "2026-09-19T23:01:10",
+    "dailyRelationDeltaUtime": "2026-09-19T23:01:10",
     "dailyRelationDelta": 1,
     "isToday": false,
-    "dailyLikeUtime": "2026-09-19T20:01:09",
-    "dailyCvUtime": "2026-09-19T20:01:09"
+    "dailyLikeUtime": "2026-09-19T23:01:10",
+    "dailyCvUtime": "2026-09-19T23:01:10"
    },
    "dailyCv": [
     {
@@ -1751,6 +1756,16 @@
  ],
  "routines": [
   {
+   "id": "1npLAD0wuozLwqfW",
+   "name": "고몽이 TCG 센터 주간 신규 글 3개 작성·예약",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=WEEKLY;BYDAY=WE;BYHOUR=9;BYMINUTE=30",
+   "runAt": null,
+   "nextRunAt": "2026-09-23T00:30:00.000Z",
+   "lastRunAt": null
+  },
+  {
    "id": "visGHRYgqUFXHhjV",
    "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
    "kind": "cron",
@@ -1767,7 +1782,7 @@
    "state": "active",
    "rrule": "FREQ=DAILY;BYHOUR=20;BYMINUTE=30",
    "runAt": null,
-   "nextRunAt": "2026-09-19T11:30:00.000Z",
+   "nextRunAt": "2026-09-20T11:30:00.000Z",
    "lastRunAt": null
   },
   {
@@ -1778,16 +1793,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=TH;BYHOUR=9;BYMINUTE=30",
    "runAt": null,
    "nextRunAt": "2026-09-24T00:30:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "1npLAD0wuozLwqfW",
-   "name": "고몽이 TCG 센터 주간 신규 글 3개 작성·예약",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=WEEKLY;BYDAY=WE;BYHOUR=9;BYMINUTE=30",
-   "runAt": null,
-   "nextRunAt": "2026-09-23T00:30:00.000Z",
    "lastRunAt": null
   },
   {
