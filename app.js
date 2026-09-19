@@ -122,7 +122,7 @@ function sparkline(vals, labels) {
 /* 목록 아이템: 메타 줄(시간/번호/배지) + 제목 전체 폭 + 보조 줄 */
 function item({ href, time, no, game, badges = '', title, sub = '' }) {
   return `<a class="item" href="${href}" target="_blank" rel="noopener">
-    <div class="meta">${time ? `<span class="time">${time}</span>` : ''}${no ? `<span class="no">#${no}</span>` : ''}${gameBadge(game)}<span class="right">${badges}</span></div>
+    <div class="meta">${time ? `<span class="time">${time}</span>` : ''}${no ? `<span class="no">#${no}</span>` : ''}${game === '' ? '' : gameBadge(game)}<span class="right">${badges}</span></div>
     <div class="title">${esc(title)}</div>${sub ? `<div class="sub">${sub}</div>` : ''}</a>`;
 }
 /* 더보기: key별 접힘 */
@@ -280,7 +280,7 @@ function cafe() {
   if (!C) return `${staleBanner()}<section class="card">${empty('카페 데이터가 아직 없어요. 다음 자동 수집(08/13/20시) 뒤 표시됩니다.', I.clock)}</section>`;
   const boardOf = (id) => (C.boards || []).find(b => b.menuId === id);
   const bBadge = (a) => `<span class="badge ${[28, 29, 30].includes(a.menuId) ? 'warn' : [26, 13, 27].includes(a.menuId) ? 'info' : a.isNotice ? 'primary' : ''}">${esc((a.menuName || '').replace(/\(.*\)$/, '').replace(/ 게시판$/, ''))}</span>`;
-  const art = (a, extra = '') => item({ href: a.url, time: (a.writeDate || '').slice(5, 16).replace('-', '/'), badges: `${extra}${a.commentCount ? `<span class="badge">댓글 ${a.commentCount}</span>` : ''}`, title: a.title, sub: `<span>${bBadge(a)}</span><span>${esc(a.writer)}${a.writerLevel ? ` · ${esc(a.writerLevel)}` : ''}</span><span>조회 <b>${n(a.readCount)}</b></span>` });
+  const art = (a, extra = '') => item({ href: a.url, game: '', time: (a.writeDate || '').slice(5, 16).replace('-', '/'), badges: `${extra}${a.commentCount ? `<span class="badge">댓글 ${a.commentCount}</span>` : ''}`, title: a.title, sub: `<span>${bBadge(a)}</span><span>${esc(a.writer)}${a.writerLevel ? ` · ${esc(a.writerLevel)}` : ''}</span><span>조회 <b>${n(a.readCount)}</b></span>` });
   const hist = (CH || []).slice(-15);
   const prev = hist.length >= 2 ? hist[hist.length - 2] : null;
   const mDelta = prev && prev.members != null && C.members != null ? C.members - prev.members : null;
@@ -307,7 +307,7 @@ function cafe() {
   <section class="card">${hist.length >= 2 ? sparkline(hist.map(h => h.members || 0), hist.map(h => md(h.date))) : `<div class="empty">${I.clock}<span>추세는 수집이 2일 이상 쌓이면 표시 (현재 ${hist.length}일 · 멤버 ${n(C.members)})</span></div>`}</section>
 
   ${(C.unansweredQuestions || []).length ? `<div class="h-sec"><h2>미답변 질문</h2><span class="meta">${C.unansweredQuestions.length}건</span></div><section class="card"><div class="list">${C.unansweredQuestions.map(a => art(a, '<span class="badge danger">미답변</span>')).join('')}</div></section>` : ''}
-  ${(C.ruleFlags || []).length ? `<div class="h-sec"><h2>거래 글 규칙 경고</h2><span class="meta">${C.ruleFlags.length}건</span></div><section class="card"><div class="list">${C.ruleFlags.map(f => item({ href: f.url, badges: '<span class="badge danger">규칙</span>', title: f.title, sub: `<span>${esc(f.menuName)}</span><span>${esc(f.writer)}</span><span style="color:var(--danger)">${esc(f.reason)}</span>` })).join('')}</div></section>` : ''}
+  ${(C.ruleFlags || []).length ? `<div class="h-sec"><h2>거래 글 규칙 경고</h2><span class="meta">${C.ruleFlags.length}건</span></div><section class="card"><div class="list">${C.ruleFlags.map(f => item({ href: f.url, game: '', badges: '<span class="badge danger">규칙</span>', title: f.title, sub: `<span>${esc(f.menuName)}</span><span>${esc(f.writer)}</span><span style="color:var(--danger)">${esc(f.reason)}</span>` })).join('')}</div></section>` : ''}
 
   <div class="h-sec"><h2>거래 게시판</h2><span class="meta">최근 ${(C.tradePosts || []).length}건</span></div>
   <section class="card"><div class="list">${(C.tradePosts || []).length ? limited('cafeTrade', C.tradePosts, 5, a => art(a, a.prefix ? `<span class="badge">[${esc(a.prefix)}]</span>` : '')) : empty('거래 글 없음')}</div></section>

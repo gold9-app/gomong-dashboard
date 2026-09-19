@@ -1,1 +1,1 @@
-{"at":"2026-09-19T09:08:13.699Z","atText":"2026-09-19 18:08","loginOk":true,"preflight":"ok","errors":[]}
+{"at":"2026-09-19T11:00:07.412Z","atText":"2026-09-19 20:00","loginOk":false,"preflight":"NAVER_LOGIN_REQUIRED","errors":["preflight: 네이버 로그인이 필요합니다 (PrePostList isSuccess=false)"]}
