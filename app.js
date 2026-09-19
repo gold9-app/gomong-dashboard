@@ -331,5 +331,11 @@ $('#refreshBtn').onclick = refreshSheet;
 document.addEventListener('visibilitychange', () => { if (!document.hidden && D && !refreshing && Date.now() - new Date(D.collectedAt) > 20 * 60e3) load(true); });
 setInterval(() => { if (D) header(); }, 60000);
 
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(() => {});
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').then(reg => { reg.update().catch(() => {}); }).catch(() => {});
+  // 새 버전 SW가 활성화되면(이미 구버전이 제어 중이던 경우에만) 즉시 새로고침 → 홈화면 앱도 첫 실행에서 최신 UI
+  let hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController && !refreshing) { toast('새 버전으로 업데이트 중'); setTimeout(() => location.reload(), 600); } hadController = true; });
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) navigator.serviceWorker.getRegistration().then(r => r && r.update().catch(() => {})); });
+}
 load(false);
