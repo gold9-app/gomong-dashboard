@@ -1,7 +1,7 @@
 {
- "collectedAt": "2026-09-19T10:55:30.884Z",
- "collectedAtText": "2026-09-19 19:55",
- "elapsedMs": 641,
+ "collectedAt": "2026-09-19T11:30:57.563Z",
+ "collectedAtText": "2026-09-19 20:30",
+ "elapsedMs": 565,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 1,
@@ -11,6 +11,12 @@
  "todayAttendance": 1,
  "todayMission": "오늘 본 카드 한 장 이름으로 출첵",
  "useMemberLevel": true,
+ "links": {
+  "levelUp": "https://cafe.naver.com/ManageLevelUpApplies.nhn?search.clubid=31701911",
+  "manage": "https://cafe.naver.com/ManageHome.nhn?clubid=31701911",
+  "attendance": "https://cafe.naver.com/gurapaduck?iframe_url=/AttendanceView.nhn%3Fsearch.clubid=31701911%26search.menuid=23",
+  "home": "https://cafe.naver.com/gurapaduck"
+ },
  "boards": [
   {
    "menuId": 1,
@@ -410,7 +416,7 @@
    "writeDate": "2026-09-19 18:55",
    "ts": 1789811751823,
    "commentCount": 0,
-   "readCount": 0,
+   "readCount": 1,
    "likeCount": 0,
    "isNotice": false,
    "hasImage": false,
@@ -590,7 +596,7 @@
    "writeDate": "2026-09-19 18:52",
    "ts": 1789811562760,
    "commentCount": 0,
-   "readCount": 1,
+   "readCount": 2,
    "likeCount": 0,
    "isNotice": false,
    "hasImage": false,
