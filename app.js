@@ -169,7 +169,7 @@ function queue() {
   const days = Object.keys(byDay).sort();
   const games = D.games?.count || {}, target = D.games?.target || {};
   const total = Object.values(games).reduce((a, b) => a + b, 0) || 1;
-  const colors = { '포켓몬': 'var(--primary)', '리프트바운드': 'var(--violet)', '원피스': 'var(--info)', '용품·공통': 'var(--teal)', '미분류': 'var(--faint)' };
+  const colors = { '포켓몬': 'var(--red)', '리프트바운드': 'var(--violet)', '원피스': 'var(--info)', '용품·공통': 'var(--teal)', '미분류': 'var(--faint)' };
   return `${staleBanner()}
   <div class="h-sec"><h2>게임 비중</h2><span class="meta">전체 ${total}개</span></div>
   <section class="card">
