@@ -1,14 +1,14 @@
 {
- "collectedAt": "2026-09-19T01:50:38.625Z",
- "collectedAtText": "2026-09-19 10:50",
+ "collectedAt": "2026-09-19T02:28:02.722Z",
+ "collectedAtText": "2026-09-19 11:28",
  "blogId": "gold_ggu",
- "elapsedMs": 2591,
+ "elapsedMs": 3078,
  "errors": [],
  "summary": {
   "publicCount": 26,
   "queueCount": 11,
   "totalCount": 37,
-  "todayCv": 113,
+  "todayCv": 123,
   "yesterdayCv": 609,
   "todayVisitor": 0,
   "buddyCount": 37,
@@ -23,7 +23,7 @@
   "totalComments": 6,
   "v5Pending": 1,
   "searchOff": 0,
-  "totalReadCount": 1282
+  "totalReadCount": 1292
  },
  "alerts": [
   {
@@ -58,7 +58,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414205485",
    "openType": "2",
    "searchYn": true,
-   "readCount": 61,
+   "readCount": 62,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -150,7 +150,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414209725",
    "openType": "2",
    "searchYn": true,
-   "readCount": 126,
+   "readCount": 128,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -380,7 +380,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414566792",
    "openType": "2",
    "searchYn": true,
-   "readCount": 26,
+   "readCount": 28,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -449,7 +449,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414565203",
    "openType": "2",
    "searchYn": true,
-   "readCount": 111,
+   "readCount": 114,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -734,7 +734,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415150323",
    "openType": "2",
    "searchYn": true,
-   "readCount": 288,
+   "readCount": 289,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -826,7 +826,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415288070",
    "openType": "2",
    "searchYn": true,
-   "readCount": 107,
+   "readCount": 108,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1137,10 +1137,10 @@
   "dailyCv": [
    {
     "date": "2026-09-19",
-    "total": 113,
+    "total": 122,
     "friend": 3,
     "follow": 0,
-    "etc": 110
+    "etc": 119
    },
    {
     "date": "2026-09-18",
@@ -1243,23 +1243,23 @@
   ],
   "today": {
    "date": "2026-09-19",
-   "utime": "2026-09-19T10:50:38",
+   "utime": "2026-09-19T11:28:02",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 113,
+    "dailyCv": 123,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-19T10:50:38",
-    "dailyRelationDeltaUtime": "2026-09-19T10:50:38",
+    "dailyCommentUtime": "2026-09-19T11:28:02",
+    "dailyRelationDeltaUtime": "2026-09-19T11:28:02",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-19T10:50:38",
-    "dailyCvUtime": "2026-09-19T10:50:38"
+    "dailyLikeUtime": "2026-09-19T11:28:02",
+    "dailyCvUtime": "2026-09-19T11:28:02"
    },
    "dailyCv": [
     {
      "date": "2026-09-19",
-     "cv": 113
+     "cv": 123
     },
     {
      "date": "2026-09-18",
@@ -1321,21 +1321,21 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 24,
+     "cv": 25,
      "title": "포켓몬카드 30주년 궁금증 7가지, 파는곳 봉입 중복 RGB 시세까지",
      "logNo": "224415150323",
      "createDate": "2026.09.17. 19:00"
     },
     {
      "rank": 2,
-     "cv": 16,
+     "cv": 18,
      "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
      "logNo": "224414565203",
      "createDate": "2026.09.17. 09:35"
     },
     {
      "rank": 3,
-     "cv": 12,
+     "cv": 14,
      "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
      "logNo": "224414209725",
      "createDate": "2026.09.16. 22:28"
@@ -1348,8 +1348,8 @@
      "createDate": "2026.09.17. 09:33"
     },
     {
-     "rank": 5,
-     "cv": 9,
+     "rank": 4,
+     "cv": 10,
      "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
      "logNo": "224415288070",
      "createDate": "2026.09.17. 20:41"
@@ -1357,46 +1357,46 @@
     {
      "rank": 6,
      "cv": 7,
-     "title": "포켓몬카드 일본판 한글판 차이 총정리 시세 서치 대회 사용 가능 여부",
-     "logNo": "224414564455",
-     "createDate": "2026.09.17. 09:34"
+     "title": "포켓몬카드 등급 레어도 총정리 RR AR SAR MUR FUR 뜻",
+     "logNo": "224414205485",
+     "createDate": "2026.09.16. 22:24"
     }
    ],
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 43,
-     "pct": 40.2
+     "cv": 48,
+     "pct": 41.4
     },
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 27,
-     "pct": 25.2
+     "cv": 28,
+     "pct": 24.1
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 12,
-     "pct": 11.2
+     "cv": 14,
+     "pct": 12.1
     },
     {
      "name": "네이버 블로그_PC",
      "cv": 9,
-     "pct": 8.4
+     "pct": 7.8
     },
     {
      "name": "네이버 블로그_모바일",
      "cv": 6,
-     "pct": 5.6
+     "pct": 5.2
     },
     {
      "name": "네이버 통합검색_PC",
-     "cv": 5,
-     "pct": 4.7
+     "cv": 6,
+     "pct": 5.2
     },
     {
      "name": "네이버 블로그검색_PC",
      "cv": 2,
-     "pct": 1.9
+     "pct": 1.7
     },
     {
      "name": "Daum 검색_모바일",
@@ -1418,102 +1418,102 @@
     {
      "query": "포켓몬카드 서치 뜻",
      "cv": 4,
-     "pct": 9.3
+     "pct": 8.3
     },
     {
      "query": "g마켓 포켓몬코리아",
      "cv": 2,
-     "pct": 4.7
+     "pct": 4.2
     },
     {
      "query": "psa 등급 비용",
      "cv": 2,
-     "pct": 4.7
+     "pct": 4.2
+    },
+    {
+     "query": "역삼 이마트 포켓몬",
+     "cv": 2,
+     "pct": 4.2
     },
     {
      "query": "30주년 rgb뮤",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "30주년 한글판 서치",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "CHR 포켓몬 뜻",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "fur 카드 뜻",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "mur fur 차이",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "psa등급 비용",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "rgb 뮤 레드 가격",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "강릉 카드웨이브",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "구리 포켓몬센터 위치",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "논 슈링크 뜻 포켓몬카드",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "대전 포켓몬센터 위치",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "목동 포켓몬센터",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "뮤 RGB",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "뮤 rgv",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "뮤rgb확률",
      "cv": 1,
-     "pct": 2.3
-    },
-    {
-     "query": "역삼 이마트 포켓몬",
-     "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     },
     {
      "query": "원주이마트 포켓몬카드 판매",
      "cv": 1,
-     "pct": 2.3
+     "pct": 2.1
     }
    ]
   },
@@ -1739,13 +1739,13 @@
  ],
  "routines": [
   {
-   "id": "QpvEkhhKszQTC7jX",
-   "name": "9/19 19:30 예약글 #32·#33·#19 공개 확인 + v5 레이아웃 적용",
-   "kind": "heartbeat",
+   "id": "rpipJV3U6nwV8XjD",
+   "name": "고몽이 관제 대시보드 수동 최신화 (앱 버튼 → ntfy 푸시)",
+   "kind": "cron",
    "state": "active",
    "rrule": null,
-   "runAt": "2026-09-19T10:30:00.000Z",
-   "nextRunAt": "2026-09-19T10:30:00.000Z",
+   "runAt": null,
+   "nextRunAt": null,
    "lastRunAt": null
   },
   {
@@ -1766,6 +1766,16 @@
    "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
    "runAt": null,
    "nextRunAt": "2026-09-21T00:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
+   "id": "visGHRYgqUFXHhjV",
+   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
+   "runAt": null,
+   "nextRunAt": "2026-09-19T04:00:00.000Z",
    "lastRunAt": null
   }
  ],
