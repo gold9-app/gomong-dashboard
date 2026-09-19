@@ -1,14 +1,14 @@
 {
- "collectedAt": "2026-09-19T02:37:22.184Z",
- "collectedAtText": "2026-09-19 11:37",
+ "collectedAt": "2026-09-19T02:41:00.209Z",
+ "collectedAtText": "2026-09-19 11:41",
  "blogId": "gold_ggu",
- "elapsedMs": 2789,
+ "elapsedMs": 2729,
  "errors": [],
  "summary": {
   "publicCount": 26,
   "queueCount": 11,
   "totalCount": 37,
-  "todayCv": 129,
+  "todayCv": 132,
   "yesterdayCv": 609,
   "todayVisitor": 0,
   "buddyCount": 37,
@@ -23,7 +23,7 @@
   "totalComments": 6,
   "v5Pending": 1,
   "searchOff": 0,
-  "totalReadCount": 1296
+  "totalReadCount": 1299
  },
  "alerts": [
   {
@@ -150,7 +150,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414209725",
    "openType": "2",
    "searchYn": true,
-   "readCount": 128,
+   "readCount": 129,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -826,7 +826,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415288070",
    "openType": "2",
    "searchYn": true,
-   "readCount": 108,
+   "readCount": 110,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1137,10 +1137,10 @@
   "dailyCv": [
    {
     "date": "2026-09-19",
-    "total": 122,
+    "total": 132,
     "friend": 3,
     "follow": 0,
-    "etc": 119
+    "etc": 129
    },
    {
     "date": "2026-09-18",
@@ -1243,23 +1243,23 @@
   ],
   "today": {
    "date": "2026-09-19",
-   "utime": "2026-09-19T11:37:21",
+   "utime": "2026-09-19T11:41",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 129,
+    "dailyCv": 132,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-19T11:37:21",
-    "dailyRelationDeltaUtime": "2026-09-19T11:37:22",
+    "dailyCommentUtime": "2026-09-19T11:41",
+    "dailyRelationDeltaUtime": "2026-09-19T11:41",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-19T11:37:21",
-    "dailyCvUtime": "2026-09-19T11:37:21"
+    "dailyLikeUtime": "2026-09-19T11:41",
+    "dailyCvUtime": "2026-09-19T11:41"
    },
    "dailyCv": [
     {
      "date": "2026-09-19",
-     "cv": 129
+     "cv": 132
     },
     {
      "date": "2026-09-18",
@@ -1321,38 +1321,38 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 25,
+     "cv": 27,
      "title": "포켓몬카드 30주년 궁금증 7가지, 파는곳 봉입 중복 RGB 시세까지",
      "logNo": "224415150323",
      "createDate": "2026.09.17. 19:00"
     },
     {
      "rank": 2,
-     "cv": 18,
+     "cv": 19,
      "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
      "logNo": "224414565203",
      "createDate": "2026.09.17. 09:35"
     },
     {
      "rank": 3,
-     "cv": 14,
+     "cv": 15,
      "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
      "logNo": "224414209725",
      "createDate": "2026.09.16. 22:28"
     },
     {
      "rank": 4,
+     "cv": 12,
+     "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
+     "logNo": "224415288070",
+     "createDate": "2026.09.17. 20:41"
+    },
+    {
+     "rank": 5,
      "cv": 10,
      "title": "포켓몬카드 용어 총정리 서치 특일 노스알 힛카드 봉입률 슈링크 뜻",
      "logNo": "224414562775",
      "createDate": "2026.09.17. 09:33"
-    },
-    {
-     "rank": 4,
-     "cv": 10,
-     "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
-     "logNo": "224415288070",
-     "createDate": "2026.09.17. 20:41"
     },
     {
      "rank": 6,
@@ -1365,155 +1365,155 @@
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 48,
-     "pct": 41.4
+     "cv": 53,
+     "pct": 42.1
     },
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 28,
-     "pct": 24.1
+     "cv": 29,
+     "pct": 23
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 14,
-     "pct": 12.1
+     "cv": 15,
+     "pct": 11.9
     },
     {
      "name": "네이버 블로그_PC",
      "cv": 9,
-     "pct": 7.8
+     "pct": 7.1
     },
     {
      "name": "네이버 블로그_모바일",
-     "cv": 6,
-     "pct": 5.2
+     "cv": 9,
+     "pct": 7.1
     },
     {
      "name": "네이버 통합검색_PC",
      "cv": 6,
-     "pct": 5.2
+     "pct": 4.8
     },
     {
      "name": "네이버 블로그검색_PC",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.6
     },
     {
      "name": "Daum 검색_모바일",
      "cv": 1,
-     "pct": 0.9
+     "pct": 0.8
     },
     {
      "name": "네이버 메인_PC",
      "cv": 1,
-     "pct": 0.9
+     "pct": 0.8
     },
     {
      "name": "네이버 메인_모바일",
      "cv": 1,
-     "pct": 0.9
+     "pct": 0.8
     }
    ],
    "searchQueries": [
     {
      "query": "포켓몬카드 서치 뜻",
      "cv": 4,
-     "pct": 8.3
+     "pct": 7.5
     },
     {
      "query": "g마켓 포켓몬코리아",
      "cv": 2,
-     "pct": 4.2
+     "pct": 3.8
     },
     {
      "query": "psa 등급 비용",
      "cv": 2,
-     "pct": 4.2
+     "pct": 3.8
     },
     {
      "query": "역삼 이마트 포켓몬",
      "cv": 2,
-     "pct": 4.2
+     "pct": 3.8
     },
     {
      "query": "30주년 rgb뮤",
      "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
+    },
+    {
+     "query": "30주년 팩 파는곳대구",
+     "cv": 1,
+     "pct": 1.9
     },
     {
      "query": "30주년 한글판 서치",
      "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
     },
     {
      "query": "CHR 포켓몬 뜻",
      "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
     },
     {
      "query": "fur 카드 뜻",
      "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
+    },
+    {
+     "query": "icu.gg",
+     "cv": 1,
+     "pct": 1.9
     },
     {
      "query": "mur fur 차이",
      "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
     },
     {
      "query": "psa등급 비용",
      "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
     },
     {
      "query": "rgb 뮤 레드 가격",
      "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
+    },
+    {
+     "query": "rgb뮤 가격",
+     "cv": 1,
+     "pct": 1.9
     },
     {
      "query": "강릉 카드웨이브",
      "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
     },
     {
      "query": "구리 포켓몬센터 위치",
      "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
     },
     {
      "query": "논 슈링크 뜻 포켓몬카드",
      "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
+    },
+    {
+     "query": "대구30주년 팩 파는곳",
+     "cv": 1,
+     "pct": 1.9
     },
     {
      "query": "대전 포켓몬센터 위치",
      "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
     },
     {
-     "query": "목동 포켓몬센터",
+     "query": "메가심포니아 박스 정가",
      "cv": 1,
-     "pct": 2.1
-    },
-    {
-     "query": "뮤 RGB",
-     "cv": 1,
-     "pct": 2.1
-    },
-    {
-     "query": "뮤 rgv",
-     "cv": 1,
-     "pct": 2.1
-    },
-    {
-     "query": "뮤rgb확률",
-     "cv": 1,
-     "pct": 2.1
-    },
-    {
-     "query": "원주이마트 포켓몬카드 판매",
-     "cv": 1,
-     "pct": 2.1
+     "pct": 1.9
     }
    ]
   },
