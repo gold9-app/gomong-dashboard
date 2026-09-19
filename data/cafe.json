@@ -1,11 +1,11 @@
 {
- "collectedAt": "2026-09-19T14:01:13.008Z",
- "collectedAtText": "2026-09-19 23:01",
- "elapsedMs": 760,
+ "collectedAt": "2026-09-19T14:54:37.786Z",
+ "collectedAtText": "2026-09-19 23:54",
+ "elapsedMs": 575,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 1,
- "articles": 30,
+ "articles": 34,
  "grade": "씨앗1단계",
  "pendingLevelUps": 0,
  "todayAttendance": 1,
@@ -33,8 +33,8 @@
   {
    "menuId": 8,
    "name": "공지사항",
-   "count": 5,
-   "latest": "2026-09-19 19:33"
+   "count": 6,
+   "latest": "2026-09-19 23:49"
   },
   {
    "menuId": 9,
@@ -87,8 +87,8 @@
   {
    "menuId": 17,
    "name": "카드용품·보관",
-   "count": 1,
-   "latest": "2026-09-19 18:55"
+   "count": 2,
+   "latest": "2026-09-19 23:50"
   },
   {
    "menuId": 18,
@@ -99,8 +99,8 @@
   {
    "menuId": 19,
    "name": "매장·이벤트 소식",
-   "count": 1,
-   "latest": "2026-09-19 18:55"
+   "count": 2,
+   "latest": "2026-09-19 23:50"
   },
   {
    "menuId": 23,
@@ -167,9 +167,87 @@
    "name": "자랑 게시판(개봉·수집·등급카드)",
    "count": 1,
    "latest": "2026-09-19 19:16"
+  },
+  {
+   "menuId": 35,
+   "name": "협력업체·제휴 안내",
+   "count": 1,
+   "latest": "2026-09-19 23:49"
   }
  ],
  "recentArticles": [
+  {
+   "articleId": 38,
+   "menuId": 17,
+   "menuName": "카드용품·보관",
+   "title": "탑로더 슬리브 예산별 보관 세트 3가지, 1만원부터 3만원까지",
+   "prefix": null,
+   "writer": "고몽이",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-09-19 23:50",
+   "ts": 1789829440370,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/38"
+  },
+  {
+   "articleId": 37,
+   "menuId": 19,
+   "menuName": "매장·이벤트 소식",
+   "title": "포켓몬카드 공식 카드샵 15곳 권역별 표, 강릉점 9월 오픈",
+   "prefix": null,
+   "writer": "고몽이",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-09-19 23:50",
+   "ts": 1789829424923,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/37"
+  },
+  {
+   "articleId": 36,
+   "menuId": 35,
+   "menuName": "협력업체·제휴 안내",
+   "title": "[안내] 협력업체 게시판 이용법과 매장 등록 양식",
+   "prefix": "안내",
+   "writer": "고몽이",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-09-19 23:49",
+   "ts": 1789829396497,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/36"
+  },
+  {
+   "articleId": 35,
+   "menuId": 8,
+   "menuName": "공지사항",
+   "title": "[공지] 제휴·광고 문의 안내, 초기 협력업체 등록 무료",
+   "prefix": "공지",
+   "writer": "고몽이",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-09-19 23:49",
+   "ts": 1789829381507,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": true,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/35"
+  },
   {
    "articleId": 34,
    "menuId": 10,
@@ -560,7 +638,7 @@
    "writeDate": "2026-09-19 18:54",
    "ts": 1789811651483,
    "commentCount": 0,
-   "readCount": 2,
+   "readCount": 3,
    "likeCount": 0,
    "isNotice": false,
    "hasImage": false,
@@ -637,78 +715,6 @@
    "isNotice": false,
    "hasImage": false,
    "url": "https://cafe.naver.com/gurapaduck/7"
-  },
-  {
-   "articleId": 6,
-   "menuId": 18,
-   "menuName": "TCG 주간 시세",
-   "title": "포켓몬카드 30주년 시세 9월 3주차, 뮤 RGB 529만원",
-   "prefix": null,
-   "writer": "고몽이",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-09-19 18:52",
-   "ts": 1789811562760,
-   "commentCount": 0,
-   "readCount": 4,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/6"
-  },
-  {
-   "articleId": 5,
-   "menuId": 1,
-   "menuName": "자유게시판",
-   "title": "포켓몬카드 리프트바운드 원피스카드, 어떤 글이 제일 필요하세요",
-   "prefix": null,
-   "writer": "고몽이",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-09-19 18:52",
-   "ts": 1789811544273,
-   "commentCount": 0,
-   "readCount": 1,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/5"
-  },
-  {
-   "articleId": 4,
-   "menuId": 9,
-   "menuName": "가입인사",
-   "title": "[가입인사] 매니저 고몽이입니다, 포켓몬 카드 위주로 합니다",
-   "prefix": "가입인사",
-   "writer": "고몽이",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-09-19 18:52",
-   "ts": 1789811524827,
-   "commentCount": 0,
-   "readCount": 0,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/4"
-  },
-  {
-   "articleId": 3,
-   "menuId": 8,
-   "menuName": "공지사항",
-   "title": "[공지] 시세 글 읽는 법, 호가·체결가·조회일 3가지",
-   "prefix": "공지",
-   "writer": "고몽이",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-09-19 18:51",
-   "ts": 1789811509287,
-   "commentCount": 0,
-   "readCount": 0,
-   "likeCount": 0,
-   "isNotice": true,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/3"
   }
  ],
  "unansweredQuestions": [],
@@ -736,7 +742,7 @@
  "newGreetings": [],
  "alerts": [],
  "counts": {
-  "notices": 6,
+  "notices": 7,
   "questions": 3,
   "trades": 1,
   "byMember": 0
