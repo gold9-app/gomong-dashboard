@@ -235,9 +235,17 @@ a.item:active { background: var(--surface-2); }
 @keyframes fade { from { opacity: 0; } } @keyframes sheet-in { from { transform: translateY(30px); opacity: 0; } } @keyframes toast-in { from { transform: translate(-50%, 10px); opacity: 0; } }
 
 /* Bottom nav (네이버: 흰 바, 활성 검정) */
-.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: grid; grid-template-columns: repeat(5, 1fr); padding: 4px max(4px, env(safe-area-inset-right)) calc(4px + env(safe-area-inset-bottom)) max(4px, env(safe-area-inset-left)); background: var(--surface); border-top: 1px solid var(--line); box-shadow: var(--shadow-up); }
+.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: grid; grid-template-columns: repeat(6, 1fr); padding: 4px max(4px, env(safe-area-inset-right)) calc(4px + env(safe-area-inset-bottom)) max(4px, env(safe-area-inset-left)); background: var(--surface); border-top: 1px solid var(--line); box-shadow: var(--shadow-up); }
 .tabs button { position: relative; min-height: 52px; border: 0; background: transparent; display: grid; place-items: center; align-content: center; gap: 3px; font-size: 11px; font-weight: 500; color: var(--faint); cursor: pointer; transition: color 160ms, transform 140ms var(--ease-out); }
-.tabs button svg { width: 23px; height: 23px; }
+.tabs button svg { width: 22px; height: 22px; }
+/* 카페 탭 (2026-09-19) */
+.kpi-row5 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.kpi-row5 .kpi { padding: 12px 12px; }
+.kpi-row5 .kpi .v { font-size: var(--t-lg); }
+.board-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 12px; font-size: var(--t-xs); color: var(--muted); }
+.board-grid div { display: flex; justify-content: space-between; gap: 6px; min-width: 0; border-bottom: 1px dashed var(--line); padding: 5px 0; }
+.board-grid div span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.board-grid b { color: var(--text); font-variant-numeric: tabular-nums; flex: none; }
 .tabs button:active { transform: scale(.94); }
 .tabs button[aria-current="page"] { color: var(--text); font-weight: 700; }
 .tabs button[aria-current="page"] svg { stroke-width: 2.4; }

@@ -3,7 +3,7 @@
 const CFG = { ntfyTopic: 'gomong-dash-lvxu3bje', pollMs: 10000, pollMaxMs: 300000 };
 const $ = (s, el = document) => el.querySelector(s);
 const view = $('#view');
-let D = null, H = [], S = null, tab = 'home', filters = { game: '전체', status: '전체' }, statDay = 'today', expand = {};
+let D = null, H = [], S = null, C = null, CH = [], tab = 'home', filters = { game: '전체', status: '전체' }, statDay = 'today', expand = {};
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 /* ---------- utils ---------- */
@@ -43,17 +43,20 @@ const empty = (t, ic = I.inbox) => `<div class="empty">${ic}<span>${esc(t)}</spa
 /* ---------- data ---------- */
 async function fetchData(force) {
   const bust = force ? `?t=${Date.now()}` : '';
-  const [d, h, s] = await Promise.all([
-    fetch(`./data/dashboard.json${bust}`, { cache: force ? 'reload' : 'default' }).then(r => r.json()),
-    fetch(`./data/history/index.json${bust}`, { cache: force ? 'reload' : 'default' }).then(r => r.ok ? r.json() : []).catch(() => []),
-    fetch(`./data/status.json${bust}`, { cache: force ? 'reload' : 'default' }).then(r => r.ok ? r.json() : null).catch(() => null),
+  const opt = { cache: force ? 'reload' : 'default' };
+  const [d, h, s, c, ch] = await Promise.all([
+    fetch(`./data/dashboard.json${bust}`, opt).then(r => r.json()),
+    fetch(`./data/history/index.json${bust}`, opt).then(r => r.ok ? r.json() : []).catch(() => []),
+    fetch(`./data/status.json${bust}`, opt).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(`./data/cafe.json${bust}`, opt).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(`./data/cafe_history.json${bust}`, opt).then(r => r.ok ? r.json() : []).catch(() => []),
   ]);
-  return { d, h: Array.isArray(h) ? h : [], s };
+  return { d, h: Array.isArray(h) ? h : [], s, c, ch: Array.isArray(ch) ? ch : [] };
 }
 async function load(force) {
   const btn = $('#refreshBtn'); btn.classList.add('spin');
   if (!D) skeleton();
-  try { const { d, h, s } = await fetchData(force); D = d; H = h; S = s; localStorage.setItem('dash', JSON.stringify({ D, H })); }
+  try { const { d, h, s, c, ch } = await fetchData(force); D = d; H = h; S = s; C = c; CH = ch; localStorage.setItem('dash', JSON.stringify({ D, H })); }
   catch (e) {
     const c = localStorage.getItem('dash');
     if (c && !D) ({ D, H } = JSON.parse(c));
@@ -80,9 +83,10 @@ function render(animate) {
   if (!D) return;
   header();
   $('#cmtDot').hidden = !(D.summary?.unansweredComments > 0);
+  const cafeDot = $('#cafeDot'); if (cafeDot) cafeDot.hidden = !(C && (C.alerts || []).some(a => a.level !== 'info'));
   document.querySelectorAll('.tabs button').forEach(b => b.dataset.tab === tab ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
   view.classList.remove('enter');
-  view.innerHTML = { home, queue, posts, comments, stats }[tab]();
+  view.innerHTML = { home, queue, posts, comments, stats, cafe }[tab]();
   if (animate && !reduced) requestAnimationFrame(() => view.classList.add('enter'));
   if (animate) window.scrollTo(0, 0);
   bind();
@@ -269,6 +273,50 @@ function stats() {
 
   <div class="h-sec"><h2>AI 브리핑 인용 확인 쿼리</h2><span class="meta">${(D.aiCited || []).length}건</span></div>
   <section class="card"><div class="list">${(D.aiCited || []).map(q => item({ href: postUrl(q.logNo), no: q.no, badges: `<span class="badge ok">${I.spark}${esc(q.type || '인용')}</span>`, title: q.query, sub: `<span>${esc(q.date)}</span>` })).join('') || empty('기록 없음')}</div></section>`;
+}
+
+/* ---------- 카페 (data/cafe.json + cafe_history.json, 2026-09-19) ---------- */
+function cafe() {
+  if (!C) return `${staleBanner()}<section class="card">${empty('카페 데이터가 아직 없어요. 다음 자동 수집(08/13/20시) 뒤 표시됩니다.', I.clock)}</section>`;
+  const boardOf = (id) => (C.boards || []).find(b => b.menuId === id);
+  const bBadge = (a) => `<span class="badge ${[28, 29, 30].includes(a.menuId) ? 'warn' : [26, 13, 27].includes(a.menuId) ? 'info' : a.isNotice ? 'primary' : ''}">${esc((a.menuName || '').replace(/\(.*\)$/, '').replace(/ 게시판$/, ''))}</span>`;
+  const art = (a, extra = '') => item({ href: a.url, time: (a.writeDate || '').slice(5, 16).replace('-', '/'), badges: `${extra}${a.commentCount ? `<span class="badge">댓글 ${a.commentCount}</span>` : ''}`, title: a.title, sub: `<span>${bBadge(a)}</span><span>${esc(a.writer)}${a.writerLevel ? ` · ${esc(a.writerLevel)}` : ''}</span><span>조회 <b>${n(a.readCount)}</b></span>` });
+  const hist = (CH || []).slice(-15);
+  const prev = hist.length >= 2 ? hist[hist.length - 2] : null;
+  const mDelta = prev && prev.members != null && C.members != null ? C.members - prev.members : null;
+  const alerts = (C.alerts || []);
+  const kind = { levelup: '등업 신청 대기', question: '미답변 질문', trade: '거래 글 규칙 위반', greeting: '새 가입인사' };
+  const stale = (Date.now() - new Date(C.collectedAt)) / 3600e3 > 14;
+  const boards = (C.boards || []).filter(b => b.menuId !== 23);
+  return `${staleBanner()}${C.errors?.length ? `<div class="banner warn">${I.warn}<span>카페 수집 경고 ${C.errors.length}건: ${esc(C.errors.join(' / '))}</span></div>` : ''}
+  <div class="h-sec"><h2>카페 현황</h2><span class="meta">${esc(C.collectedAtText || '')} 수집${stale ? ' · 오래됨' : ''}</span></div>
+  <div class="kpi-row5">
+    <section class="card kpi"><div class="l">${I.users}멤버</div><div class="v" data-tick="${C.members ?? 0}">${n(C.members)}</div><div class="d">${mDelta != null ? delta(mDelta) : ''}<span>${esc(C.grade || '')}</span></div></section>
+    <section class="card kpi"><div class="l">${I.doc}글</div><div class="v" data-tick="${C.articles ?? 0}">${n(C.articles)}</div><div class="d">멤버 글 ${n(C.counts?.byMember)}</div></section>
+    <section class="card kpi ${C.pendingLevelUps ? 'alert' : ''}"><div class="l">${I.check}등업 대기</div><div class="v" data-tick="${C.pendingLevelUps ?? 0}">${n(C.pendingLevelUps)}</div><div class="d">트레이너 승인</div></section>
+    <section class="card kpi"><div class="l">${I.clock}오늘 출석</div><div class="v" data-tick="${C.todayAttendance ?? 0}">${n(C.todayAttendance)}</div><div class="d" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block">${esc(C.todayMission || '미션 없음')}</div></section>
+    <section class="card kpi ${(C.unansweredQuestions || []).length ? 'alert' : ''}"><div class="l">${I.chat}미답변 질문</div><div class="v" data-tick="${(C.unansweredQuestions || []).length}">${n((C.unansweredQuestions || []).length)}</div><div class="d">질문 글 ${n(C.counts?.questions)}</div></section>
+    <section class="card kpi ${(C.ruleFlags || []).length ? 'alert' : ''}"><div class="l">${I.alert}거래 경고</div><div class="v" data-tick="${(C.ruleFlags || []).length}">${n((C.ruleFlags || []).length)}</div><div class="d">거래 글 ${n(C.counts?.trades)}</div></section>
+  </div>
+
+  <div class="h-sec"><h2>할 일</h2><span class="meta">${alerts.length}건</span></div>
+  <section class="card">${alerts.length ? alerts.map(a => `<a class="todo ${a.level}" href="${a.url}" target="_blank" rel="noopener"><span class="ic">${a.level === 'danger' ? I.alert : a.level === 'warn' ? I.warn : I.info}</span><div><div class="k">${esc(kind[a.type] || a.type)}</div><div>${esc(a.text)}</div></div></a>`).join('') : `<div class="empty">${I.check}<span>처리할 항목 없음</span></div>`}
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><a class="badge primary" href="${esc(C.links?.levelUp || '')}" target="_blank" rel="noopener">등업 신청 관리</a><a class="badge" href="${esc(C.links?.manage || '')}" target="_blank" rel="noopener">카페 관리</a><a class="badge" href="${esc(C.links?.attendance || '')}" target="_blank" rel="noopener">출석체크</a><a class="badge" href="${esc(C.url || '')}" target="_blank" rel="noopener">카페 홈</a></div></section>
+
+  <div class="h-sec"><h2>멤버 추이</h2><span class="meta">${hist.length ? `${md(hist[0].date)} ~ ${md(hist[hist.length - 1].date)}` : ''}</span></div>
+  <section class="card">${hist.length >= 2 ? sparkline(hist.map(h => h.members || 0), hist.map(h => md(h.date))) : `<div class="empty">${I.clock}<span>추세는 수집이 2일 이상 쌓이면 표시 (현재 ${hist.length}일 · 멤버 ${n(C.members)})</span></div>`}</section>
+
+  ${(C.unansweredQuestions || []).length ? `<div class="h-sec"><h2>미답변 질문</h2><span class="meta">${C.unansweredQuestions.length}건</span></div><section class="card"><div class="list">${C.unansweredQuestions.map(a => art(a, '<span class="badge danger">미답변</span>')).join('')}</div></section>` : ''}
+  ${(C.ruleFlags || []).length ? `<div class="h-sec"><h2>거래 글 규칙 경고</h2><span class="meta">${C.ruleFlags.length}건</span></div><section class="card"><div class="list">${C.ruleFlags.map(f => item({ href: f.url, badges: '<span class="badge danger">규칙</span>', title: f.title, sub: `<span>${esc(f.menuName)}</span><span>${esc(f.writer)}</span><span style="color:var(--danger)">${esc(f.reason)}</span>` })).join('')}</div></section>` : ''}
+
+  <div class="h-sec"><h2>거래 게시판</h2><span class="meta">최근 ${(C.tradePosts || []).length}건</span></div>
+  <section class="card"><div class="list">${(C.tradePosts || []).length ? limited('cafeTrade', C.tradePosts, 5, a => art(a, a.prefix ? `<span class="badge">[${esc(a.prefix)}]</span>` : '')) : empty('거래 글 없음')}</div></section>
+
+  <div class="h-sec"><h2>최근 글</h2><span class="meta">${(C.recentArticles || []).length}건</span></div>
+  <section class="card"><div class="list">${(C.recentArticles || []).length ? limited('cafeRecent', C.recentArticles, 10, a => art(a, a.isNotice ? '<span class="badge primary">공지</span>' : '')) : empty('글 없음')}</div></section>
+
+  <div class="h-sec"><h2>게시판별 글 수</h2><span class="meta">${boards.length}개</span></div>
+  <section class="card"><div class="board-grid">${boards.map(b => `<div><span>${esc(b.name.replace(/\(.*\)$/, ''))}</span><b>${n(b.count)}</b></div>`).join('')}</div></section>`;
 }
 
 /* ---------- 최신화 (ntfy → Aside 이벤트 루틴) ---------- */
