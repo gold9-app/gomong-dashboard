@@ -1,14 +1,14 @@
 {
- "collectedAt": "2026-09-19T08:57:31.650Z",
- "collectedAtText": "2026-09-19 17:57",
+ "collectedAt": "2026-09-19T09:08:13.699Z",
+ "collectedAtText": "2026-09-19 18:08",
  "blogId": "gold_ggu",
- "elapsedMs": 3193,
+ "elapsedMs": 5650,
  "errors": [],
  "summary": {
   "publicCount": 27,
   "queueCount": 10,
   "totalCount": 37,
-  "todayCv": 207,
+  "todayCv": 212,
   "yesterdayCv": 609,
   "todayVisitor": 0,
   "buddyCount": 38,
@@ -23,7 +23,7 @@
   "totalComments": 6,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 1374
+  "totalReadCount": 1379
  },
  "alerts": [
   {
@@ -455,7 +455,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414565203",
    "openType": "2",
    "searchYn": true,
-   "readCount": 128,
+   "readCount": 130,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -763,7 +763,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415205495",
    "openType": "2",
    "searchYn": true,
-   "readCount": 2,
+   "readCount": 3,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -834,7 +834,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415288070",
    "openType": "2",
    "searchYn": true,
-   "readCount": 117,
+   "readCount": 119,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1138,10 +1138,10 @@
   "dailyCv": [
    {
     "date": "2026-09-19",
-    "total": 207,
+    "total": 212,
     "friend": 3,
     "follow": 0,
-    "etc": 204
+    "etc": 209
    },
    {
     "date": "2026-09-18",
@@ -1244,23 +1244,23 @@
   ],
   "today": {
    "date": "2026-09-19",
-   "utime": "2026-09-19T17:57:31",
+   "utime": "2026-09-19T18:08:11",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 207,
+    "dailyCv": 212,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-19T17:57:31",
-    "dailyRelationDeltaUtime": "2026-09-19T17:57:31",
+    "dailyCommentUtime": "2026-09-19T18:08:11",
+    "dailyRelationDeltaUtime": "2026-09-19T18:08:11",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-19T17:57:31",
-    "dailyCvUtime": "2026-09-19T17:57:31"
+    "dailyLikeUtime": "2026-09-19T18:08:11",
+    "dailyCvUtime": "2026-09-19T18:08:11"
    },
    "dailyCv": [
     {
      "date": "2026-09-19",
-     "cv": 207
+     "cv": 212
     },
     {
      "date": "2026-09-18",
@@ -1323,16 +1323,16 @@
     {
      "rank": 1,
      "cv": 35,
-     "title": "포켓몬카드 30주년 궁금증 7가지, 파는곳 봉입 중복 RGB 시세까지",
-     "logNo": "224415150323",
-     "createDate": "2026.09.17. 19:00"
-    },
-    {
-     "rank": 2,
-     "cv": 33,
      "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
      "logNo": "224414565203",
      "createDate": "2026.09.17. 09:35"
+    },
+    {
+     "rank": 1,
+     "cv": 35,
+     "title": "포켓몬카드 30주년 궁금증 7가지, 파는곳 봉입 중복 RGB 시세까지",
+     "logNo": "224415150323",
+     "createDate": "2026.09.17. 19:00"
     },
     {
      "rank": 3,
@@ -1343,7 +1343,7 @@
     },
     {
      "rank": 4,
-     "cv": 19,
+     "cv": 21,
      "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
      "logNo": "224415288070",
      "createDate": "2026.09.17. 20:41"
@@ -1366,38 +1366,43 @@
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 92,
-     "pct": 46.2
+     "cv": 93,
+     "pct": 45.6
     },
     {
      "name": "네이버 메인_모바일_홈판",
      "cv": 40,
-     "pct": 20.1
+     "pct": 19.6
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 31,
-     "pct": 15.6
+     "cv": 33,
+     "pct": 16.2
     },
     {
      "name": "네이버 블로그_모바일",
-     "cv": 12,
-     "pct": 6
+     "cv": 13,
+     "pct": 6.4
     },
     {
      "name": "네이버 블로그_PC",
      "cv": 9,
-     "pct": 4.5
+     "pct": 4.4
     },
     {
      "name": "네이버 통합검색_PC",
      "cv": 7,
-     "pct": 3.5
+     "pct": 3.4
     },
     {
      "name": "네이버 블로그검색_PC",
      "cv": 3,
      "pct": 1.5
+    },
+    {
+     "name": "gold9-app.github.io",
+     "cv": 2,
+     "pct": 1
     },
     {
      "name": "Daum 검색_모바일",
@@ -1406,11 +1411,6 @@
     },
     {
      "name": "Daum_모바일",
-     "cv": 1,
-     "pct": 0.5
-    },
-    {
-     "name": "gold9-app.github.io",
      "cv": 1,
      "pct": 0.5
     },
@@ -1434,7 +1434,7 @@
     {
      "query": "포캣몬 스타트덱",
      "cv": 3,
-     "pct": 3.3
+     "pct": 3.2
     },
     {
      "query": "g마켓 포켓몬코리아",
@@ -1750,26 +1750,6 @@
  ],
  "routines": [
   {
-   "id": "visGHRYgqUFXHhjV",
-   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
-   "runAt": null,
-   "nextRunAt": "2026-09-19T11:00:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "rpipJV3U6nwV8XjD",
-   "name": "고몽이 관제 대시보드 수동 최신화 (앱 버튼 → ntfy 푸시)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": null,
-   "runAt": null,
-   "nextRunAt": null,
-   "lastRunAt": null
-  },
-  {
    "id": "1npLAD0wuozLwqfW",
    "name": "고몽이 TCG 센터 주간 신규 글 3개 작성·예약",
    "kind": "cron",
@@ -1787,6 +1767,26 @@
    "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
    "runAt": null,
    "nextRunAt": "2026-09-21T00:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
+   "id": "visGHRYgqUFXHhjV",
+   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
+   "runAt": null,
+   "nextRunAt": "2026-09-19T11:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
+   "id": "rpipJV3U6nwV8XjD",
+   "name": "고몽이 관제 대시보드 수동 최신화 (앱 버튼 → ntfy 푸시)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": null,
+   "runAt": null,
+   "nextRunAt": null,
    "lastRunAt": null
   }
  ],
@@ -1828,5 +1828,7 @@
    }
   ],
   "notes": []
- }
+ },
+ "loginOk": true,
+ "preflight": "ok"
 }

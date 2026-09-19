@@ -3,7 +3,7 @@
 const CFG = { ntfyTopic: 'gomong-dash-lvxu3bje', pollMs: 10000, pollMaxMs: 300000 };
 const $ = (s, el = document) => el.querySelector(s);
 const view = $('#view');
-let D = null, H = [], tab = 'home', filters = { game: '전체', status: '전체' }, statDay = 'today', expand = {};
+let D = null, H = [], S = null, tab = 'home', filters = { game: '전체', status: '전체' }, statDay = 'today', expand = {};
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 /* ---------- utils ---------- */
@@ -43,16 +43,17 @@ const empty = (t, ic = I.inbox) => `<div class="empty">${ic}<span>${esc(t)}</spa
 /* ---------- data ---------- */
 async function fetchData(force) {
   const bust = force ? `?t=${Date.now()}` : '';
-  const [d, h] = await Promise.all([
+  const [d, h, s] = await Promise.all([
     fetch(`./data/dashboard.json${bust}`, { cache: force ? 'reload' : 'default' }).then(r => r.json()),
     fetch(`./data/history/index.json${bust}`, { cache: force ? 'reload' : 'default' }).then(r => r.ok ? r.json() : []).catch(() => []),
+    fetch(`./data/status.json${bust}`, { cache: force ? 'reload' : 'default' }).then(r => r.ok ? r.json() : null).catch(() => null),
   ]);
-  return { d, h: Array.isArray(h) ? h : [] };
+  return { d, h: Array.isArray(h) ? h : [], s };
 }
 async function load(force) {
   const btn = $('#refreshBtn'); btn.classList.add('spin');
   if (!D) skeleton();
-  try { const { d, h } = await fetchData(force); D = d; H = h; localStorage.setItem('dash', JSON.stringify({ D, H })); }
+  try { const { d, h, s } = await fetchData(force); D = d; H = h; S = s; localStorage.setItem('dash', JSON.stringify({ D, H })); }
   catch (e) {
     const c = localStorage.getItem('dash');
     if (c && !D) ({ D, H } = JSON.parse(c));
@@ -87,7 +88,14 @@ function render(animate) {
   bind();
   if (animate) tick();
 }
-const staleBanner = () => (Date.now() - new Date(D.collectedAt)) / 3600e3 > 14 ? `<div class="banner warn">${I.warn}<span>마지막 수집이 ${ago(D.collectedAt)}입니다. PC가 꺼져 있거나 Aside가 멈춰 있을 수 있어요.</span></div>` : '';
+const staleBanner = () => {
+  // 상태 파일이 마지막 수집본보다 새겍고 실패를 기록했으면 그 원인을 우선 표시
+  if (S && !S.loginOk && new Date(S.at) > new Date(D.collectedAt)) {
+    const why = S.preflight === 'NAVER_LOGIN_REQUIRED' ? 'PC 바라우저의 네이버 로그인이 풀렸어요. PC에서 다시 로그인하면 다음 회차부터 정상 수집됩니다.' : 'PC의 Aside 바라우저 연결이 실패했어요 (재부팅 후 WSL2 포트 충돌 가능성). 바라우저를 재시작해 주세요.';
+    return `<div class="banner danger">${I.alert}<span><b>수집 실패 (${esc(S.atText || '')})</b><br>${why} 아래는 ${esc(D.collectedAtText)} 수집본입니다.</span></div>`;
+  }
+  return (Date.now() - new Date(D.collectedAt)) / 3600e3 > 14 ? `<div class="banner warn">${I.warn}<span>마지막 수집이 ${ago(D.collectedAt)}입니다. PC가 꺼져 있거나 Aside가 멈춰 있을 수 있어요.</span></div>` : '';
+};
 const errBanner = () => D.errors?.length ? `<div class="banner danger">${I.alert}<span>수집 오류 ${D.errors.length}건: ${esc(D.errors.join(' / '))}</span></div>` : '';
 const delta = (v, suffix = '') => v == null ? '' : `<span class="delta ${v > 0 ? 'up' : v < 0 ? 'down' : ''}">${v > 0 ? I.up : v < 0 ? I.down : ''}${v > 0 ? '+' : ''}${n(v)}${suffix}</span>`;
 
@@ -304,9 +312,13 @@ async function runRefresh(pin) {
   while (Date.now() - t0 < CFG.pollMaxMs) {
     await new Promise(r => setTimeout(r, CFG.pollMs));
     try {
-      const { d, h } = await fetchData(true);
+      const { d, h, s } = await fetchData(true);
+      if (s && !s.loginOk && new Date(s.at).getTime() > t0 - 60000) {
+        S = s; render(false);
+        paint(1, s.preflight === 'NAVER_LOGIN_REQUIRED' ? 'PC의 네이버 로그인이 풀려 수집을 못 했어요. PC에서 다시 로그인해 주세요.' : 'PC 바라우저 연결이 실패했어요. 바라우저를 재시작해 주세요.'); wire(); refreshing = false; $('#refreshBtn').classList.remove('spin'); return;
+      }
       if (d.collectedAt !== startedAt) {
-        D = d; H = h; localStorage.setItem('dash', JSON.stringify({ D, H }));
+        D = d; H = h; S = s; localStorage.setItem('dash', JSON.stringify({ D, H }));
         if (document.querySelector('.sheet')) { paint(3); wire(); await new Promise(r => setTimeout(r, 500)); }
         closeSheet(); render(true); refreshing = false; $('#refreshBtn').classList.remove('spin');
         toast(`최신화 완료 · ${D.collectedAtText} 수집`);
