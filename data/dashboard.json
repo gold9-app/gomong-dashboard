@@ -1,8 +1,8 @@
 {
- "collectedAt": "2026-09-20T01:41:20.606Z",
- "collectedAtText": "2026-09-20 10:41",
+ "collectedAt": "2026-09-20T02:00:07.091Z",
+ "collectedAtText": "2026-09-20 11:00",
  "blogId": "gold_ggu",
- "elapsedMs": 8053,
+ "elapsedMs": 2941,
  "errors": [],
  "summary": {
   "publicCount": 29,
@@ -21,17 +21,11 @@
   },
   "unansweredComments": 0,
   "totalComments": 6,
-  "v5Pending": 1,
+  "v5Pending": 0,
   "searchOff": 0,
   "totalReadCount": 1424
  },
  "alerts": [
-  {
-   "level": "warn",
-   "type": "v5",
-   "logNo": "224415206636",
-   "text": "v5 레이아웃 미적용: #34 리프트바운드 카드 레어도 봉입률 총정리, 아리 구미호 확률과 프로모"
-  },
   {
    "level": "info",
    "type": "links",
@@ -830,7 +824,7 @@
    "readCount": 2,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
+   "v5": true,
    "internalLinks": 16,
    "imgs": 5,
    "relatedLinksPending": false,
@@ -1246,18 +1240,18 @@
   ],
   "today": {
    "date": "2026-09-20",
-   "utime": "2026-09-20T10:41:20",
+   "utime": "2026-09-20T11:00:06",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
     "dailyCv": 5,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-20T10:41:20",
-    "dailyRelationDeltaUtime": "2026-09-20T10:41:20",
+    "dailyCommentUtime": "2026-09-20T11:00:06",
+    "dailyRelationDeltaUtime": "2026-09-20T11:00:06",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-20T10:41:20",
-    "dailyCvUtime": "2026-09-20T10:41:20"
+    "dailyLikeUtime": "2026-09-20T11:00:06",
+    "dailyCvUtime": "2026-09-20T11:00:06"
    },
    "dailyCv": [
     {
@@ -1723,6 +1717,16 @@
  ],
  "routines": [
   {
+   "id": "rpipJV3U6nwV8XjD",
+   "name": "고몽이 관제 대시보드 수동 최신화 (앱 버튼 → ntfy 푸시)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": null,
+   "runAt": null,
+   "nextRunAt": null,
+   "lastRunAt": null
+  },
+  {
    "id": "visGHRYgqUFXHhjV",
    "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
    "kind": "cron",
@@ -1770,16 +1774,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
    "runAt": null,
    "nextRunAt": "2026-09-21T00:00:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "rpipJV3U6nwV8XjD",
-   "name": "고몽이 관제 대시보드 수동 최신화 (앱 버튼 → ntfy 푸시)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": null,
-   "runAt": null,
-   "nextRunAt": null,
    "lastRunAt": null
   }
  ],
