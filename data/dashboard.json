@@ -1,31 +1,37 @@
 {
- "collectedAt": "2026-09-19T14:54:37.192Z",
- "collectedAtText": "2026-09-19 23:54",
+ "collectedAt": "2026-09-20T00:36:43.098Z",
+ "collectedAtText": "2026-09-20 09:36",
  "blogId": "gold_ggu",
- "elapsedMs": 1534,
+ "elapsedMs": 3814,
  "errors": [],
  "summary": {
-  "publicCount": 28,
-  "queueCount": 9,
+  "publicCount": 29,
+  "queueCount": 8,
   "totalCount": 37,
-  "todayCv": 253,
-  "yesterdayCv": 609,
+  "todayCv": 5,
+  "yesterdayCv": 253,
   "todayVisitor": 0,
   "buddyCount": 38,
   "citations": {
-   "cumulative": 1260,
-   "month": 1260,
+   "cumulative": 3228,
+   "month": 3228,
    "selectionPeriod": 0,
    "currentMonth": 9,
    "selectionPeriodMonth": 7
   },
   "unansweredComments": 0,
   "totalComments": 6,
-  "v5Pending": 0,
+  "v5Pending": 1,
   "searchOff": 0,
-  "totalReadCount": 1419
+  "totalReadCount": 1424
  },
  "alerts": [
+  {
+   "level": "warn",
+   "type": "v5",
+   "logNo": "224415206636",
+   "text": "v5 레이아웃 미적용: #34 리프트바운드 카드 레어도 봉입률 총정리, 아리 구미호 확률과 프로모"
+  },
   {
    "level": "info",
    "type": "links",
@@ -70,12 +76,12 @@
    "url": "https://blog.naver.com/gold_ggu/224414205485",
    "openType": "2",
    "searchYn": true,
-   "readCount": 66,
+   "readCount": 67,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -96,9 +102,9 @@
    "readCount": 33,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -119,9 +125,9 @@
    "readCount": 25,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 6,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -142,9 +148,9 @@
    "readCount": 101,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -162,12 +168,12 @@
    "url": "https://blog.naver.com/gold_ggu/224414209725",
    "openType": "2",
    "searchYn": true,
-   "readCount": 140,
+   "readCount": 141,
    "commentCount": 2,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -188,9 +194,9 @@
    "readCount": 74,
    "commentCount": 4,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -211,9 +217,9 @@
    "readCount": 9,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 6,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -234,9 +240,9 @@
    "readCount": 42,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 6,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -257,9 +263,9 @@
    "readCount": 75,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -280,9 +286,9 @@
    "readCount": 43,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -303,9 +309,9 @@
    "readCount": 78,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -326,9 +332,9 @@
    "readCount": 3,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -349,9 +355,9 @@
    "readCount": 3,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -372,9 +378,9 @@
    "readCount": 1,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -395,9 +401,9 @@
    "readCount": 40,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 6,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -418,9 +424,9 @@
    "readCount": 17,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -441,9 +447,9 @@
    "readCount": 4,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 6,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -461,12 +467,12 @@
    "url": "https://blog.naver.com/gold_ggu/224414565203",
    "openType": "2",
    "searchYn": true,
-   "readCount": 138,
+   "readCount": 139,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -487,9 +493,9 @@
    "readCount": 0,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 5,
    "relatedLinksPending": true,
    "priceUpdate": null,
    "rank": null,
@@ -510,9 +516,9 @@
    "readCount": 0,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 5,
    "relatedLinksPending": true,
    "priceUpdate": null,
    "rank": null,
@@ -617,9 +623,9 @@
    "readCount": 21,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -640,9 +646,9 @@
    "readCount": 10,
    "commentCount": 2,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 5,
    "relatedLinksPending": true,
    "priceUpdate": null,
    "rank": null,
@@ -705,9 +711,9 @@
    "readCount": 58,
    "commentCount": 2,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -728,9 +734,9 @@
    "readCount": 2,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 29,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -751,9 +757,9 @@
    "readCount": 304,
    "commentCount": 2,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 17,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -774,9 +780,9 @@
    "readCount": 3,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 4,
    "relatedLinksPending": true,
    "priceUpdate": {
     "logNo": "224415205495",
@@ -801,9 +807,9 @@
    "readCount": 1,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 3,
    "relatedLinksPending": true,
    "priceUpdate": null,
    "rank": null,
@@ -813,18 +819,20 @@
    "no": 34,
    "logNo": "224415206636",
    "title": "리프트바운드 카드 레어도 봉입률 총정리, 아리 구미호 확률과 프로모",
-   "status": "예약",
+   "status": "공개",
    "game": "리프트바운드",
    "category": "리프트바운드 덱·대회",
    "keyword": "리프트바운드",
    "publishedText": "2026-09-20 07:30",
-   "postDate": 1789857000000,
    "url": "https://blog.naver.com/gold_ggu/224415206636",
-   "searchYn": null,
-   "readCount": 0,
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 2,
    "commentCount": 0,
    "unanswered": 0,
    "v5": false,
+   "internalLinks": 16,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -845,9 +853,9 @@
    "readCount": 128,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": null,
-   "internalLinks": null,
-   "imgs": null,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": {
     "logNo": "224415288070",
@@ -901,13 +909,6 @@
   }
  ],
  "queue": [
-  {
-   "logNo": "224415206636",
-   "title": "리프트바운드 카드 레어도 봉입률 총정리, 아리 구미호 확률과 프로모",
-   "postDate": 1789857000000,
-   "postDateText": "2026-09-20 07:30",
-   "addDate": 1789638991733
-  },
   {
    "logNo": "224415048223",
    "title": "포켓몬카드 사기 사례 2026, 재포장 박스 구별법과 안전거래 방법",
@@ -1138,6 +1139,13 @@
  "stats": {
   "dailyCv": [
    {
+    "date": "2026-09-20",
+    "total": 5,
+    "friend": 2,
+    "follow": 0,
+    "etc": 3
+   },
+   {
     "date": "2026-09-19",
     "total": 253,
     "friend": 3,
@@ -1234,29 +1242,163 @@
     "friend": 0,
     "follow": 0,
     "etc": 0
-   },
-   {
-    "date": "2026-09-05",
-    "total": 0,
-    "friend": 0,
-    "follow": 0,
-    "etc": 0
    }
   ],
   "today": {
+   "date": "2026-09-20",
+   "utime": "2026-09-20T09:36:41",
+   "dashboard": {
+    "dailyComment": 0,
+    "dailyPlayCount": "0",
+    "dailyCv": 5,
+    "dailyLike": 0,
+    "dailyCommentUtime": "2026-09-20T09:36:41",
+    "dailyRelationDeltaUtime": "2026-09-20T09:36:41",
+    "dailyRelationDelta": 0,
+    "isToday": true,
+    "dailyLikeUtime": "2026-09-20T09:36:41",
+    "dailyCvUtime": "2026-09-20T09:36:41"
+   },
+   "dailyCv": [
+    {
+     "date": "2026-09-20",
+     "cv": 5
+    },
+    {
+     "date": "2026-09-19",
+     "cv": 253
+    },
+    {
+     "date": "2026-09-18",
+     "cv": 609
+    },
+    {
+     "date": "2026-09-17",
+     "cv": 558
+    },
+    {
+     "date": "2026-09-16",
+     "cv": 29
+    },
+    {
+     "date": "2026-09-15",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-14",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-13",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-12",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-11",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-10",
+     "cv": 1
+    },
+    {
+     "date": "2026-09-09",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-08",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-07",
+     "cv": 0
+    },
+    {
+     "date": "2026-09-06",
+     "cv": 0
+    }
+   ],
+   "rankCv": [
+    {
+     "rank": 1,
+     "cv": 2,
+     "title": "리프트바운드 카드 레어도 봉입률 총정리, 아리 구미호 확률과 프로모",
+     "logNo": "224415206636",
+     "createDate": "2026.09.20. 07:30"
+    },
+    {
+     "rank": 2,
+     "cv": 1,
+     "title": "포켓몬카드 등급 레어도 총정리 RR AR SAR MUR FUR 뜻",
+     "logNo": "224414205485",
+     "createDate": "2026.09.16. 22:24"
+    },
+    {
+     "rank": 2,
+     "cv": 1,
+     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
+     "logNo": "224414209725",
+     "createDate": "2026.09.16. 22:28"
+    },
+    {
+     "rank": 2,
+     "cv": 1,
+     "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
+     "logNo": "224414565203",
+     "createDate": "2026.09.17. 09:35"
+    }
+   ],
+   "referer": [
+    {
+     "name": "Daum_모바일",
+     "cv": 1,
+     "pct": 20
+    },
+    {
+     "name": "네이버 메인_PC",
+     "cv": 1,
+     "pct": 20
+    },
+    {
+     "name": "네이버 블로그_모바일",
+     "cv": 1,
+     "pct": 20
+    },
+    {
+     "name": "네이버 카페_모바일",
+     "cv": 1,
+     "pct": 20
+    },
+    {
+     "name": "네이버 통합검색_모바일",
+     "cv": 1,
+     "pct": 20
+    }
+   ],
+   "searchQueries": [
+    {
+     "cv": 1,
+     "pct": 100
+    }
+   ]
+  },
+  "yesterday": {
    "date": "2026-09-19",
-   "utime": "2026-09-19T23:54:36",
+   "utime": "2026-09-20T09:36:42",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
     "dailyCv": 253,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-19T23:54:36",
-    "dailyRelationDeltaUtime": "2026-09-19T23:54:36",
+    "dailyCommentUtime": "2026-09-20T09:36:42",
+    "dailyRelationDeltaUtime": "2026-09-20T09:36:42",
     "dailyRelationDelta": 0,
-    "isToday": true,
-    "dailyLikeUtime": "2026-09-19T23:54:36",
-    "dailyCvUtime": "2026-09-19T23:54:36"
+    "isToday": false,
+    "dailyLikeUtime": "2026-09-20T09:36:42",
+    "dailyCvUtime": "2026-09-20T09:36:42"
    },
    "dailyCv": [
     {
@@ -1533,181 +1675,6 @@
      "pct": 0.9
     }
    ]
-  },
-  "yesterday": {
-   "date": "2026-09-18",
-   "utime": "2026-09-19T23:01:10",
-   "dashboard": {
-    "dailyComment": 8,
-    "dailyPlayCount": "0",
-    "dailyCv": 609,
-    "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-19T23:01:10",
-    "dailyRelationDeltaUtime": "2026-09-19T23:01:10",
-    "dailyRelationDelta": 1,
-    "isToday": false,
-    "dailyLikeUtime": "2026-09-19T23:01:10",
-    "dailyCvUtime": "2026-09-19T23:01:10"
-   },
-   "dailyCv": [
-    {
-     "date": "2026-09-18",
-     "cv": 609
-    },
-    {
-     "date": "2026-09-17",
-     "cv": 558
-    },
-    {
-     "date": "2026-09-16",
-     "cv": 29
-    },
-    {
-     "date": "2026-09-15",
-     "cv": 0
-    },
-    {
-     "date": "2026-09-14",
-     "cv": 0
-    },
-    {
-     "date": "2026-09-13",
-     "cv": 0
-    },
-    {
-     "date": "2026-09-12",
-     "cv": 0
-    },
-    {
-     "date": "2026-09-11",
-     "cv": 0
-    },
-    {
-     "date": "2026-09-10",
-     "cv": 1
-    },
-    {
-     "date": "2026-09-09",
-     "cv": 0
-    },
-    {
-     "date": "2026-09-08",
-     "cv": 0
-    },
-    {
-     "date": "2026-09-07",
-     "cv": 0
-    },
-    {
-     "date": "2026-09-06",
-     "cv": 0
-    },
-    {
-     "date": "2026-09-05",
-     "cv": 0
-    },
-    {
-     "date": "2026-09-04",
-     "cv": 0
-    }
-   ],
-   "rankCv": [
-    {
-     "rank": 1,
-     "cv": 203,
-     "title": "포켓몬카드 30주년 궁금증 7가지, 파는곳 봉입 중복 RGB 시세까지",
-     "logNo": "224415150323",
-     "createDate": "2026.09.17. 19:00"
-    },
-    {
-     "rank": 2,
-     "cv": 75,
-     "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
-     "logNo": "224414565203",
-     "createDate": "2026.09.17. 09:35"
-    },
-    {
-     "rank": 3,
-     "cv": 74,
-     "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
-     "logNo": "224415288070",
-     "createDate": "2026.09.17. 20:41"
-    },
-    {
-     "rank": 4,
-     "cv": 61,
-     "title": "포켓몬카드 일본판 한글판 차이 총정리 시세 서치 대회 사용 가능 여부",
-     "logNo": "224414564455",
-     "createDate": "2026.09.17. 09:34"
-    },
-    {
-     "rank": 5,
-     "cv": 33,
-     "title": "포켓몬 메가페스타 2026 피카츄의 가을 나들이 일정 예약 굿즈 정리",
-     "logNo": "224414559583",
-     "createDate": "2026.09.17. 11:00"
-    },
-    {
-     "rank": 6,
-     "cv": 22,
-     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
-     "logNo": "224414209725",
-     "createDate": "2026.09.16. 22:28"
-    }
-   ],
-   "referer": [
-    {
-     "name": "네이버 메인_모바일_홈판",
-     "cv": 251,
-     "pct": 42.8
-    },
-    {
-     "name": "네이버 통합검색_모바일",
-     "cv": 180,
-     "pct": 30.7
-    },
-    {
-     "name": "네이버 블로그검색_모바일",
-     "cv": 72,
-     "pct": 12.3
-    },
-    {
-     "name": "네이버 블로그_모바일",
-     "cv": 26,
-     "pct": 4.4
-    },
-    {
-     "name": "네이버 통합검색_PC",
-     "cv": 24,
-     "pct": 4.1
-    },
-    {
-     "name": "네이버 메인_모바일",
-     "cv": 14,
-     "pct": 2.4
-    },
-    {
-     "name": "네이버 블로그검색_PC",
-     "cv": 13,
-     "pct": 2.2
-    },
-    {
-     "name": "네이버 블로그_PC",
-     "cv": 5,
-     "pct": 0.9
-    },
-    {
-     "name": "Daum_모바일",
-     "cv": 1,
-     "pct": 0.2
-    }
-   ],
-   "searchQueries": [
-    {
-     "cv": 251,
-     "pct": 100
-    }
-   ]
   }
  },
  "games": {
@@ -1756,6 +1723,16 @@
  ],
  "routines": [
   {
+   "id": "visGHRYgqUFXHhjV",
+   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
+   "runAt": null,
+   "nextRunAt": "2026-09-20T04:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
    "id": "1npLAD0wuozLwqfW",
    "name": "고몽이 TCG 센터 주간 신규 글 3개 작성·예약",
    "kind": "cron",
@@ -1763,16 +1740,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=WE;BYHOUR=9;BYMINUTE=30",
    "runAt": null,
    "nextRunAt": "2026-09-23T00:30:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "visGHRYgqUFXHhjV",
-   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
-   "runAt": null,
-   "nextRunAt": "2026-09-19T23:00:00.000Z",
    "lastRunAt": null
   },
   {
