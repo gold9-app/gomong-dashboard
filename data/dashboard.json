@@ -1,14 +1,14 @@
 {
- "collectedAt": "2026-09-20T02:00:07.091Z",
- "collectedAtText": "2026-09-20 11:00",
+ "collectedAt": "2026-09-20T03:01:05.134Z",
+ "collectedAtText": "2026-09-20 12:01",
  "blogId": "gold_ggu",
- "elapsedMs": 2941,
+ "elapsedMs": 8484,
  "errors": [],
  "summary": {
   "publicCount": 29,
   "queueCount": 8,
   "totalCount": 37,
-  "todayCv": 5,
+  "todayCv": 6,
   "yesterdayCv": 253,
   "todayVisitor": 0,
   "buddyCount": 38,
@@ -23,7 +23,7 @@
   "totalComments": 6,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 1424
+  "totalReadCount": 1425
  },
  "alerts": [
   {
@@ -55,6 +55,12 @@
    "type": "links",
    "logNo": "224415206012",
    "text": "관련 글·로드맵 링크 보강 대기: #33"
+  },
+  {
+   "level": "info",
+   "type": "links",
+   "logNo": "224415206636",
+   "text": "관련 글·로드맵 링크 보강 대기: #34"
   }
  ],
  "posts": [
@@ -369,7 +375,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414573930",
    "openType": "2",
    "searchYn": true,
-   "readCount": 1,
+   "readCount": 2,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -827,7 +833,7 @@
    "v5": true,
    "internalLinks": 16,
    "imgs": 5,
-   "relatedLinksPending": false,
+   "relatedLinksPending": true,
    "priceUpdate": null,
    "rank": null,
    "aiCited": false
@@ -1134,10 +1140,10 @@
   "dailyCv": [
    {
     "date": "2026-09-20",
-    "total": 5,
+    "total": 6,
     "friend": 2,
     "follow": 0,
-    "etc": 3
+    "etc": 4
    },
    {
     "date": "2026-09-19",
@@ -1240,23 +1246,23 @@
   ],
   "today": {
    "date": "2026-09-20",
-   "utime": "2026-09-20T11:00:06",
+   "utime": "2026-09-20T12:01:04",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 5,
+    "dailyCv": 6,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-20T11:00:06",
-    "dailyRelationDeltaUtime": "2026-09-20T11:00:06",
+    "dailyCommentUtime": "2026-09-20T12:01:04",
+    "dailyRelationDeltaUtime": "2026-09-20T12:01:04",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-20T11:00:06",
-    "dailyCvUtime": "2026-09-20T11:00:06"
+    "dailyLikeUtime": "2026-09-20T12:01:04",
+    "dailyCvUtime": "2026-09-20T12:01:04"
    },
    "dailyCv": [
     {
      "date": "2026-09-20",
-     "cv": 5
+     "cv": 6
     },
     {
      "date": "2026-09-19",
@@ -1343,56 +1349,69 @@
      "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
      "logNo": "224414565203",
      "createDate": "2026.09.17. 09:35"
+    },
+    {
+     "rank": 2,
+     "cv": 1,
+     "title": "포켓몬 월드챔피언십 2026 결과 우승 덱과 2027 싱가포르 일정",
+     "logNo": "224414573930",
+     "createDate": "2026.09.17. 09:43"
     }
    ],
    "referer": [
     {
+     "name": "네이버 통합검색_모바일",
+     "cv": 2,
+     "pct": 33.3
+    },
+    {
      "name": "Daum_모바일",
      "cv": 1,
-     "pct": 20
+     "pct": 16.7
     },
     {
      "name": "네이버 메인_PC",
      "cv": 1,
-     "pct": 20
+     "pct": 16.7
     },
     {
      "name": "네이버 블로그_모바일",
      "cv": 1,
-     "pct": 20
+     "pct": 16.7
     },
     {
      "name": "네이버 카페_모바일",
      "cv": 1,
-     "pct": 20
-    },
-    {
-     "name": "네이버 통합검색_모바일",
-     "cv": 1,
-     "pct": 20
+     "pct": 16.7
     }
    ],
    "searchQueries": [
     {
+     "query": "포켓몬 카드 덱 티어",
      "cv": 1,
-     "pct": 100
+     "pct": 50
+    },
+    {
+     "query": "포켓몬카드 fur 뜻",
+     "cv": 1,
+     "pct": 50
     }
    ]
   },
   "yesterday": {
    "date": "2026-09-19",
-   "utime": "2026-09-20T09:36:42",
+   "utime": "2026-09-20T12:01:04",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
     "dailyCv": 253,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-20T09:36:42",
-    "dailyRelationDeltaUtime": "2026-09-20T09:36:42",
+    "dailyCommentUtime": "2026-09-20T12:01:05",
+    "dailyRelationDeltaUtime": "2026-09-20T12:01:05",
     "dailyRelationDelta": 0,
     "isToday": false,
-    "dailyLikeUtime": "2026-09-20T09:36:42",
-    "dailyCvUtime": "2026-09-20T09:36:42"
+    "dailyLikeUtime": "2026-09-20T12:01:04",
+    "dailyCvUtime": "2026-09-20T12:01:04"
    },
    "dailyCv": [
     {
@@ -1727,6 +1746,36 @@
    "lastRunAt": null
   },
   {
+   "id": "M9NfpneHkpb9mBsI",
+   "name": "고몽이 PWA 작업 요청 실행 (앱 → ntfy task)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": null,
+   "runAt": null,
+   "nextRunAt": null,
+   "lastRunAt": null
+  },
+  {
+   "id": "1npLAD0wuozLwqfW",
+   "name": "고몽이 TCG 센터 주간 신규 글 3개 작성·예약 + 시세 글 갱신",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=WEEKLY;BYDAY=WE;BYHOUR=9;BYMINUTE=30",
+   "runAt": null,
+   "nextRunAt": "2026-09-23T00:30:00.000Z",
+   "lastRunAt": null
+  },
+  {
+   "id": "K1DofV6ZppeCneRz",
+   "name": "고몽이 TCG 센터 주간 노출순위 + AI 브리핑 인용수 + 월간 AI인용 점검",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
+   "runAt": null,
+   "nextRunAt": "2026-09-21T00:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
    "id": "visGHRYgqUFXHhjV",
    "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
    "kind": "cron",
@@ -1734,16 +1783,6 @@
    "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
    "runAt": null,
    "nextRunAt": "2026-09-20T04:00:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "1npLAD0wuozLwqfW",
-   "name": "고몽이 TCG 센터 주간 신규 글 3개 작성·예약",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=WEEKLY;BYDAY=WE;BYHOUR=9;BYMINUTE=30",
-   "runAt": null,
-   "nextRunAt": "2026-09-23T00:30:00.000Z",
    "lastRunAt": null
   },
   {
@@ -1765,16 +1804,6 @@
    "runAt": null,
    "nextRunAt": "2026-09-24T00:30:00.000Z",
    "lastRunAt": null
-  },
-  {
-   "id": "K1DofV6ZppeCneRz",
-   "name": "고몽이 TCG 센터 주간 노출순위 + AI 브리핑 인용수 + 월간 AI인용 점검",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
-   "runAt": null,
-   "nextRunAt": "2026-09-21T00:00:00.000Z",
-   "lastRunAt": null
   }
  ],
  "ops": {
@@ -1790,7 +1819,8 @@
    "224415051543",
    "224415048223",
    "224415205495",
-   "224415206012"
+   "224415206012",
+   "224415206636"
   ],
   "priceUpdates": [
    {
