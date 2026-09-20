@@ -1,14 +1,14 @@
 {
- "collectedAt": "2026-09-20T03:01:05.134Z",
- "collectedAtText": "2026-09-20 12:01",
+ "collectedAt": "2026-09-20T04:00:35.709Z",
+ "collectedAtText": "2026-09-20 13:00",
  "blogId": "gold_ggu",
- "elapsedMs": 8484,
+ "elapsedMs": 8284,
  "errors": [],
  "summary": {
   "publicCount": 29,
   "queueCount": 8,
   "totalCount": 37,
-  "todayCv": 6,
+  "todayCv": 7,
   "yesterdayCv": 253,
   "todayVisitor": 0,
   "buddyCount": 38,
@@ -23,7 +23,7 @@
   "totalComments": 6,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 1425
+  "totalReadCount": 1426
  },
  "alerts": [
   {
@@ -467,7 +467,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414565203",
    "openType": "2",
    "searchYn": true,
-   "readCount": 139,
+   "readCount": 140,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1140,10 +1140,10 @@
   "dailyCv": [
    {
     "date": "2026-09-20",
-    "total": 6,
+    "total": 7,
     "friend": 2,
     "follow": 0,
-    "etc": 4
+    "etc": 5
    },
    {
     "date": "2026-09-19",
@@ -1246,23 +1246,23 @@
   ],
   "today": {
    "date": "2026-09-20",
-   "utime": "2026-09-20T12:01:04",
+   "utime": "2026-09-20T13:00:35",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 6,
+    "dailyCv": 7,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-20T12:01:04",
-    "dailyRelationDeltaUtime": "2026-09-20T12:01:04",
+    "dailyCommentUtime": "2026-09-20T13:00:35",
+    "dailyRelationDeltaUtime": "2026-09-20T13:00:35",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-20T12:01:04",
-    "dailyCvUtime": "2026-09-20T12:01:04"
+    "dailyLikeUtime": "2026-09-20T13:00:35",
+    "dailyCvUtime": "2026-09-20T13:00:35"
    },
    "dailyCv": [
     {
      "date": "2026-09-20",
-     "cv": 6
+     "cv": 7
     },
     {
      "date": "2026-09-19",
@@ -1325,33 +1325,33 @@
     {
      "rank": 1,
      "cv": 2,
+     "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
+     "logNo": "224414565203",
+     "createDate": "2026.09.17. 09:35"
+    },
+    {
+     "rank": 1,
+     "cv": 2,
      "title": "리프트바운드 카드 레어도 봉입률 총정리, 아리 구미호 확률과 프로모",
      "logNo": "224415206636",
      "createDate": "2026.09.20. 07:30"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "cv": 1,
      "title": "포켓몬카드 등급 레어도 총정리 RR AR SAR MUR FUR 뜻",
      "logNo": "224414205485",
      "createDate": "2026.09.16. 22:24"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "cv": 1,
      "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
      "logNo": "224414209725",
      "createDate": "2026.09.16. 22:28"
     },
     {
-     "rank": 2,
-     "cv": 1,
-     "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
-     "logNo": "224414565203",
-     "createDate": "2026.09.17. 09:35"
-    },
-    {
-     "rank": 2,
+     "rank": 3,
      "cv": 1,
      "title": "포켓몬 월드챔피언십 2026 결과 우승 덱과 2027 싱가포르 일정",
      "logNo": "224414573930",
@@ -1736,8 +1736,18 @@
  ],
  "routines": [
   {
-   "id": "rpipJV3U6nwV8XjD",
-   "name": "고몽이 관제 대시보드 수동 최신화 (앱 버튼 → ntfy 푸시)",
+   "id": "visGHRYgqUFXHhjV",
+   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
+   "runAt": null,
+   "nextRunAt": "2026-09-20T11:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
+   "id": "M9NfpneHkpb9mBsI",
+   "name": "고몽이 PWA 작업 요청 실행 (앱 → ntfy task)",
    "kind": "cron",
    "state": "active",
    "rrule": null,
@@ -1746,8 +1756,8 @@
    "lastRunAt": null
   },
   {
-   "id": "M9NfpneHkpb9mBsI",
-   "name": "고몽이 PWA 작업 요청 실행 (앱 → ntfy task)",
+   "id": "rpipJV3U6nwV8XjD",
+   "name": "고몽이 관제 대시보드 수동 최신화 (앱 버튼 → ntfy 푸시)",
    "kind": "cron",
    "state": "active",
    "rrule": null,
@@ -1773,16 +1783,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
    "runAt": null,
    "nextRunAt": "2026-09-21T00:00:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "visGHRYgqUFXHhjV",
-   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
-   "runAt": null,
-   "nextRunAt": "2026-09-20T04:00:00.000Z",
    "lastRunAt": null
   },
   {
