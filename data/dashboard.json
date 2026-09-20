@@ -1,14 +1,14 @@
 {
- "collectedAt": "2026-09-20T04:00:35.709Z",
- "collectedAtText": "2026-09-20 13:00",
+ "collectedAt": "2026-09-20T11:05:29.623Z",
+ "collectedAtText": "2026-09-20 20:05",
  "blogId": "gold_ggu",
- "elapsedMs": 8284,
+ "elapsedMs": 8745,
  "errors": [],
  "summary": {
-  "publicCount": 29,
-  "queueCount": 8,
+  "publicCount": 30,
+  "queueCount": 7,
   "totalCount": 37,
-  "todayCv": 7,
+  "todayCv": 13,
   "yesterdayCv": 253,
   "todayVisitor": 0,
   "buddyCount": 38,
@@ -23,7 +23,7 @@
   "totalComments": 6,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 1426
+  "totalReadCount": 1432
  },
  "alerts": [
   {
@@ -43,6 +43,12 @@
    "type": "links",
    "logNo": "224415046460",
    "text": "관련 글·로드맵 링크 보강 대기: #26"
+  },
+  {
+   "level": "info",
+   "type": "links",
+   "logNo": "224415048223",
+   "text": "관련 글·로드맵 링크 보강 대기: #28"
   },
   {
    "level": "info",
@@ -168,7 +174,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414209725",
    "openType": "2",
    "searchYn": true,
-   "readCount": 141,
+   "readCount": 142,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -643,7 +649,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415046460",
    "openType": "2",
    "searchYn": true,
-   "readCount": 10,
+   "readCount": 11,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -679,19 +685,21 @@
    "no": 28,
    "logNo": "224415048223",
    "title": "포켓몬카드 사기 사례 2026, 재포장 박스 구별법과 안전거래 방법",
-   "status": "예약",
+   "status": "공개",
    "game": "포켓몬",
    "category": "포켓몬 카드 시세·수집",
    "keyword": "포켓몬카드",
    "publishedText": "2026-09-20 19:00",
-   "postDate": 1789898400000,
    "url": "https://blog.naver.com/gold_ggu/224415048223",
-   "searchYn": null,
-   "readCount": 0,
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 1,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
-   "relatedLinksPending": false,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 5,
+   "relatedLinksPending": true,
    "priceUpdate": null,
    "rank": null,
    "aiCited": false
@@ -777,7 +785,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415205495",
    "openType": "2",
    "searchYn": true,
-   "readCount": 3,
+   "readCount": 4,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -850,7 +858,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415288070",
    "openType": "2",
    "searchYn": true,
-   "readCount": 128,
+   "readCount": 130,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -909,13 +917,6 @@
   }
  ],
  "queue": [
-  {
-   "logNo": "224415048223",
-   "title": "포켓몬카드 사기 사례 2026, 재포장 박스 구별법과 안전거래 방법",
-   "postDate": 1789898400000,
-   "postDateText": "2026-09-20 19:00",
-   "addDate": 1789629884673
-  },
   {
    "logNo": "224415048979",
    "title": "포켓몬카드 슬리브 사이즈 총정리 이너 아우터 탑로더 35pt 다이소",
@@ -1140,10 +1141,10 @@
   "dailyCv": [
    {
     "date": "2026-09-20",
-    "total": 7,
-    "friend": 2,
+    "total": 12,
+    "friend": 4,
     "follow": 0,
-    "etc": 5
+    "etc": 8
    },
    {
     "date": "2026-09-19",
@@ -1246,23 +1247,23 @@
   ],
   "today": {
    "date": "2026-09-20",
-   "utime": "2026-09-20T13:00:35",
+   "utime": "2026-09-20T20:05:30",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 7,
+    "dailyCv": 13,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-20T13:00:35",
-    "dailyRelationDeltaUtime": "2026-09-20T13:00:35",
+    "dailyCommentUtime": "2026-09-20T20:05:30",
+    "dailyRelationDeltaUtime": "2026-09-20T20:05:30",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-20T13:00:35",
-    "dailyCvUtime": "2026-09-20T13:00:35"
+    "dailyLikeUtime": "2026-09-20T20:05:30",
+    "dailyCvUtime": "2026-09-20T20:05:30"
    },
    "dailyCv": [
     {
      "date": "2026-09-20",
-     "cv": 7
+     "cv": 13
     },
     {
      "date": "2026-09-19",
@@ -1325,6 +1326,13 @@
     {
      "rank": 1,
      "cv": 2,
+     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
+     "logNo": "224414209725",
+     "createDate": "2026.09.16. 22:28"
+    },
+    {
+     "rank": 1,
+     "cv": 2,
      "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
      "logNo": "224414565203",
      "createDate": "2026.09.17. 09:35"
@@ -1337,81 +1345,75 @@
      "createDate": "2026.09.20. 07:30"
     },
     {
-     "rank": 3,
+     "rank": 4,
      "cv": 1,
      "title": "포켓몬카드 등급 레어도 총정리 RR AR SAR MUR FUR 뜻",
      "logNo": "224414205485",
      "createDate": "2026.09.16. 22:24"
     },
     {
-     "rank": 3,
-     "cv": 1,
-     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
-     "logNo": "224414209725",
-     "createDate": "2026.09.16. 22:28"
-    },
-    {
-     "rank": 3,
+     "rank": 4,
      "cv": 1,
      "title": "포켓몬 월드챔피언십 2026 결과 우승 덱과 2027 싱가포르 일정",
      "logNo": "224414573930",
      "createDate": "2026.09.17. 09:43"
+    },
+    {
+     "rank": 4,
+     "cv": 1,
+     "title": "포켓몬카드 10월 발매 예정 FUTURISTIC BOX 정가와 구성",
+     "logNo": "224415046460",
+     "createDate": "2026.09.18. 19:00"
     }
    ],
    "referer": [
     {
+     "name": "네이버 메인_PC",
+     "cv": 3,
+     "pct": 30
+    },
+    {
      "name": "네이버 통합검색_모바일",
-     "cv": 2,
-     "pct": 33.3
+     "cv": 3,
+     "pct": 30
     },
     {
      "name": "Daum_모바일",
-     "cv": 1,
-     "pct": 16.7
-    },
-    {
-     "name": "네이버 메인_PC",
-     "cv": 1,
-     "pct": 16.7
+     "cv": 2,
+     "pct": 20
     },
     {
      "name": "네이버 블로그_모바일",
      "cv": 1,
-     "pct": 16.7
+     "pct": 10
     },
     {
      "name": "네이버 카페_모바일",
      "cv": 1,
-     "pct": 16.7
+     "pct": 10
     }
    ],
    "searchQueries": [
     {
-     "query": "포켓몬 카드 덱 티어",
-     "cv": 1,
-     "pct": 50
-    },
-    {
-     "query": "포켓몬카드 fur 뜻",
-     "cv": 1,
-     "pct": 50
+     "cv": 3,
+     "pct": 100
     }
    ]
   },
   "yesterday": {
    "date": "2026-09-19",
-   "utime": "2026-09-20T12:01:04",
+   "utime": "2026-09-20T20:00:44",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
     "dailyCv": 253,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-20T12:01:05",
-    "dailyRelationDeltaUtime": "2026-09-20T12:01:05",
+    "dailyCommentUtime": "2026-09-20T20:00:44",
+    "dailyRelationDeltaUtime": "2026-09-20T20:00:44",
     "dailyRelationDelta": 0,
     "isToday": false,
-    "dailyLikeUtime": "2026-09-20T12:01:04",
-    "dailyCvUtime": "2026-09-20T12:01:04"
+    "dailyLikeUtime": "2026-09-20T20:00:44",
+    "dailyCvUtime": "2026-09-20T20:00:44"
    },
    "dailyCv": [
     {
@@ -1742,7 +1744,7 @@
    "state": "active",
    "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
    "runAt": null,
-   "nextRunAt": "2026-09-20T11:00:00.000Z",
+   "nextRunAt": "2026-09-20T23:00:00.000Z",
    "lastRunAt": null
   },
   {
