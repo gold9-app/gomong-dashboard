@@ -1,29 +1,29 @@
 {
- "collectedAt": "2026-09-20T11:05:29.623Z",
- "collectedAtText": "2026-09-20 20:05",
+ "collectedAt": "2026-09-20T23:05:26.892Z",
+ "collectedAtText": "2026-09-21 08:05",
  "blogId": "gold_ggu",
- "elapsedMs": 8745,
+ "elapsedMs": 8761,
  "errors": [],
  "summary": {
-  "publicCount": 30,
-  "queueCount": 7,
-  "totalCount": 37,
-  "todayCv": 13,
-  "yesterdayCv": 253,
+  "publicCount": 32,
+  "queueCount": 6,
+  "totalCount": 38,
+  "todayCv": 5,
+  "yesterdayCv": 22,
   "todayVisitor": 0,
-  "buddyCount": 38,
+  "buddyCount": 39,
   "citations": {
-   "cumulative": 3228,
-   "month": 3228,
+   "cumulative": 4498,
+   "month": 4498,
    "selectionPeriod": 0,
    "currentMonth": 9,
    "selectionPeriodMonth": 7
   },
   "unansweredComments": 0,
-  "totalComments": 6,
+  "totalComments": 7,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 1432
+  "totalReadCount": 1444
  },
  "alerts": [
   {
@@ -37,6 +37,12 @@
    "type": "links",
    "logNo": "224415045587",
    "text": "관련 글·로드맵 링크 보강 대기: #20"
+  },
+  {
+   "level": "info",
+   "type": "links",
+   "logNo": "224415048979",
+   "text": "관련 글·로드맵 링크 보강 대기: #22"
   },
   {
    "level": "info",
@@ -151,7 +157,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414209036",
    "openType": "2",
    "searchYn": true,
-   "readCount": 101,
+   "readCount": 103,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -174,7 +180,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414209725",
    "openType": "2",
    "searchYn": true,
-   "readCount": 142,
+   "readCount": 145,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -197,7 +203,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414211054",
    "openType": "2",
    "searchYn": true,
-   "readCount": 74,
+   "readCount": 75,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -266,7 +272,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414213436",
    "openType": "2",
    "searchYn": true,
-   "readCount": 75,
+   "readCount": 76,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -427,7 +433,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414571492",
    "openType": "2",
    "searchYn": true,
-   "readCount": 17,
+   "readCount": 18,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -555,19 +561,21 @@
    "no": 22,
    "logNo": "224415048979",
    "title": "포켓몬카드 슬리브 사이즈 총정리 이너 아우터 탑로더 35pt 다이소",
-   "status": "예약",
+   "status": "공개",
    "game": "포켓몬",
    "category": "포켓몬 카드 입문 가이드",
    "keyword": "포켓몬카드",
    "publishedText": "2026-09-21 07:30",
-   "postDate": 1789943400000,
    "url": "https://blog.naver.com/gold_ggu/224415048979",
-   "searchYn": null,
+   "openType": "2",
+   "searchYn": true,
    "readCount": 0,
-   "commentCount": 0,
+   "commentCount": 2,
    "unanswered": 0,
-   "v5": false,
-   "relatedLinksPending": false,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 4,
+   "relatedLinksPending": true,
    "priceUpdate": null,
    "rank": null,
    "aiCited": false
@@ -739,7 +747,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415077034",
    "openType": "2",
    "searchYn": true,
-   "readCount": 2,
+   "readCount": 3,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -858,7 +866,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415288070",
    "openType": "2",
    "searchYn": true,
-   "readCount": 130,
+   "readCount": 132,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -914,16 +922,32 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false
+  },
+  {
+   "no": 38,
+   "logNo": "224418031926",
+   "title": "포켓몬 카드샵 구리 30주년 판매중단 정리, 700명 인파 경찰 출동",
+   "status": "공개",
+   "game": "포켓몬",
+   "category": "포켓몬 굿즈·이벤트",
+   "keyword": "포켓몬카드샵 구리",
+   "publishedText": "2026-09-20 22:10 발행(이슈성 즉시)",
+   "url": "https://blog.naver.com/gold_ggu/224418031926",
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 1,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 3,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
   }
  ],
  "queue": [
-  {
-   "logNo": "224415048979",
-   "title": "포켓몬카드 슬리브 사이즈 총정리 이너 아우터 탑로더 35pt 다이소",
-   "postDate": 1789943400000,
-   "postDateText": "2026-09-21 07:30",
-   "addDate": 1789629923094
-  },
   {
    "logNo": "224415309687",
    "title": "원피스카드 시세 2026 고가 TOP 15와 박스 시세 총정리",
@@ -968,6 +992,34 @@
   }
  ],
  "comments": [
+  {
+   "logNo": "224415048979",
+   "commentNo": "905444262999490729",
+   "parentCommentNo": "905443900292857875",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "겜카님 반갑습니다, 고몽이입니다. 다이소 슬리브는 수납 6.5x9cm, 탑로더는 6.7x9.6cm라 포켓몬카드에 들어갑니다. 다만 다이소 슬리브는 아우터 규격이라 탑로더에 넣으면 여유가 조금 있어서, SAR 이상 고가 카드는 퍼펙트핏을 먼저 씌우는 편이 안전해요. 매장별로 입고 규격이 ",
+   "regTime": "2026-09-21T08:04:43+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224415048979",
+   "commentNo": "905443900292857875",
+   "parentCommentNo": "905443900292857875",
+   "replyLevel": 1,
+   "userName": "겜카",
+   "contents": "다이소에도 잇다니 감사합니다",
+   "regTime": "2026-09-21T07:59:05+0900",
+   "mine": false,
+   "replyCount": 1,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
   {
    "logNo": "224415046460",
    "commentNo": "905208754205622304",
@@ -1140,11 +1192,18 @@
  "stats": {
   "dailyCv": [
    {
+    "date": "2026-09-21",
+    "total": 5,
+    "friend": 2,
+    "follow": 0,
+    "etc": 3
+   },
+   {
     "date": "2026-09-20",
-    "total": 12,
+    "total": 22,
     "friend": 4,
     "follow": 0,
-    "etc": 8
+    "etc": 18
    },
    {
     "date": "2026-09-19",
@@ -1236,34 +1295,31 @@
     "friend": 0,
     "follow": 0,
     "etc": 0
-   },
-   {
-    "date": "2026-09-06",
-    "total": 0,
-    "friend": 0,
-    "follow": 0,
-    "etc": 0
    }
   ],
   "today": {
-   "date": "2026-09-20",
-   "utime": "2026-09-20T20:05:30",
+   "date": "2026-09-21",
+   "utime": "2026-09-21T08:05:25",
    "dashboard": {
-    "dailyComment": 0,
+    "dailyComment": 2,
     "dailyPlayCount": "0",
-    "dailyCv": 13,
+    "dailyCv": 5,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-20T20:05:30",
-    "dailyRelationDeltaUtime": "2026-09-20T20:05:30",
+    "dailyCommentUtime": "2026-09-21T08:05:25",
+    "dailyRelationDeltaUtime": "2026-09-21T08:05:25",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-20T20:05:30",
-    "dailyCvUtime": "2026-09-20T20:05:30"
+    "dailyLikeUtime": "2026-09-21T08:05:25",
+    "dailyCvUtime": "2026-09-21T08:05:25"
    },
    "dailyCv": [
     {
+     "date": "2026-09-21",
+     "cv": 5
+    },
+    {
      "date": "2026-09-20",
-     "cv": 13
+     "cv": 22
     },
     {
      "date": "2026-09-19",
@@ -1316,106 +1372,70 @@
     {
      "date": "2026-09-07",
      "cv": 0
-    },
-    {
-     "date": "2026-09-06",
-     "cv": 0
     }
    ],
    "rankCv": [
     {
      "rank": 1,
      "cv": 2,
-     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
-     "logNo": "224414209725",
-     "createDate": "2026.09.16. 22:28"
+     "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
+     "logNo": "224415288070",
+     "createDate": "2026.09.17. 20:41"
     },
     {
-     "rank": 1,
-     "cv": 2,
-     "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
-     "logNo": "224414565203",
-     "createDate": "2026.09.17. 09:35"
-    },
-    {
-     "rank": 1,
-     "cv": 2,
-     "title": "리프트바운드 카드 레어도 봉입률 총정리, 아리 구미호 확률과 프로모",
-     "logNo": "224415206636",
-     "createDate": "2026.09.20. 07:30"
-    },
-    {
-     "rank": 4,
+     "rank": 2,
      "cv": 1,
-     "title": "포켓몬카드 등급 레어도 총정리 RR AR SAR MUR FUR 뜻",
-     "logNo": "224414205485",
-     "createDate": "2026.09.16. 22:24"
+     "title": "포켓몬카드 티어 덱 2026, 월챔과 코리안리그 우승 덱 레시피 정리",
+     "logNo": "224414571492",
+     "createDate": "2026.09.17. 09:41"
     },
     {
-     "rank": 4,
+     "rank": 2,
      "cv": 1,
-     "title": "포켓몬 월드챔피언십 2026 결과 우승 덱과 2027 싱가포르 일정",
-     "logNo": "224414573930",
-     "createDate": "2026.09.17. 09:43"
-    },
-    {
-     "rank": 4,
-     "cv": 1,
-     "title": "포켓몬카드 10월 발매 예정 FUTURISTIC BOX 정가와 구성",
-     "logNo": "224415046460",
-     "createDate": "2026.09.18. 19:00"
+     "title": "포켓몬 카드샵 구리 30주년 판매중단 정리, 700명 인파 경찰 출동",
+     "logNo": "224418031926",
+     "createDate": "2026.09.20. 22:00"
     }
    ],
    "referer": [
     {
      "name": "네이버 메인_PC",
-     "cv": 3,
-     "pct": 30
+     "cv": 1,
+     "pct": 50
     },
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 3,
-     "pct": 30
-    },
-    {
-     "name": "Daum_모바일",
-     "cv": 2,
-     "pct": 20
-    },
-    {
-     "name": "네이버 블로그_모바일",
      "cv": 1,
-     "pct": 10
-    },
-    {
-     "name": "네이버 카페_모바일",
-     "cv": 1,
-     "pct": 10
+     "pct": 50
     }
    ],
    "searchQueries": [
     {
-     "cv": 3,
+     "cv": 1,
      "pct": 100
     }
    ]
   },
   "yesterday": {
-   "date": "2026-09-19",
-   "utime": "2026-09-20T20:00:44",
+   "date": "2026-09-20",
+   "utime": "2026-09-21T08:00:33",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 253,
+    "dailyCv": 22,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-20T20:00:44",
-    "dailyRelationDeltaUtime": "2026-09-20T20:00:44",
+    "dailyCommentUtime": "2026-09-21T08:00:33",
+    "dailyRelationDeltaUtime": "2026-09-21T08:00:33",
     "dailyRelationDelta": 0,
     "isToday": false,
-    "dailyLikeUtime": "2026-09-20T20:00:44",
-    "dailyCvUtime": "2026-09-20T20:00:44"
+    "dailyLikeUtime": "2026-09-21T08:00:33",
+    "dailyCvUtime": "2026-09-21T08:00:33"
    },
    "dailyCv": [
+    {
+     "date": "2026-09-20",
+     "cv": 22
+    },
     {
      "date": "2026-09-19",
      "cv": 253
@@ -1471,230 +1491,95 @@
     {
      "date": "2026-09-06",
      "cv": 0
-    },
-    {
-     "date": "2026-09-05",
-     "cv": 0
     }
    ],
    "rankCv": [
     {
      "rank": 1,
-     "cv": 43,
+     "cv": 5,
+     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
+     "logNo": "224414209725",
+     "createDate": "2026.09.16. 22:28"
+    },
+    {
+     "rank": 2,
+     "cv": 2,
+     "title": "포켓몬카드 시세 2026 고레어 실거래 BEST, 조회하는 곳 5곳",
+     "logNo": "224414209036",
+     "createDate": "2026.09.16. 22:28"
+    },
+    {
+     "rank": 2,
+     "cv": 2,
      "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
      "logNo": "224414565203",
      "createDate": "2026.09.17. 09:35"
     },
     {
      "rank": 2,
-     "cv": 40,
-     "title": "포켓몬카드 30주년 궁금증 7가지, 파는곳 봉입 중복 RGB 시세까지",
-     "logNo": "224415150323",
-     "createDate": "2026.09.17. 19:00"
+     "cv": 2,
+     "title": "리프트바운드 카드 레어도 봉입률 총정리, 아리 구미호 확률과 프로모",
+     "logNo": "224415206636",
+     "createDate": "2026.09.20. 07:30"
     },
     {
-     "rank": 3,
-     "cv": 30,
+     "rank": 2,
+     "cv": 2,
      "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
      "logNo": "224415288070",
      "createDate": "2026.09.17. 20:41"
     },
     {
-     "rank": 4,
-     "cv": 26,
-     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
-     "logNo": "224414209725",
-     "createDate": "2026.09.16. 22:28"
-    },
-    {
-     "rank": 5,
-     "cv": 20,
-     "title": "포켓몬카드 용어 총정리 서치 특일 노스알 힛카드 봉입률 슈링크 뜻",
-     "logNo": "224414562775",
-     "createDate": "2026.09.17. 09:33"
-    },
-    {
      "rank": 6,
-     "cv": 17,
-     "title": "포켓몬카드 스타트 덱 100 가격 구성과 입문 구축덱 고르는 법",
-     "logNo": "224414566792",
-     "createDate": "2026.09.17. 09:37"
+     "cv": 1,
+     "title": "포켓몬카드 등급 레어도 총정리 RR AR SAR MUR FUR 뜻",
+     "logNo": "224414205485",
+     "createDate": "2026.09.16. 22:24"
     }
    ],
    "referer": [
     {
-     "name": "네이버 통합검색_모바일",
-     "cv": 116,
-     "pct": 47.3
-    },
-    {
-     "name": "네이버 메인_모바일_홈판",
-     "cv": 44,
-     "pct": 18
-    },
-    {
-     "name": "네이버 블로그검색_모바일",
-     "cv": 39,
-     "pct": 15.9
-    },
-    {
-     "name": "네이버 블로그_모바일",
-     "cv": 14,
-     "pct": 5.7
-    },
-    {
-     "name": "네이버 블로그_PC",
-     "cv": 11,
-     "pct": 4.5
-    },
-    {
-     "name": "네이버 통합검색_PC",
-     "cv": 11,
-     "pct": 4.5
-    },
-    {
-     "name": "네이버 블로그검색_PC",
-     "cv": 3,
-     "pct": 1.2
-    },
-    {
-     "name": "gold9-app.github.io",
-     "cv": 2,
-     "pct": 0.8
-    },
-    {
-     "name": "Daum 검색_모바일",
-     "cv": 1,
-     "pct": 0.4
-    },
-    {
      "name": "Daum_모바일",
-     "cv": 1,
-     "pct": 0.4
+     "cv": 4,
+     "pct": 28.6
     },
     {
-     "name": "네이버 Keep_모바일",
-     "cv": 1,
-     "pct": 0.4
+     "name": "네이버 통합검색_모바일",
+     "cv": 4,
+     "pct": 28.6
     },
     {
      "name": "네이버 메인_PC",
-     "cv": 1,
-     "pct": 0.4
+     "cv": 3,
+     "pct": 21.4
     },
     {
-     "name": "네이버 메인_모바일",
+     "name": "Daum 검색_PC",
      "cv": 1,
-     "pct": 0.4
+     "pct": 7.1
+    },
+    {
+     "name": "네이버 블로그_모바일",
+     "cv": 1,
+     "pct": 7.1
+    },
+    {
+     "name": "네이버 카페_모바일",
+     "cv": 1,
+     "pct": 7.1
     }
    ],
    "searchQueries": [
     {
-     "query": "포켓몬카드 서치 뜻",
-     "cv": 6,
-     "pct": 5.2
-    },
-    {
-     "query": "포켓몬 30주년 카드 시세",
      "cv": 4,
-     "pct": 3.4
-    },
-    {
-     "query": "psa 등급 비용",
-     "cv": 3,
-     "pct": 2.6
-    },
-    {
-     "query": "강릉 카드웨이브",
-     "cv": 3,
-     "pct": 2.6
-    },
-    {
-     "query": "포캣몬 스타트덱",
-     "cv": 3,
-     "pct": 2.6
-    },
-    {
-     "query": "포켓몬 30주년 힛카드 시세",
-     "cv": 3,
-     "pct": 2.6
-    },
-    {
-     "query": "g마켓 포켓몬코리아",
-     "cv": 2,
-     "pct": 1.7
-    },
-    {
-     "query": "mur fur 차이",
-     "cv": 2,
-     "pct": 1.7
-    },
-    {
-     "query": "rgb 시세",
-     "cv": 2,
-     "pct": 1.7
-    },
-    {
-     "query": "역삼 이마트 포켓몬",
-     "cv": 2,
-     "pct": 1.7
-    },
-    {
-     "query": "편의점 포켓몬 카드 자판기",
-     "cv": 2,
-     "pct": 1.7
-    },
-    {
-     "query": "포켓몬 슈링크 뜻",
-     "cv": 2,
-     "pct": 1.7
-    },
-    {
-     "query": "포켓몬 카드 30주년 카드 시세",
-     "cv": 2,
-     "pct": 1.7
-    },
-    {
-     "query": "포켓몬 팝업 30주년 구매",
-     "cv": 2,
-     "pct": 1.7
-    },
-    {
-     "query": "포켓몬카드 슈링크 뜻",
-     "cv": 2,
-     "pct": 1.7
-    },
-    {
-     "query": "포켓몬카드 슈링크 확인",
-     "cv": 2,
-     "pct": 1.7
-    },
-    {
-     "query": "30주년 rgb뮤",
-     "cv": 1,
-     "pct": 0.9
-    },
-    {
-     "query": "30주년 일본판 힛카드",
-     "cv": 1,
-     "pct": 0.9
-    },
-    {
-     "query": "30주년 팩 파는곳대구",
-     "cv": 1,
-     "pct": 0.9
-    },
-    {
-     "query": "30주년 포켓몬카드 시세",
-     "cv": 1,
-     "pct": 0.9
+     "pct": 100
     }
    ]
   }
  },
  "games": {
   "count": {
-   "포켓몬": 33,
+   "포켓몬": 34,
    "리프트바운드": 3,
    "원피스": 1
   },
@@ -1744,7 +1629,17 @@
    "state": "active",
    "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
    "runAt": null,
-   "nextRunAt": "2026-09-20T23:00:00.000Z",
+   "nextRunAt": "2026-09-21T04:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
+   "id": "jbxWpQKKrt29BPlX",
+   "name": "고몽이 TCG 센터 카페 일일 점검 (등업 승인·질문·거래 규칙·출석 미션)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=20;BYMINUTE=30",
+   "runAt": null,
+   "nextRunAt": "2026-09-21T11:30:00.000Z",
    "lastRunAt": null
   },
   {
@@ -1785,16 +1680,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
    "runAt": null,
    "nextRunAt": "2026-09-21T00:00:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "jbxWpQKKrt29BPlX",
-   "name": "고몽이 TCG 센터 카페 일일 점검 (등업 승인·질문·거래 규칙·출석 미션)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=20;BYMINUTE=30",
-   "runAt": null,
-   "nextRunAt": "2026-09-20T11:30:00.000Z",
    "lastRunAt": null
   },
   {
@@ -1846,7 +1731,14 @@
     "note": "#32 리프트바운드 가격: 라이엇 공식 정가 발표 시 갱신"
    }
   ],
-  "notes": []
+  "notes": [],
+  "followUps": [
+   {
+    "logNo": "224418031926",
+    "note": "구리점 30주년 판매 재개 확인 시 본문 갱신",
+    "added": "2026-09-20"
+   }
+  ]
  },
  "loginOk": true,
  "preflight": "ok"
