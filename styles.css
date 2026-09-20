@@ -300,3 +300,10 @@ a.item:active { background: var(--surface-2); }
   .badge.st-hold { background: #3A2A12; color: #F5B466; }
   .badge.st-fail { background: #3A1A1A; color: #F28B82; }
 }
+
+
+/* ---------- v3.1.1 핫픽스 (2026-09-20): 시트 스크롤 + 버튼 아이콘 크기 ---------- */
+.sheet { max-height: calc(100dvh - 24px - env(safe-area-inset-top)); overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+.btn svg { width: 18px; height: 18px; flex: none; }
+.tasklog { max-height: none; overflow: visible; }
