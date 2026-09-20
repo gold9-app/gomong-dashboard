@@ -273,3 +273,30 @@ a.item:active { background: var(--surface-2); }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .sk::after { display: none; }
 }
+
+
+/* ---------- v3.1 Aside 작업 보내기 (2026-09-20) ---------- */
+.hbtns { display: flex; gap: 8px; align-items: center; }
+.icon-btn { position: relative; }
+.icon-btn .dot { position: absolute; top: 4px; right: 4px; width: 8px; height: 8px; border-radius: 50%; background: var(--green); border: 2px solid var(--surface); }
+.chips.wrap { flex-wrap: wrap; overflow: visible; }
+.sheet textarea { width: 100%; min-height: 96px; border: 1px solid var(--line-strong); border-radius: var(--r-md); padding: 12px 14px; font: inherit; font-size: var(--t-md); line-height: 1.5; background: var(--surface); color: var(--text); resize: vertical; margin-bottom: 10px; }
+.sheet .pin-inline { font-size: var(--t-md); font-weight: 600; letter-spacing: .2em; text-align: left; min-height: 44px; padding: 0 14px; }
+.sheet .hint { font-size: var(--t-xs); color: var(--muted); margin: 0 0 10px; }
+.tasklog { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 8px; max-height: 40vh; overflow-y: auto; }
+.tasklog li { border: 1px solid var(--line); border-radius: var(--r-md); padding: 10px 12px; background: var(--surface); }
+.tasklog .tl-meta { display: flex; gap: 8px; align-items: center; font-size: var(--t-xs); color: var(--muted); margin-bottom: 4px; }
+.tasklog .tl-text { font-size: var(--t-sm); color: var(--text); white-space: pre-line; overflow-wrap: anywhere; }
+.tasklog .tl-res { font-size: var(--t-sm); color: var(--muted); margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--line); white-space: pre-line; overflow-wrap: anywhere; }
+.badge.st-wait { background: var(--surface-2); color: var(--muted); }
+.badge.st-run { background: var(--green-soft, #E8F8EE); color: var(--green-deep, #06A84E); }
+.badge.st-done { background: var(--green-soft, #E8F8EE); color: var(--green-deep, #06A84E); }
+.badge.st-hold { background: #FFF4E5; color: #B45309; }
+.badge.st-fail { background: #FDECEC; color: #C62828; }
+.card.tasks .tl-mini { display: flex; flex-direction: column; gap: 6px; margin-top: 8px; }
+.card.tasks .tl-mini div { display: flex; gap: 8px; align-items: baseline; font-size: var(--t-sm); }
+.card.tasks .tl-mini span.t { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (prefers-color-scheme: dark) {
+  .badge.st-hold { background: #3A2A12; color: #F5B466; }
+  .badge.st-fail { background: #3A1A1A; color: #F28B82; }
+}

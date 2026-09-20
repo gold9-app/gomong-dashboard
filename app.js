@@ -1,9 +1,9 @@
-/* 고몽이 TCG 센터 관제 v2.1 - 읽기 전용. data/dashboard.json + data/history/index.json 만 읽는다.
+/* 고몽이 TCG 센터 관제 v3.1 - 읽기 전용 + Aside 작업 보내기(ntfy). data/dashboard.json + data/history/index.json 만 읽는다.
    최신화: ntfy.sh 토픽에 "refresh <PIN>" POST → PC의 Aside 이벤트 루틴이 수집·push → 새 collectedAt 뜰 때까지 폴링 */
-const CFG = { ntfyTopic: 'gomong-dash-lvxu3bje', pollMs: 10000, pollMaxMs: 300000 };
+const CFG = { ntfyTopic: 'gomong-dash-lvxu3bje', resultTopic: 'gomong-dash-lvxu3bje-r', pollMs: 10000, pollMaxMs: 300000, taskPollMs: 8000 };
 const $ = (s, el = document) => el.querySelector(s);
 const view = $('#view');
-let D = null, H = [], S = null, C = null, CH = [], tab = 'home', filters = { game: '전체', status: '전체' }, statDay = 'today', expand = {};
+let D = null, H = [], S = null, C = null, CH = [], T = [], TL = [], tab = 'home', filters = { game: '전체', status: '전체' }, statDay = 'today', expand = {};
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 /* ---------- utils ---------- */
@@ -20,6 +20,7 @@ const findPost = (logNo) => D.posts.find(p => p.logNo === String(logNo));
 const stripHtml = (s) => String(s ?? '').replace(/<br\s*\/?>/gi, '\n').replace(/<[^>]+>/g, '');
 
 const I = {
+  send: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/></svg>',
   up: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>',
   down: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 8v9H8"/></svg>',
   eye: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>',
@@ -44,19 +45,20 @@ const empty = (t, ic = I.inbox) => `<div class="empty">${ic}<span>${esc(t)}</spa
 async function fetchData(force) {
   const bust = force ? `?t=${Date.now()}` : '';
   const opt = { cache: force ? 'reload' : 'default' };
-  const [d, h, s, c, ch] = await Promise.all([
+  const [d, h, s, c, ch, t] = await Promise.all([
     fetch(`./data/dashboard.json${bust}`, opt).then(r => r.json()),
     fetch(`./data/history/index.json${bust}`, opt).then(r => r.ok ? r.json() : []).catch(() => []),
     fetch(`./data/status.json${bust}`, opt).then(r => r.ok ? r.json() : null).catch(() => null),
     fetch(`./data/cafe.json${bust}`, opt).then(r => r.ok ? r.json() : null).catch(() => null),
     fetch(`./data/cafe_history.json${bust}`, opt).then(r => r.ok ? r.json() : []).catch(() => []),
+    fetch(`./data/tasks.json${bust}`, opt).then(r => r.ok ? r.json() : []).catch(() => []),
   ]);
-  return { d, h: Array.isArray(h) ? h : [], s, c, ch: Array.isArray(ch) ? ch : [] };
+  return { d, h: Array.isArray(h) ? h : [], s, c, ch: Array.isArray(ch) ? ch : [], t: Array.isArray(t) ? t : [] };
 }
 async function load(force) {
   const btn = $('#refreshBtn'); btn.classList.add('spin');
   if (!D) skeleton();
-  try { const { d, h, s, c, ch } = await fetchData(force); D = d; H = h; S = s; C = c; CH = ch; localStorage.setItem('dash', JSON.stringify({ D, H })); }
+  try { const { d, h, s, c, ch, t } = await fetchData(force); D = d; H = h; S = s; C = c; CH = ch; T = t; localStorage.setItem('dash', JSON.stringify({ D, H })); }
   catch (e) {
     const c = localStorage.getItem('dash');
     if (c && !D) ({ D, H } = JSON.parse(c));
@@ -173,6 +175,9 @@ function home() {
 
   <div class="h-sec"><h2>할 일</h2><span class="meta">${alerts.length}건</span></div>
   <section class="card">${alerts.length ? alerts.map(a => { const p = a.logNo ? findPost(a.logNo) : null; const tag = a.logNo ? `a href="${postUrl(a.logNo)}" target="_blank" rel="noopener"` : (a.cafe && a.url) ? `a href="${esc(a.url)}" target="_blank" rel="noopener"` : 'div'; const body = p ? `<div>${p.no ? `<span class="badge">#${p.no}</span> ` : ''}${esc(p.title)}</div>${a.priceUpdate || a.type === 'price' ? `<div class="pt">${esc(a.text.split(': ').slice(1).join(': '))}</div>` : ''}` : esc(a.text); return `<${tag} class="todo ${a.level}"><span class="ic">${a.level === 'danger' ? I.alert : a.level === 'warn' ? I.warn : I.info}</span><div><div class="k">${esc(kind[a.type] || a.type)}</div>${body}</div></${a.logNo || (a.cafe && a.url) ? 'a' : 'div'}>`; }).join('') : `<div class="empty">${I.check}<span>처리할 항목 없음</span></div>`}</section>
+
+  <div class="h-sec"><h2>Aside 작업</h2><span class="meta">${(() => { const m = mergedTasks(); const run = m.filter(x => x.status === '진행중' || x.status === '대기').length; return run ? run + '개 진행 중' : m.length + '개'; })()}</span></div>
+  <section class="card tasks" data-open-tasks role="button" tabindex="0">${(() => { const m = mergedTasks().slice(0, 3); return m.length ? '<div class="tl-mini">' + m.map(x => `<div>${stBadge(x.status)}<span class="t">${esc(x.text)}</span><span class="meta">${esc((x.atText || '').slice(5, 16))}</span></div>`).join('') + '</div>' : `<div class="empty">${I.inbox}<span>보낸 작업 없음 · 위 종이비행기 버튼으로 Aside에 작업을 보내요</span></div>`; })()}</section>
 
   <div class="h-sec"><h2>자동 루틴</h2><span class="meta">${routines.length}개</span></div>
   <section class="card">${routines.length ? routines.map(r => { const w = r.nextRunAt ? fmtIso(r.nextRunAt) : null; return `<div class="rt"><span class="ic">${I.bot}</span><div><div class="n">${esc(r.name)}</div><div class="w">${r.rrule ? '반복' : r.kind === 'cron' ? '이벤트' : '1회'} · ${r.state === 'active' ? '활성' : esc(r.state)}</div></div>${w ? `<div class="when">다음<b>${w.d} ${w.t}</b></div>` : '<div class="when">앱 버튼<b>대기</b></div>'}</div>`; }).join('') : empty('루틴 정보 없음')}</section>`;
@@ -356,7 +361,7 @@ async function runRefresh(pin) {
   paint(0); wire();
   $('#refreshBtn').classList.add('spin');
   try {
-    const r = await fetch(`https://ntfy.sh/${CFG.ntfyTopic}`, { method: 'POST', body: `refresh ${pin}`, headers: { Title: 'gomong refresh', Tags: 'arrows_counterclockwise', Priority: 'high' } });
+    const rid = newId(); const r = await fetch(`https://ntfy.sh/${CFG.ntfyTopic}`, { method: 'POST', body: `refresh #${rid} ${await sig16(pin, rid)}`, headers: { Title: 'gomong refresh', Tags: 'arrows_counterclockwise', Priority: 'high' } });
     if (!r.ok) throw new Error('ntfy ' + r.status);
   } catch (e) { paint(0, '신호를 못 보냈어요. 네트워크를 확인해 주세요. (' + e.message + ')'); wire(); refreshing = false; $('#refreshBtn').classList.remove('spin'); return; }
   paint(1); wire();
@@ -365,7 +370,7 @@ async function runRefresh(pin) {
   while (Date.now() - t0 < CFG.pollMaxMs) {
     await new Promise(r => setTimeout(r, CFG.pollMs));
     try {
-      const { d, h, s } = await fetchData(true);
+      const { d, h, s, t } = await fetchData(true); if (t) T = t;
       if (s && !s.loginOk && new Date(s.at).getTime() > t0 - 60000) {
         S = s; render(false);
         paint(1, s.preflight === 'NAVER_LOGIN_REQUIRED' ? 'PC의 네이버 로그인이 풀려 수집을 못 했어요. PC에서 다시 로그인해 주세요.' : 'PC 바라우저 연결이 실패했어요. 바라우저를 재시작해 주세요.'); wire(); refreshing = false; $('#refreshBtn').classList.remove('spin'); return;
@@ -385,8 +390,92 @@ async function runRefresh(pin) {
   else toast('최신화 실패: PC가 꺼져 있거나 Aside가 응답하지 않아요', 4000);
 }
 
+
+/* ---------- Aside 작업 보내기 (v3.1, 2026-09-20) ----------
+   앱 → ntfy 토픽 "task #<id> <sig>\n내용" (sig = sha256(pin:id) 앞 16자, PIN 평문 전송 안 함)
+   → Aside 이벤트 루틴이 ntfy JSON으로 전문을 읽고 실행 → 결과 토픽(resultTopic)에 "result #<id> <status>\n요약" + data/tasks.json */
+const TASK_PRESETS = [
+  { l: '예약글 점검', t: '예약글 큐와 CSV 상태를 대조해서 불일치·검색허용 OFF·v5 미적용이 있으면 고치고 결과 보고' },
+  { l: '미답변 댓글', t: '미답변 댓글을 확인해서 고몽이 톤으로 답글을 달고 어떤 댓글에 뭐라고 답했는지 보고' },
+  { l: '시세 글 갱신', t: 'ops.json priceUpdates 중 due가 가장 가까운 공개 시세 글 1개를 당일 시세로 갱신하고 바뀐 핵심 수치 보고' },
+  { l: '노출순위 점검', t: '고정 추적 키워드 8개만 네이버 통합검색 순위를 지금 조회해서 전주 대비 변화 보고 (파일 저장 없이 보고만)' },
+  { l: '대시보드 갱신', t: '대시보드 데이터만 다시 수집해서 push' },
+  { l: '새 글 1개', t: 'SPEC v4로 신규 글 1개를 작성해 다음 빈 예약 슬롯에 예약 발행하고 제목·시각·URL 보고. 주제는 최근 4주 비중이 가장 부족한 게임에서 시세형 우선' },
+];
+const STATUS_CLS = { '대기': 'st-wait', '진행중': 'st-run', '완료': 'st-done', '보류': 'st-hold', '실패': 'st-fail', '거부': 'st-fail' };
+const stBadge = (s) => `<span class="badge ${STATUS_CLS[s] || 'st-wait'}">${s === '진행중' ? I.sync : s === '완료' ? I.check : (s === '실패' || s === '거부') ? I.x : s === '보류' ? I.alert : I.clock} ${esc(s || '대기')}</span>`;
+const newId = () => Date.now().toString(36).slice(-5) + Math.random().toString(36).slice(2, 5);
+async function sig16(pin, id) { const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`${pin}:${id}`)); return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join('').slice(0, 16); }
+function mergedTasks() {
+  // tasks.json(영구) + ntfy 실시간(내가 보낸 task, Aside의 result) + 로컬 보낸 기록
+  const local = JSON.parse(localStorage.getItem('sentTasks') || '[]');
+  const map = new Map();
+  for (const l of local) map.set(l.id, { id: l.id, text: l.text, at: l.at, atText: l.atText, status: '대기' });
+  for (const m of TL) {
+    if (m.kind === 'task') { const o = map.get(m.id) || { id: m.id, at: m.at, atText: m.atText, status: '대기' }; o.text = o.text || m.text; map.set(m.id, o); }
+    if (m.kind === 'result') { const o = map.get(m.id) || { id: m.id, at: m.at, atText: m.atText, text: '(내용 없음)' }; if (!o.doneAt || m.at >= o.doneAt) { o.status = m.status; o.result = m.text; o.doneAt = m.at; o.doneAtText = m.atText; } map.set(m.id, o); }
+  }
+  for (const t of T) { const o = map.get(t.id) || { id: t.id }; const newer = !o.doneAt || (t.doneAt && t.doneAt >= o.doneAt); Object.assign(o, { text: t.text || o.text, at: t.at || o.at, atText: t.atText || o.atText }); if (newer && t.status) { o.status = t.status; o.result = t.result ?? o.result; o.doneAt = t.doneAt || o.doneAt; o.doneAtText = t.doneAtText || o.doneAtText; } map.set(t.id, o); }
+  return [...map.values()].filter(x => x.text).sort((a, b) => (b.at || '').localeCompare(a.at || ''));
+}
+async function pollTaskLog(paint = true) {
+  try {
+    const [a, b] = await Promise.all([
+      fetch(`https://ntfy.sh/${CFG.ntfyTopic}/json?poll=1&since=12h`).then(r => r.text()),
+      fetch(`https://ntfy.sh/${CFG.resultTopic}/json?poll=1&since=12h`).then(r => r.text()),
+    ]);
+    const parse = (txt) => txt.split('\n').filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(m => m && m.event === 'message');
+    const out = [];
+    for (const m of parse(a)) { const h = String(m.message || '').match(/^task #([A-Za-z0-9_-]{4,20}) [0-9a-f]{16}[ \n]?([\s\S]*)$/); if (h) out.push({ kind: 'task', id: h[1], text: h[2].trim(), at: new Date(m.time * 1000).toISOString(), atText: fmtK(m.time * 1000) }); }
+    for (const m of parse(b)) { const h = String(m.message || '').match(/^result #([A-Za-z0-9_-]{4,20}) (\S+)[ \n]?([\s\S]*)$/); if (h) out.push({ kind: 'result', id: h[1], status: h[2], text: h[3].trim(), at: new Date(m.time * 1000).toISOString(), atText: fmtK(m.time * 1000) }); }
+    TL = out;
+  } catch {}
+  const running = mergedTasks().some(x => x.status === '진행중' || x.status === '대기');
+  const dot = $('#taskDot'); if (dot) dot.hidden = !running;
+  if (paint && document.querySelector('.tasklog')) $('.tasklog').outerHTML = taskLogHtml();
+  if (running && document.querySelector('.tasklog')) { clearTimeout(taskTimer); taskTimer = setTimeout(pollTaskLog, CFG.taskPollMs); }
+}
+let taskTimer = null;
+const fmtK = (ms) => new Date(ms + 9 * 3600e3).toISOString().slice(0, 16).replace('T', ' ');
+function taskLogHtml() {
+  const m = mergedTasks().slice(0, 20);
+  return `<ul class="tasklog">${m.length ? m.map(x => `<li><div class="tl-meta">${stBadge(x.status)}<span>${esc((x.atText || '').slice(5, 16))}</span>${x.doneAtText ? `<span>→ ${esc(x.doneAtText.slice(11, 16))}</span>` : ''}</div><div class="tl-text">${esc(x.text)}</div>${x.result ? `<div class="tl-res">${esc(x.result)}</div>` : ''}</li>`).join('') : `<li><div class="empty">${I.inbox}<span>아직 보낸 작업이 없어요</span></div></li>`}</ul>`;
+}
+function taskSheet() {
+  const pin = localStorage.getItem('refreshPin');
+  openSheet(`<div class="grip"></div><h2>Aside에 작업 보내기</h2>
+    <p>PC의 Aside가 블로그 운영 규칙(gomong-blog 스킬) 안에서 실행하고 결과를 여기로 돌려줘요. 예약글 수정·글 삭제·다른 카페 활동 같은 금지 작업은 "보류"로 되묻습니다.</p>
+    <div class="chips wrap" id="taskPresets">${TASK_PRESETS.map((p, i) => `<button class="chip" data-preset="${i}">${esc(p.l)}</button>`).join('')}</div>
+    <textarea id="taskText" placeholder="할 일을 적어 주세요. 예) #36 박스 시세 글의 미개봉 TOP 10 가격을 오늘 KREAM 기준으로 갱신해줘" maxlength="1500"></textarea>
+    ${pin ? '' : `<input id="pinInput" class="pin-inline" inputmode="numeric" maxlength="6" placeholder="PIN 6자리 (처음 한 번)" autocomplete="off">`}
+    <p class="hint">PIN은 전송되지 않고 서명(sha256)만 붙어요. 결과는 보통 1~10분, 글 작성은 더 걸릴 수 있어요.</p>
+    <button class="btn primary" id="doTask">${I.send} 보내기</button>
+    <div class="h-sec" style="margin-top:16px"><h2>작업 로그</h2><span class="meta">최근 12시간 + 기록</span></div>
+    ${taskLogHtml()}`);
+  document.querySelectorAll('#taskPresets .chip').forEach(b => b.onclick = () => { $('#taskText').value = TASK_PRESETS[b.dataset.preset].t; document.querySelectorAll('#taskPresets .chip').forEach(x => x.setAttribute('aria-pressed', x === b)); $('#taskText').focus(); });
+  $('#doTask').onclick = async () => {
+    const text = ($('#taskText').value || '').trim();
+    if (text.length < 4) { toast('작업 내용을 조금 더 적어 주세요'); return; }
+    let p = pin || ($('#pinInput')?.value || '').trim();
+    if (!/^\d{6}$/.test(p)) { toast('PIN 6자리를 입력해 주세요'); return; }
+    localStorage.setItem('refreshPin', p);
+    const id = newId(); const s = await sig16(p, id);
+    $('#doTask').disabled = true;
+    try {
+      const r = await fetch(`https://ntfy.sh/${CFG.ntfyTopic}`, { method: 'POST', body: `task #${id} ${s}\n${text}`, headers: { Title: 'gomong task', Tags: 'clipboard', Priority: 'high' } });
+      if (!r.ok) throw new Error('ntfy ' + r.status);
+      const local = JSON.parse(localStorage.getItem('sentTasks') || '[]'); local.push({ id, text, at: new Date().toISOString(), atText: fmtK(Date.now()) }); localStorage.setItem('sentTasks', JSON.stringify(local.slice(-50)));
+      $('#taskText').value = ''; toast('보냈어요. Aside가 받으면 "진행중"으로 바뀝니다');
+      $('.tasklog').outerHTML = taskLogHtml(); pollTaskLog();
+    } catch (e) { toast('전송 실패: ' + e.message, 4000); }
+    $('#doTask').disabled = false;
+  };
+  pollTaskLog();
+}
+
 /* ---------- events ---------- */
 function bind() {
+  view.querySelectorAll('[data-open-tasks]').forEach(el => { el.onclick = taskSheet; el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); taskSheet(); } }; });
   document.querySelectorAll('[data-goto]').forEach(el => { const go = () => { tab = el.dataset.goto; expand = {}; render(true); }; el.onclick = go; el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } }; });
   view.querySelectorAll('.chip').forEach(b => b.onclick = () => { filters[b.dataset.f] = b.dataset.v; render(false); });
   view.querySelectorAll('[data-day]').forEach(b => b.onclick = () => { statDay = b.dataset.day; render(false); });
@@ -394,6 +483,8 @@ function bind() {
 }
 document.querySelectorAll('.tabs button').forEach(b => b.onclick = () => { if (tab !== b.dataset.tab) { tab = b.dataset.tab; expand = {}; render(true); } });
 $('#refreshBtn').onclick = refreshSheet;
+$('#taskBtn').onclick = taskSheet;
+setInterval(() => { if (D) pollTaskLog(false); }, 60000);
 document.addEventListener('visibilitychange', () => { if (!document.hidden && D && !refreshing && Date.now() - new Date(D.collectedAt) > 20 * 60e3) load(true); });
 setInterval(() => { if (D) header(); }, 60000);
 
