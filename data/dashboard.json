@@ -1,14 +1,14 @@
 {
- "collectedAt": "2026-09-21T00:10:29.657Z",
- "collectedAtText": "2026-09-21 09:10",
+ "collectedAt": "2026-09-21T02:03:44.987Z",
+ "collectedAtText": "2026-09-21 11:03",
  "blogId": "gold_ggu",
- "elapsedMs": 8294,
+ "elapsedMs": 8646,
  "errors": [],
  "summary": {
   "publicCount": 32,
   "queueCount": 6,
   "totalCount": 38,
-  "todayCv": 7,
+  "todayCv": 9,
   "yesterdayCv": 22,
   "todayVisitor": 0,
   "buddyCount": 39,
@@ -23,7 +23,7 @@
   "totalComments": 7,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 1445
+  "totalReadCount": 1447
  },
  "alerts": [
   {
@@ -204,7 +204,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414209725",
    "openType": "2",
    "searchYn": true,
-   "readCount": 145,
+   "readCount": 146,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -789,7 +789,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415046460",
    "openType": "2",
    "searchYn": true,
-   "readCount": 11,
+   "readCount": 12,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -1385,10 +1385,10 @@
   "dailyCv": [
    {
     "date": "2026-09-21",
-    "total": 7,
-    "friend": 3,
+    "total": 9,
+    "friend": 4,
     "follow": 0,
-    "etc": 4
+    "etc": 5
    },
    {
     "date": "2026-09-20",
@@ -1491,23 +1491,23 @@
   ],
   "today": {
    "date": "2026-09-21",
-   "utime": "2026-09-21T09:10:28",
+   "utime": "2026-09-21T11:03:43",
    "dashboard": {
     "dailyComment": 2,
     "dailyPlayCount": "0",
-    "dailyCv": 7,
+    "dailyCv": 9,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-21T09:10:28",
-    "dailyRelationDeltaUtime": "2026-09-21T09:10:28",
+    "dailyCommentUtime": "2026-09-21T11:03:43",
+    "dailyRelationDeltaUtime": "2026-09-21T11:03:43",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-21T09:10:28",
-    "dailyCvUtime": "2026-09-21T09:10:28"
+    "dailyLikeUtime": "2026-09-21T11:03:43",
+    "dailyCvUtime": "2026-09-21T11:03:43"
    },
    "dailyCv": [
     {
      "date": "2026-09-21",
-     "cv": 7
+     "cv": 9
     },
     {
      "date": "2026-09-20",
@@ -1577,9 +1577,23 @@
     {
      "rank": 2,
      "cv": 1,
+     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
+     "logNo": "224414209725",
+     "createDate": "2026.09.16. 22:28"
+    },
+    {
+     "rank": 2,
+     "cv": 1,
      "title": "포켓몬카드 티어 덱 2026, 월챔과 코리안리그 우승 덱 레시피 정리",
      "logNo": "224414571492",
      "createDate": "2026.09.17. 09:41"
+    },
+    {
+     "rank": 2,
+     "cv": 1,
+     "title": "포켓몬카드 10월 발매 예정 FUTURISTIC BOX 정가와 구성",
+     "logNo": "224415046460",
+     "createDate": "2026.09.18. 19:00"
     },
     {
      "rank": 2,
@@ -1591,48 +1605,47 @@
    ],
    "referer": [
     {
-     "name": "네이버 통합검색_모바일",
+     "name": "네이버 메인_PC",
      "cv": 2,
-     "pct": 50
+     "pct": 33.3
     },
     {
-     "name": "네이버 메인_PC",
+     "name": "네이버 통합검색_모바일",
+     "cv": 2,
+     "pct": 33.3
+    },
+    {
+     "name": "Daum 검색_모바일",
      "cv": 1,
-     "pct": 25
+     "pct": 16.7
     },
     {
      "name": "네이버 블로그_모바일",
      "cv": 1,
-     "pct": 25
+     "pct": 16.7
     }
    ],
    "searchQueries": [
     {
-     "query": "RGB 뮤",
-     "cv": 1,
-     "pct": 50
-    },
-    {
-     "query": "포켓몬 카드 덱 순위",
-     "cv": 1,
-     "pct": 50
+     "cv": 2,
+     "pct": 100
     }
    ]
   },
   "yesterday": {
    "date": "2026-09-20",
-   "utime": "2026-09-21T08:00:33",
+   "utime": "2026-09-21T11:03:44",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
     "dailyCv": 22,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-21T08:00:33",
-    "dailyRelationDeltaUtime": "2026-09-21T08:00:33",
+    "dailyCommentUtime": "2026-09-21T11:03:44",
+    "dailyRelationDeltaUtime": "2026-09-21T11:03:44",
     "dailyRelationDelta": 0,
     "isToday": false,
-    "dailyLikeUtime": "2026-09-21T08:00:33",
-    "dailyCvUtime": "2026-09-21T08:00:33"
+    "dailyLikeUtime": "2026-09-21T11:03:44",
+    "dailyCvUtime": "2026-09-21T11:03:44"
    },
    "dailyCv": [
     {
