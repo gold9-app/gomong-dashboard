@@ -1,14 +1,14 @@
 {
- "collectedAt": "2026-09-21T02:03:44.987Z",
- "collectedAtText": "2026-09-21 11:03",
+ "collectedAt": "2026-09-21T04:02:40.256Z",
+ "collectedAtText": "2026-09-21 13:02",
  "blogId": "gold_ggu",
- "elapsedMs": 8646,
+ "elapsedMs": 9031,
  "errors": [],
  "summary": {
-  "publicCount": 32,
-  "queueCount": 6,
+  "publicCount": 33,
+  "queueCount": 5,
   "totalCount": 38,
-  "todayCv": 9,
+  "todayCv": 14,
   "yesterdayCv": 22,
   "todayVisitor": 0,
   "buddyCount": 39,
@@ -23,7 +23,7 @@
   "totalComments": 7,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 1447
+  "totalReadCount": 1452
  },
  "alerts": [
   {
@@ -73,6 +73,12 @@
    "type": "links",
    "logNo": "224415206636",
    "text": "관련 글·로드맵 링크 보강 대기: #34"
+  },
+  {
+   "level": "info",
+   "type": "links",
+   "logNo": "224415309687",
+   "text": "관련 글·로드맵 링크 보강 대기: #37"
   }
  ],
  "posts": [
@@ -349,7 +355,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414562775",
    "openType": "2",
    "searchYn": true,
-   "readCount": 43,
+   "readCount": 44,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1092,20 +1098,26 @@
    "no": 37,
    "logNo": "224415309687",
    "title": "원피스카드 시세 2026 고가 TOP 15와 박스 시세 총정리",
-   "status": "예약",
+   "status": "공개",
    "game": "원피스",
    "category": "원피스 카드 시세·수집",
    "keyword": "원피스카드시세",
    "publishedText": "2026-09-21 12:30",
-   "postDate": 1789961400000,
    "url": "https://blog.naver.com/gold_ggu/224415309687",
-   "searchYn": null,
+   "openType": "2",
+   "searchYn": true,
    "readCount": 0,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
-   "relatedLinksPending": false,
-   "priceUpdate": null,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 3,
+   "relatedLinksPending": true,
+   "priceUpdate": {
+    "logNo": "224415309687",
+    "due": "2026-10-05",
+    "note": "#37 원피스카드 시세 TOP 15: 2주 갱신"
+   },
    "rank": null,
    "aiCited": false
   },
@@ -1121,7 +1133,7 @@
    "url": "https://blog.naver.com/gold_ggu/224418031926",
    "openType": "2",
    "searchYn": true,
-   "readCount": 1,
+   "readCount": 5,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1140,13 +1152,6 @@
   }
  ],
  "queue": [
-  {
-   "logNo": "224415309687",
-   "title": "원피스카드 시세 2026 고가 TOP 15와 박스 시세 총정리",
-   "postDate": 1789961400000,
-   "postDateText": "2026-09-21 12:30",
-   "addDate": 1789646919016
-  },
   {
    "logNo": "224415049835",
    "title": "포켓몬카드 매입 파는법 카드샵 크림 번개장터 수수료 비교 2026",
@@ -1385,10 +1390,10 @@
   "dailyCv": [
    {
     "date": "2026-09-21",
-    "total": 9,
+    "total": 14,
     "friend": 4,
     "follow": 0,
-    "etc": 5
+    "etc": 10
    },
    {
     "date": "2026-09-20",
@@ -1491,23 +1496,23 @@
   ],
   "today": {
    "date": "2026-09-21",
-   "utime": "2026-09-21T11:03:43",
+   "utime": "2026-09-21T13:02:39",
    "dashboard": {
     "dailyComment": 2,
     "dailyPlayCount": "0",
-    "dailyCv": 9,
+    "dailyCv": 14,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-21T11:03:43",
-    "dailyRelationDeltaUtime": "2026-09-21T11:03:43",
+    "dailyCommentUtime": "2026-09-21T13:02:39",
+    "dailyRelationDeltaUtime": "2026-09-21T13:02:39",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-21T11:03:43",
-    "dailyCvUtime": "2026-09-21T11:03:43"
+    "dailyLikeUtime": "2026-09-21T13:02:39",
+    "dailyCvUtime": "2026-09-21T13:02:39"
    },
    "dailyCv": [
     {
      "date": "2026-09-21",
-     "cv": 9
+     "cv": 14
     },
     {
      "date": "2026-09-20",
@@ -1569,66 +1574,89 @@
    "rankCv": [
     {
      "rank": 1,
+     "cv": 5,
+     "title": "포켓몬 카드샵 구리 30주년 판매중단 정리, 700명 인파 경찰 출동",
+     "logNo": "224418031926",
+     "createDate": "2026.09.20. 22:00"
+    },
+    {
+     "rank": 2,
      "cv": 3,
      "title": "포켓몬카드 30주년 시세 총정리, 뮤 RGB 529만원 박스 12만원",
      "logNo": "224415288070",
      "createDate": "2026.09.17. 20:41"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "cv": 1,
      "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
      "logNo": "224414209725",
      "createDate": "2026.09.16. 22:28"
     },
     {
-     "rank": 2,
+     "rank": 3,
+     "cv": 1,
+     "title": "포켓몬카드 용어 총정리 서치 특일 노스알 힛카드 봉입률 슈링크 뜻",
+     "logNo": "224414562775",
+     "createDate": "2026.09.17. 09:33"
+    },
+    {
+     "rank": 3,
      "cv": 1,
      "title": "포켓몬카드 티어 덱 2026, 월챔과 코리안리그 우승 덱 레시피 정리",
      "logNo": "224414571492",
      "createDate": "2026.09.17. 09:41"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "cv": 1,
      "title": "포켓몬카드 10월 발매 예정 FUTURISTIC BOX 정가와 구성",
      "logNo": "224415046460",
      "createDate": "2026.09.18. 19:00"
-    },
-    {
-     "rank": 2,
-     "cv": 1,
-     "title": "포켓몬 카드샵 구리 30주년 판매중단 정리, 700명 인파 경찰 출동",
-     "logNo": "224418031926",
-     "createDate": "2026.09.20. 22:00"
     }
    ],
    "referer": [
     {
+     "name": "Daum 검색_모바일",
+     "cv": 4,
+     "pct": 40
+    },
+    {
      "name": "네이버 메인_PC",
      "cv": 2,
-     "pct": 33.3
+     "pct": 20
     },
     {
      "name": "네이버 통합검색_모바일",
      "cv": 2,
-     "pct": 33.3
+     "pct": 20
     },
     {
-     "name": "Daum 검색_모바일",
+     "name": "Daum_PC",
      "cv": 1,
-     "pct": 16.7
+     "pct": 10
     },
     {
      "name": "네이버 블로그_모바일",
      "cv": 1,
-     "pct": 16.7
+     "pct": 10
     }
    ],
    "searchQueries": [
     {
+     "query": "구리 카드샵",
      "cv": 2,
-     "pct": 100
+     "pct": 50
+    },
+    {
+     "query": "카드슈링크 X",
+     "cv": 1,
+     "pct": 25
+    },
+    {
+     "query": "포켓몬 카드 파는곳",
+     "cv": 1,
+     "pct": 25
     }
    ]
   },
@@ -2106,6 +2134,16 @@
  ],
  "routines": [
   {
+   "id": "visGHRYgqUFXHhjV",
+   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
+   "runAt": null,
+   "nextRunAt": "2026-09-21T11:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
    "id": "K1DofV6ZppeCneRz",
    "name": "고몽이 TCG 센터 주간 노출순위 + AI 브리핑 인용수 + 월간 AI인용 점검",
    "kind": "cron",
@@ -2113,16 +2151,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
    "runAt": null,
    "nextRunAt": "2026-09-28T00:00:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "visGHRYgqUFXHhjV",
-   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인·v5 적용",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
-   "runAt": null,
-   "nextRunAt": "2026-09-21T04:00:00.000Z",
    "lastRunAt": null
   },
   {
@@ -2190,7 +2218,8 @@
    "224415048223",
    "224415205495",
    "224415206012",
-   "224415206636"
+   "224415206636",
+   "224415309687"
   ],
   "priceUpdates": [
    {
