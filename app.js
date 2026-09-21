@@ -295,23 +295,30 @@ function cafe() {
   const prev = hist.length >= 2 ? hist[hist.length - 2] : null;
   const mDelta = prev && prev.members != null && C.members != null ? C.members - prev.members : null;
   const alerts = (C.alerts || []);
-  const kind = { levelup: '등업 신청 대기', question: '미답변 질문', trade: '거래 글 규칙 위반', greeting: '새 가입인사' };
+  const kind = { levelup: '등업 신청 대기', question: '미답변 질문', trade: '거래 글 규칙 위반', greeting: '새 가입인사', account: '운영 계정', infoplan: '전환기 정보 글' };
+  const A = C.account || null; const transition = A ? A.mode !== '매니저' : false; const P = C.infoPlan || null;
+  const pct = P && P.target ? Math.min(100, Math.round(P.done / P.target * 100)) : 0;
+  const daysLeft = A?.managerExpected ? Math.max(0, Math.ceil((new Date(A.managerExpected + 'T00:00:00+09:00') - Date.now()) / 86400e3)) : null;
   const stale = (Date.now() - new Date(C.collectedAt)) / 3600e3 > 14;
   const boards = (C.boards || []).filter(b => b.menuId !== 23);
   return `${staleBanner()}${C.errors?.length ? `<div class="banner warn">${I.warn}<span>카페 수집 경고 ${C.errors.length}건: ${esc(C.errors.join(' / '))}</span></div>` : ''}
+  ${A ? `<div class="banner ${transition ? 'warn' : 'ok'}">${transition ? I.clock : I.check}<span>${transition ? `전환기 운영 · 계정 <b>${esc(A.nick || '')}</b> (${esc(A.grade || '챔피언')}) · 매니저 전환 예정 ${esc(A.managerExpected || '')}${daysLeft != null ? ` (D-${daysLeft})` : ''} · 일반 게시판 정보 글만 발행` : `매니저 계정 <b>${esc(A.nick || '')}</b> · 전체 운영 모드`}${A.checkedAt ? ` · 확인 ${esc(A.checkedAt)}` : ''}</span></div>` : ''}
   <div class="h-sec"><h2>카페 현황</h2><span class="meta">${esc(C.collectedAtText || '')} 수집${stale ? ' · 오래됨' : ''}</span></div>
   <div class="kpi-row5">
     <section class="card kpi"><div class="l">${I.users}멤버</div><div class="v" data-tick="${C.members ?? 0}">${n(C.members)}</div><div class="d">${mDelta != null ? delta(mDelta) : ''}<span>${esc(C.grade || '')}</span></div></section>
     <section class="card kpi"><div class="l">${I.doc}글</div><div class="v" data-tick="${C.articles ?? 0}">${n(C.articles)}</div><div class="d">멤버 글 ${n(C.counts?.byMember)}</div></section>
-    <section class="card kpi ${C.pendingLevelUps ? 'alert' : ''}"><div class="l">${I.check}등업 대기</div><div class="v" data-tick="${C.pendingLevelUps ?? 0}">${n(C.pendingLevelUps)}</div><div class="d">트레이너 승인</div></section>
-    <section class="card kpi"><div class="l">${I.clock}오늘 출석</div><div class="v" data-tick="${C.todayAttendance ?? 0}">${n(C.todayAttendance)}</div><div class="d" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block">${esc(C.todayMission || '미션 없음')}</div></section>
+    ${transition && P ? `<section class="card kpi ${P.done < P.target ? 'alert' : ''}"><div class="l">${I.doc}정보 글 (AEO)</div><div class="v" data-tick="${P.done}">${n(P.done)}<small> / ${n(P.target)}</small></div><div class="d">이번 주 ${n(P.thisWeek)}/4 · 조회 ${n(P.reads)}</div></section>` : `<section class="card kpi ${C.pendingLevelUps ? 'alert' : ''}"><div class="l">${I.check}등업 대기</div><div class="v" data-tick="${C.pendingLevelUps ?? 0}">${n(C.pendingLevelUps)}</div><div class="d">트레이너 승인</div></section>`}
+    ${transition ? `<section class="card kpi"><div class="l">${I.clock}매니저 전환</div><div class="v">${daysLeft != null ? `D-${daysLeft}` : '-'}</div><div class="d">${esc(A?.managerExpected || '')} 예정</div></section>` : `<section class="card kpi"><div class="l">${I.clock}오늘 출석</div><div class="v" data-tick="${C.todayAttendance ?? 0}">${n(C.todayAttendance)}</div><div class="d" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block">${esc(C.todayMission || '미션 없음')}</div></section>`}
     <section class="card kpi ${(C.unansweredQuestions || []).length ? 'alert' : ''}"><div class="l">${I.chat}미답변 질문</div><div class="v" data-tick="${(C.unansweredQuestions || []).length}">${n((C.unansweredQuestions || []).length)}</div><div class="d">질문 글 ${n(C.counts?.questions)}</div></section>
     <section class="card kpi ${(C.ruleFlags || []).length ? 'alert' : ''}"><div class="l">${I.alert}거래 경고</div><div class="v" data-tick="${(C.ruleFlags || []).length}">${n((C.ruleFlags || []).length)}</div><div class="d">거래 글 ${n(C.counts?.trades)}</div></section>
   </div>
 
   <div class="h-sec"><h2>할 일</h2><span class="meta">${alerts.length}건</span></div>
   <section class="card">${alerts.length ? alerts.map(a => `<a class="todo ${a.level}" href="${a.url}" target="_blank" rel="noopener"><span class="ic">${a.level === 'danger' ? I.alert : a.level === 'warn' ? I.warn : I.info}</span><div><div class="k">${esc(kind[a.type] || a.type)}</div><div>${esc(a.text)}</div></div></a>`).join('') : `<div class="empty">${I.check}<span>처리할 항목 없음</span></div>`}
-    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><a class="badge primary" href="${esc(C.links?.levelUp || '')}" target="_blank" rel="noopener">등업 신청 관리</a><a class="badge" href="${esc(C.links?.manage || '')}" target="_blank" rel="noopener">카페 관리</a><a class="badge" href="${esc(C.links?.attendance || '')}" target="_blank" rel="noopener">출석체크</a><a class="badge" href="${esc(C.url || '')}" target="_blank" rel="noopener">카페 홈</a></div></section>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">${transition ? '' : `<a class="badge primary" href="${esc(C.links?.levelUp || '')}" target="_blank" rel="noopener">등업 신청 관리</a><a class="badge" href="${esc(C.links?.manage || '')}" target="_blank" rel="noopener">카페 관리</a>`}<a class="badge" href="${esc(C.links?.attendance || '')}" target="_blank" rel="noopener">출석체크</a><a class="badge" href="${esc(C.url || '')}" target="_blank" rel="noopener">카페 홈</a></div></section>
+
+  ${P ? `<div class="h-sec"><h2>전환기 정보 글 (AEO)</h2><span class="meta">${P.done}/${P.target} · ${esc(P.start || '')}~</span></div>
+  <section class="card"><div style="height:8px;border-radius:4px;background:rgba(127,127,127,.25);overflow:hidden;margin-bottom:10px"><div style="width:${pct}%;height:100%;background:#03c75a"></div></div><div class="list">${(P.posts || []).length ? P.posts.map(a => art(a, '<span class="badge ok">정보</span>')).join('') : empty('아직 전환기 정보 글 없음 · 화·목 10:00 루틴이 2개씩 발행')}</div></section>` : ''}
 
   <div class="h-sec"><h2>멤버 추이</h2><span class="meta">${hist.length ? `${md(hist[0].date)} ~ ${md(hist[hist.length - 1].date)}` : ''}</span></div>
   <section class="card">${hist.length >= 2 ? sparkline(hist.map(h => h.members || 0), hist.map(h => md(h.date))) : `<div class="empty">${I.clock}<span>추세는 수집이 2일 이상 쌓이면 표시 (현재 ${hist.length}일 · 멤버 ${n(C.members)})</span></div>`}</section>
