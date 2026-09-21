@@ -1,14 +1,14 @@
 {
- "collectedAt": "2026-09-21T04:02:40.256Z",
- "collectedAtText": "2026-09-21 13:02",
+ "collectedAt": "2026-09-21T11:02:49.299Z",
+ "collectedAtText": "2026-09-21 20:02",
  "blogId": "gold_ggu",
- "elapsedMs": 9031,
+ "elapsedMs": 8103,
  "errors": [],
  "summary": {
-  "publicCount": 33,
-  "queueCount": 5,
+  "publicCount": 34,
+  "queueCount": 4,
   "totalCount": 38,
-  "todayCv": 14,
+  "todayCv": 25,
   "yesterdayCv": 22,
   "todayVisitor": 0,
   "buddyCount": 39,
@@ -23,7 +23,7 @@
   "totalComments": 7,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 1452
+  "totalReadCount": 1462
  },
  "alerts": [
   {
@@ -37,6 +37,12 @@
    "type": "links",
    "logNo": "224415045587",
    "text": "관련 글·로드맵 링크 보강 대기: #20"
+  },
+  {
+   "level": "info",
+   "type": "links",
+   "logNo": "224415049835",
+   "text": "관련 글·로드맵 링크 보강 대기: #21"
   },
   {
    "level": "info",
@@ -210,7 +216,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414209725",
    "openType": "2",
    "searchYn": true,
-   "readCount": 146,
+   "readCount": 148,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -355,7 +361,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414562775",
    "openType": "2",
    "searchYn": true,
-   "readCount": 44,
+   "readCount": 45,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -587,7 +593,7 @@
    "url": "https://blog.naver.com/gold_ggu/224414565203",
    "openType": "2",
    "searchYn": true,
-   "readCount": 140,
+   "readCount": 141,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -666,19 +672,21 @@
    "no": 21,
    "logNo": "224415049835",
    "title": "포켓몬카드 매입 파는법 카드샵 크림 번개장터 수수료 비교 2026",
-   "status": "예약",
+   "status": "공개",
    "game": "포켓몬",
    "category": "포켓몬 카드 시세·수집",
    "keyword": "포켓몬카드",
    "publishedText": "2026-09-21 19:00",
-   "postDate": 1789984800000,
    "url": "https://blog.naver.com/gold_ggu/224415049835",
-   "searchYn": null,
+   "openType": "2",
+   "searchYn": true,
    "readCount": 0,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
-   "relatedLinksPending": false,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 4,
+   "relatedLinksPending": true,
    "priceUpdate": null,
    "rank": null,
    "aiCited": false
@@ -795,7 +803,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415046460",
    "openType": "2",
    "searchYn": true,
-   "readCount": 12,
+   "readCount": 13,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -845,7 +853,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415048223",
    "openType": "2",
    "searchYn": true,
-   "readCount": 1,
+   "readCount": 2,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1106,7 +1114,7 @@
    "url": "https://blog.naver.com/gold_ggu/224415309687",
    "openType": "2",
    "searchYn": true,
-   "readCount": 0,
+   "readCount": 1,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1133,7 +1141,7 @@
    "url": "https://blog.naver.com/gold_ggu/224418031926",
    "openType": "2",
    "searchYn": true,
-   "readCount": 5,
+   "readCount": 8,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1152,13 +1160,6 @@
   }
  ],
  "queue": [
-  {
-   "logNo": "224415049835",
-   "title": "포켓몬카드 매입 파는법 카드샵 크림 번개장터 수수료 비교 2026",
-   "postDate": 1789984800000,
-   "postDateText": "2026-09-21 19:00",
-   "addDate": 1789629965489
-  },
   {
    "logNo": "224415315942",
    "title": "포켓몬카드 박스 시세 2026 미개봉 TOP 10과 일본판 비교",
@@ -1390,10 +1391,10 @@
   "dailyCv": [
    {
     "date": "2026-09-21",
-    "total": 14,
-    "friend": 4,
+    "total": 25,
+    "friend": 6,
     "follow": 0,
-    "etc": 10
+    "etc": 19
    },
    {
     "date": "2026-09-20",
@@ -1496,23 +1497,23 @@
   ],
   "today": {
    "date": "2026-09-21",
-   "utime": "2026-09-21T13:02:39",
+   "utime": "2026-09-21T20:02:49",
    "dashboard": {
     "dailyComment": 2,
     "dailyPlayCount": "0",
-    "dailyCv": 14,
+    "dailyCv": 25,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-21T13:02:39",
-    "dailyRelationDeltaUtime": "2026-09-21T13:02:39",
+    "dailyCommentUtime": "2026-09-21T20:02:49",
+    "dailyRelationDeltaUtime": "2026-09-21T20:02:49",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-21T13:02:39",
-    "dailyCvUtime": "2026-09-21T13:02:39"
+    "dailyLikeUtime": "2026-09-21T20:02:49",
+    "dailyCvUtime": "2026-09-21T20:02:49"
    },
    "dailyCv": [
     {
      "date": "2026-09-21",
-     "cv": 14
+     "cv": 25
     },
     {
      "date": "2026-09-20",
@@ -1574,10 +1575,17 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 5,
+     "cv": 8,
      "title": "포켓몬 카드샵 구리 30주년 판매중단 정리, 700명 인파 경찰 출동",
      "logNo": "224418031926",
      "createDate": "2026.09.20. 22:00"
+    },
+    {
+     "rank": 2,
+     "cv": 3,
+     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
+     "logNo": "224414209725",
+     "createDate": "2026.09.16. 22:28"
     },
     {
      "rank": 2,
@@ -1587,93 +1595,116 @@
      "createDate": "2026.09.17. 20:41"
     },
     {
-     "rank": 3,
-     "cv": 1,
-     "title": "포켓몬카드 파는곳 총정리 포켓몬스토어 카드샵 자판기 편의점 직구",
-     "logNo": "224414209725",
-     "createDate": "2026.09.16. 22:28"
-    },
-    {
-     "rank": 3,
-     "cv": 1,
+     "rank": 4,
+     "cv": 2,
      "title": "포켓몬카드 용어 총정리 서치 특일 노스알 힛카드 봉입률 슈링크 뜻",
      "logNo": "224414562775",
      "createDate": "2026.09.17. 09:33"
     },
     {
-     "rank": 3,
-     "cv": 1,
-     "title": "포켓몬카드 티어 덱 2026, 월챔과 코리안리그 우승 덱 레시피 정리",
-     "logNo": "224414571492",
-     "createDate": "2026.09.17. 09:41"
-    },
-    {
-     "rank": 3,
-     "cv": 1,
+     "rank": 4,
+     "cv": 2,
      "title": "포켓몬카드 10월 발매 예정 FUTURISTIC BOX 정가와 구성",
      "logNo": "224415046460",
      "createDate": "2026.09.18. 19:00"
+    },
+    {
+     "rank": 6,
+     "cv": 1,
+     "title": "포켓몬 카드샵 공식 매장 15곳 총정리, 용산 역삼 목동 이용 팁",
+     "logNo": "224414565203",
+     "createDate": "2026.09.17. 09:35"
     }
    ],
    "referer": [
     {
      "name": "Daum 검색_모바일",
-     "cv": 4,
-     "pct": 40
+     "cv": 7,
+     "pct": 38.9
     },
     {
      "name": "네이버 메인_PC",
-     "cv": 2,
-     "pct": 20
+     "cv": 4,
+     "pct": 22.2
     },
     {
      "name": "네이버 통합검색_모바일",
      "cv": 2,
-     "pct": 20
+     "pct": 11.1
+    },
+    {
+     "name": "Bing",
+     "cv": 1,
+     "pct": 5.6
     },
     {
      "name": "Daum_PC",
      "cv": 1,
-     "pct": 10
+     "pct": 5.6
+    },
+    {
+     "name": "Daum_모바일",
+     "cv": 1,
+     "pct": 5.6
+    },
+    {
+     "name": "gold9-app.github.io",
+     "cv": 1,
+     "pct": 5.6
     },
     {
      "name": "네이버 블로그_모바일",
      "cv": 1,
-     "pct": 10
+     "pct": 5.6
     }
    ],
    "searchQueries": [
     {
      "query": "구리 카드샵",
      "cv": 2,
-     "pct": 50
+     "pct": 28.6
+    },
+    {
+     "query": "슈링크 뜻",
+     "cv": 1,
+     "pct": 14.3
     },
     {
      "query": "카드슈링크 X",
      "cv": 1,
-     "pct": 25
+     "pct": 14.3
+    },
+    {
+     "query": "포켓몬 구리",
+     "cv": 1,
+     "pct": 14.3
+    },
+    {
+     "query": "포켓몬 카드 자판기",
+     "cv": 1,
+     "pct": 14.3
     },
     {
      "query": "포켓몬 카드 파는곳",
      "cv": 1,
-     "pct": 25
+     "pct": 14.3
     }
    ]
   },
   "yesterday": {
    "date": "2026-09-20",
-   "utime": "2026-09-21T11:03:44",
+   "utime": "2026-09-21T20:00:46",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
     "dailyCv": 22,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-21T11:03:44",
-    "dailyRelationDeltaUtime": "2026-09-21T11:03:44",
+    "dailyCommentUtime": "2026-09-21T20:00:46",
+    "dailyRelationDeltaUtime": "2026-09-21T20:00:46",
     "dailyRelationDelta": 0,
     "isToday": false,
-    "dailyLikeUtime": "2026-09-21T11:03:44",
-    "dailyCvUtime": "2026-09-21T11:03:44"
+    "dailyLikeUtime": "2026-09-21T20:00:46",
+    "dailyCvUtime": "2026-09-21T20:00:46"
    },
    "dailyCv": [
     {
@@ -2140,7 +2171,7 @@
    "state": "active",
    "rrule": "FREQ=DAILY;BYHOUR=8,13,20;BYMINUTE=0",
    "runAt": null,
-   "nextRunAt": "2026-09-21T11:00:00.000Z",
+   "nextRunAt": "2026-09-21T23:00:00.000Z",
    "lastRunAt": null
   },
   {
