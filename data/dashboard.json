@@ -1,14 +1,18 @@
 {
- "collectedAt": "2026-09-21T14:10:31.826Z",
- "collectedAtText": "2026-09-21 23:10",
+ "collectedAt": "2026-09-21T14:33:17.345Z",
+ "collectedAtText": "2026-09-21 23:33",
  "blogId": "rmarn99",
- "elapsedMs": 7693,
+ "blogUrl": "https://blog.naver.com/rmarn99",
+ "blogName": "고몽이의 TCG 센터",
+ "reopenedAt": "2026-09-21",
+ "previousBlogId": "gold_ggu",
+ "elapsedMs": 6775,
  "errors": [],
  "summary": {
   "publicCount": 3,
   "queueCount": 2,
   "totalCount": 5,
-  "todayCv": 2,
+  "todayCv": 3,
   "yesterdayCv": 0,
   "todayVisitor": 0,
   "buddyCount": 0,
@@ -23,7 +27,7 @@
   "totalComments": 0,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 2
+  "totalReadCount": 3
  },
  "alerts": [
   {
@@ -81,7 +85,7 @@
    "url": "https://blog.naver.com/rmarn99/224419198719",
    "openType": "2",
    "searchYn": true,
-   "readCount": 0,
+   "readCount": 1,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -179,10 +183,10 @@
   "dailyCv": [
    {
     "date": "2026-09-21",
-    "total": 2,
+    "total": 3,
     "friend": 0,
     "follow": 0,
-    "etc": 2
+    "etc": 3
    },
    {
     "date": "2026-09-20",
@@ -285,23 +289,23 @@
   ],
   "today": {
    "date": "2026-09-21",
-   "utime": "2026-09-21T23:10:33",
+   "utime": "2026-09-21T23:33:16",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 2,
+    "dailyCv": 3,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-21T23:10:33",
-    "dailyRelationDeltaUtime": "2026-09-21T23:10:33",
+    "dailyCommentUtime": "2026-09-21T23:33:16",
+    "dailyRelationDeltaUtime": "2026-09-21T23:33:16",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-21T23:10:33",
-    "dailyCvUtime": "2026-09-21T23:10:33"
+    "dailyLikeUtime": "2026-09-21T23:33:16",
+    "dailyCvUtime": "2026-09-21T23:33:16"
    },
    "dailyCv": [
     {
      "date": "2026-09-21",
-     "cv": 2
+     "cv": 3
     },
     {
      "date": "2026-09-20",
@@ -367,25 +371,37 @@
      "title": "포켓몬카드 30주년 팩 궁금증 7가지, 구성 봉입 중복 대회 사용까지",
      "logNo": "224419166297",
      "createDate": "2026.09.21. 22:23"
+    },
+    {
+     "rank": 2,
+     "cv": 1,
+     "title": "포켓몬 카드샵 공식 매장 15곳 위치 총정리, 발매일 대기 요령까지",
+     "logNo": "224419198719",
+     "createDate": "2026.09.21. 22:59"
     }
    ],
    "referer": [
     {
-     "name": "네이버 블로그검색_PC",
-     "cv": 1,
-     "pct": 50
+     "name": "네이버 블로그검색_모바일",
+     "cv": 2,
+     "pct": 66.7
     },
     {
-     "name": "네이버 블로그검색_모바일",
+     "name": "네이버 블로그검색_PC",
      "cv": 1,
-     "pct": 50
+     "pct": 33.3
     }
    ],
    "searchQueries": [
     {
-     "query": "포켓몬 30주년 카드",
+     "query": "인천 포켓몬카드샵",
      "cv": 1,
-     "pct": 100
+     "pct": 50
+    },
+    {
+     "query": "포켓몬카드 30주년",
+     "cv": 1,
+     "pct": 50
     }
    ]
   },

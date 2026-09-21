@@ -307,3 +307,7 @@ a.item:active { background: var(--surface-2); }
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
 .btn svg { width: 18px; height: 18px; flex: none; }
 .tasklog { max-height: none; overflow: visible; }
+
+/* 2026-09-21 계정 이관 표시 */
+.blogchip{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;font-size:11px;font-weight:600;letter-spacing:.2px;color:#fff;background:#e3350d;text-decoration:none;vertical-align:middle}
+.blogchip:hover{opacity:.85}
