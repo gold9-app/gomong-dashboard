@@ -14,8 +14,8 @@ const todayStr = () => new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 
 const md = (ymd) => `${Number(ymd.slice(5, 7))}/${Number(ymd.slice(8, 10))}`;
 const dow = (ymd) => '일월화수목금토'[new Date(ymd + 'T00:00:00+09:00').getDay()];
 const fmtIso = (iso) => { const k = new Date(new Date(iso).getTime() + 9 * 3600e3).toISOString(); return { d: `${Number(k.slice(5, 7))}/${Number(k.slice(8, 10))}`, t: k.slice(11, 16) }; };
-const postUrl = (logNo) => `https://blog.naver.com/gold_ggu/${logNo}`;
-const cmtUrl = (logNo) => `https://m.blog.naver.com/PostView.naver?blogId=gold_ggu&logNo=${logNo}&modal=comment`;
+const postUrl = (logNo) => `https://blog.naver.com/rmarn99/${logNo}`;
+const cmtUrl = (logNo) => `https://m.blog.naver.com/PostView.naver?blogId=rmarn99&logNo=${logNo}&modal=comment`;
 const findPost = (logNo) => D.posts.find(p => p.logNo === String(logNo));
 const stripHtml = (s) => String(s ?? '').replace(/<br\s*\/?>/gi, '\n').replace(/<[^>]+>/g, '');
 
