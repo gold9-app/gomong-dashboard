@@ -1,1 +1,1 @@
-{"at":"2026-09-22T04:00:42.292Z","atText":"2026-09-22 13:00","loginOk":true,"preflight":"ok","errors":[]}
+{"at":"2026-09-22T11:13:58.882Z","atText":"2026-09-22 20:13","loginOk":false,"preflight":"BROWSER_FETCH_FAILED","preflightDetail":"Tab 1DDB1DA52BAD3438588A52DD1002E1C7 is no longer available.","errors":["openTab 실패: The task browser window is no longer available in its original browser mode. Reopen the task in the intended window.","preflight: 바라우저 fetch 실패 (Tab 1DDB1DA52BAD3438588A52DD1002E1C7 is no longer available.)"]}
