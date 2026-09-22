@@ -1,21 +1,21 @@
 {
- "collectedAt": "2026-09-22T04:00:42.292Z",
- "collectedAtText": "2026-09-22 13:00",
+ "collectedAt": "2026-09-22T13:21:52.295Z",
+ "collectedAtText": "2026-09-22 22:21",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 7406,
+ "elapsedMs": 7382,
  "errors": [],
  "summary": {
   "publicCount": 5,
   "queueCount": 0,
   "totalCount": 5,
-  "todayCv": 58,
+  "todayCv": 131,
   "yesterdayCv": 5,
-  "todayVisitor": 55,
-  "buddyCount": 7,
+  "todayVisitor": 124,
+  "buddyCount": 8,
   "citations": {
    "cumulative": 0,
    "month": 0,
@@ -27,7 +27,7 @@
   "totalComments": 0,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 58
+  "totalReadCount": 127
  },
  "alerts": [],
  "posts": [
@@ -43,7 +43,7 @@
    "url": "https://blog.naver.com/rmarn99/224419166297",
    "openType": "2",
    "searchYn": true,
-   "readCount": 11,
+   "readCount": 23,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -66,7 +66,7 @@
    "url": "https://blog.naver.com/rmarn99/224419198719",
    "openType": "2",
    "searchYn": true,
-   "readCount": 30,
+   "readCount": 64,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -89,7 +89,7 @@
    "url": "https://blog.naver.com/rmarn99/224419199649",
    "openType": "2",
    "searchYn": true,
-   "readCount": 12,
+   "readCount": 25,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -112,7 +112,7 @@
    "url": "https://blog.naver.com/rmarn99/224419203598",
    "openType": "2",
    "searchYn": true,
-   "readCount": 5,
+   "readCount": 13,
    "commentCount": 1,
    "unanswered": 0,
    "v5": true,
@@ -131,12 +131,12 @@
    "game": "포켓몬",
    "category": "포켓몬 카드 신제품·개봉기",
    "keyword": "포켓몬카드 박스",
-   "publishedText": "2026-09-22 12:40 예약",
+   "publishedText": "2026-09-22 12:40 발행",
    "url": "https://blog.naver.com/rmarn99/224419204577",
    "openType": "2",
    "searchYn": true,
-   "readCount": 0,
-   "commentCount": 0,
+   "readCount": 2,
+   "commentCount": 1,
    "unanswered": 0,
    "v5": true,
    "internalLinks": 15,
@@ -153,10 +153,10 @@
   "dailyCv": [
    {
     "date": "2026-09-22",
-    "total": 58,
-    "friend": 3,
+    "total": 131,
+    "friend": 4,
     "follow": 0,
-    "etc": 55
+    "etc": 127
    },
    {
     "date": "2026-09-21",
@@ -259,23 +259,23 @@
   ],
   "today": {
    "date": "2026-09-22",
-   "utime": "2026-09-22T13:00:42",
+   "utime": "2026-09-22T22:21:53",
    "dashboard": {
-    "dailyComment": 1,
+    "dailyComment": 2,
     "dailyPlayCount": "0",
-    "dailyCv": 58,
-    "dailyLike": 1,
-    "dailyCommentUtime": "2026-09-22T13:00:42",
-    "dailyRelationDeltaUtime": "2026-09-22T13:00:42",
+    "dailyCv": 131,
+    "dailyLike": 3,
+    "dailyCommentUtime": "2026-09-22T22:21:53",
+    "dailyRelationDeltaUtime": "2026-09-22T22:21:53",
     "dailyRelationDelta": -1,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-22T13:00:42",
-    "dailyCvUtime": "2026-09-22T13:00:42"
+    "dailyLikeUtime": "2026-09-22T22:21:53",
+    "dailyCvUtime": "2026-09-22T22:21:53"
    },
    "dailyCv": [
     {
      "date": "2026-09-22",
-     "cv": 58
+     "cv": 131
     },
     {
      "date": "2026-09-21",
@@ -337,91 +337,204 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 28,
+     "cv": 62,
      "title": "포켓몬 카드샵 공식 매장 15곳 위치 총정리, 발매일 대기 요령까지",
      "logNo": "224419198719",
      "createDate": "2026.09.21. 22:59"
     },
     {
      "rank": 2,
-     "cv": 12,
+     "cv": 25,
      "title": "포켓몬카드 보관법 순서 총정리, 슬리브 탑로더 바인더 고르는 기준",
      "logNo": "224419199649",
      "createDate": "2026.09.21. 23:00"
     },
     {
      "rank": 3,
-     "cv": 9,
+     "cv": 21,
      "title": "포켓몬카드 30주년 팩 궁금증 7가지, 구성 봉입 중복 대회 사용까지",
      "logNo": "224419166297",
      "createDate": "2026.09.21. 22:23"
     },
     {
      "rank": 4,
-     "cv": 5,
+     "cv": 13,
      "title": "리프트바운드 오리진 제품 5종 가격 총정리, 구매처와 입문 조합까지",
      "logNo": "224419203598",
      "createDate": "2026.09.22. 07:30"
+    },
+    {
+     "rank": 5,
+     "cv": 2,
+     "title": "포켓몬카드 박스 종류 정가 총정리, MEGA 9종과 가격 인상 비교",
+     "logNo": "224419204577",
+     "createDate": "2026.09.22. 12:40"
     }
    ],
    "referer": [
     {
-     "name": "네이버 메인_모바일_홈판",
-     "cv": 23,
-     "pct": 42.6
+     "name": "네이버 통합검색_모바일",
+     "cv": 52,
+     "pct": 42.3
     },
     {
-     "name": "네이버 통합검색_모바일",
-     "cv": 20,
-     "pct": 37
+     "name": "네이버 메인_모바일_홈판",
+     "cv": 46,
+     "pct": 37.4
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 7,
-     "pct": 13
+     "cv": 10,
+     "pct": 8.1
+    },
+    {
+     "name": "네이버 통합검색_PC",
+     "cv": 5,
+     "pct": 4.1
+    },
+    {
+     "name": "네이버 블로그_모바일",
+     "cv": 4,
+     "pct": 3.3
+    },
+    {
+     "name": "네이버 블로그검색_PC",
+     "cv": 3,
+     "pct": 2.4
+    },
+    {
+     "name": "네이버 AI탭 검색_모바일",
+     "cv": 1,
+     "pct": 0.8
+    },
+    {
+     "name": "네이버 메인_모바일",
+     "cv": 1,
+     "pct": 0.8
     },
     {
      "name": "네이버 블로그_PC",
      "cv": 1,
-     "pct": 1.9
-    },
-    {
-     "name": "네이버 블로그_모바일",
-     "cv": 1,
-     "pct": 1.9
-    },
-    {
-     "name": "네이버 블로그검색_PC",
-     "cv": 1,
-     "pct": 1.9
-    },
-    {
-     "name": "네이버 통합검색_PC",
-     "cv": 1,
-     "pct": 1.9
+     "pct": 0.8
     }
    ],
    "searchQueries": [
     {
-     "cv": 23,
-     "pct": 100
+     "query": "포켓몬카드 슬리브 크기",
+     "cv": 3,
+     "pct": 5.8
+    },
+    {
+     "query": "30주년 서치팩",
+     "cv": 2,
+     "pct": 3.8
+    },
+    {
+     "query": "포켓몬카드 공식 매장 원주",
+     "cv": 2,
+     "pct": 3.8
+    },
+    {
+     "query": "포켓몬카드 공식 스토어 수원",
+     "cv": 2,
+     "pct": 3.8
+    },
+    {
+     "query": "30주년 tcg 힛카드",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "30주년 한글판 봉입률",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "30주년 한글판 서치",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "광주 포켓몬 30주년 카드 구매처",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "대구 포켓몬 30주년 정가",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "대구 포켓몬 30주년 카드 판매",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "대전 포켓몬카드 30주년 매장 위치",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "리프트바운드 4인",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "리프트바운드 공인샵",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "리프트바운드 아리 매트",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "리프트바운드 카드 슬리브 사이즈",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "메가드림 봉입률",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "목동 포켓몬 자판기",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "성남 포켓몬카드 30주년 판매하는곳",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "수원 리프트바운드 구매처",
+     "cv": 1,
+     "pct": 1.9
+    },
+    {
+     "query": "수원 미니리그 포켓몬카드",
+     "cv": 1,
+     "pct": 1.9
     }
    ]
   },
   "yesterday": {
    "date": "2026-09-21",
-   "utime": "2026-09-22T13:00:42",
+   "utime": "2026-09-22T22:21:54",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
     "dailyCv": 5,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-22T13:00:43",
-    "dailyRelationDeltaUtime": "2026-09-22T13:00:43",
+    "dailyCommentUtime": "2026-09-22T22:21:54",
+    "dailyRelationDeltaUtime": "2026-09-22T22:21:54",
     "dailyRelationDelta": 0,
     "isToday": false,
-    "dailyLikeUtime": "2026-09-22T13:00:43",
-    "dailyCvUtime": "2026-09-22T13:00:42"
+    "dailyLikeUtime": "2026-09-22T22:21:54",
+    "dailyCvUtime": "2026-09-22T22:21:54"
    },
    "dailyCv": [
     {
@@ -553,6 +666,46 @@
  "aiCited": [],
  "routines": [
   {
+   "id": "rpipJV3U6nwV8XjD",
+   "name": "고몽이 관제 대시보드 수동 최신화 (앱 버튼 → ntfy 푸시)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": null,
+   "runAt": null,
+   "nextRunAt": null,
+   "lastRunAt": null
+  },
+  {
+   "id": "M9NfpneHkpb9mBsI",
+   "name": "고몽이 PWA 작업 요청 실행 (앱 → ntfy task)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": null,
+   "runAt": null,
+   "nextRunAt": null,
+   "lastRunAt": null
+  },
+  {
+   "id": "mMA48XtmYWhukoZn",
+   "name": "고몽이 TCG 센터 일일 서로이웃 신청 5~10명 (rmarn99, 포켓몬 우선)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=21;BYMINUTE=10",
+   "runAt": null,
+   "nextRunAt": "2026-09-23T12:10:00.000Z",
+   "lastRunAt": null
+  },
+  {
+   "id": "26Nl33l40C82LexE",
+   "name": "고몽이 TCG 센터 카페 일일 점검 (전환기: 질문 답변·환영·출석·대시보드 / 매니저 전환 후 등업·규칙·미션 재개)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=20;BYMINUTE=30",
+   "runAt": null,
+   "nextRunAt": "2026-09-23T11:30:00.000Z",
+   "lastRunAt": null
+  },
+  {
    "id": "visGHRYgqUFXHhjV",
    "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인 (rmarn99, 첫 2주 보호)",
    "kind": "cron",
@@ -583,26 +736,6 @@
    "lastRunAt": null
   },
   {
-   "id": "26Nl33l40C82LexE",
-   "name": "고몽이 TCG 센터 카페 일일 점검 (전환기: 질문 답변·환영·출석·대시보드 / 매니저 전환 후 등업·규칙·미션 재개)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=20;BYMINUTE=30",
-   "runAt": null,
-   "nextRunAt": "2026-09-22T11:30:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "mMA48XtmYWhukoZn",
-   "name": "고몽이 TCG 센터 일일 서로이웃 신청 5~10명 (rmarn99, 포켓몬 우선)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=21;BYMINUTE=10",
-   "runAt": null,
-   "nextRunAt": "2026-09-22T12:10:00.000Z",
-   "lastRunAt": null
-  },
-  {
    "id": "K1DofV6ZppeCneRz",
    "name": "고몽이 TCG 센터 주간 노출순위 + 색인 점검 + AI 브리핑 인용수 (rmarn99)",
    "kind": "cron",
@@ -610,26 +743,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
    "runAt": null,
    "nextRunAt": "2026-09-28T00:00:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "M9NfpneHkpb9mBsI",
-   "name": "고몽이 PWA 작업 요청 실행 (앱 → ntfy task)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": null,
-   "runAt": null,
-   "nextRunAt": null,
-   "lastRunAt": null
-  },
-  {
-   "id": "rpipJV3U6nwV8XjD",
-   "name": "고몽이 관제 대시보드 수동 최신화 (앱 버튼 → ntfy 푸시)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": null,
-   "runAt": null,
-   "nextRunAt": null,
    "lastRunAt": null
   }
  ],
