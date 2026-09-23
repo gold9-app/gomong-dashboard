@@ -1,20 +1,20 @@
 {
- "collectedAt": "2026-09-23T01:01:48.829Z",
- "collectedAtText": "2026-09-23 10:01",
+ "collectedAt": "2026-09-23T04:00:16.956Z",
+ "collectedAtText": "2026-09-23 13:00",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 7338,
+ "elapsedMs": 7581,
  "errors": [],
  "summary": {
-  "publicCount": 5,
-  "queueCount": 4,
+  "publicCount": 6,
+  "queueCount": 3,
   "totalCount": 9,
-  "todayCv": 19,
+  "todayCv": 31,
   "yesterdayCv": 140,
-  "todayVisitor": 17,
+  "todayVisitor": 29,
   "buddyCount": 9,
   "citations": {
    "cumulative": 264,
@@ -27,7 +27,7 @@
   "totalComments": 2,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 154
+  "totalReadCount": 166
  },
  "alerts": [],
  "posts": [
@@ -66,7 +66,7 @@
    "url": "https://blog.naver.com/rmarn99/224419198719",
    "openType": "2",
    "searchYn": true,
-   "readCount": 79,
+   "readCount": 86,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -89,7 +89,7 @@
    "url": "https://blog.naver.com/rmarn99/224419199649",
    "openType": "2",
    "searchYn": true,
-   "readCount": 32,
+   "readCount": 33,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -112,7 +112,7 @@
    "url": "https://blog.naver.com/rmarn99/224419203598",
    "openType": "2",
    "searchYn": true,
-   "readCount": 16,
+   "readCount": 19,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -135,7 +135,7 @@
    "url": "https://blog.naver.com/rmarn99/224419204577",
    "openType": "2",
    "searchYn": true,
-   "readCount": 3,
+   "readCount": 4,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -150,18 +150,20 @@
    "no": 6,
    "logNo": "224420640680",
    "title": "포켓몬카드 대회 참가 방법 5단계와 2027 코리안리그 시즌1 일정",
-   "status": "예약",
+   "status": "공개",
    "game": "포켓몬",
    "category": "포켓몬 카드 덱·룰·대회",
    "keyword": "포켓몬카드 대회",
-   "publishedText": "2026-09-23 12:20",
-   "postDate": 1790133600000,
+   "publishedText": "2026-09-23 12:20 예약",
    "url": "https://blog.naver.com/rmarn99/224420640680",
-   "searchYn": null,
+   "openType": "2",
+   "searchYn": true,
    "readCount": 0,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 3,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -232,13 +234,6 @@
   }
  ],
  "queue": [
-  {
-   "logNo": "224420640680",
-   "title": "포켓몬카드 대회 참가 방법 5단계와 2027 코리안리그 시즌1 일정",
-   "postDate": 1790133600000,
-   "postDateText": "2026-09-23 12:20",
-   "addDate": 1790124976251
-  },
   {
    "logNo": "224420642062",
    "title": "포켓몬카드 등급 읽는 법, 레어도 알파벳 9개와 시크릿 번호 기준",
@@ -323,10 +318,10 @@
   "dailyCv": [
    {
     "date": "2026-09-23",
-    "total": 19,
+    "total": 31,
     "friend": 0,
     "follow": 0,
-    "etc": 19
+    "etc": 31
    },
    {
     "date": "2026-09-22",
@@ -429,23 +424,23 @@
   ],
   "today": {
    "date": "2026-09-23",
-   "utime": "2026-09-23T10:01:48",
+   "utime": "2026-09-23T13:00:16",
    "dashboard": {
     "dailyComment": 2,
     "dailyPlayCount": "0",
-    "dailyCv": 19,
+    "dailyCv": 31,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-23T10:01:48",
-    "dailyRelationDeltaUtime": "2026-09-23T10:01:48",
+    "dailyCommentUtime": "2026-09-23T13:00:16",
+    "dailyRelationDeltaUtime": "2026-09-23T13:00:17",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-23T10:01:48",
-    "dailyCvUtime": "2026-09-23T10:01:48"
+    "dailyLikeUtime": "2026-09-23T13:00:16",
+    "dailyCvUtime": "2026-09-23T13:00:16"
    },
    "dailyCv": [
     {
      "date": "2026-09-23",
-     "cv": 19
+     "cv": 31
     },
     {
      "date": "2026-09-22",
@@ -507,24 +502,24 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 12,
+     "cv": 19,
      "title": "포켓몬 카드샵 공식 매장 15곳 위치 총정리, 발매일 대기 요령까지",
      "logNo": "224419198719",
      "createDate": "2026.09.21. 22:59"
     },
     {
      "rank": 2,
-     "cv": 3,
-     "title": "포켓몬카드 보관법 순서 총정리, 슬리브 탑로더 바인더 고르는 기준",
-     "logNo": "224419199649",
-     "createDate": "2026.09.21. 23:00"
-    },
-    {
-     "rank": 3,
-     "cv": 2,
+     "cv": 5,
      "title": "리프트바운드 오리진 제품 5종 가격 총정리, 구매처와 입문 조합까지",
      "logNo": "224419203598",
      "createDate": "2026.09.22. 07:30"
+    },
+    {
+     "rank": 3,
+     "cv": 4,
+     "title": "포켓몬카드 보관법 순서 총정리, 슬리브 탑로더 바인더 고르는 기준",
+     "logNo": "224419199649",
+     "createDate": "2026.09.21. 23:00"
     },
     {
      "rank": 4,
@@ -532,87 +527,129 @@
      "title": "포켓몬카드 30주년 팩 궁금증 7가지, 구성 봉입 중복 대회 사용까지",
      "logNo": "224419166297",
      "createDate": "2026.09.21. 22:23"
+    },
+    {
+     "rank": 4,
+     "cv": 1,
+     "title": "포켓몬카드 박스 종류 정가 총정리, MEGA 9종과 가격 인상 비교",
+     "logNo": "224419204577",
+     "createDate": "2026.09.22. 12:40"
     }
    ],
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 9,
-     "pct": 50
+     "cv": 15,
+     "pct": 51.7
     },
     {
      "name": "네이버 메인_모바일_홈판",
      "cv": 4,
-     "pct": 22.2
+     "pct": 13.8
+    },
+    {
+     "name": "네이버 통합검색_PC",
+     "cv": 3,
+     "pct": 10.3
     },
     {
      "name": "네이버 메인_모바일",
      "cv": 2,
-     "pct": 11.1
+     "pct": 6.9
     },
     {
      "name": "네이버 블로그검색_모바일",
      "cv": 2,
-     "pct": 11.1
+     "pct": 6.9
+    },
+    {
+     "name": "gold9-app.github.io",
+     "cv": 1,
+     "pct": 3.4
     },
     {
      "name": "네이버 블로그_모바일",
      "cv": 1,
-     "pct": 5.6
+     "pct": 3.4
+    },
+    {
+     "name": "네이버 블로그검색_PC",
+     "cv": 1,
+     "pct": 3.4
     }
    ],
    "searchQueries": [
     {
      "query": "포켓몬카드 탑로더 바인더",
      "cv": 3,
-     "pct": 33.3
+     "pct": 21.4
     },
     {
      "query": "리프트바운드 오리진 가격",
+     "cv": 2,
+     "pct": 14.3
+    },
+    {
+     "query": "대구공식포켓몬카드샵",
      "cv": 1,
-     "pct": 11.1
+     "pct": 7.1
+    },
+    {
+     "query": "리프트바운드 킨들샵",
+     "cv": 1,
+     "pct": 7.1
     },
     {
      "query": "목동점 포켓몬자판기",
      "cv": 1,
-     "pct": 11.1
+     "pct": 7.1
+    },
+    {
+     "query": "인천논현 포켓몬카드 30주년",
+     "cv": 1,
+     "pct": 7.1
+    },
+    {
+     "query": "천안 포켓몬센터",
+     "cv": 1,
+     "pct": 7.1
     },
     {
      "query": "평택 일본 포켓몬카드",
      "cv": 1,
-     "pct": 11.1
+     "pct": 7.1
     },
     {
      "query": "포켓몬 30주년 fur 가품",
      "cv": 1,
-     "pct": 11.1
+     "pct": 7.1
     },
     {
      "query": "포켓몬센터 지도",
      "cv": 1,
-     "pct": 11.1
+     "pct": 7.1
     },
     {
      "query": "프리미엄tcg샵 강릉",
      "cv": 1,
-     "pct": 11.1
+     "pct": 7.1
     }
    ]
   },
   "yesterday": {
    "date": "2026-09-22",
-   "utime": "2026-09-23T10:01:48",
+   "utime": "2026-09-23T13:00:17",
    "dashboard": {
     "dailyComment": 2,
     "dailyPlayCount": "0",
     "dailyCv": 140,
     "dailyLike": 3,
-    "dailyCommentUtime": "2026-09-23T10:01:49",
-    "dailyRelationDeltaUtime": "2026-09-23T10:01:49",
+    "dailyCommentUtime": "2026-09-23T13:00:17",
+    "dailyRelationDeltaUtime": "2026-09-23T13:00:17",
     "dailyRelationDelta": -1,
     "isToday": false,
-    "dailyLikeUtime": "2026-09-23T10:01:49",
-    "dailyCvUtime": "2026-09-23T10:01:49"
+    "dailyLikeUtime": "2026-09-23T13:00:17",
+    "dailyCvUtime": "2026-09-23T13:00:17"
    },
    "dailyCv": [
     {
@@ -881,6 +918,16 @@
  "aiCited": [],
  "routines": [
   {
+   "id": "visGHRYgqUFXHhjV",
+   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인 (rmarn99, 첫 2주 보호)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
+   "runAt": null,
+   "nextRunAt": "2026-09-23T23:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
    "id": "1npLAD0wuozLwqfW",
    "name": "고몽이 TCG 센터 주간 신규 글 (rmarn99, 포켓몬 80%: 하루 2개·정보형·재발행 금지)",
    "kind": "cron",
@@ -888,16 +935,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=WE;BYHOUR=9;BYMINUTE=30",
    "runAt": null,
    "nextRunAt": "2026-09-30T00:30:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "visGHRYgqUFXHhjV",
-   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인 (rmarn99, 첫 2주 보호)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
-   "runAt": null,
-   "nextRunAt": "2026-09-23T04:00:00.000Z",
    "lastRunAt": null
   },
   {
