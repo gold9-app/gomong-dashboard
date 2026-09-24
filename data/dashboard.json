@@ -1,20 +1,20 @@
 {
- "collectedAt": "2026-09-23T23:00:48.771Z",
- "collectedAtText": "2026-09-24 08:00",
+ "collectedAt": "2026-09-24T00:33:25.897Z",
+ "collectedAtText": "2026-09-24 09:33",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 9591,
+ "elapsedMs": 9057,
  "errors": [],
  "summary": {
   "publicCount": 8,
   "queueCount": 13,
   "totalCount": 21,
-  "todayCv": 10,
+  "todayCv": 20,
   "yesterdayCv": 94,
-  "todayVisitor": 10,
+  "todayVisitor": 20,
   "buddyCount": 13,
   "citations": {
    "cumulative": 1121,
@@ -23,19 +23,13 @@
    "currentMonth": 9,
    "selectionPeriodMonth": 7
   },
-  "unansweredComments": 1,
+  "unansweredComments": 0,
   "totalComments": 3,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 236
+  "totalReadCount": 246
  },
- "alerts": [
-  {
-   "level": "warn",
-   "type": "comment",
-   "text": "미답변 댓글 1건"
-  }
- ],
+ "alerts": [],
  "posts": [
   {
    "no": 1,
@@ -72,7 +66,7 @@
    "url": "https://blog.naver.com/rmarn99/224419198719",
    "openType": "2",
    "searchYn": true,
-   "readCount": 107,
+   "readCount": 114,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -183,11 +177,11 @@
    "game": "포켓몬",
    "category": "포켓몬 카드 입문 가이드",
    "keyword": "포켓몬카드 등급",
-   "publishedText": "2026-09-24 07:40 예약",
+   "publishedText": "2026-09-24 07:40 발행",
    "url": "https://blog.naver.com/rmarn99/224420642062",
    "openType": "2",
    "searchYn": true,
-   "readCount": 0,
+   "readCount": 3,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -253,8 +247,8 @@
    "openType": "2",
    "searchYn": true,
    "readCount": 10,
-   "commentCount": 1,
-   "unanswered": 1,
+   "commentCount": 2,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 15,
    "imgs": 4,
@@ -591,6 +585,20 @@
  "comments": [
   {
    "logNo": "224421176128",
+   "commentNo": "905728216356880432",
+   "parentCommentNo": "905674089853616150",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "겜카님 또 와 주셔서 감사합니다. 응모는 9월 29일 화요일 오전 10시부터 10월 5일 월요일 23시 59분까지이고 발표는 10월 7일 개별 연락입니다. 공지에 응모 순서는 추첨에 영향이 없다고 적혀 있으니 마감 전에만 넣으시면 됩니다. 다만 이 상자에는 확장팩이 한 팩도 없고 FUR",
+   "regTime": "2026-09-24T09:32:14+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224421176128",
    "commentNo": "905674089853616150",
    "parentCommentNo": "905674089853616150",
    "replyLevel": 1,
@@ -598,10 +606,10 @@
    "contents": "기다리던게 드이어 떳습니다 이번엔 꼭 당첨되어 구매 개봉기 갑니다 화이팅",
    "regTime": "2026-09-23T19:32:05+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": false,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224419203598",
@@ -664,10 +672,10 @@
   "dailyCv": [
    {
     "date": "2026-09-24",
-    "total": 10,
+    "total": 20,
     "friend": 0,
     "follow": 0,
-    "etc": 10
+    "etc": 20
    },
    {
     "date": "2026-09-23",
@@ -770,23 +778,23 @@
   ],
   "today": {
    "date": "2026-09-24",
-   "utime": "2026-09-24T08:00:47",
+   "utime": "2026-09-24T09:33:25",
    "dashboard": {
-    "dailyComment": 0,
+    "dailyComment": 1,
     "dailyPlayCount": "0",
-    "dailyCv": 10,
+    "dailyCv": 20,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-24T08:00:48",
-    "dailyRelationDeltaUtime": "2026-09-24T08:00:48",
+    "dailyCommentUtime": "2026-09-24T09:33:25",
+    "dailyRelationDeltaUtime": "2026-09-24T09:33:25",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-24T08:00:47",
-    "dailyCvUtime": "2026-09-24T08:00:47"
+    "dailyLikeUtime": "2026-09-24T09:33:25",
+    "dailyCvUtime": "2026-09-24T09:33:25"
    },
    "dailyCv": [
     {
      "date": "2026-09-24",
-     "cv": 10
+     "cv": 20
     },
     {
      "date": "2026-09-23",
@@ -848,34 +856,41 @@
    "rankCv": [
     {
      "rank": 1,
+     "cv": 9,
+     "title": "포켓몬 카드샵 공식 매장 15곳 위치 총정리, 발매일 대기 요령까지",
+     "logNo": "224419198719",
+     "createDate": "2026.09.21. 22:59"
+    },
+    {
+     "rank": 2,
      "cv": 3,
      "title": "리프트바운드 오리진 제품 5종 가격 총정리, 구매처와 입문 조합까지",
      "logNo": "224419203598",
      "createDate": "2026.09.22. 07:30"
     },
     {
-     "rank": 1,
+     "rank": 2,
      "cv": 3,
      "title": "포켓몬카드 박스 종류 정가 총정리, MEGA 9종과 가격 인상 비교",
      "logNo": "224419204577",
      "createDate": "2026.09.22. 12:40"
     },
     {
-     "rank": 3,
-     "cv": 2,
-     "title": "포켓몬 카드샵 공식 매장 15곳 위치 총정리, 발매일 대기 요령까지",
-     "logNo": "224419198719",
-     "createDate": "2026.09.21. 22:59"
+     "rank": 2,
+     "cv": 3,
+     "title": "포켓몬카드 등급 읽는 법, 레어도 알파벳 9개와 시크릿 번호 기준",
+     "logNo": "224420642062",
+     "createDate": "2026.09.24. 07:40"
     },
     {
-     "rank": 4,
+     "rank": 5,
      "cv": 1,
      "title": "포켓몬카드 30주년 팩 궁금증 7가지, 구성 봉입 중복 대회 사용까지",
      "logNo": "224419166297",
      "createDate": "2026.09.21. 22:23"
     },
     {
-     "rank": 4,
+     "rank": 5,
      "cv": 1,
      "title": "포켓몬카드 FUTURISTIC BOX 응모 일정, 구성 10종 정리",
      "logNo": "224421176128",
@@ -885,33 +900,33 @@
    "referer": [
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 3,
-     "pct": 37.5
+     "cv": 7,
+     "pct": 41.2
     },
     {
      "name": "네이버 통합검색_모바일",
+     "cv": 6,
+     "pct": 35.3
+    },
+    {
+     "name": "네이버 블로그검색_모바일",
      "cv": 2,
-     "pct": 25
+     "pct": 11.8
     },
     {
      "name": "네이버 블로그_모바일",
      "cv": 1,
-     "pct": 12.5
-    },
-    {
-     "name": "네이버 블로그검색_모바일",
-     "cv": 1,
-     "pct": 12.5
+     "pct": 5.9
     },
     {
      "name": "네이버 통합검색_PC",
      "cv": 1,
-     "pct": 12.5
+     "pct": 5.9
     }
    ],
    "searchQueries": [
     {
-     "cv": 3,
+     "cv": 7,
      "pct": 100
     }
    ]
