@@ -1,20 +1,20 @@
 {
- "collectedAt": "2026-09-24T23:00:38.805Z",
- "collectedAtText": "2026-09-25 08:00",
+ "collectedAt": "2026-09-25T04:00:16.227Z",
+ "collectedAtText": "2026-09-25 13:00",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 7701,
+ "elapsedMs": 7853,
  "errors": [],
  "summary": {
-  "publicCount": 10,
-  "queueCount": 11,
+  "publicCount": 11,
+  "queueCount": 10,
   "totalCount": 21,
-  "todayCv": 22,
+  "todayCv": 47,
   "yesterdayCv": 148,
-  "todayVisitor": 19,
+  "todayVisitor": 42,
   "buddyCount": 16,
   "citations": {
    "cumulative": 2242,
@@ -27,7 +27,7 @@
   "totalComments": 3,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 394
+  "totalReadCount": 419
  },
  "alerts": [],
  "posts": [
@@ -43,7 +43,7 @@
    "url": "https://blog.naver.com/rmarn99/224419166297",
    "openType": "2",
    "searchYn": true,
-   "readCount": 43,
+   "readCount": 45,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -66,7 +66,7 @@
    "url": "https://blog.naver.com/rmarn99/224419198719",
    "openType": "2",
    "searchYn": true,
-   "readCount": 189,
+   "readCount": 202,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -89,7 +89,7 @@
    "url": "https://blog.naver.com/rmarn99/224419199649",
    "openType": "2",
    "searchYn": true,
-   "readCount": 42,
+   "readCount": 43,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -135,7 +135,7 @@
    "url": "https://blog.naver.com/rmarn99/224419204577",
    "openType": "2",
    "searchYn": true,
-   "readCount": 23,
+   "readCount": 27,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -204,7 +204,7 @@
    "url": "https://blog.naver.com/rmarn99/224420643203",
    "openType": "2",
    "searchYn": true,
-   "readCount": 8,
+   "readCount": 9,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -223,7 +223,7 @@
    "game": "원피스",
    "category": "원피스 카드 입문·룰",
    "keyword": "원피스카드 하는 법",
-   "publishedText": "2026-09-25 07:20 예약",
+   "publishedText": "2026-09-25 07:20 발행",
    "url": "https://blog.naver.com/rmarn99/224420644720",
    "openType": "2",
    "searchYn": true,
@@ -265,18 +265,20 @@
    "no": 11,
    "logNo": "224421189221",
    "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
-   "status": "예약",
+   "status": "공개",
    "game": "포켓몬",
    "category": "포켓몬 카드 입문 가이드",
    "keyword": "포켓몬카드 어디서 사",
-   "publishedText": "2026-09-25 12:30",
-   "postDate": 1790307000000,
+   "publishedText": "2026-09-25 12:30 예약",
    "url": "https://blog.naver.com/rmarn99/224421189221",
-   "searchYn": null,
-   "readCount": 0,
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 4,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -495,13 +497,6 @@
  ],
  "queue": [
   {
-   "logNo": "224421189221",
-   "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
-   "postDate": 1790307000000,
-   "postDateText": "2026-09-25 12:30",
-   "addDate": 1790158539142
-  },
-  {
    "logNo": "224421189866",
    "title": "포켓몬카드 자판기 위치 178곳 찾는 법, 브랜드별 개수와 이용 순서",
    "postDate": 1790376000000,
@@ -662,10 +657,10 @@
   "dailyCv": [
    {
     "date": "2026-09-25",
-    "total": 22,
+    "total": 47,
     "friend": 1,
-    "follow": 3,
-    "etc": 18
+    "follow": 5,
+    "etc": 41
    },
    {
     "date": "2026-09-24",
@@ -768,23 +763,23 @@
   ],
   "today": {
    "date": "2026-09-25",
-   "utime": "2026-09-25T08:00:37",
+   "utime": "2026-09-25T13:00:15",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 22,
+    "dailyCv": 47,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-25T08:00:37",
-    "dailyRelationDeltaUtime": "2026-09-25T08:00:37",
+    "dailyCommentUtime": "2026-09-25T13:00:15",
+    "dailyRelationDeltaUtime": "2026-09-25T13:00:15",
     "dailyRelationDelta": 1,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-25T08:00:37",
-    "dailyCvUtime": "2026-09-25T08:00:37"
+    "dailyLikeUtime": "2026-09-25T13:00:15",
+    "dailyCvUtime": "2026-09-25T13:00:15"
    },
    "dailyCv": [
     {
      "date": "2026-09-25",
-     "cv": 22
+     "cv": 47
     },
     {
      "date": "2026-09-24",
@@ -846,20 +841,27 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 7,
+     "cv": 20,
      "title": "포켓몬 카드샵 공식 매장 15곳 위치 총정리, 발매일 대기 요령까지",
      "logNo": "224419198719",
      "createDate": "2026.09.21. 22:59"
     },
     {
      "rank": 2,
-     "cv": 4,
+     "cv": 8,
      "title": "포켓몬카드 박스 종류 정가 총정리, MEGA 9종과 가격 인상 비교",
      "logNo": "224419204577",
      "createDate": "2026.09.22. 12:40"
     },
     {
      "rank": 3,
+     "cv": 4,
+     "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
+     "logNo": "224421189221",
+     "createDate": "2026.09.25. 12:30"
+    },
+    {
+     "rank": 4,
      "cv": 3,
      "title": "리프트바운드 오리진 제품 5종 가격 총정리, 구매처와 입문 조합까지",
      "logNo": "224419203598",
@@ -867,115 +869,173 @@
     },
     {
      "rank": 4,
-     "cv": 2,
-     "title": "포켓몬카드 등급 읽는 법, 레어도 알파벳 9개와 시크릿 번호 기준",
-     "logNo": "224420642062",
-     "createDate": "2026.09.24. 07:40"
-    },
-    {
-     "rank": 4,
-     "cv": 2,
+     "cv": 3,
      "title": "포켓몬카드 하는 법 기본 룰, 덱 60장 프라이즈 6장 승리조건 3개",
      "logNo": "224420643203",
      "createDate": "2026.09.24. 12:30"
     },
     {
-     "rank": 4,
+     "rank": 6,
      "cv": 2,
-     "title": "포켓몬카드 FUTURISTIC BOX 응모 일정, 구성 10종 정리",
-     "logNo": "224421176128",
-     "createDate": "2026.09.23. 18:56"
+     "title": "포켓몬카드 30주년 팩 궁금증 7가지, 구성 봉입 중복 대회 사용까지",
+     "logNo": "224419166297",
+     "createDate": "2026.09.21. 22:23"
     }
    ],
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 8,
-     "pct": 42.1
+     "cv": 24,
+     "pct": 55.8
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 5,
-     "pct": 26.3
+     "cv": 9,
+     "pct": 20.9
     },
     {
      "name": "네이버 블로그_모바일",
-     "cv": 2,
-     "pct": 10.5
+     "cv": 4,
+     "pct": 9.3
     },
     {
      "name": "Google",
-     "cv": 1,
-     "pct": 5.3
+     "cv": 3,
+     "pct": 7
     },
     {
      "name": "네이버 메인_PC",
      "cv": 1,
-     "pct": 5.3
+     "pct": 2.3
     },
     {
      "name": "네이버 메인_모바일",
      "cv": 1,
-     "pct": 5.3
+     "pct": 2.3
     },
     {
      "name": "네이버 메인_모바일_홈판",
      "cv": 1,
-     "pct": 5.3
+     "pct": 2.3
     }
    ],
    "searchQueries": [
     {
+     "query": "울산 포켓몬카드샵",
+     "cv": 2,
+     "pct": 8.3
+    },
+    {
+     "query": "원주 포켓몬카드샵",
+     "cv": 2,
+     "pct": 8.3
+    },
+    {
      "query": "포켓몬 tcg hp규칙",
      "cv": 2,
-     "pct": 25
+     "pct": 8.3
+    },
+    {
+     "query": "포켓몬카드원주개수제한",
+     "cv": 2,
+     "pct": 8.3
+    },
+    {
+     "query": "cgv 인천 포켓몬 카드",
+     "cv": 1,
+     "pct": 4.2
     },
     {
      "query": "futuristic box 구성",
      "cv": 1,
-     "pct": 12.5
+     "pct": 4.2
+    },
+    {
+     "query": "대구 포켓몬카드공식샵",
+     "cv": 1,
+     "pct": 4.2
+    },
+    {
+     "query": "대구포켓몬카드 공식",
+     "cv": 1,
+     "pct": 4.2
     },
     {
      "query": "대전 리프트바운드 샵",
      "cv": 1,
-     "pct": 12.5
+     "pct": 4.2
     },
     {
-     "query": "원주 포켓몬카드샵",
+     "query": "부산 포켓몬 카드",
      "cv": 1,
-     "pct": 12.5
+     "pct": 4.2
+    },
+    {
+     "query": "이마트 역삼점 포켓몬카드",
+     "cv": 1,
+     "pct": 4.2
     },
     {
      "query": "평택 포켓몬카드샵",
      "cv": 1,
-     "pct": 12.5
+     "pct": 4.2
+    },
+    {
+     "query": "포캣몬스토어",
+     "cv": 1,
+     "pct": 4.2
     },
     {
      "query": "포켓몬 공식 카드샵 부슨",
      "cv": 1,
-     "pct": 12.5
+     "pct": 4.2
     },
     {
      "query": "포켓몬 퓨쳐리스틱 응모",
      "cv": 1,
-     "pct": 12.5
+     "pct": 4.2
+    },
+    {
+     "query": "포켓몬카드 구리점",
+     "cv": 1,
+     "pct": 4.2
+    },
+    {
+     "query": "포켓몬카드 바인더 넣을때 슬리브",
+     "cv": 1,
+     "pct": 4.2
+    },
+    {
+     "query": "포켓몬카드구리점",
+     "cv": 1,
+     "pct": 4.2
+    },
+    {
+     "query": "포항 포켓몬30주년카드 파는곳",
+     "cv": 1,
+     "pct": 4.2
+    },
+    {
+     "query": "프라이즈 카드사용법",
+     "cv": 1,
+     "pct": 4.2
     }
    ]
   },
   "yesterday": {
    "date": "2026-09-24",
-   "utime": "2026-09-25T08:00:38",
+   "utime": "2026-09-25T13:00:15",
    "dashboard": {
     "dailyComment": 1,
     "dailyPlayCount": "0",
     "dailyCv": 148,
     "dailyLike": 2,
-    "dailyCommentUtime": "2026-09-25T08:00:38",
-    "dailyRelationDeltaUtime": "2026-09-25T08:00:38",
+    "dailyCommentUtime": "2026-09-25T13:00:16",
+    "dailyRelationDeltaUtime": "2026-09-25T13:00:16",
     "dailyRelationDelta": 0,
     "isToday": false,
-    "dailyLikeUtime": "2026-09-25T08:00:38",
-    "dailyCvUtime": "2026-09-25T08:00:38"
+    "dailyLikeUtime": "2026-09-25T13:00:16",
+    "dailyCvUtime": "2026-09-25T13:00:15"
    },
    "dailyCv": [
     {
@@ -1268,7 +1328,7 @@
    "state": "active",
    "rrule": "FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
    "runAt": null,
-   "nextRunAt": "2026-09-25T04:00:00.000Z",
+   "nextRunAt": "2026-09-25T23:00:00.000Z",
    "lastRunAt": null
   },
   {
