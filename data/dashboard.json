@@ -1,21 +1,21 @@
 {
- "collectedAt": "2026-09-28T00:58:20.285Z",
- "collectedAtText": "2026-09-28 09:58",
+ "collectedAt": "2026-09-28T04:00:44.193Z",
+ "collectedAtText": "2026-09-28 13:00",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 8052,
+ "elapsedMs": 8239,
  "errors": [],
  "summary": {
-  "publicCount": 16,
-  "queueCount": 23,
+  "publicCount": 17,
+  "queueCount": 22,
   "totalCount": 39,
-  "todayCv": 131,
+  "todayCv": 193,
   "yesterdayCv": 371,
-  "todayVisitor": 117,
-  "buddyCount": 31,
+  "todayVisitor": 173,
+  "buddyCount": 33,
   "citations": {
    "cumulative": 5635,
    "month": 5635,
@@ -27,7 +27,7 @@
   "totalComments": 5,
   "v5Pending": 0,
   "searchOff": 0,
-  "totalReadCount": 1584
+  "totalReadCount": 1646
  },
  "alerts": [],
  "posts": [
@@ -72,7 +72,7 @@
    "url": "https://blog.naver.com/rmarn99/224419198719",
    "openType": "2",
    "searchYn": true,
-   "readCount": 373,
+   "readCount": 381,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -101,7 +101,7 @@
    "url": "https://blog.naver.com/rmarn99/224419199649",
    "openType": "2",
    "searchYn": true,
-   "readCount": 96,
+   "readCount": 97,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -130,7 +130,7 @@
    "url": "https://blog.naver.com/rmarn99/224419203598",
    "openType": "2",
    "searchYn": true,
-   "readCount": 99,
+   "readCount": 105,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -159,7 +159,7 @@
    "url": "https://blog.naver.com/rmarn99/224419204577",
    "openType": "2",
    "searchYn": true,
-   "readCount": 60,
+   "readCount": 62,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -246,7 +246,7 @@
    "url": "https://blog.naver.com/rmarn99/224420643203",
    "openType": "2",
    "searchYn": true,
-   "readCount": 22,
+   "readCount": 23,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -304,7 +304,7 @@
    "url": "https://blog.naver.com/rmarn99/224421176128",
    "openType": "2",
    "searchYn": true,
-   "readCount": 20,
+   "readCount": 21,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -333,7 +333,7 @@
    "url": "https://blog.naver.com/rmarn99/224421189221",
    "openType": "2",
    "searchYn": true,
-   "readCount": 602,
+   "readCount": 619,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -362,7 +362,7 @@
    "url": "https://blog.naver.com/rmarn99/224421189866",
    "openType": "2",
    "searchYn": true,
-   "readCount": 67,
+   "readCount": 71,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -391,7 +391,7 @@
    "url": "https://blog.naver.com/rmarn99/224421190483",
    "openType": "2",
    "searchYn": true,
-   "readCount": 75,
+   "readCount": 94,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -478,7 +478,7 @@
    "url": "https://blog.naver.com/rmarn99/224421386521",
    "openType": "2",
    "searchYn": true,
-   "readCount": 1,
+   "readCount": 4,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -499,18 +499,20 @@
    "no": 17,
    "logNo": "224421387218",
    "title": "리프트바운드 하는 법 기본 룰, 덱 40장 룬 12장 8점 승리 정리",
-   "status": "예약",
+   "status": "공개",
    "game": "리프트바운드",
    "category": "리프트바운드 입문·룰",
    "keyword": "리프트바운드 룰",
-   "publishedText": "2026-09-28 12:30",
-   "postDate": 1790566200000,
+   "publishedText": "2026-09-28 12:30 예약",
    "url": "https://blog.naver.com/rmarn99/224421387218",
-   "searchYn": null,
+   "openType": "2",
+   "searchYn": true,
    "readCount": 0,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 3,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
@@ -981,13 +983,6 @@
  ],
  "queue": [
   {
-   "logNo": "224421387218",
-   "title": "리프트바운드 하는 법 기본 룰, 덱 40장 룬 12장 8점 승리 정리",
-   "postDate": 1790566200000,
-   "postDateText": "2026-09-28 12:30",
-   "addDate": 1790175838241
-  },
-  {
    "logNo": "224422742437",
    "title": "포켓몬카드 스타터세트 ex 3종, 9월 30일 발매 정가와 구성 차이",
    "postDate": 1790591400000,
@@ -1288,10 +1283,10 @@
   "dailyCv": [
    {
     "date": "2026-09-28",
-    "total": 131,
+    "total": 193,
     "friend": 3,
     "follow": 0,
-    "etc": 128
+    "etc": 190
    },
    {
     "date": "2026-09-27",
@@ -1394,23 +1389,23 @@
   ],
   "today": {
    "date": "2026-09-28",
-   "utime": "2026-09-28T09:58:18",
+   "utime": "2026-09-28T13:00:42",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 131,
+    "dailyCv": 193,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-09-28T09:58:18",
-    "dailyRelationDeltaUtime": "2026-09-28T09:58:19",
+    "dailyCommentUtime": "2026-09-28T13:00:42",
+    "dailyRelationDeltaUtime": "2026-09-28T13:00:43",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-09-28T09:58:18",
-    "dailyCvUtime": "2026-09-28T09:58:18"
+    "dailyLikeUtime": "2026-09-28T13:00:42",
+    "dailyCvUtime": "2026-09-28T13:00:42"
    },
    "dailyCv": [
     {
      "date": "2026-09-28",
-     "cv": 131
+     "cv": 193
     },
     {
      "date": "2026-09-27",
@@ -1472,42 +1467,42 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 51,
+     "cv": 68,
      "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
      "logNo": "224421189221",
      "createDate": "2026.09.25. 12:30"
     },
     {
      "rank": 2,
-     "cv": 38,
+     "cv": 57,
      "title": "포켓몬카드 온라인 정가 구매 방법 4가지, 추첨과 웃돈 판별 기준",
      "logNo": "224421190483",
      "createDate": "2026.09.27. 07:30"
     },
     {
      "rank": 3,
-     "cv": 11,
+     "cv": 19,
      "title": "포켓몬 카드샵 공식 매장 15곳 위치 총정리, 발매일 대기 요령까지",
      "logNo": "224419198719",
      "createDate": "2026.09.21. 22:59"
     },
     {
      "rank": 4,
-     "cv": 7,
+     "cv": 13,
      "title": "리프트바운드 오리진 제품 5종 가격 총정리, 구매처와 입문 조합까지",
      "logNo": "224419203598",
      "createDate": "2026.09.22. 07:30"
     },
     {
-     "rank": 4,
-     "cv": 7,
+     "rank": 5,
+     "cv": 11,
      "title": "포켓몬카드 자판기 위치 178곳 찾는 법, 브랜드별 개수와 이용 순서",
      "logNo": "224421189866",
      "createDate": "2026.09.26. 07:40"
     },
     {
      "rank": 6,
-     "cv": 4,
+     "cv": 6,
      "title": "포켓몬카드 박스 종류 정가 총정리, MEGA 9종과 가격 인상 비교",
      "logNo": "224419204577",
      "createDate": "2026.09.22. 12:40"
@@ -1516,71 +1511,76 @@
    "referer": [
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 47,
-     "pct": 38.2
+     "cv": 71,
+     "pct": 38.8
     },
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 31,
-     "pct": 25.2
+     "cv": 51,
+     "pct": 27.9
     },
     {
      "name": "네이버 블로그_모바일",
-     "cv": 21,
-     "pct": 17.1
+     "cv": 22,
+     "pct": 12
+    },
+    {
+     "name": "네이버 통합검색_PC",
+     "cv": 14,
+     "pct": 7.7
     },
     {
      "name": "네이버 블로그검색_모바일",
      "cv": 13,
-     "pct": 10.6
-    },
-    {
-     "name": "네이버 통합검색_PC",
-     "cv": 6,
-     "pct": 4.9
+     "pct": 7.1
     },
     {
      "name": "네이버 메인_모바일",
-     "cv": 2,
-     "pct": 1.6
-    },
-    {
-     "name": "네이버 블로그_PC",
-     "cv": 1,
-     "pct": 0.8
+     "cv": 4,
+     "pct": 2.2
     },
     {
      "name": "네이버 블로그검색_PC",
-     "cv": 1,
-     "pct": 0.8
+     "cv": 4,
+     "pct": 2.2
+    },
+    {
+     "name": "네이버 블로그_PC",
+     "cv": 2,
+     "pct": 1.1
     },
     {
      "name": "네이버 스포츠_모바일",
      "cv": 1,
-     "pct": 0.8
+     "pct": 0.5
+    },
+    {
+     "name": "네이버 알림",
+     "cv": 1,
+     "pct": 0.5
     }
    ],
    "searchQueries": [
     {
-     "cv": 47,
+     "cv": 71,
      "pct": 100
     }
    ]
   },
   "yesterday": {
    "date": "2026-09-27",
-   "utime": "2026-09-28T08:00:38",
+   "utime": "2026-09-28T13:00:43",
    "dashboard": {
     "dailyComment": 1,
     "dailyPlayCount": "0",
     "dailyCv": 371,
     "dailyLike": 4,
-    "dailyCommentUtime": "2026-09-28T08:00:38",
-    "dailyRelationDeltaUtime": "2026-09-28T08:00:38",
+    "dailyCommentUtime": "2026-09-28T13:00:43",
+    "dailyRelationDeltaUtime": "2026-09-28T13:00:43",
     "dailyRelationDelta": 1,
     "isToday": false,
-    "dailyLikeUtime": "2026-09-28T08:00:38",
-    "dailyCvUtime": "2026-09-28T08:00:38"
+    "dailyLikeUtime": "2026-09-28T13:00:43",
+    "dailyCvUtime": "2026-09-28T13:00:43"
    },
    "dailyCv": [
     {
@@ -2041,6 +2041,16 @@
  "aiCited": [],
  "routines": [
   {
+   "id": "visGHRYgqUFXHhjV",
+   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인 (rmarn99, 첫 2주 보호)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
+   "runAt": null,
+   "nextRunAt": "2026-09-28T23:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
    "id": "1npLAD0wuozLwqfW",
    "name": "고몽이 TCG 센터 신규 글 (rmarn99, 포켓몬 80%: 하루 3개·AEO 키워드·재발행 금지)",
    "kind": "cron",
@@ -2058,16 +2068,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
    "runAt": null,
    "nextRunAt": "2026-10-05T00:00:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "visGHRYgqUFXHhjV",
-   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인 (rmarn99, 첫 2주 보호)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
-   "runAt": null,
-   "nextRunAt": "2026-09-28T04:00:00.000Z",
    "lastRunAt": null
   },
   {
