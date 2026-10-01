@@ -1,20 +1,20 @@
 {
- "collectedAt": "2026-09-30T23:00:32.167Z",
- "collectedAtText": "2026-10-01 08:00",
+ "collectedAt": "2026-10-01T00:25:26.819Z",
+ "collectedAtText": "2026-10-01 09:25",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 8616,
+ "elapsedMs": 9055,
  "errors": [],
  "summary": {
   "publicCount": 25,
   "queueCount": 14,
   "totalCount": 39,
-  "todayCv": 58,
+  "todayCv": 79,
   "yesterdayCv": 649,
-  "todayVisitor": 53,
+  "todayVisitor": 72,
   "buddyCount": 45,
   "citations": {
    "cumulative": 12688,
@@ -23,19 +23,13 @@
    "currentMonth": 10,
    "selectionPeriodMonth": 8
   },
-  "unansweredComments": 2,
-  "totalComments": 8,
+  "unansweredComments": 0,
+  "totalComments": 9,
   "v5Pending": 0,
   "searchOff": 0,
   "totalReadCount": null
  },
- "alerts": [
-  {
-   "level": "warn",
-   "type": "comment",
-   "text": "미답변 댓글 2건"
-  }
- ],
+ "alerts": [],
  "posts": [
   {
    "no": 1,
@@ -78,9 +72,9 @@
    "url": "https://blog.naver.com/rmarn99/224419198719",
    "openType": "2",
    "searchYn": true,
-   "readCount": 463,
-   "commentCount": 1,
-   "unanswered": 1,
+   "readCount": 465,
+   "commentCount": 2,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 14,
    "imgs": 3,
@@ -165,7 +159,7 @@
    "url": "https://blog.naver.com/rmarn99/224419204577",
    "openType": "2",
    "searchYn": true,
-   "readCount": 118,
+   "readCount": 119,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -223,7 +217,7 @@
    "url": "https://blog.naver.com/rmarn99/224420642062",
    "openType": "2",
    "searchYn": true,
-   "readCount": 87,
+   "readCount": 89,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -340,8 +334,8 @@
    "openType": "2",
    "searchYn": true,
    "readCount": null,
-   "commentCount": 1,
-   "unanswered": 1,
+   "commentCount": 2,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 15,
    "imgs": 4,
@@ -368,7 +362,7 @@
    "url": "https://blog.naver.com/rmarn99/224421189866",
    "openType": "2",
    "searchYn": true,
-   "readCount": 169,
+   "readCount": 170,
    "commentCount": 3,
    "unanswered": 0,
    "v5": true,
@@ -674,7 +668,7 @@
    "url": "https://blog.naver.com/rmarn99/224422743869",
    "openType": "2",
    "searchYn": true,
-   "readCount": 14,
+   "readCount": 15,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -697,8 +691,8 @@
    "url": "https://blog.naver.com/rmarn99/224422744444",
    "openType": "2",
    "searchYn": true,
-   "readCount": 0,
-   "commentCount": 0,
+   "readCount": 2,
+   "commentCount": 2,
    "unanswered": 0,
    "v5": true,
    "internalLinks": 15,
@@ -1105,6 +1099,62 @@
  ],
  "comments": [
   {
+   "logNo": "224422744444",
+   "commentNo": "906377142042886442",
+   "parentCommentNo": "906374975013781574",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "하루일기님 반갑습니다. 발매 순서 글까지 봐 주셔서 감사합니다. 이 글은 MEGA 9종과 스칼렛&amp;바이올렛 25종을 발매일 순서대로 묶어 둔 정리라, 어느 팩부터 모을지 정하실 때 보시면 편합니다. 답방도 다녀오겠습니다. 즐거운 목요일 보내세요.",
+   "regTime": "2026-10-01T09:24:54+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": true,
+   "unanswered": false
+  },
+  {
+   "logNo": "224421189221",
+   "commentNo": "906377113454510221",
+   "parentCommentNo": "906344890697252905",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "도로리님 반갑습니다. 정가 기준이 헷갈린다는 이야기가 많아서 유형별로 묶어 봤습니다. 2026년 9월 기준 일반 확장팩은 1팩 1,000원과 1,500원이고 30주년 팩만 1팩 3,500원, 1상자 20팩 70,000원입니다. 이 선을 넘으면 웃돈이니 구매 전에 팩당 가격만 보셔도 손해",
+   "regTime": "2026-10-01T09:24:26+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224419198719",
+   "commentNo": "906377092013228065",
+   "parentCommentNo": "906299997752918181",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "래랙님 반갑습니다. 매장별 공지가 유일한 기준이라는 점을 짚어 주셔서 감사합니다. 구리점은 2026년 9월 19일과 20일 이틀 연속으로 30주년 판매를 취소했는데, 이런 변경은 전날 밤과 당일 아침에 매장 공지를 두 번 확인하면 대부분 걸러집니다. 싱글이나 용품만 필요하시면 발매 주간",
+   "regTime": "2026-10-01T09:24:07+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224422744444",
+   "commentNo": "906374975013781574",
+   "parentCommentNo": "906374975013781574",
+   "replyLevel": 1,
+   "userName": "하루일기",
+   "contents": "포스팅 잘 보고갑니다.<br>오늘도 행복한 목요일 되시길 바랄게요!<br>답방 부탁해요❤",
+   "regTime": "2026-10-01T08:51:15+0900",
+   "mine": false,
+   "replyCount": 1,
+   "deleted": false,
+   "secret": true,
+   "unanswered": false
+  },
+  {
    "logNo": "224421189221",
    "commentNo": "906344890697252905",
    "parentCommentNo": "906344890697252905",
@@ -1113,10 +1163,10 @@
    "contents": "정가 구매처 정리 보기 쉽게 해주셔서<br>감사합니다! 🫡🫡",
    "regTime": "2026-10-01T01:04:18+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": false,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224419198719",
@@ -1127,10 +1177,10 @@
    "contents": "포켓몬 카드샵의 위치와 신규 매장 오픈 소식이 정말 유익하네요. 특히, 매장별 공지를 꼭 확인해야 한다는 점은 많은 분들이 헛걸음을 피하는 데 큰 도움이 될 것 같아요. 오늘도 좋은 하루 보내세요!",
    "regTime": "2026-09-30T13:27:27+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": false,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224421189866",
@@ -1291,10 +1341,10 @@
   "dailyCv": [
    {
     "date": "2026-10-01",
-    "total": 58,
-    "friend": 2,
+    "total": 79,
+    "friend": 3,
     "follow": 0,
-    "etc": 56
+    "etc": 76
    },
    {
     "date": "2026-09-30",
@@ -1397,23 +1447,23 @@
   ],
   "today": {
    "date": "2026-10-01",
-   "utime": "2026-10-01T08:00:33",
+   "utime": "2026-10-01T09:25:24",
    "dashboard": {
-    "dailyComment": 1,
+    "dailyComment": 5,
     "dailyPlayCount": "0",
-    "dailyCv": 58,
-    "dailyLike": 2,
-    "dailyCommentUtime": "2026-10-01T08:00:33",
-    "dailyRelationDeltaUtime": "2026-10-01T08:00:33",
+    "dailyCv": 79,
+    "dailyLike": 4,
+    "dailyCommentUtime": "2026-10-01T09:25:24",
+    "dailyRelationDeltaUtime": "2026-10-01T09:25:24",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-10-01T08:00:33",
-    "dailyCvUtime": "2026-10-01T08:00:33"
+    "dailyLikeUtime": "2026-10-01T09:25:24",
+    "dailyCvUtime": "2026-10-01T09:25:24"
    },
    "dailyCv": [
     {
      "date": "2026-10-01",
-     "cv": 58
+     "cv": 79
     },
     {
      "date": "2026-09-30",
@@ -1475,7 +1525,7 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 19,
+     "cv": 30,
      "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
      "logNo": "224421189221",
      "createDate": "2026.09.25. 12:30"
@@ -1489,7 +1539,7 @@
     },
     {
      "rank": 3,
-     "cv": 6,
+     "cv": 8,
      "title": "포켓몬 카드샵 공식 매장 15곳 위치 총정리, 발매일 대기 요령까지",
      "logNo": "224419198719",
      "createDate": "2026.09.21. 22:59"
@@ -1503,151 +1553,151 @@
     },
     {
      "rank": 5,
-     "cv": 3,
+     "cv": 4,
      "title": "포켓몬카드 자판기 위치 178곳 찾는 법, 브랜드별 개수와 이용 순서",
      "logNo": "224421189866",
      "createDate": "2026.09.26. 07:40"
     },
     {
-     "rank": 5,
+     "rank": 6,
      "cv": 3,
-     "title": "포켓몬카드 PSA 등급 받는 법, 접수 절차 5단계와 요금 기간 기준",
-     "logNo": "224421388588",
-     "createDate": "2026.09.29. 12:20"
+     "title": "포켓몬카드 박스 종류 정가 총정리, MEGA 9종과 가격 인상 비교",
+     "logNo": "224419204577",
+     "createDate": "2026.09.22. 12:40"
     }
    ],
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 34,
-     "pct": 59.6
+     "cv": 50,
+     "pct": 64.1
     },
     {
      "name": "네이버 메인_모바일_홈판",
      "cv": 11,
-     "pct": 19.3
+     "pct": 14.1
     },
     {
      "name": "네이버 블로그_모바일",
-     "cv": 5,
-     "pct": 8.8
+     "cv": 8,
+     "pct": 10.3
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 4,
-     "pct": 7
+     "cv": 5,
+     "pct": 6.4
     },
     {
      "name": "네이버 블로그검색_PC",
-     "cv": 2,
-     "pct": 3.5
+     "cv": 3,
+     "pct": 3.8
     },
     {
      "name": "Daum_모바일",
      "cv": 1,
-     "pct": 1.8
+     "pct": 1.3
     }
    ],
    "searchQueries": [
     {
      "query": "조로아 포켓몬카드 스타터세트 추천",
      "cv": 2,
-     "pct": 5.9
+     "pct": 4
     },
     {
      "query": "천안 포켓몬카드",
      "cv": 2,
-     "pct": 5.9
+     "pct": 4
+    },
+    {
+     "query": "포켓몬카드 등급용어",
+     "cv": 2,
+     "pct": 4
+    },
+    {
+     "query": "포켓몬카드 이마트 입고시간",
+     "cv": 2,
+     "pct": 4
     },
     {
      "query": "강릉 포켓몬카드샵",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
     },
     {
      "query": "광주 30주년 포켓몬카드사는법",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
     },
     {
      "query": "광주롯데마트 포켓몬 30주년 카드",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
     },
     {
      "query": "광주포켓몬 30주년 카드판매점",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
     },
     {
      "query": "롯데마트 포켓몬카드 입고일",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
     },
     {
      "query": "리프트바운드 비싼카드",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
     },
     {
      "query": "리프트바운드 서치",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
     },
     {
      "query": "리프트바운드 슬리브",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
     },
     {
      "query": "리프트바운드 카드",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
+    },
+    {
+     "query": "부산 포켓몬 30주년",
+     "cv": 1,
+     "pct": 2
+    },
+    {
+     "query": "부산 포켓몬 30주년 카드 파는곳",
+     "cv": 1,
+     "pct": 2
     },
     {
      "query": "부산 포켓몬 30주년 카드 판매",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
+    },
+    {
+     "query": "부산 포켓몬 카드 자판기",
+     "cv": 1,
+     "pct": 2
     },
     {
      "query": "서울 포켓몬카드 공식몰",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
     },
     {
      "query": "울산 30주년포켓몬카드 파는곳",
      "cv": 1,
-     "pct": 2.9
+     "pct": 2
     },
     {
      "query": "이마트 포켓몬카드 입고 요일",
      "cv": 1,
-     "pct": 2.9
-    },
-    {
-     "query": "인천 cgv 포켓몬카드 자판기",
-     "cv": 1,
-     "pct": 2.9
-    },
-    {
-     "query": "청주포켓몬카드",
-     "cv": 1,
-     "pct": 2.9
-    },
-    {
-     "query": "편의점 포켓몬카드",
-     "cv": 1,
-     "pct": 2.9
-    },
-    {
-     "query": "포켓몬 30주년 카드 이마트광주점",
-     "cv": 1,
-     "pct": 2.9
-    },
-    {
-     "query": "포켓몬 30주년 힛카드",
-     "cv": 1,
-     "pct": 2.9
+     "pct": 2
     }
    ]
   },
