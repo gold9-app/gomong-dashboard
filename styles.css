@@ -311,3 +311,17 @@ a.item:active { background: var(--surface-2); }
 /* 2026-09-21 계정 이관 표시 */
 .blogchip{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;font-size:11px;font-weight:600;letter-spacing:.2px;color:#fff;background:#e3350d;text-decoration:none;vertical-align:middle}
 .blogchip:hover{opacity:.85}
+
+/* 모바일 통합검색 순위 색상 등급 (2026-10-01) */
+.mr-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: var(--t-xs); padding: 2px 0 8px; border-bottom: 1px solid var(--line); }
+.mr-row { border-left: 3px solid transparent; padding-left: 8px; }
+.mr-row.mr-ok { border-left-color: var(--success); }
+.mr-row.mr-info { border-left-color: var(--info); }
+.mr-row.mr-warn { border-left-color: var(--warn); }
+.mr-row.mr-danger { border-left-color: var(--danger); }
+.mr-row .mr-no { min-width: 28px; height: 28px; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center; font-size: 13px; background: var(--surface-2); color: var(--muted); }
+.mr-row.mr-ok .mr-no { background: var(--success-soft); color: var(--success); }
+.mr-row.mr-info .mr-no { background: var(--info-soft); color: var(--info); }
+.mr-row.mr-warn .mr-no { background: var(--warn-soft); color: var(--warn); }
+.mr-row.mr-danger .mr-no { background: var(--danger-soft); color: var(--danger); }
+.mr-badges { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin-top: 4px; }
