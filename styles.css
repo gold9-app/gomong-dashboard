@@ -325,3 +325,24 @@ a.item:active { background: var(--surface-2); }
 .mr-row.mr-warn .mr-no { background: var(--warn-soft); color: var(--warn); }
 .mr-row.mr-danger .mr-no { background: var(--danger-soft); color: var(--danger); }
 .mr-badges { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin-top: 4px; }
+
+/* ---------- UX 점검 2026-10-01 ---------- */
+html.sheet-open, html.sheet-open body { overflow: hidden; overscroll-behavior: none; }
+.sheet { padding-top: 0; }
+.sheet.no-anim { animation: none; }
+.sheet:focus { outline: none; }
+.sheet-head { position: sticky; top: 0; z-index: 2; display: grid; grid-template-columns: 40px 1fr 40px; align-items: center; gap: 6px; margin: 0 -20px 12px; padding: 14px 14px 10px; background: var(--surface); border-bottom: 1px solid var(--line); touch-action: none; }
+.sheet-head .grip { position: absolute; top: 5px; left: 50%; transform: translateX(-50%); margin: 0; width: 36px; }
+.sheet-head .sh-title { text-align: center; font-weight: 700; font-size: var(--t-md); letter-spacing: -0.02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.icon-btn.sm { width: 36px; height: 36px; border-color: transparent; background: var(--surface-2); }
+.icon-btn.sm svg { width: 18px; height: 18px; }
+.sheet-body { padding-bottom: 4px; }
+.linkbtn { border: 0; background: none; padding: 4px 2px; color: var(--info); font: inherit; font-size: var(--t-xs); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; cursor: pointer; }
+.sheet > .sheet-body > .linkbtn { display: block; margin: 10px auto 0; }
+.tl-res.clamp { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; cursor: pointer; }
+.tl-res { cursor: pointer; }
+.tasklog .tl-more-li { border: 0; padding: 0; background: none; }
+.legend .lg-n { white-space: nowrap; }
+.legend-target { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line); font-size: var(--t-xs); color: var(--muted); }
+.mr-help { font-size: var(--t-xs); color: var(--muted); line-height: 1.6; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.delta:not(.up):not(.down) { color: var(--faint); }
