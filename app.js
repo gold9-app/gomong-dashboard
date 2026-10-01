@@ -162,13 +162,13 @@ function home() {
     <section class="card primary span2">
       <div class="eyebrow"><span>오늘 조회수</span><span class="num">${md(t)} (${dow(t)})</span></div>
       <div class="big"><span data-tick="${s.todayCv ?? 0}">${n(s.todayCv)}</span><small>회</small></div>
-      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span style="font-size:var(--t-sm);color:var(--muted)">어제 <b class="num" style="color:var(--text)">${n(yd)}</b></span>${yd != null && dbf != null ? delta(yd - dbf, ' vs 그제') : ''}</div>
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span style="font-size:var(--t-sm);color:var(--muted)">방문자 <b class="num" style="color:var(--text)">${n(s.todayVisitor)}</b></span><span style="font-size:var(--t-sm);color:var(--muted)">어제 <b class="num" style="color:var(--text)">${n(yd)}</b></span>${yd != null && dbf != null ? delta(yd - dbf, ' vs 그제') : ''}</div>
       ${daily.length ? sparkline(daily.map(r => r.total), daily.map(r => md(r.date))) : ''}
     </section>
     <section class="card kpi"><div class="l">${I.spark}AI 인용 누적</div><div class="v" data-tick="${s.citations.cumulative ?? 0}">${n(s.citations.cumulative)}</div><div class="d">${citDelta != null ? delta(citDelta) : ''}<span>이번 달 ${n(s.citations.month)}</span></div></section>
     <section class="card kpi ${s.unansweredComments ? 'alert' : ''}"><div class="l">${I.chat}미답변 댓글</div><div class="v" data-tick="${s.unansweredComments}">${n(s.unansweredComments)}</div><div class="d">전체 ${n(s.totalComments)}개</div></section>
     <section class="card kpi"><div class="l">${I.doc}공개 / 예약</div><div class="v"><span data-tick="${s.publicCount}">${n(s.publicCount)}</span><small> / ${n(s.queueCount)}</small></div><div class="d">${s.v5Pending ? `<span class="badge warn">v5 대기 ${s.v5Pending}</span>` : `<span class="badge ok">${I.check}레이아웃 정상</span>`}${s.searchOff ? `<span class="badge danger">검색 OFF ${s.searchOff}</span>` : ''}</div></section>
-    <section class="card kpi"><div class="l">${I.users}이웃</div><div class="v" data-tick="${s.buddyCount ?? 0}">${n(s.buddyCount)}</div><div class="d">오늘 방문자 ${n(s.todayVisitor)}</div></section>
+    <section class="card kpi"><div class="l">${I.users}이웃</div><div class="v" data-tick="${s.buddyCount ?? 0}">${n(s.buddyCount)}</div><div class="d">서로이웃 신청·교류 매일 21:10</div></section>
     ${C ? `<section class="card kpi cafe ${cafeIssues ? 'alert' : ''}" data-goto="cafe" role="link" tabindex="0"><div class="l">${I.users}카페 멤버 · 글</div><div class="v"><span data-tick="${C.members ?? 0}">${n(C.members)}</span><small> / ${n(C.articles)}</small></div><div class="d">${cafeMDelta != null ? delta(cafeMDelta) : ''}${C.pendingLevelUps ? `<span class="badge warn">등업 대기 ${C.pendingLevelUps}</span>` : ''}${(C.unansweredQuestions || []).length ? `<span class="badge danger">질문 ${C.unansweredQuestions.length}</span>` : ''}${(C.ruleFlags || []).length ? `<span class="badge danger">거래 경고 ${C.ruleFlags.length}</span>` : ''}${!cafeIssues ? `<span class="badge ok">${I.check}${esc(C.grade || '정상')}</span>` : ''}</div></section>` : ''}
   </div>
 
