@@ -1,20 +1,20 @@
 {
- "collectedAt": "2026-10-02T03:25:47.912Z",
- "collectedAtText": "2026-10-02 12:25",
+ "collectedAt": "2026-10-02T03:34:10.648Z",
+ "collectedAtText": "2026-10-02 12:34",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 9089,
+ "elapsedMs": 8311,
  "errors": [],
  "summary": {
-  "publicCount": 29,
-  "queueCount": 20,
+  "publicCount": 30,
+  "queueCount": 19,
   "totalCount": 49,
-  "todayCv": 245,
+  "todayCv": 251,
   "yesterdayCv": 508,
-  "todayVisitor": 223,
+  "todayVisitor": 227,
   "buddyCount": 51,
   "citations": {
    "cumulative": 19107,
@@ -775,7 +775,7 @@
    "url": "https://blog.naver.com/rmarn99/224422742437",
    "openType": "2",
    "searchYn": true,
-   "readCount": 93,
+   "readCount": 94,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -805,7 +805,7 @@
    "url": "https://blog.naver.com/rmarn99/224422743238",
    "openType": "2",
    "searchYn": true,
-   "readCount": 55,
+   "readCount": 56,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -965,22 +965,25 @@
    "no": 29,
    "logNo": "224422746943",
    "title": "포켓몬카드 종류 3가지 차이, 트레이너스 4종과 에너지 종류 정리",
-   "status": "예약",
+   "status": "공개",
    "game": "포켓몬",
    "category": "포켓몬 카드 입문 가이드",
    "keyword": "포켓몬카드 종류",
-   "publishedText": "2026-10-02 12:30",
-   "postDate": 1790911800000,
+   "publishedText": "2026-10-02 12:30 예약",
    "url": "https://blog.naver.com/rmarn99/224422746943",
-   "searchYn": null,
+   "openType": "2",
+   "searchYn": true,
    "readCount": 0,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
-   "aiCited": false
+   "aiCited": false,
+   "mRank": null
   },
   {
    "no": 30,
@@ -1393,7 +1396,7 @@
    "url": "https://blog.naver.com/rmarn99/224428326179",
    "openType": "2",
    "searchYn": true,
-   "readCount": 14,
+   "readCount": 15,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1413,13 +1416,6 @@
   }
  ],
  "queue": [
-  {
-   "logNo": "224422746943",
-   "title": "포켓몬카드 종류 3가지 차이, 트레이너스 4종과 에너지 종류 정리",
-   "postDate": 1790911800000,
-   "postDateText": "2026-10-02 12:30",
-   "addDate": 1790348225483
-  },
   {
    "logNo": "224422747557",
    "title": "리프트바운드 T1 시그니처 에디션 정가 50만원, 구성 5장 구매법",
@@ -1918,23 +1914,23 @@
   ],
   "today": {
    "date": "2026-10-02",
-   "utime": "2026-10-02T12:25:45",
+   "utime": "2026-10-02T12:34:09",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 245,
+    "dailyCv": 251,
     "dailyLike": 3,
-    "dailyCommentUtime": "2026-10-02T12:25:45",
-    "dailyRelationDeltaUtime": "2026-10-02T12:25:46",
+    "dailyCommentUtime": "2026-10-02T12:34:09",
+    "dailyRelationDeltaUtime": "2026-10-02T12:34:09",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-10-02T12:25:45",
-    "dailyCvUtime": "2026-10-02T12:25:45"
+    "dailyLikeUtime": "2026-10-02T12:34:09",
+    "dailyCvUtime": "2026-10-02T12:34:09"
    },
    "dailyCv": [
     {
      "date": "2026-10-02",
-     "cv": 245
+     "cv": 251
     },
     {
      "date": "2026-10-01",
