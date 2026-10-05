@@ -1,20 +1,20 @@
 {
- "collectedAt": "2026-10-05T03:18:22.836Z",
- "collectedAtText": "2026-10-05 12:18",
+ "collectedAt": "2026-10-05T04:00:45.413Z",
+ "collectedAtText": "2026-10-05 13:00",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 13113,
+ "elapsedMs": 13212,
  "errors": [],
  "summary": {
-  "publicCount": 39,
-  "queueCount": 21,
+  "publicCount": 40,
+  "queueCount": 20,
   "totalCount": 60,
-  "todayCv": 324,
+  "todayCv": 353,
   "yesterdayCv": 824,
-  "todayVisitor": 297,
+  "todayVisitor": 325,
   "buddyCount": 64,
   "citations": {
    "cumulative": 30715,
@@ -85,7 +85,7 @@
    "url": "https://blog.naver.com/rmarn99/224419198719",
    "openType": "2",
    "searchYn": true,
-   "readCount": 719,
+   "readCount": 723,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -121,7 +121,7 @@
    "url": "https://blog.naver.com/rmarn99/224419199649",
    "openType": "2",
    "searchYn": true,
-   "readCount": 188,
+   "readCount": 189,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -193,7 +193,7 @@
    "url": "https://blog.naver.com/rmarn99/224419204577",
    "openType": "2",
    "searchYn": true,
-   "readCount": 276,
+   "readCount": 277,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -265,7 +265,7 @@
    "url": "https://blog.naver.com/rmarn99/224420642062",
    "openType": "2",
    "searchYn": true,
-   "readCount": 195,
+   "readCount": 198,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -481,7 +481,7 @@
    "url": "https://blog.naver.com/rmarn99/224421190483",
    "openType": "2",
    "searchYn": true,
-   "readCount": 272,
+   "readCount": 273,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -769,7 +769,7 @@
    "url": "https://blog.naver.com/rmarn99/224421389946",
    "openType": "2",
    "searchYn": true,
-   "readCount": 419,
+   "readCount": 420,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -841,7 +841,7 @@
    "url": "https://blog.naver.com/rmarn99/224422743238",
    "openType": "2",
    "searchYn": true,
-   "readCount": 154,
+   "readCount": 155,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -949,7 +949,7 @@
    "url": "https://blog.naver.com/rmarn99/224422744989",
    "openType": "2",
    "searchYn": true,
-   "readCount": 25,
+   "readCount": 26,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1201,7 +1201,7 @@
    "url": "https://blog.naver.com/rmarn99/224422749746",
    "openType": "2",
    "searchYn": true,
-   "readCount": 6,
+   "readCount": 7,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -1237,7 +1237,7 @@
    "url": "https://blog.naver.com/rmarn99/224422750359",
    "openType": "2",
    "searchYn": true,
-   "readCount": 27,
+   "readCount": 28,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1486,7 +1486,7 @@
    "url": "https://blog.naver.com/rmarn99/224431135228",
    "openType": "2",
    "searchYn": true,
-   "readCount": 144,
+   "readCount": 151,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -1522,7 +1522,7 @@
    "url": "https://blog.naver.com/rmarn99/224431138770",
    "openType": "2",
    "searchYn": true,
-   "readCount": 47,
+   "readCount": 50,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1550,22 +1550,25 @@
    "no": 53,
    "logNo": "224431139430",
    "title": "포켓몬 카드샵 일산점 오픈, 운영시간과 10월 10일 토너먼트 예약",
-   "status": "예약",
+   "status": "공개",
    "game": "포켓몬",
    "category": "포켓몬 굿즈·이벤트",
    "keyword": "포켓몬 카드샵 일산",
-   "publishedText": "2026-10-05 12:40",
-   "postDate": 1791171600000,
+   "publishedText": "2026-10-05 12:40 예약(10/4 트렌드 교체)",
    "url": "https://blog.naver.com/rmarn99/224431139430",
-   "searchYn": null,
-   "readCount": 0,
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 1,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
-   "aiCited": false
+   "aiCited": false,
+   "mRank": null
   },
   {
    "no": 54,
@@ -1884,13 +1887,6 @@
   }
  ],
  "queue": [
-  {
-   "logNo": "224431139430",
-   "title": "포켓몬 카드샵 일산점 오픈, 운영시간과 10월 10일 토너먼트 예약",
-   "postDate": 1791171600000,
-   "postDateText": "2026-10-05 12:40",
-   "addDate": 1791097070342
-  },
   {
    "logNo": "224424491242",
    "title": "포켓몬카드 스톰에메랄다 힛카드 리스트, SAR 6장 MUR 1장 번호",
@@ -2458,10 +2454,10 @@
   "dailyCv": [
    {
     "date": "2026-10-05",
-    "total": 324,
-    "friend": 6,
+    "total": 353,
+    "friend": 7,
     "follow": 4,
-    "etc": 314
+    "etc": 342
    },
    {
     "date": "2026-10-04",
@@ -2564,23 +2560,23 @@
   ],
   "today": {
    "date": "2026-10-05",
-   "utime": "2026-10-05T12:18:15",
+   "utime": "2026-10-05T13:00:38",
    "dashboard": {
     "dailyComment": 3,
     "dailyPlayCount": "0",
-    "dailyCv": 324,
-    "dailyLike": 3,
-    "dailyCommentUtime": "2026-10-05T12:18:16",
-    "dailyRelationDeltaUtime": "2026-10-05T12:18:16",
+    "dailyCv": 353,
+    "dailyLike": 4,
+    "dailyCommentUtime": "2026-10-05T13:00:38",
+    "dailyRelationDeltaUtime": "2026-10-05T13:00:38",
     "dailyRelationDelta": 1,
     "isToday": true,
-    "dailyLikeUtime": "2026-10-05T12:18:16",
-    "dailyCvUtime": "2026-10-05T12:18:15"
+    "dailyLikeUtime": "2026-10-05T13:00:38",
+    "dailyCvUtime": "2026-10-05T13:00:38"
    },
    "dailyCv": [
     {
      "date": "2026-10-05",
-     "cv": 324
+     "cv": 353
     },
     {
      "date": "2026-10-04",
@@ -2642,82 +2638,82 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 76,
+     "cv": 83,
      "title": "포켓몬카드 편의점 재고 조회 방법, 4사 앱 순서와 예약 주의점",
      "logNo": "224431135228",
      "createDate": "2026.10.04. 15:51"
     },
     {
      "rank": 2,
-     "cv": 47,
+     "cv": 50,
      "title": "포켓몬카드 30주년 재입고 정리, 10월 1~3일 풀린 5곳과 정가",
      "logNo": "224431138770",
      "createDate": "2026.10.05. 07:20"
     },
     {
      "rank": 3,
-     "cv": 36,
+     "cv": 39,
      "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
      "logNo": "224421189221",
      "createDate": "2026.09.25. 12:30"
     },
     {
      "rank": 4,
-     "cv": 23,
+     "cv": 27,
      "title": "포켓몬 카드샵 공식 매장 15곳 위치 총정리, 발매일 대기 요령까지",
      "logNo": "224419198719",
      "createDate": "2026.09.21. 22:59"
     },
     {
      "rank": 5,
-     "cv": 14,
-     "title": "포켓몬카드 서치팩 재포장 구별법 6가지, 정가보다 싼 낱팩 확인 순서",
-     "logNo": "224421389946",
-     "createDate": "2026.09.30. 12:30"
-    },
-    {
-     "rank": 6,
-     "cv": 13,
+     "cv": 16,
      "title": "포켓몬카드 등급 읽는 법, 레어도 알파벳 9개와 시크릿 번호 기준",
      "logNo": "224420642062",
      "createDate": "2026.09.24. 07:40"
+    },
+    {
+     "rank": 6,
+     "cv": 15,
+     "title": "포켓몬카드 서치팩 재포장 구별법 6가지, 정가보다 싼 낱팩 확인 순서",
+     "logNo": "224421389946",
+     "createDate": "2026.09.30. 12:30"
     }
    ],
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 146,
-     "pct": 46.2
+     "cv": 165,
+     "pct": 47.8
     },
     {
      "name": "네이버 메인_모바일_홈판",
      "cv": 69,
-     "pct": 21.8
+     "pct": 20
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 43,
-     "pct": 13.6
+     "cv": 49,
+     "pct": 14.2
     },
     {
      "name": "네이버 블로그_모바일",
-     "cv": 25,
-     "pct": 7.9
+     "cv": 29,
+     "pct": 8.4
     },
     {
      "name": "네이버 통합검색_PC",
      "cv": 9,
-     "pct": 2.8
+     "pct": 2.6
     },
     {
      "name": "네이버 블로그검색_PC",
      "cv": 8,
-     "pct": 2.5
+     "pct": 2.3
     },
     {
      "name": "네이버 메인_모바일",
      "cv": 7,
-     "pct": 2.2
+     "pct": 2
     },
     {
      "name": "네이버 블로그_PC",
@@ -2749,119 +2745,119 @@
     {
      "query": "포켓몬 30주년 카드",
      "cv": 4,
-     "pct": 2.7
+     "pct": 2.4
     },
     {
      "query": "포켓몬카드 30주년",
      "cv": 4,
-     "pct": 2.7
+     "pct": 2.4
     },
     {
      "query": "이마트24 포켓몬카드 예약방법",
      "cv": 3,
-     "pct": 2.1
+     "pct": 1.8
     },
     {
      "query": "포켓몬카드 등급",
      "cv": 3,
-     "pct": 2.1
+     "pct": 1.8
+    },
+    {
+     "query": "gs 포켓몬카드 재고조회",
+     "cv": 2,
+     "pct": 1.2
     },
     {
      "query": "gs편의점 포켓몬카드",
      "cv": 2,
-     "pct": 1.4
+     "pct": 1.2
+    },
+    {
+     "query": "대전 포켓몬카드샵",
+     "cv": 2,
+     "pct": 1.2
     },
     {
      "query": "일산 포켓몬카드 30주년",
      "cv": 2,
-     "pct": 1.4
+     "pct": 1.2
     },
     {
      "query": "포켓몬 30주년 카드 물량",
      "cv": 2,
-     "pct": 1.4
+     "pct": 1.2
     },
     {
      "query": "포켓몬 서치팩",
      "cv": 2,
-     "pct": 1.4
+     "pct": 1.2
     },
     {
      "query": "포켓몬 카드 발매 순서",
      "cv": 2,
-     "pct": 1.4
+     "pct": 1.2
     },
     {
      "query": "포켓몬카드 당일픽업",
      "cv": 2,
-     "pct": 1.4
+     "pct": 1.2
     },
     {
      "query": "포켓몬카드 이마트 재고조회",
      "cv": 2,
-     "pct": 1.4
+     "pct": 1.2
+    },
+    {
+     "query": "포켓몬카드 종류",
+     "cv": 2,
+     "pct": 1.2
     },
     {
      "query": "포켓몬카드공장",
      "cv": 2,
-     "pct": 1.4
+     "pct": 1.2
     },
     {
      "query": "10/24(토) 2027 코리안리그 시즌1",
      "cv": 1,
-     "pct": 0.7
+     "pct": 0.6
     },
     {
      "query": "2026 다이소 포켓몬카드",
      "cv": 1,
-     "pct": 0.7
+     "pct": 0.6
     },
     {
      "query": "2026 할로윈 포켓몬카드",
      "cv": 1,
-     "pct": 0.7
+     "pct": 0.6
     },
     {
      "query": "30주년 서치",
      "cv": 1,
-     "pct": 0.7
+     "pct": 0.6
     },
     {
      "query": "30주년 포켓몬 박스 판매처",
      "cv": 1,
-     "pct": 0.7
-    },
-    {
-     "query": "e마트 포켓몬카드 30주년 기념팩 입고시기",
-     "cv": 1,
-     "pct": 0.7
-    },
-    {
-     "query": "gs 포켓몬카드 재고",
-     "cv": 1,
-     "pct": 0.7
-    },
-    {
-     "query": "gs25 30주년 박스 입고",
-     "cv": 1,
-     "pct": 0.7
+     "pct": 0.6
     }
    ]
   },
   "yesterday": {
    "date": "2026-10-04",
-   "utime": "2026-10-05T10:22:01",
+   "utime": "2026-10-05T13:00:39",
    "dashboard": {
     "dailyComment": 2,
     "dailyPlayCount": "0",
     "dailyCv": 824,
     "dailyLike": 18,
-    "dailyCommentUtime": "2026-10-05T10:22:02",
-    "dailyRelationDeltaUtime": "2026-10-05T10:22:02",
+    "dailyCommentUtime": "2026-10-05T13:00:39",
+    "dailyRelationDeltaUtime": "2026-10-05T13:00:39",
     "dailyRelationDelta": 0,
     "isToday": false,
-    "dailyLikeUtime": "2026-10-05T10:22:01",
-    "dailyCvUtime": "2026-10-05T10:22:01"
+    "dailyLikeUtime": "2026-10-05T13:00:39",
+    "dailyCvUtime": "2026-10-05T13:00:39"
    },
    "dailyCv": [
     {
@@ -5157,6 +5153,16 @@
  ],
  "routines": [
   {
+   "id": "visGHRYgqUFXHhjV",
+   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인 (rmarn99, 첫 2주 보호)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
+   "runAt": null,
+   "nextRunAt": "2026-10-05T23:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
    "id": "1npLAD0wuozLwqfW",
    "name": "고몽이 TCG 센터 신규 글 (rmarn99, 포켓몬 80%: 하루 3개·AEO 키워드·재발행 금지)",
    "kind": "cron",
@@ -5174,16 +5180,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
    "runAt": null,
    "nextRunAt": "2026-10-12T00:00:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "visGHRYgqUFXHhjV",
-   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인 (rmarn99, 첫 2주 보호)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
-   "runAt": null,
-   "nextRunAt": "2026-10-05T04:00:00.000Z",
    "lastRunAt": null
   },
   {
@@ -5375,7 +5371,7 @@
    "selectionMonth": 12,
    "betaEnds": "2026-12"
   },
-  "at": "2026-10-05T03:18:22.836Z"
+  "at": "2026-10-05T04:00:45.413Z"
  },
  "loginOk": true,
  "preflight": "ok"
