@@ -1,20 +1,20 @@
 {
- "collectedAt": "2026-10-06T02:51:54.610Z",
- "collectedAtText": "2026-10-06 11:51",
+ "collectedAt": "2026-10-06T04:00:48.798Z",
+ "collectedAtText": "2026-10-06 13:00",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 13755,
+ "elapsedMs": 13831,
  "errors": [],
  "summary": {
-  "publicCount": 42,
-  "queueCount": 20,
+  "publicCount": 43,
+  "queueCount": 19,
   "totalCount": 62,
-  "todayCv": 282,
+  "todayCv": 337,
   "yesterdayCv": 809,
-  "todayVisitor": 249,
+  "todayVisitor": 298,
   "buddyCount": 66,
   "citations": {
    "cumulative": 34612,
@@ -49,7 +49,7 @@
    "url": "https://blog.naver.com/rmarn99/224419166297",
    "openType": "2",
    "searchYn": true,
-   "readCount": 138,
+   "readCount": 140,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -85,7 +85,7 @@
    "url": "https://blog.naver.com/rmarn99/224419198719",
    "openType": "2",
    "searchYn": true,
-   "readCount": 749,
+   "readCount": 755,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -121,7 +121,7 @@
    "url": "https://blog.naver.com/rmarn99/224419199649",
    "openType": "2",
    "searchYn": true,
-   "readCount": 206,
+   "readCount": 210,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -193,7 +193,7 @@
    "url": "https://blog.naver.com/rmarn99/224419204577",
    "openType": "2",
    "searchYn": true,
-   "readCount": 300,
+   "readCount": 304,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -301,7 +301,7 @@
    "url": "https://blog.naver.com/rmarn99/224420643203",
    "openType": "2",
    "searchYn": true,
-   "readCount": 57,
+   "readCount": 58,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -661,7 +661,7 @@
    "url": "https://blog.naver.com/rmarn99/224421387940",
    "openType": "2",
    "searchYn": true,
-   "readCount": 143,
+   "readCount": 147,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -697,7 +697,7 @@
    "url": "https://blog.naver.com/rmarn99/224421388588",
    "openType": "2",
    "searchYn": true,
-   "readCount": 134,
+   "readCount": 136,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -769,7 +769,7 @@
    "url": "https://blog.naver.com/rmarn99/224421389946",
    "openType": "2",
    "searchYn": true,
-   "readCount": 454,
+   "readCount": 456,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -805,7 +805,7 @@
    "url": "https://blog.naver.com/rmarn99/224422742437",
    "openType": "2",
    "searchYn": true,
-   "readCount": 426,
+   "readCount": 427,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -913,7 +913,7 @@
    "url": "https://blog.naver.com/rmarn99/224422744444",
    "openType": "2",
    "searchYn": true,
-   "readCount": 36,
+   "readCount": 37,
    "commentCount": 3,
    "unanswered": 1,
    "v5": true,
@@ -1093,7 +1093,7 @@
    "url": "https://blog.naver.com/rmarn99/224422747557",
    "openType": "2",
    "searchYn": true,
-   "readCount": 76,
+   "readCount": 77,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1237,7 +1237,7 @@
    "url": "https://blog.naver.com/rmarn99/224422750359",
    "openType": "2",
    "searchYn": true,
-   "readCount": 41,
+   "readCount": 42,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1273,7 +1273,7 @@
    "url": "https://blog.naver.com/rmarn99/224422751014",
    "openType": "2",
    "searchYn": true,
-   "readCount": 27,
+   "readCount": 29,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1309,7 +1309,7 @@
    "url": "https://blog.naver.com/rmarn99/224424491242",
    "openType": "2",
    "searchYn": true,
-   "readCount": 18,
+   "readCount": 20,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -1325,22 +1325,25 @@
    "no": 41,
    "logNo": "224427965084",
    "title": "리프트바운드 레디언스 출시일 10월 23일, 신규 체계 3개 정리",
-   "status": "예약",
+   "status": "공개",
    "game": "리프트바운드",
    "category": "리프트바운드 신제품·가격",
    "keyword": "리프트바운드 레디언스",
-   "publishedText": "2026-10-06 12:20",
-   "postDate": 1791256800000,
+   "publishedText": "2026-10-06 12:20 예약",
    "url": "https://blog.naver.com/rmarn99/224427965084",
-   "searchYn": null,
-   "readCount": 0,
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 2,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 3,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
-   "aiCited": false
+   "aiCited": false,
+   "mRank": null
   },
   {
    "no": 44,
@@ -1489,7 +1492,7 @@
    "url": "https://blog.naver.com/rmarn99/224431135228",
    "openType": "2",
    "searchYn": true,
-   "readCount": 297,
+   "readCount": 305,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -1561,7 +1564,7 @@
    "url": "https://blog.naver.com/rmarn99/224431139430",
    "openType": "2",
    "searchYn": true,
-   "readCount": 40,
+   "readCount": 45,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -1585,7 +1588,7 @@
    "url": "https://blog.naver.com/rmarn99/224431137457",
    "openType": "2",
    "searchYn": true,
-   "readCount": 1,
+   "readCount": 2,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1935,13 +1938,6 @@
   }
  ],
  "queue": [
-  {
-   "logNo": "224427965084",
-   "title": "리프트바운드 레디언스 출시일 10월 23일, 신규 체계 3개 정리",
-   "postDate": 1791256800000,
-   "postDateText": "2026-10-06 12:20",
-   "addDate": 1790816884418
-  },
   {
    "logNo": "224431138041",
    "title": "포켓몬카드 메가브레이브 힛카드 리스트, 92장과 정가 3만원 박스",
@@ -2558,10 +2554,10 @@
   "dailyCv": [
    {
     "date": "2026-10-06",
-    "total": 282,
-    "friend": 0,
+    "total": 337,
+    "friend": 4,
     "follow": 0,
-    "etc": 282
+    "etc": 333
    },
    {
     "date": "2026-10-05",
@@ -2664,23 +2660,23 @@
   ],
   "today": {
    "date": "2026-10-06",
-   "utime": "2026-10-06T11:51:48",
+   "utime": "2026-10-06T13:00:43",
    "dashboard": {
     "dailyComment": 2,
     "dailyPlayCount": "0",
-    "dailyCv": 282,
-    "dailyLike": 2,
-    "dailyCommentUtime": "2026-10-06T11:51:48",
-    "dailyRelationDeltaUtime": "2026-10-06T11:51:48",
+    "dailyCv": 337,
+    "dailyLike": 3,
+    "dailyCommentUtime": "2026-10-06T13:00:43",
+    "dailyRelationDeltaUtime": "2026-10-06T13:00:43",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-10-06T11:51:48",
-    "dailyCvUtime": "2026-10-06T11:51:48"
+    "dailyLikeUtime": "2026-10-06T13:00:43",
+    "dailyCvUtime": "2026-10-06T13:00:43"
    },
    "dailyCv": [
     {
      "date": "2026-10-06",
-     "cv": 282
+     "cv": 337
     },
     {
      "date": "2026-10-05",
@@ -2742,199 +2738,204 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 68,
+     "cv": 76,
      "title": "포켓몬카드 편의점 재고 조회 방법, 4사 앱 순서와 예약 주의점",
      "logNo": "224431135228",
      "createDate": "2026.10.04. 15:51"
     },
     {
      "rank": 2,
-     "cv": 31,
+     "cv": 36,
      "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
      "logNo": "224421189221",
      "createDate": "2026.09.25. 12:30"
     },
     {
      "rank": 3,
+     "cv": 20,
+     "title": "포켓몬카드 일본판 한글판 차이 5가지, 정가 발매일 대회 사용 기준",
+     "logNo": "224421387940",
+     "createDate": "2026.09.29. 07:40"
+    },
+    {
+     "rank": 4,
      "cv": 18,
      "title": "포켓몬카드 30주년 재입고 정리, 10월 1~3일 풀린 5곳과 정가",
      "logNo": "224431138770",
      "createDate": "2026.10.05. 07:20"
     },
     {
-     "rank": 4,
-     "cv": 16,
-     "title": "포켓몬카드 일본판 한글판 차이 5가지, 정가 발매일 대회 사용 기준",
-     "logNo": "224421387940",
-     "createDate": "2026.09.29. 07:40"
-    },
-    {
      "rank": 5,
-     "cv": 12,
-     "title": "포켓몬 카드샵 일산점 오픈, 운영시간과 10월 10일 토너먼트 예약",
-     "logNo": "224431139430",
-     "createDate": "2026.10.05. 12:40"
-    },
-    {
-     "rank": 6,
-     "cv": 11,
+     "cv": 17,
      "title": "포켓몬 카드샵 공식 매장 15곳 위치 총정리, 발매일 대기 요령까지",
      "logNo": "224419198719",
      "createDate": "2026.09.21. 22:59"
+    },
+    {
+     "rank": 5,
+     "cv": 17,
+     "title": "포켓몬 카드샵 일산점 오픈, 운영시간과 10월 10일 토너먼트 예약",
+     "logNo": "224431139430",
+     "createDate": "2026.10.05. 12:40"
     }
    ],
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 118,
-     "pct": 44.9
+     "cv": 141,
+     "pct": 45
     },
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 67,
-     "pct": 25.5
+     "cv": 81,
+     "pct": 25.9
     },
     {
      "name": "네이버 통합검색_PC",
-     "cv": 28,
-     "pct": 10.6
+     "cv": 32,
+     "pct": 10.2
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 24,
-     "pct": 9.1
+     "cv": 27,
+     "pct": 8.6
     },
     {
      "name": "네이버 블로그_모바일",
-     "cv": 17,
-     "pct": 6.5
+     "cv": 21,
+     "pct": 6.7
     },
     {
      "name": "네이버 메인_모바일",
      "cv": 3,
-     "pct": 1.1
+     "pct": 1
     },
     {
      "name": "Daum 검색_모바일",
      "cv": 2,
-     "pct": 0.8
+     "pct": 0.6
     },
     {
      "name": "네이버 검색_기타",
      "cv": 2,
-     "pct": 0.8
+     "pct": 0.6
+    },
+    {
+     "name": "네이버 블로그_PC",
+     "cv": 2,
+     "pct": 0.6
     },
     {
      "name": "Bing",
      "cv": 1,
-     "pct": 0.4
+     "pct": 0.3
     },
     {
      "name": "네이버 블로그검색_PC",
      "cv": 1,
-     "pct": 0.4
+     "pct": 0.3
     }
    ],
    "searchQueries": [
     {
+     "query": "일산 포켓몬 카드샵",
+     "cv": 5,
+     "pct": 3.5
+    },
+    {
+     "query": "강릉 포켓몬카드샵",
+     "cv": 3,
+     "pct": 2.1
+    },
+    {
      "query": "GS25 포켓몬 30주년 카드",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "gs 30주년 재고",
      "cv": 2,
-     "pct": 1.7
-    },
-    {
-     "query": "강릉 포켓몬카드샵",
-     "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "세븐일레븐 오늘픽업 포켓몬",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "이마트 24 포켓몬카드 픽업",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "이마트24 포켓몬카드 예약",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
-     "query": "일산 포켓몬 카드샵",
+     "query": "일산카드샵",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "편의점 재고조회",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "포켓몬 30주년 서치팩 구별",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "포켓몬 30주년 카드 리스트",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "포켓몬 메가드림ex",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "포켓몬 카드 코리안 리그",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "포켓몬카드 자판기 재고 보는법",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "포켓몬카드 할로윈 팩",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "포켓몬카드공식샺",
      "cv": 2,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "151 포켓몬 카드 리스트",
      "cv": 1,
-     "pct": 0.8
+     "pct": 0.7
     },
     {
      "query": "30th CELEBRATION FUTURISTIC BOX",
      "cv": 1,
-     "pct": 0.8
+     "pct": 0.7
     },
     {
      "query": "30주년포켓몬카드 재입고 이마트",
      "cv": 1,
-     "pct": 0.8
+     "pct": 0.7
     },
     {
      "query": "cu편의점 포켓몬카드 예약",
      "cv": 1,
-     "pct": 0.8
-    },
-    {
-     "query": "gs25 포켓몬카드 30주년",
-     "cv": 1,
-     "pct": 0.8
+     "pct": 0.7
     }
    ]
   },
@@ -5232,6 +5233,16 @@
  ],
  "routines": [
   {
+   "id": "visGHRYgqUFXHhjV",
+   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인 (rmarn99, 첫 2주 보호)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
+   "runAt": null,
+   "nextRunAt": "2026-10-06T23:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
    "id": "qrqWu8tyS38MHxRl",
    "name": "고몽이 TCG 센터 카페 정보 글 (화·목 2개, AEO 전용, 전환기 → 매니저 전환 후 주간 시세 재개)",
    "kind": "cron",
@@ -5239,16 +5250,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=TU,TH;BYHOUR=10;BYMINUTE=0",
    "runAt": null,
    "nextRunAt": "2026-10-08T01:00:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "visGHRYgqUFXHhjV",
-   "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인 (rmarn99, 첫 2주 보호)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
-   "runAt": null,
-   "nextRunAt": "2026-10-06T04:00:00.000Z",
    "lastRunAt": null
   },
   {
@@ -5442,7 +5443,7 @@
    "selectionMonth": 12,
    "betaEnds": "2026-12"
   },
-  "at": "2026-10-06T02:51:54.610Z"
+  "at": "2026-10-06T04:00:48.798Z"
  },
  "loginOk": true,
  "preflight": "ok"
