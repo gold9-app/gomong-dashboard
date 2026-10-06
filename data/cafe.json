@@ -1,11 +1,11 @@
 {
- "collectedAt": "2026-10-05T23:00:43.268Z",
- "collectedAtText": "2026-10-06 08:00",
- "elapsedMs": 575,
+ "collectedAt": "2026-10-06T01:08:40.133Z",
+ "collectedAtText": "2026-10-06 10:08",
+ "elapsedMs": 534,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 5,
- "articles": 44,
+ "articles": 46,
  "grade": null,
  "pendingLevelUps": null,
  "todayAttendance": 0,
@@ -13,22 +13,58 @@
  "useMemberLevel": true,
  "account": {
   "nick": "고몽이의 고씨",
-  "grade": "챔피언",
-  "mode": "전환기",
+  "grade": "매니저",
+  "mode": "매니저",
   "managerExpected": "2026-10-07",
-  "checkedAt": "2026-10-05 20:30",
-  "becameManagerAt": null,
+  "checkedAt": "2026-10-06 10:01",
+  "becameManagerAt": "2026-10-06 10:01",
   "note": "rmarn99 계정. 2026-09-22 카페 가입. 매니저 위임 신청 중(옛 계정 닉 고몽이). 루틴 cafeAccountCheck(pg)가 매 회차 갱신."
  },
- "isManager": false,
+ "isManager": true,
  "infoPlan": {
   "start": "2026-09-22",
   "target": 8,
-  "done": 8,
-  "thisWeek": 4,
+  "done": 10,
+  "thisWeek": 6,
   "reads": 32,
   "comments": 0,
   "posts": [
+   {
+    "articleId": 50,
+    "menuId": 15,
+    "menuName": "리프트바운드 덱·대회",
+    "title": "리프트바운드 대회 4종류 표, 넥서스 나이트부터 코리아 메이저",
+    "prefix": null,
+    "writer": "고몽이의 고씨",
+    "writerLevel": "매니저",
+    "mine": true,
+    "writeDate": "2026-10-06 10:07",
+    "ts": 1791248839787,
+    "commentCount": 0,
+    "readCount": 0,
+    "likeCount": 0,
+    "isNotice": false,
+    "hasImage": false,
+    "url": "https://cafe.naver.com/gurapaduck/50"
+   },
+   {
+    "articleId": 49,
+    "menuId": 17,
+    "menuName": "카드용품·보관",
+    "title": "포켓몬카드 등급 슬랩 보관법 3단계, 자외선 습도 케이스 기준",
+    "prefix": null,
+    "writer": "고몽이의 고씨",
+    "writerLevel": "매니저",
+    "mine": true,
+    "writeDate": "2026-10-06 10:06",
+    "ts": 1791248807267,
+    "commentCount": 0,
+    "readCount": 0,
+    "likeCount": 0,
+    "isNotice": false,
+    "hasImage": false,
+    "url": "https://cafe.naver.com/gurapaduck/49"
+   },
    {
     "articleId": 48,
     "menuId": 10,
@@ -176,6 +212,42 @@
   ]
  },
  "infoPosts": [
+  {
+   "articleId": 50,
+   "menuId": 15,
+   "menuName": "리프트바운드 덱·대회",
+   "title": "리프트바운드 대회 4종류 표, 넥서스 나이트부터 코리아 메이저",
+   "prefix": null,
+   "writer": "고몽이의 고씨",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-10-06 10:07",
+   "ts": 1791248839787,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/50"
+  },
+  {
+   "articleId": 49,
+   "menuId": 17,
+   "menuName": "카드용품·보관",
+   "title": "포켓몬카드 등급 슬랩 보관법 3단계, 자외선 습도 케이스 기준",
+   "prefix": null,
+   "writer": "고몽이의 고씨",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-10-06 10:06",
+   "ts": 1791248807267,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/49"
+  },
   {
    "articleId": 48,
    "menuId": 10,
@@ -499,42 +571,6 @@
    "isNotice": false,
    "hasImage": true,
    "url": "https://cafe.naver.com/gurapaduck/12"
-  },
-  {
-   "articleId": 11,
-   "menuId": 10,
-   "menuName": "포켓몬카드 정보·입문",
-   "title": "포켓몬카드 등급 PSA BRG 비용 기간 비교표 2026",
-   "prefix": null,
-   "writer": "고몽이",
-   "writerLevel": "새싹",
-   "mine": false,
-   "writeDate": "2026-09-19 18:54",
-   "ts": 1789811651483,
-   "commentCount": 0,
-   "readCount": 18,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/11"
-  },
-  {
-   "articleId": 10,
-   "menuId": 15,
-   "menuName": "리프트바운드 덱·대회",
-   "title": "리프트바운드 룰 3분 요약과 첫 덱 고르는 기준, 8포인트 승리",
-   "prefix": null,
-   "writer": "고몽이",
-   "writerLevel": "새싹",
-   "mine": false,
-   "writeDate": "2026-09-19 18:53",
-   "ts": 1789811634213,
-   "commentCount": 0,
-   "readCount": 8,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/10"
   }
  ],
  "links": {
@@ -601,8 +637,8 @@
   {
    "menuId": 15,
    "name": "리프트바운드 덱·대회",
-   "count": 1,
-   "latest": "2026-09-19 18:53"
+   "count": 2,
+   "latest": "2026-10-06 10:07"
   },
   {
    "menuId": 16,
@@ -613,8 +649,8 @@
   {
    "menuId": 17,
    "name": "카드용품·보관",
-   "count": 2,
-   "latest": "2026-09-19 23:50"
+   "count": 3,
+   "latest": "2026-10-06 10:06"
   },
   {
    "menuId": 18,
@@ -702,6 +738,42 @@
   }
  ],
  "recentArticles": [
+  {
+   "articleId": 50,
+   "menuId": 15,
+   "menuName": "리프트바운드 덱·대회",
+   "title": "리프트바운드 대회 4종류 표, 넥서스 나이트부터 코리아 메이저",
+   "prefix": null,
+   "writer": "고몽이의 고씨",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-10-06 10:07",
+   "ts": 1791248839787,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/50"
+  },
+  {
+   "articleId": 49,
+   "menuId": 17,
+   "menuName": "카드용품·보관",
+   "title": "포켓몬카드 등급 슬랩 보관법 3단계, 자외선 습도 케이스 기준",
+   "prefix": null,
+   "writer": "고몽이의 고씨",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-10-06 10:06",
+   "ts": 1791248807267,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/49"
+  },
   {
    "articleId": 48,
    "menuId": 10,
@@ -1205,42 +1277,6 @@
    "isNotice": false,
    "hasImage": false,
    "url": "https://cafe.naver.com/gurapaduck/21"
-  },
-  {
-   "articleId": 20,
-   "menuId": 27,
-   "menuName": "정가품 확인 질문",
-   "title": "[안내] 정가품 확인 질문 양식, 사진 3장과 체크포인트 6가지",
-   "prefix": "안내",
-   "writer": "고몽이",
-   "writerLevel": "새싹",
-   "mine": false,
-   "writeDate": "2026-09-19 19:14",
-   "ts": 1789812897063,
-   "commentCount": 0,
-   "readCount": 13,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/20"
-  },
-  {
-   "articleId": 19,
-   "menuId": 26,
-   "menuName": "시세질문 게시판",
-   "title": "[안내] 시세질문 올리는 양식과 답변 원칙, 호가·체결가 구분",
-   "prefix": "안내",
-   "writer": "고몽이",
-   "writerLevel": "새싹",
-   "mine": false,
-   "writeDate": "2026-09-19 19:14",
-   "ts": 1789812874430,
-   "commentCount": 0,
-   "readCount": 1,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/19"
   }
  ],
  "unansweredQuestions": [],
@@ -1266,20 +1302,13 @@
  ],
  "ruleFlags": [],
  "newGreetings": [],
- "alerts": [
-  {
-   "level": "info",
-   "type": "account",
-   "text": "전환기 운영: 고몽이의 고씨 (챔피언) · 매니저 전환 예정 2026-10-07",
-   "url": "https://cafe.naver.com/gurapaduck"
-  }
- ],
+ "alerts": [],
  "counts": {
   "notices": 7,
   "questions": 3,
   "trades": 1,
   "byMember": 2,
-  "infoPosts": 24
+  "infoPosts": 26
  },
  "errors": []
 }
