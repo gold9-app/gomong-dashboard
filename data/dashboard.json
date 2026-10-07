@@ -1,20 +1,20 @@
 {
- "collectedAt": "2026-10-07T03:56:32.433Z",
- "collectedAtText": "2026-10-07 12:56",
+ "collectedAt": "2026-10-07T04:00:41.944Z",
+ "collectedAtText": "2026-10-07 13:00",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 13778,
+ "elapsedMs": 13358,
  "errors": [],
  "summary": {
   "publicCount": 46,
   "queueCount": 21,
   "totalCount": 67,
-  "todayCv": 274,
+  "todayCv": 277,
   "yesterdayCv": 882,
-  "todayVisitor": 246,
+  "todayVisitor": 249,
   "buddyCount": 72,
   "citations": {
    "cumulative": 39002,
@@ -1495,7 +1495,7 @@
    "url": "https://blog.naver.com/rmarn99/224431135228",
    "openType": "2",
    "searchYn": true,
-   "readCount": 459,
+   "readCount": 461,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -2956,23 +2956,23 @@
   ],
   "today": {
    "date": "2026-10-07",
-   "utime": "2026-10-07T12:56:26",
+   "utime": "2026-10-07T13:00:35",
    "dashboard": {
     "dailyComment": 9,
     "dailyPlayCount": "0",
-    "dailyCv": 274,
+    "dailyCv": 277,
     "dailyLike": 7,
-    "dailyCommentUtime": "2026-10-07T12:56:26",
-    "dailyRelationDeltaUtime": "2026-10-07T12:56:26",
+    "dailyCommentUtime": "2026-10-07T13:00:36",
+    "dailyRelationDeltaUtime": "2026-10-07T13:00:36",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-10-07T12:56:26",
-    "dailyCvUtime": "2026-10-07T12:56:26"
+    "dailyLikeUtime": "2026-10-07T13:00:35",
+    "dailyCvUtime": "2026-10-07T13:00:35"
    },
    "dailyCv": [
     {
      "date": "2026-10-07",
-     "cv": 274
+     "cv": 277
     },
     {
      "date": "2026-10-06",
@@ -5530,7 +5530,7 @@
    "state": "active",
    "rrule": "FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
    "runAt": null,
-   "nextRunAt": "2026-10-07T04:00:00.000Z",
+   "nextRunAt": "2026-10-07T23:00:00.000Z",
    "lastRunAt": null
   },
   {
@@ -5734,7 +5734,7 @@
    "selectionMonth": 12,
    "betaEnds": "2026-12"
   },
-  "at": "2026-10-07T03:56:32.433Z"
+  "at": "2026-10-07T04:00:41.944Z"
  },
  "loginOk": true,
  "preflight": "ok"
