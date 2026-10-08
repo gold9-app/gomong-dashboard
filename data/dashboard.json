@@ -1,31 +1,31 @@
 {
- "collectedAt": "2026-10-08T04:00:54.777Z",
- "collectedAtText": "2026-10-08 13:00",
+ "collectedAt": "2026-10-08T23:00:34.158Z",
+ "collectedAtText": "2026-10-09 08:00",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 24096,
+ "elapsedMs": 24134,
  "errors": [],
  "summary": {
-  "publicCount": 50,
-  "queueCount": 22,
+  "publicCount": 52,
+  "queueCount": 20,
   "totalCount": 72,
-  "todayCv": 265,
-  "yesterdayCv": 771,
-  "todayVisitor": 240,
-  "buddyCount": 77,
+  "todayCv": 149,
+  "yesterdayCv": 756,
+  "todayVisitor": 137,
+  "buddyCount": 78,
   "citations": {
-   "cumulative": 42935,
-   "month": 30247,
+   "cumulative": 49313,
+   "month": 36625,
    "selectionPeriod": 0,
    "currentMonth": 10,
    "selectionPeriodMonth": 8
   },
-  "unansweredComments": 1,
-  "totalComments": 26,
-  "v5Pending": 1,
+  "unansweredComments": 4,
+  "totalComments": 29,
+  "v5Pending": 3,
   "searchOff": 0,
   "totalReadCount": null
  },
@@ -38,8 +38,20 @@
   },
   {
    "level": "warn",
+   "type": "v5",
+   "logNo": "224419198719",
+   "text": "v5 레이아웃 미적용: #2 포켓몬 카드샵 공식 매장 15곳 위치 총정리, 발매일 대기 요령까지"
+  },
+  {
+   "level": "warn",
+   "type": "v5",
+   "logNo": "224419199649",
+   "text": "v5 레이아웃 미적용: #3 포켓몬카드 보관법 순서 총정리, 슬리브 탑로더 바인더 고르는 기준"
+  },
+  {
+   "level": "warn",
    "type": "comment",
-   "text": "미답변 댓글 1건"
+   "text": "미답변 댓글 4건"
   }
  ],
  "posts": [
@@ -55,7 +67,7 @@
    "url": "https://blog.naver.com/rmarn99/224419166297",
    "openType": "2",
    "searchYn": true,
-   "readCount": 151,
+   "readCount": 154,
    "commentCount": 2,
    "unanswered": 0,
    "v5": false,
@@ -91,12 +103,12 @@
    "url": "https://blog.naver.com/rmarn99/224419198719",
    "openType": "2",
    "searchYn": true,
-   "readCount": 799,
+   "readCount": 814,
    "commentCount": 4,
    "unanswered": 0,
-   "v5": true,
-   "internalLinks": 14,
-   "imgs": 3,
+   "v5": false,
+   "internalLinks": 0,
+   "imgs": 0,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
@@ -127,12 +139,12 @@
    "url": "https://blog.naver.com/rmarn99/224419199649",
    "openType": "2",
    "searchYn": true,
-   "readCount": 240,
+   "readCount": 249,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": true,
-   "internalLinks": 15,
-   "imgs": 4,
+   "v5": false,
+   "internalLinks": 0,
+   "imgs": 0,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
@@ -163,7 +175,7 @@
    "url": "https://blog.naver.com/rmarn99/224419203598",
    "openType": "2",
    "searchYn": true,
-   "readCount": 153,
+   "readCount": 154,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -199,7 +211,7 @@
    "url": "https://blog.naver.com/rmarn99/224419204577",
    "openType": "2",
    "searchYn": true,
-   "readCount": 347,
+   "readCount": 356,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -235,7 +247,7 @@
    "url": "https://blog.naver.com/rmarn99/224420640680",
    "openType": "2",
    "searchYn": true,
-   "readCount": 99,
+   "readCount": 107,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -271,7 +283,7 @@
    "url": "https://blog.naver.com/rmarn99/224420642062",
    "openType": "2",
    "searchYn": true,
-   "readCount": 289,
+   "readCount": 297,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -307,7 +319,7 @@
    "url": "https://blog.naver.com/rmarn99/224420643203",
    "openType": "2",
    "searchYn": true,
-   "readCount": 62,
+   "readCount": 65,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -343,7 +355,7 @@
    "url": "https://blog.naver.com/rmarn99/224420644720",
    "openType": "2",
    "searchYn": true,
-   "readCount": 14,
+   "readCount": 17,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -379,7 +391,7 @@
    "url": "https://blog.naver.com/rmarn99/224421176128",
    "openType": "2",
    "searchYn": true,
-   "readCount": 46,
+   "readCount": 48,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -451,7 +463,7 @@
    "url": "https://blog.naver.com/rmarn99/224421189866",
    "openType": "2",
    "searchYn": true,
-   "readCount": 302,
+   "readCount": 310,
    "commentCount": 3,
    "unanswered": 0,
    "v5": true,
@@ -487,7 +499,7 @@
    "url": "https://blog.naver.com/rmarn99/224421190483",
    "openType": "2",
    "searchYn": true,
-   "readCount": 451,
+   "readCount": 457,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -559,7 +571,7 @@
    "url": "https://blog.naver.com/rmarn99/224421385780",
    "openType": "2",
    "searchYn": true,
-   "readCount": 62,
+   "readCount": 65,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -595,7 +607,7 @@
    "url": "https://blog.naver.com/rmarn99/224421386521",
    "openType": "2",
    "searchYn": true,
-   "readCount": 80,
+   "readCount": 89,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -667,9 +679,9 @@
    "url": "https://blog.naver.com/rmarn99/224421387940",
    "openType": "2",
    "searchYn": true,
-   "readCount": 246,
-   "commentCount": 0,
-   "unanswered": 0,
+   "readCount": 313,
+   "commentCount": 1,
+   "unanswered": 1,
    "v5": true,
    "internalLinks": 15,
    "imgs": 4,
@@ -703,7 +715,7 @@
    "url": "https://blog.naver.com/rmarn99/224421388588",
    "openType": "2",
    "searchYn": true,
-   "readCount": 204,
+   "readCount": 224,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -739,7 +751,7 @@
    "url": "https://blog.naver.com/rmarn99/224421389263",
    "openType": "2",
    "searchYn": true,
-   "readCount": 61,
+   "readCount": 68,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -775,7 +787,7 @@
    "url": "https://blog.naver.com/rmarn99/224421389946",
    "openType": "2",
    "searchYn": true,
-   "readCount": 508,
+   "readCount": 539,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -811,7 +823,7 @@
    "url": "https://blog.naver.com/rmarn99/224422742437",
    "openType": "2",
    "searchYn": true,
-   "readCount": 449,
+   "readCount": 455,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -847,7 +859,7 @@
    "url": "https://blog.naver.com/rmarn99/224422743238",
    "openType": "2",
    "searchYn": true,
-   "readCount": 267,
+   "readCount": 301,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -883,7 +895,7 @@
    "url": "https://blog.naver.com/rmarn99/224422743869",
    "openType": "2",
    "searchYn": true,
-   "readCount": 35,
+   "readCount": 38,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -919,7 +931,7 @@
    "url": "https://blog.naver.com/rmarn99/224422744444",
    "openType": "2",
    "searchYn": true,
-   "readCount": 61,
+   "readCount": 67,
    "commentCount": 3,
    "unanswered": 1,
    "v5": true,
@@ -955,7 +967,7 @@
    "url": "https://blog.naver.com/rmarn99/224422744989",
    "openType": "2",
    "searchYn": true,
-   "readCount": 58,
+   "readCount": 63,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -991,7 +1003,7 @@
    "url": "https://blog.naver.com/rmarn99/224422745611",
    "openType": "2",
    "searchYn": true,
-   "readCount": 39,
+   "readCount": 42,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1027,7 +1039,7 @@
    "url": "https://blog.naver.com/rmarn99/224422746245",
    "openType": "2",
    "searchYn": true,
-   "readCount": 100,
+   "readCount": 120,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1063,7 +1075,7 @@
    "url": "https://blog.naver.com/rmarn99/224422746943",
    "openType": "2",
    "searchYn": true,
-   "readCount": 22,
+   "readCount": 24,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1099,7 +1111,7 @@
    "url": "https://blog.naver.com/rmarn99/224422747557",
    "openType": "2",
    "searchYn": true,
-   "readCount": 126,
+   "readCount": 145,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1135,7 +1147,7 @@
    "url": "https://blog.naver.com/rmarn99/224422748268",
    "openType": "2",
    "searchYn": true,
-   "readCount": 45,
+   "readCount": 47,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -1171,7 +1183,7 @@
    "url": "https://blog.naver.com/rmarn99/224422749069",
    "openType": "2",
    "searchYn": true,
-   "readCount": 29,
+   "readCount": 30,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1207,7 +1219,7 @@
    "url": "https://blog.naver.com/rmarn99/224422749746",
    "openType": "2",
    "searchYn": true,
-   "readCount": 22,
+   "readCount": 26,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -1243,7 +1255,7 @@
    "url": "https://blog.naver.com/rmarn99/224422750359",
    "openType": "2",
    "searchYn": true,
-   "readCount": 69,
+   "readCount": 94,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1279,7 +1291,7 @@
    "url": "https://blog.naver.com/rmarn99/224422751014",
    "openType": "2",
    "searchYn": true,
-   "readCount": 41,
+   "readCount": 49,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1315,7 +1327,7 @@
    "url": "https://blog.naver.com/rmarn99/224424491242",
    "openType": "2",
    "searchYn": true,
-   "readCount": 60,
+   "readCount": 79,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -1387,7 +1399,7 @@
    "url": "https://blog.naver.com/rmarn99/224427971701",
    "openType": "2",
    "searchYn": true,
-   "readCount": 6,
+   "readCount": 7,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1411,7 +1423,7 @@
    "url": "https://blog.naver.com/rmarn99/224428326179",
    "openType": "2",
    "searchYn": true,
-   "readCount": 99,
+   "readCount": 102,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1447,7 +1459,7 @@
    "url": "https://blog.naver.com/rmarn99/224429569707",
    "openType": "2",
    "searchYn": true,
-   "readCount": 21,
+   "readCount": 24,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1483,7 +1495,7 @@
    "url": "https://blog.naver.com/rmarn99/224431135228",
    "openType": "2",
    "searchYn": true,
-   "readCount": 566,
+   "readCount": 688,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -1519,7 +1531,7 @@
    "url": "https://blog.naver.com/rmarn99/224431138770",
    "openType": "2",
    "searchYn": true,
-   "readCount": 147,
+   "readCount": 208,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1555,9 +1567,9 @@
    "url": "https://blog.naver.com/rmarn99/224431139430",
    "openType": "2",
    "searchYn": true,
-   "readCount": 85,
-   "commentCount": 6,
-   "unanswered": 0,
+   "readCount": 92,
+   "commentCount": 7,
+   "unanswered": 1,
    "v5": true,
    "internalLinks": 15,
    "imgs": 4,
@@ -1603,7 +1615,7 @@
    "url": "https://blog.naver.com/rmarn99/224431138041",
    "openType": "2",
    "searchYn": true,
-   "readCount": 7,
+   "readCount": 9,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1651,7 +1663,7 @@
    "url": "https://blog.naver.com/rmarn99/224431709398",
    "openType": "2",
    "searchYn": true,
-   "readCount": 9,
+   "readCount": 10,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1667,43 +1679,49 @@
    "no": 58,
    "logNo": "224431710952",
    "title": "탑로더 추천 3종 비교, 35pt 일반 UV차단 자석케이스 가격 기준",
-   "status": "예약",
+   "status": "공개",
    "game": "용품",
    "category": "카드용품·보관",
    "keyword": "탑로더 추천 (구매형)",
-   "publishedText": "2026-10-08 19:40",
-   "postDate": 1791456000000,
+   "publishedText": "2026-10-08 19:40 예약",
    "url": "https://blog.naver.com/rmarn99/224431710952",
-   "searchYn": null,
-   "readCount": 0,
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 4,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
-   "aiCited": false
+   "aiCited": false,
+   "mRank": null
   },
   {
    "no": 59,
    "logNo": "224431711706",
    "title": "포켓몬카드 30주년 박스 시세 기준, 한글판 1.9배 일본판 3.6배",
-   "status": "예약",
+   "status": "공개",
    "game": "포켓몬",
    "category": "포켓몬 카드 시세·수집",
    "keyword": "포켓몬카드 30주년 박스 시세",
-   "publishedText": "2026-10-09 07:10",
-   "postDate": 1791497400000,
+   "publishedText": "2026-10-09 07:10 예약",
    "url": "https://blog.naver.com/rmarn99/224431711706",
-   "searchYn": null,
-   "readCount": 0,
-   "commentCount": 0,
-   "unanswered": 0,
-   "v5": false,
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 2,
+   "commentCount": 1,
+   "unanswered": 1,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 3,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
-   "aiCited": false
+   "aiCited": false,
+   "mRank": null
   },
   {
    "no": 60,
@@ -2053,7 +2071,7 @@
    "url": "https://blog.naver.com/rmarn99/224434569345",
    "openType": "2",
    "searchYn": true,
-   "readCount": 6,
+   "readCount": 8,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -2077,7 +2095,7 @@
    "url": "https://blog.naver.com/rmarn99/224434655685",
    "openType": "2",
    "searchYn": true,
-   "readCount": 2,
+   "readCount": 3,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -2175,20 +2193,6 @@
   }
  ],
  "queue": [
-  {
-   "logNo": "224431710952",
-   "title": "탑로더 추천 3종 비교, 35pt 일반 UV차단 자석케이스 가격 기준",
-   "postDate": 1791456000000,
-   "postDateText": "2026-10-08 19:40",
-   "addDate": 1791162423808
-  },
-  {
-   "logNo": "224431711706",
-   "title": "포켓몬카드 30주년 박스 시세 기준, 한글판 1.9배 일본판 3.6배",
-   "postDate": 1791497400000,
-   "postDateText": "2026-10-09 07:10",
-   "addDate": 1791162488643
-  },
   {
    "logNo": "224431712498",
    "title": "포켓몬카드 슈링크 뜻과 확인방법, 박스 비닐 5단계와 제거 판매 이유",
@@ -2331,6 +2335,48 @@
   }
  ],
  "comments": [
+  {
+   "logNo": "224431711706",
+   "commentNo": "907112867390554212",
+   "parentCommentNo": "907112867390554212",
+   "replyLevel": 1,
+   "userName": "래랙",
+   "contents": "시세를 비교할 때 체결가와 호가, 그리고 슈링크 유무를 고려하는 것이 정말 중요하군요. 정보가 복잡해 보이지만, 이렇게 정리해 주셔서 많은 도움이 될 것 같아요. 오늘도 좋은 하루 보내세요!",
+   "regTime": "2026-10-09T07:44:51+0900",
+   "mine": false,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": true
+  },
+  {
+   "logNo": "224421387940",
+   "commentNo": "907060178375933953",
+   "parentCommentNo": "907060178375933953",
+   "replyLevel": 1,
+   "userName": "장규라",
+   "contents": "언어가 딱봐도 다른데 구별 힘들단건 뭔 신박한 개소리냐 ㅋㅋㅋ",
+   "regTime": "2026-10-08T18:07:00+0900",
+   "mine": false,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": true
+  },
+  {
+   "logNo": "224431139430",
+   "commentNo": "907052119037575424",
+   "parentCommentNo": "907052119037575424",
+   "replyLevel": 1,
+   "userName": "taegyu0110",
+   "contents": "시간이 안돼네요ㅠㅠ",
+   "regTime": "2026-10-08T16:01:54+0900",
+   "mine": false,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": true
+  },
   {
    "logNo": "224421388588",
    "commentNo": "907028050980372581",
@@ -3035,11 +3081,18 @@
  "stats": {
   "dailyCv": [
    {
-    "date": "2026-10-08",
-    "total": 265,
-    "friend": 13,
+    "date": "2026-10-09",
+    "total": 149,
+    "friend": 3,
     "follow": 0,
-    "etc": 252
+    "etc": 146
+   },
+   {
+    "date": "2026-10-08",
+    "total": 756,
+    "friend": 18,
+    "follow": 1,
+    "etc": 737
    },
    {
     "date": "2026-10-07",
@@ -3131,34 +3184,31 @@
     "friend": 5,
     "follow": 5,
     "etc": 235
-   },
-   {
-    "date": "2026-09-24",
-    "total": 148,
-    "friend": 1,
-    "follow": 0,
-    "etc": 147
    }
   ],
   "today": {
-   "date": "2026-10-08",
-   "utime": "2026-10-08T13:00:37",
+   "date": "2026-10-09",
+   "utime": "2026-10-09T08:00:17",
    "dashboard": {
-    "dailyComment": 2,
+    "dailyComment": 1,
     "dailyPlayCount": "0",
-    "dailyCv": 265,
-    "dailyLike": 5,
-    "dailyCommentUtime": "2026-10-08T13:00:37",
-    "dailyRelationDeltaUtime": "2026-10-08T13:00:37",
+    "dailyCv": 149,
+    "dailyLike": 1,
+    "dailyCommentUtime": "2026-10-09T08:00:17",
+    "dailyRelationDeltaUtime": "2026-10-09T08:00:17",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-10-08T13:00:37",
-    "dailyCvUtime": "2026-10-08T13:00:37"
+    "dailyLikeUtime": "2026-10-09T08:00:17",
+    "dailyCvUtime": "2026-10-09T08:00:17"
    },
    "dailyCv": [
     {
+     "date": "2026-10-09",
+     "cv": 149
+    },
+    {
      "date": "2026-10-08",
-     "cv": 265
+     "cv": 756
     },
     {
      "date": "2026-10-07",
@@ -3211,242 +3261,217 @@
     {
      "date": "2026-09-25",
      "cv": 245
-    },
-    {
-     "date": "2026-09-24",
-     "cv": 148
     }
    ],
    "rankCv": [
     {
      "rank": 1,
-     "cv": 37,
+     "cv": 36,
      "title": "포켓몬카드 편의점 재고 조회 방법, 4사 앱 순서와 예약 주의점",
      "logNo": "224431135228",
      "createDate": "2026.10.04. 15:51"
     },
     {
      "rank": 2,
-     "cv": 35,
+     "cv": 15,
      "title": "포켓몬카드 일본판 한글판 차이 5가지, 정가 발매일 대회 사용 기준",
      "logNo": "224421387940",
      "createDate": "2026.09.29. 07:40"
     },
     {
      "rank": 3,
-     "cv": 23,
+     "cv": 13,
      "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
      "logNo": "224421189221",
      "createDate": "2026.09.25. 12:30"
     },
     {
      "rank": 4,
-     "cv": 19,
+     "cv": 11,
      "title": "포켓몬카드 30주년 재입고 정리, 10월 1~3일 풀린 5곳과 정가",
      "logNo": "224431138770",
      "createDate": "2026.10.05. 07:20"
     },
     {
      "rank": 5,
-     "cv": 15,
-     "title": "포켓몬카드 30주년 힛카드 리스트, 103번 뒤 번호 62장 정리",
-     "logNo": "224422743238",
-     "createDate": "2026.09.29. 19:20"
+     "cv": 8,
+     "title": "포켓몬카드 서치팩 재포장 구별법 6가지, 정가보다 싼 낱팩 확인 순서",
+     "logNo": "224421389946",
+     "createDate": "2026.09.30. 12:30"
     },
     {
      "rank": 6,
-     "cv": 13,
-     "title": "리프트바운드 T1 시그니처 에디션 정가 50만원, 구성 5장 구매법",
-     "logNo": "224422747557",
-     "createDate": "2026.10.02. 19:20"
+     "cv": 6,
+     "title": "포켓몬카드 PSA 등급 받는 법, 접수 절차 5단계와 요금 기간 기준",
+     "logNo": "224421388588",
+     "createDate": "2026.09.29. 12:20"
     }
    ],
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 94,
-     "pct": 36.3
+     "cv": 79,
+     "pct": 56
     },
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 88,
-     "pct": 34
-    },
-    {
-     "name": "네이버 블로그_모바일",
-     "cv": 22,
-     "pct": 8.5
-    },
-    {
-     "name": "네이버 통합검색_PC",
-     "cv": 18,
-     "pct": 6.9
+     "cv": 32,
+     "pct": 22.7
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 14,
-     "pct": 5.4
+     "cv": 16,
+     "pct": 11.3
     },
     {
-     "name": "네이버 메인_모바일",
-     "cv": 11,
-     "pct": 4.2
-    },
-    {
-     "name": "네이버 블로그검색_PC",
-     "cv": 4,
-     "pct": 1.5
-    },
-    {
-     "name": "네이버 메인_PC",
-     "cv": 3,
-     "pct": 1.2
-    },
-    {
-     "name": "Bing",
-     "cv": 1,
-     "pct": 0.4
-    },
-    {
-     "name": "gold9-app.github.io",
-     "cv": 1,
-     "pct": 0.4
-    },
-    {
-     "name": "네이버 검색_기타",
-     "cv": 1,
-     "pct": 0.4
+     "name": "네이버 통합검색_PC",
+     "cv": 8,
+     "pct": 5.7
     },
     {
      "name": "네이버 블로그_PC",
-     "cv": 1,
-     "pct": 0.4
+     "cv": 2,
+     "pct": 1.4
     },
     {
-     "name": "네이버 이미지검색_모바일",
+     "name": "네이버 블로그_모바일",
+     "cv": 2,
+     "pct": 1.4
+    },
+    {
+     "name": "네이버 메인_모바일",
      "cv": 1,
-     "pct": 0.4
+     "pct": 0.7
+    },
+    {
+     "name": "네이버 블로그검색_PC",
+     "cv": 1,
+     "pct": 0.7
     }
    ],
    "searchQueries": [
     {
-     "query": "메가드림ex",
+     "query": "cu 포켓몬카드",
+     "cv": 5,
+     "pct": 6.3
+    },
+    {
+     "query": "이마트24 포켓몬카드",
      "cv": 3,
-     "pct": 3.2
+     "pct": 3.8
     },
     {
-     "query": "원피스 카드게임 스타터덱",
-     "cv": 3,
-     "pct": 3.2
-    },
-    {
-     "query": "리프트바운드 t1",
+     "query": "세븐일레븐포켓몬확장팩30주년",
      "cv": 2,
-     "pct": 2.1
+     "pct": 2.5
     },
     {
-     "query": "울산 포켓몬카드 30주년",
+     "query": "편의점 재고조회",
      "cv": 2,
-     "pct": 2.1
+     "pct": 2.5
     },
     {
-     "query": "포켓몬 카드 시리즈 순서",
+     "query": "포켓몬 30주년 카드 슈링크 뜻",
      "cv": 2,
-     "pct": 2.1
+     "pct": 2.5
     },
     {
-     "query": "포켓몬 홈페이지 구매방법",
+     "query": "포켓몬카드 재고조회",
      "cv": 2,
-     "pct": 2.1
+     "pct": 2.5
     },
     {
-     "query": "포켓몬카드 등급표",
-     "cv": 2,
-     "pct": 2.1
-    },
-    {
-     "query": "포켓몬카드 서치팩 뜻",
-     "cv": 2,
-     "pct": 2.1
-    },
-    {
-     "query": "2026 코리안시리즈 일정",
+     "query": "30주년 9번카드",
      "cv": 1,
-     "pct": 1.1
+     "pct": 1.3
     },
     {
-     "query": "Psa 스텐다드",
+     "query": "30주년 써치",
      "cv": 1,
-     "pct": 1.1
+     "pct": 1.3
+    },
+    {
+     "query": "30주년 포켓몬카드 가품",
+     "cv": 1,
+     "pct": 1.3
+    },
+    {
+     "query": "7분일레븐재고조회",
+     "cv": 1,
+     "pct": 1.3
+    },
+    {
+     "query": "Psa10",
+     "cv": 1,
+     "pct": 1.3
     },
     {
      "query": "cu 포켓몬카드 30주년",
      "cv": 1,
-     "pct": 1.1
+     "pct": 1.3
     },
     {
-     "query": "gs편의점 포켓몬카드",
+     "query": "gs25편의점 포켓몬카드30주년 재고조회",
      "cv": 1,
-     "pct": 1.1
+     "pct": 1.3
     },
     {
-     "query": "t1세트",
+     "query": "psa 그레이딩 가격",
      "cv": 1,
-     "pct": 1.1
+     "pct": 1.3
     },
     {
-     "query": "고양 포켓몬카드",
+     "query": "psa 등급 케이스확인",
      "cv": 1,
-     "pct": 1.1
+     "pct": 1.3
     },
     {
-     "query": "광주 포켓몬 카드 입고",
+     "query": "psa10",
      "cv": 1,
-     "pct": 1.1
+     "pct": 1.3
     },
     {
-     "query": "다이소 탑로더 보관함",
+     "query": "t1 리프트바운드 응모",
      "cv": 1,
-     "pct": 1.1
+     "pct": 1.3
     },
     {
-     "query": "레어 카드 뜻",
+     "query": "t1 월드챔피언 시그니처 에디션",
      "cv": 1,
-     "pct": 1.1
+     "pct": 1.3
     },
     {
-     "query": "리프트바운드 t1 갈리오 1번",
+     "query": "구리 토이저러스 포켓몬",
      "cv": 1,
-     "pct": 1.1
+     "pct": 1.3
     },
     {
-     "query": "리프트바운드 t1 중국판",
+     "query": "롯데마트 포켓몬카드 재입고",
      "cv": 1,
-     "pct": 1.1
-    },
-    {
-     "query": "리프트바운드 바인더",
-     "cv": 1,
-     "pct": 1.1
+     "pct": 1.3
     }
    ]
   },
   "yesterday": {
-   "date": "2026-10-07",
-   "utime": "2026-10-08T13:00:38",
+   "date": "2026-10-08",
+   "utime": "2026-10-09T08:00:17",
    "dashboard": {
-    "dailyComment": 11,
+    "dailyComment": 4,
     "dailyPlayCount": "0",
-    "dailyCv": 771,
-    "dailyLike": 10,
-    "dailyCommentUtime": "2026-10-08T13:00:38",
-    "dailyRelationDeltaUtime": "2026-10-08T13:00:38",
-    "dailyRelationDelta": 0,
+    "dailyCv": 756,
+    "dailyLike": 11,
+    "dailyCommentUtime": "2026-10-09T08:00:17",
+    "dailyRelationDeltaUtime": "2026-10-09T08:00:17",
+    "dailyRelationDelta": 1,
     "isToday": false,
-    "dailyLikeUtime": "2026-10-08T13:00:38",
-    "dailyCvUtime": "2026-10-08T13:00:38"
+    "dailyLikeUtime": "2026-10-09T08:00:17",
+    "dailyCvUtime": "2026-10-09T08:00:17"
    },
    "dailyCv": [
+    {
+     "date": "2026-10-08",
+     "cv": 756
+    },
     {
      "date": "2026-10-07",
      "cv": 771
@@ -3502,101 +3527,102 @@
     {
      "date": "2026-09-24",
      "cv": 148
-    },
-    {
-     "date": "2026-09-23",
-     "cv": 94
     }
    ],
    "rankCv": [
     {
      "rank": 1,
-     "cv": 117,
-     "title": "포켓몬카드 온라인 정가 구매 방법 4가지, 추첨과 웃돈 판별 기준",
-     "logNo": "224421190483",
-     "createDate": "2026.09.27. 07:30"
-    },
-    {
-     "rank": 1,
-     "cv": 117,
+     "cv": 123,
      "title": "포켓몬카드 편의점 재고 조회 방법, 4사 앱 순서와 예약 주의점",
      "logNo": "224431135228",
      "createDate": "2026.10.04. 15:51"
     },
     {
+     "rank": 2,
+     "cv": 87,
+     "title": "포켓몬카드 일본판 한글판 차이 5가지, 정가 발매일 대회 사용 기준",
+     "logNo": "224421387940",
+     "createDate": "2026.09.29. 07:40"
+    },
+    {
      "rank": 3,
-     "cv": 55,
+     "cv": 71,
      "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
      "logNo": "224421189221",
      "createDate": "2026.09.25. 12:30"
     },
     {
      "rank": 4,
-     "cv": 31,
-     "title": "포켓몬카드 PSA 등급 받는 법, 접수 절차 5단계와 요금 기간 기준",
-     "logNo": "224421388588",
-     "createDate": "2026.09.29. 12:20"
+     "cv": 69,
+     "title": "포켓몬카드 30주년 재입고 정리, 10월 1~3일 풀린 5곳과 정가",
+     "logNo": "224431138770",
+     "createDate": "2026.10.05. 07:20"
     },
     {
      "rank": 5,
-     "cv": 30,
+     "cv": 44,
      "title": "포켓몬카드 30주년 힛카드 리스트, 103번 뒤 번호 62장 정리",
      "logNo": "224422743238",
      "createDate": "2026.09.29. 19:20"
     },
     {
      "rank": 6,
-     "cv": 27,
-     "title": "포켓몬카드 서치팩 재포장 구별법 6가지, 정가보다 싼 낱팩 확인 순서",
-     "logNo": "224421389946",
-     "createDate": "2026.09.30. 12:30"
+     "cv": 32,
+     "title": "포켓몬카드 메가드림ex 구성 총정리, 수록 249장과 SAR 17장",
+     "logNo": "224422750359",
+     "createDate": "2026.10.04. 07:20"
     }
    ],
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 274,
-     "pct": 36.9
+     "cv": 328,
+     "pct": 44.9
     },
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 224,
-     "pct": 30.2
-    },
-    {
-     "name": "네이버 블로그검색_모바일",
-     "cv": 77,
-     "pct": 10.4
+     "cv": 196,
+     "pct": 26.8
     },
     {
      "name": "네이버 통합검색_PC",
-     "cv": 59,
-     "pct": 8
+     "cv": 61,
+     "pct": 8.3
     },
     {
      "name": "네이버 블로그_모바일",
-     "cv": 47,
-     "pct": 6.3
+     "cv": 51,
+     "pct": 7
     },
     {
-     "name": "네이버 블로그_PC",
-     "cv": 21,
-     "pct": 2.8
+     "name": "네이버 블로그검색_모바일",
+     "cv": 48,
+     "pct": 6.6
     },
     {
      "name": "네이버 메인_모바일",
      "cv": 18,
-     "pct": 2.4
+     "pct": 2.5
     },
     {
      "name": "네이버 블로그검색_PC",
-     "cv": 11,
-     "pct": 1.5
+     "cv": 10,
+     "pct": 1.4
+    },
+    {
+     "name": "네이버 블로그_PC",
+     "cv": 5,
+     "pct": 0.7
     },
     {
      "name": "네이버 메인_PC",
-     "cv": 5,
-     "pct": 0.7
+     "cv": 4,
+     "pct": 0.5
+    },
+    {
+     "name": "Bing",
+     "cv": 2,
+     "pct": 0.3
     },
     {
      "name": "네이버 검색_기타",
@@ -3604,7 +3630,12 @@
      "pct": 0.3
     },
     {
-     "name": "Daum 검색_모바일",
+     "name": "Daum_모바일",
+     "cv": 1,
+     "pct": 0.1
+    },
+    {
+     "name": "com.google.android.googlequicksearchbox",
      "cv": 1,
      "pct": 0.1
     },
@@ -3619,6 +3650,11 @@
      "pct": 0.1
     },
     {
+     "name": "네이버 알림",
+     "cv": 1,
+     "pct": 0.1
+    },
+    {
      "name": "네이버 이미지검색_모바일",
      "cv": 1,
      "pct": 0.1
@@ -3626,104 +3662,104 @@
    ],
    "searchQueries": [
     {
-     "query": "이마트24 포켓몬카드 예약방법",
+     "query": "cu 포켓몬카드 30주년",
      "cv": 6,
-     "pct": 2.2
+     "pct": 1.8
     },
     {
-     "query": "포켓몬카드 재포장 확인방법",
-     "cv": 4,
+     "query": "메가드림ex",
+     "cv": 6,
+     "pct": 1.8
+    },
+    {
+     "query": "이마트24 포켓몬카드 예약방법",
+     "cv": 6,
+     "pct": 1.8
+    },
+    {
+     "query": "https://blog.naver.com/rmarn99/224419198719",
+     "cv": 5,
      "pct": 1.5
     },
     {
-     "query": "어비스아이",
-     "cv": 3,
-     "pct": 1.1
-    },
-    {
-     "query": "어비스아이 리스트",
-     "cv": 3,
-     "pct": 1.1
-    },
-    {
-     "query": "포켓몬카드 hp 뜻",
-     "cv": 3,
-     "pct": 1.1
-    },
-    {
-     "query": "포켓몬카드 등급 받는법",
-     "cv": 3,
-     "pct": 1.1
-    },
-    {
      "query": "포켓몬카드 서치팩 뜻",
-     "cv": 3,
-     "pct": 1.1
+     "cv": 5,
+     "pct": 1.5
     },
     {
-     "query": "포켓몬카드 탑로더",
-     "cv": 3,
-     "pct": 1.1
+     "query": "cu 포켓몬카드",
+     "cv": 4,
+     "pct": 1.2
     },
     {
-     "query": "Trick or trade",
-     "cv": 2,
-     "pct": 0.7
+     "query": "포켓몬카드 메가브레이브",
+     "cv": 4,
+     "pct": 1.2
     },
     {
      "query": "t1 카드팩",
-     "cv": 2,
-     "pct": 0.7
+     "cv": 3,
+     "pct": 0.9
     },
     {
-     "query": "고몽이 tcg",
-     "cv": 2,
-     "pct": 0.7
+     "query": "강릉 포켓몬카드샵",
+     "cv": 3,
+     "pct": 0.9
     },
     {
-     "query": "대전 포켓몬카드샵",
-     "cv": 2,
-     "pct": 0.7
-    },
-    {
-     "query": "울산 원팩 tcg",
-     "cv": 2,
-     "pct": 0.7
+     "query": "스톰 에메랄다 리스트",
+     "cv": 3,
+     "pct": 0.9
     },
     {
      "query": "원피스 카드게임 스타터덱",
-     "cv": 2,
-     "pct": 0.7
+     "cv": 3,
+     "pct": 0.9
     },
     {
-     "query": "일산 포켓몬센터",
-     "cv": 2,
-     "pct": 0.7
+     "query": "이마트24 포켓몬카드",
+     "cv": 3,
+     "pct": 0.9
     },
     {
-     "query": "일산 포켓몬스터 카드필드",
-     "cv": 2,
-     "pct": 0.7
+     "query": "포켓몬 카드 시리즈 순서",
+     "cv": 3,
+     "pct": 0.9
     },
     {
-     "query": "카드 슬리브 탑로더",
-     "cv": 2,
-     "pct": 0.7
+     "query": "포켓몬 할로윈팩",
+     "cv": 3,
+     "pct": 0.9
     },
     {
-     "query": "탑로더 보관함",
-     "cv": 2,
-     "pct": 0.7
+     "query": "포켓몬스토어",
+     "cv": 3,
+     "pct": 0.9
     },
     {
-     "query": "포켓몬 151 박스",
+     "query": "gs편의점 포켓몬카드",
      "cv": 2,
-     "pct": 0.7
+     "pct": 0.6
     },
     {
-     "query": "포켓몬 30주년 카드 가품",
+     "query": "리프트바운드 t1",
      "cv": 2,
-     "pct": 0.7
+     "pct": 0.6
+    },
+    {
+     "query": "메가드림 구성",
+     "cv": 2,
+     "pct": 0.6
+    },
+    {
+     "query": "메가드림 정가",
+     "cv": 2,
+     "pct": 0.6
+    },
+    {
+     "query": "세븐일레븐 포켓몬카드 예약방법",
+     "cv": 2,
+     "pct": 0.6
     }
    ]
   }
@@ -5732,7 +5768,27 @@
    "state": "active",
    "rrule": "FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
    "runAt": null,
-   "nextRunAt": "2026-10-08T23:00:00.000Z",
+   "nextRunAt": "2026-10-09T04:00:00.000Z",
+   "lastRunAt": null
+  },
+  {
+   "id": "mMA48XtmYWhukoZn",
+   "name": "고몽이 TCG 센터 일일 서로이웃 신청 5~10명 (rmarn99, 포켓몬 우선)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=21;BYMINUTE=10",
+   "runAt": null,
+   "nextRunAt": "2026-10-09T12:10:00.000Z",
+   "lastRunAt": null
+  },
+  {
+   "id": "26Nl33l40C82LexE",
+   "name": "고몽이 TCG 센터 카페 일일 점검 (전환기: 질문 답변·환영·출석·대시보드 / 매니저 전환 후 등업·규칙·미션 재개)",
+   "kind": "cron",
+   "state": "active",
+   "rrule": "FREQ=DAILY;BYHOUR=20;BYMINUTE=30",
+   "runAt": null,
+   "nextRunAt": "2026-10-09T11:30:00.000Z",
    "lastRunAt": null
   },
   {
@@ -5753,26 +5809,6 @@
    "rrule": "FREQ=WEEKLY;BYDAY=MO,TH;BYHOUR=9;BYMINUTE=30",
    "runAt": null,
    "nextRunAt": "2026-10-12T00:30:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "mMA48XtmYWhukoZn",
-   "name": "고몽이 TCG 센터 일일 서로이웃 신청 5~10명 (rmarn99, 포켓몬 우선)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=21;BYMINUTE=10",
-   "runAt": null,
-   "nextRunAt": "2026-10-08T12:10:00.000Z",
-   "lastRunAt": null
-  },
-  {
-   "id": "26Nl33l40C82LexE",
-   "name": "고몽이 TCG 센터 카페 일일 점검 (전환기: 질문 답변·환영·출석·대시보드 / 매니저 전환 후 등업·규칙·미션 재개)",
-   "kind": "cron",
-   "state": "active",
-   "rrule": "FREQ=DAILY;BYHOUR=20;BYMINUTE=30",
-   "runAt": null,
-   "nextRunAt": "2026-10-08T11:30:00.000Z",
    "lastRunAt": null
   },
   {
@@ -5835,6 +5871,11 @@
     "commissionAmount": 0
    },
    "daily": [
+    {
+     "date": "2026-10-08",
+     "access": 0,
+     "sales": 0
+    },
     {
      "date": "2026-10-07",
      "access": 0,
@@ -5904,19 +5945,14 @@
      "date": "2026-09-24",
      "access": 0,
      "sales": 0
-    },
-    {
-     "date": "2026-09-23",
-     "access": 0,
-     "sales": 0
     }
    ],
    "products": [],
    "productCount": 0
   },
   "adpost": {
-   "remainPoint": 2831,
-   "currentPoint": 2831,
+   "remainPoint": 3010,
+   "currentPoint": 3010,
    "publisherStatus": "NORMAL",
    "mediaCount": 1,
    "mediaStatus": "NORMAL",
@@ -5927,16 +5963,16 @@
   },
   "mate": {
    "month": 10,
-   "count": 30247,
-   "day": 8,
+   "count": 36625,
+   "day": 9,
    "daysInMonth": 31,
-   "pace": 3781,
-   "projected": 117207,
+   "pace": 4069,
+   "projected": 126153,
    "ref": 120000,
    "selectionMonth": 12,
    "betaEnds": "2026-12"
   },
-  "at": "2026-10-08T04:00:54.777Z"
+  "at": "2026-10-08T23:00:34.158Z"
  },
  "loginOk": true,
  "preflight": "ok"
