@@ -297,7 +297,7 @@ function stats() {
     if (!AR || AR.error || !AR.yesterday) return `<section class="card"><h3>애드포스트</h3>${st}${AR?.error ? `<div class="empty" style="padding:8px 0"><span>상세 리포트 실패: ${esc(AR.error)}</span></div>` : ''}</section>`;
     const Y = AR.yesterday, L = AR.last7, P = AR.prev7, M = AR.mtd;
     const diff = P && P.days ? Math.round((L.perDay - P.perDay) / Math.max(1, P.perDay) * 100) : null;
-    const dd = (AR.daily || []).map(r => ({ date: r.date, rev: r.rev }));
+    const dd = (AR.daily || []).map(r => ({ date: r.date, rev: r.rev })).reverse(); // barChart 는 최신순 입력을 받아 뒤집는다
     return `<section class="card"><h3>애드포스트 수입<small>${AR.dataThrough.slice(5).replace('-', '/')}까지 집계 · 하루 늦게 반영</small></h3>
     <div class="rank"><span class="t">어제(${Y.date.slice(5).replace('-', '/')}) 수입</span><span class="val"><b>${n(Y.rev)}원</b> · 클릭 ${n(Y.clk)}</span></div>
     <div class="rank"><span class="t">최근 7일 · 하루 평균</span><span class="val">${n(L.rev)}원 · ${n(L.perDay)}원${diff != null ? ` <span class="badge ${diff >= 0 ? 'ok' : 'warn'}">${diff >= 0 ? '+' : ''}${diff}%</span>` : ''}</span></div>
