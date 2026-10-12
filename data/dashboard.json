@@ -1,20 +1,20 @@
 {
- "collectedAt": "2026-10-12T00:24:03.487Z",
- "collectedAtText": "2026-10-12 09:24",
+ "collectedAt": "2026-10-12T01:29:46.979Z",
+ "collectedAtText": "2026-10-12 10:29",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 47110,
+ "elapsedMs": 47406,
  "errors": [],
  "summary": {
   "publicCount": 61,
-  "queueCount": 11,
-  "totalCount": 72,
-  "todayCv": 119,
+  "queueCount": 23,
+  "totalCount": 84,
+  "todayCv": 143,
   "yesterdayCv": 720,
-  "todayVisitor": 104,
+  "todayVisitor": 128,
   "buddyCount": 96,
   "citations": {
    "cumulative": 69309,
@@ -157,7 +157,7 @@
    "url": "https://blog.naver.com/rmarn99/224419198719",
    "openType": "2",
    "searchYn": true,
-   "readCount": 979,
+   "readCount": 981,
    "commentCount": 4,
    "unanswered": 0,
    "v5": false,
@@ -301,7 +301,7 @@
    "url": "https://blog.naver.com/rmarn99/224420640680",
    "openType": "2",
    "searchYn": true,
-   "readCount": 121,
+   "readCount": 122,
    "commentCount": 0,
    "unanswered": 0,
    "v5": false,
@@ -625,7 +625,7 @@
    "url": "https://blog.naver.com/rmarn99/224421385780",
    "openType": "2",
    "searchYn": true,
-   "readCount": 76,
+   "readCount": 77,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -661,7 +661,7 @@
    "url": "https://blog.naver.com/rmarn99/224421386521",
    "openType": "2",
    "searchYn": true,
-   "readCount": 112,
+   "readCount": 113,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -733,7 +733,7 @@
    "url": "https://blog.naver.com/rmarn99/224421387940",
    "openType": "2",
    "searchYn": true,
-   "readCount": 525,
+   "readCount": 526,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -769,7 +769,7 @@
    "url": "https://blog.naver.com/rmarn99/224421388588",
    "openType": "2",
    "searchYn": true,
-   "readCount": 342,
+   "readCount": 343,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -841,7 +841,7 @@
    "url": "https://blog.naver.com/rmarn99/224421389946",
    "openType": "2",
    "searchYn": true,
-   "readCount": 661,
+   "readCount": 666,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -913,7 +913,7 @@
    "url": "https://blog.naver.com/rmarn99/224422743238",
    "openType": "2",
    "searchYn": true,
-   "readCount": 421,
+   "readCount": 422,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1633,7 +1633,7 @@
    "url": "https://blog.naver.com/rmarn99/224431138770",
    "openType": "2",
    "searchYn": true,
-   "readCount": 540,
+   "readCount": 543,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -2209,7 +2209,7 @@
    "url": "https://blog.naver.com/rmarn99/224431720572",
    "openType": "2",
    "searchYn": true,
-   "readCount": 3,
+   "readCount": 4,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -2535,6 +2535,258 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false
+  },
+  {
+   "no": 82,
+   "logNo": "224438737498",
+   "title": "포켓몬카드 가격 유형별 정가, 팩 1,500원부터 세트 10만원까지",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 입문 가이드",
+   "keyword": "포켓몬카드 가격",
+   "publishedText": "2026-10-16 07:20",
+   "postDate": 1792102800000,
+   "url": "https://blog.naver.com/rmarn99/224438737498",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 83,
+   "logNo": "224438738647",
+   "title": "포켓몬카드 일본 파는곳 5가지 유형, 포켓몬센터 18곳과 취급점 지도",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 굿즈·이벤트",
+   "keyword": "일본 포켓몬카드 파는곳",
+   "publishedText": "2026-10-16 12:20",
+   "postDate": 1792120800000,
+   "url": "https://blog.naver.com/rmarn99/224438738647",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 84,
+   "logNo": "224438739836",
+   "title": "카드 슬리브 다이소 사이즈 정리, 포켓몬카드 맞는 일반형과 미니 차이",
+   "status": "예약",
+   "game": "용품",
+   "category": "카드용품·보관",
+   "keyword": "다이소 카드 슬리브",
+   "publishedText": "2026-10-16 19:50",
+   "postDate": 1792147800000,
+   "url": "https://blog.naver.com/rmarn99/224438739836",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 85,
+   "logNo": "224438740970",
+   "title": "포켓몬카드 잠실 자판기 위치 6대, 롯데월드몰과 어드벤처 안까지",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 굿즈·이벤트",
+   "keyword": "잠실 포켓몬카드 자판기",
+   "publishedText": "2026-10-17 07:10",
+   "postDate": 1792188600000,
+   "url": "https://blog.naver.com/rmarn99/224438740970",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 86,
+   "logNo": "224438743702",
+   "title": "포켓몬 띠부씰 앨범 추천 3종, 540장 1260장 수납 가격 비교",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 굿즈·이벤트",
+   "keyword": "포켓몬 띠부씰 앨범 (구매형)",
+   "publishedText": "2026-10-17 12:40",
+   "postDate": 1792208400000,
+   "url": "https://blog.naver.com/rmarn99/224438743702",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 87,
+   "logNo": "224438744951",
+   "title": "포켓몬카드 30주년 일본판 한국판 차이 5가지, 정가 봉입 카드 수",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 신제품·개봉기",
+   "keyword": "포켓몬카드 30주년 일본판",
+   "publishedText": "2026-10-17 19:10",
+   "postDate": 1792231800000,
+   "url": "https://blog.naver.com/rmarn99/224438744951",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 88,
+   "logNo": "224438746065",
+   "title": "포켓몬카드 오사카 파는곳, 포켓몬센터 2곳과 난바 카드샵 54곳 동선",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 굿즈·이벤트",
+   "keyword": "오사카 포켓몬카드 파는곳",
+   "publishedText": "2026-10-18 07:30",
+   "postDate": 1792276200000,
+   "url": "https://blog.naver.com/rmarn99/224438746065",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 89,
+   "logNo": "224438747261",
+   "title": "포켓몬카드 등급 받는법 3가지, 해외 직접 접수 대행 국내 업체 비교",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 카드 시세·수집",
+   "keyword": "포켓몬카드 등급 받는법",
+   "publishedText": "2026-10-18 12:40",
+   "postDate": 1792294800000,
+   "url": "https://blog.naver.com/rmarn99/224438747261",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 90,
+   "logNo": "224438748487",
+   "title": "원피스카드 파는곳 총정리, 공인 점포 54곳 취급 점포 21곳과 정가",
+   "status": "예약",
+   "game": "원피스",
+   "category": "원피스 카드 입문·룰",
+   "keyword": "원피스 카드 파는곳",
+   "publishedText": "2026-10-18 19:30",
+   "postDate": 1792319400000,
+   "url": "https://blog.naver.com/rmarn99/224438748487",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 91,
+   "logNo": "224438749845",
+   "title": "포켓몬카드 도쿄 파는곳, 포켓몬센터 4곳과 아키하바라 카드샵 67곳",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 굿즈·이벤트",
+   "keyword": "도쿄 포켓몬카드 파는곳",
+   "publishedText": "2026-10-19 07:20",
+   "postDate": 1792362000000,
+   "url": "https://blog.naver.com/rmarn99/224438749845",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 92,
+   "logNo": "224438751150",
+   "title": "포켓몬카드 광주 파는곳, 동구 공식 카드샵 1곳과 자판기 5대 위치",
+   "status": "예약",
+   "game": "포켓몬",
+   "category": "포켓몬 굿즈·이벤트",
+   "keyword": "광주 포켓몬카드 파는곳",
+   "publishedText": "2026-10-19 12:10",
+   "postDate": 1792379400000,
+   "url": "https://blog.naver.com/rmarn99/224438751150",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
+  },
+  {
+   "no": 93,
+   "logNo": "224438753288",
+   "title": "카드 자석 탑로더 추천 3종, 870원부터 3,300원 UV 차단까지",
+   "status": "예약",
+   "game": "용품",
+   "category": "카드용품·보관",
+   "keyword": "자석 탑로더 (구매형)",
+   "publishedText": "2026-10-19 19:40",
+   "postDate": 1792406400000,
+   "url": "https://blog.naver.com/rmarn99/224438753288",
+   "searchYn": null,
+   "readCount": 0,
+   "commentCount": 0,
+   "unanswered": 0,
+   "v5": false,
+   "relatedLinksPending": false,
+   "priceUpdate": null,
+   "rank": null,
+   "aiCited": false
   }
  ],
  "queue": [
@@ -2614,6 +2866,90 @@
    "postDate": 1792059600000,
    "postDateText": "2026-10-15 19:20",
    "addDate": 1791421848733
+  },
+  {
+   "logNo": "224438737498",
+   "title": "포켓몬카드 가격 유형별 정가, 팩 1,500원부터 세트 10만원까지",
+   "postDate": 1792102800000,
+   "postDateText": "2026-10-16 07:20",
+   "addDate": 1791767547291
+  },
+  {
+   "logNo": "224438738647",
+   "title": "포켓몬카드 일본 파는곳 5가지 유형, 포켓몬센터 18곳과 취급점 지도",
+   "postDate": 1792120800000,
+   "postDateText": "2026-10-16 12:20",
+   "addDate": 1791767609945
+  },
+  {
+   "logNo": "224438739836",
+   "title": "카드 슬리브 다이소 사이즈 정리, 포켓몬카드 맞는 일반형과 미니 차이",
+   "postDate": 1792147800000,
+   "postDateText": "2026-10-16 19:50",
+   "addDate": 1791767673934
+  },
+  {
+   "logNo": "224438740970",
+   "title": "포켓몬카드 잠실 자판기 위치 6대, 롯데월드몰과 어드벤처 안까지",
+   "postDate": 1792188600000,
+   "postDateText": "2026-10-17 07:10",
+   "addDate": 1791767738997
+  },
+  {
+   "logNo": "224438743702",
+   "title": "포켓몬 띠부씰 앨범 추천 3종, 540장 1260장 수납 가격 비교",
+   "postDate": 1792208400000,
+   "postDateText": "2026-10-17 12:40",
+   "addDate": 1791767891651
+  },
+  {
+   "logNo": "224438744951",
+   "title": "포켓몬카드 30주년 일본판 한국판 차이 5가지, 정가 봉입 카드 수",
+   "postDate": 1792231800000,
+   "postDateText": "2026-10-17 19:10",
+   "addDate": 1791767961562
+  },
+  {
+   "logNo": "224438746065",
+   "title": "포켓몬카드 오사카 파는곳, 포켓몬센터 2곳과 난바 카드샵 54곳 동선",
+   "postDate": 1792276200000,
+   "postDateText": "2026-10-18 07:30",
+   "addDate": 1791768025402
+  },
+  {
+   "logNo": "224438747261",
+   "title": "포켓몬카드 등급 받는법 3가지, 해외 직접 접수 대행 국내 업체 비교",
+   "postDate": 1792294800000,
+   "postDateText": "2026-10-18 12:40",
+   "addDate": 1791768091939
+  },
+  {
+   "logNo": "224438748487",
+   "title": "원피스카드 파는곳 총정리, 공인 점포 54곳 취급 점포 21곳과 정가",
+   "postDate": 1792319400000,
+   "postDateText": "2026-10-18 19:30",
+   "addDate": 1791768156776
+  },
+  {
+   "logNo": "224438749845",
+   "title": "포켓몬카드 도쿄 파는곳, 포켓몬센터 4곳과 아키하바라 카드샵 67곳",
+   "postDate": 1792362000000,
+   "postDateText": "2026-10-19 07:20",
+   "addDate": 1791768226747
+  },
+  {
+   "logNo": "224438751150",
+   "title": "포켓몬카드 광주 파는곳, 동구 공식 카드샵 1곳과 자판기 5대 위치",
+   "postDate": 1792379400000,
+   "postDateText": "2026-10-19 12:10",
+   "addDate": 1791768296935
+  },
+  {
+   "logNo": "224438753288",
+   "title": "카드 자석 탑로더 추천 3종, 870원부터 3,300원 UV 차단까지",
+   "postDate": 1792406400000,
+   "postDateText": "2026-10-19 19:40",
+   "addDate": 1791768411700
   }
  ],
  "comments": [
@@ -3658,10 +3994,10 @@
   "dailyCv": [
    {
     "date": "2026-10-12",
-    "total": 119,
-    "friend": 5,
+    "total": 143,
+    "friend": 6,
     "follow": 0,
-    "etc": 114
+    "etc": 137
    },
    {
     "date": "2026-10-11",
@@ -3764,23 +4100,23 @@
   ],
   "today": {
    "date": "2026-10-12",
-   "utime": "2026-10-12T09:23:23",
+   "utime": "2026-10-12T10:29:06",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 119,
+    "dailyCv": 143,
     "dailyLike": 1,
-    "dailyCommentUtime": "2026-10-12T09:23:23",
-    "dailyRelationDeltaUtime": "2026-10-12T09:23:23",
+    "dailyCommentUtime": "2026-10-12T10:29:06",
+    "dailyRelationDeltaUtime": "2026-10-12T10:29:06",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-10-12T09:23:23",
-    "dailyCvUtime": "2026-10-12T09:23:23"
+    "dailyLikeUtime": "2026-10-12T10:29:06",
+    "dailyCvUtime": "2026-10-12T10:29:06"
    },
    "dailyCv": [
     {
      "date": "2026-10-12",
-     "cv": 119
+     "cv": 143
     },
     {
      "date": "2026-10-11",
@@ -3842,206 +4178,206 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 15,
+     "cv": 18,
+     "title": "포켓몬카드 편의점 재고 조회 방법, 4사 앱 순서와 예약 주의점",
+     "logNo": "224431135228",
+     "createDate": "2026.10.04. 15:51"
+    },
+    {
+     "rank": 1,
+     "cv": 18,
      "title": "포켓몬카드 30주년 재입고 정리, 10월 1~3일 풀린 5곳과 정가",
      "logNo": "224431138770",
      "createDate": "2026.10.05. 07:20"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "cv": 11,
      "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
      "logNo": "224421189221",
      "createDate": "2026.09.25. 12:30"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "cv": 11,
-     "title": "포켓몬카드 편의점 재고 조회 방법, 4사 앱 순서와 예약 주의점",
-     "logNo": "224431135228",
-     "createDate": "2026.10.04. 15:51"
-    },
-    {
-     "rank": 4,
-     "cv": 10,
      "title": "포켓몬카드 일본판 한글판 차이 5가지, 정가 발매일 대회 사용 기준",
      "logNo": "224421387940",
      "createDate": "2026.09.29. 07:40"
     },
     {
      "rank": 5,
-     "cv": 7,
-     "title": "포켓몬카드 PSA 등급 받는 법, 접수 절차 5단계와 요금 기간 기준",
-     "logNo": "224421388588",
-     "createDate": "2026.09.29. 12:20"
+     "cv": 9,
+     "title": "포켓몬카드 서치팩 재포장 구별법 6가지, 정가보다 싼 낱팩 확인 순서",
+     "logNo": "224421389946",
+     "createDate": "2026.09.30. 12:30"
     },
     {
      "rank": 6,
-     "cv": 6,
-     "title": "포켓몬카드 30주년 힛카드 리스트, 103번 뒤 번호 62장 정리",
-     "logNo": "224422743238",
-     "createDate": "2026.09.29. 19:20"
+     "cv": 8,
+     "title": "포켓몬카드 PSA 등급 받는 법, 접수 절차 5단계와 요금 기간 기준",
+     "logNo": "224421388588",
+     "createDate": "2026.09.29. 12:20"
     }
    ],
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 59,
-     "pct": 55.1
+     "cv": 72,
+     "pct": 55.4
     },
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 21,
-     "pct": 19.6
+     "cv": 24,
+     "pct": 18.5
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 12,
-     "pct": 11.2
+     "cv": 16,
+     "pct": 12.3
     },
     {
      "name": "네이버 블로그_모바일",
      "cv": 7,
-     "pct": 6.5
+     "pct": 5.4
     },
     {
      "name": "네이버 통합검색_PC",
-     "cv": 3,
-     "pct": 2.8
+     "cv": 4,
+     "pct": 3.1
     },
     {
      "name": "네이버 메인_PC",
+     "cv": 3,
+     "pct": 2.3
+    },
+    {
+     "name": "네이버 메인_모바일",
      "cv": 2,
-     "pct": 1.9
+     "pct": 1.5
     },
     {
      "name": "네이버 블로그_PC",
      "cv": 2,
-     "pct": 1.9
-    },
-    {
-     "name": "네이버 메인_모바일",
-     "cv": 1,
-     "pct": 0.9
+     "pct": 1.5
     }
    ],
    "searchQueries": [
     {
-     "query": "포켓몬카드 30주년 파는곳",
+     "query": "gs편의점 포켓몬카드",
      "cv": 3,
-     "pct": 5.1
+     "pct": 4.2
     },
     {
-     "query": "gs편의점 포켓몬카드",
-     "cv": 2,
-     "pct": 3.4
+     "query": "포켓몬카드 30주년 파는곳",
+     "cv": 3,
+     "pct": 4.2
     },
     {
      "query": "30주년 카드 리스트",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
+    },
+    {
+     "query": "30주년 포켓몬카드 일본파뉴가격",
+     "cv": 1,
+     "pct": 1.4
     },
     {
      "query": "gs25 30주년",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "psa 그레이딩 대행 가격",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "psa 등급 비용",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "psa 밸류",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "psa 보내는 법",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "t1 카드팩",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "구로 이마트 포켓몬 카드",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
+    },
+    {
+     "query": "구리시장 근처 포켓몬 카드 판매점",
+     "cv": 1,
+     "pct": 1.4
     },
     {
      "query": "대전 롯데마트 포켓몬카드 30주년",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "대전 포켓몬카드 파는곳",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "대전포켓몬스터카드팩살수있는곳",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
      "query": "리자몽 프로모팩",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
-     "query": "스톰에메랄다 구매처",
+     "query": "리프트바운드 공식 바인더",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
-     "query": "스톰에메랄다 봉입률",
+     "query": "몬콜레 공식 스토어 카드 입고시간",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
-     "query": "스톰에메랄다 재고",
+     "query": "서치 포켓몬 뜻",
      "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     },
     {
-     "query": "원피스 카드 문구",
+     "query": "서치팩 뜻",
      "cv": 1,
-     "pct": 1.7
-    },
-    {
-     "query": "원피스 카드 시작",
-     "cv": 1,
-     "pct": 1.7
-    },
-    {
-     "query": "원피스 카드 입문",
-     "cv": 1,
-     "pct": 1.7
+     "pct": 1.4
     }
    ]
   },
   "yesterday": {
    "date": "2026-10-11",
-   "utime": "2026-10-12T08:00:39",
+   "utime": "2026-10-12T10:29:07",
    "dashboard": {
     "dailyComment": 12,
     "dailyPlayCount": "0",
     "dailyCv": 720,
     "dailyLike": 12,
-    "dailyCommentUtime": "2026-10-12T08:00:39",
-    "dailyRelationDeltaUtime": "2026-10-12T08:00:39",
+    "dailyCommentUtime": "2026-10-12T10:29:07",
+    "dailyRelationDeltaUtime": "2026-10-12T10:29:07",
     "dailyRelationDelta": 0,
     "isToday": false,
-    "dailyLikeUtime": "2026-10-12T08:00:39",
-    "dailyCvUtime": "2026-10-12T08:00:39"
+    "dailyLikeUtime": "2026-10-12T10:29:07",
+    "dailyCvUtime": "2026-10-12T10:29:07"
    },
    "dailyCv": [
     {
@@ -4327,10 +4663,10 @@
  },
  "games": {
   "count": {
-   "포켓몬": 60,
+   "포켓몬": 69,
    "리프트바운드": 4,
-   "원피스": 3,
-   "용품": 4,
+   "원피스": 4,
+   "용품": 6,
    "공통": 1
   },
   "target": {
@@ -7739,7 +8075,7 @@
    "name": "고몽이 PWA 작업 요청 실행 (앱 → ntfy task)",
    "rrule": "DTSTART;TZID=Asia/Seoul:20261010T193000\nRRULE:FREQ=HOURLY",
    "runAt": null,
-   "nextRunAt": "2026-10-12T00:30:00.000Z",
+   "nextRunAt": "2026-10-12T01:30:00.000Z",
    "lastRunAt": null
   },
   {
@@ -7763,7 +8099,7 @@
    "name": "고몽이 TCG 센터 신규 글 (rmarn99, 포켓몬 80%: 하루 3개·AEO 키워드·재발행 금지)",
    "rrule": "DTSTART;TZID=Asia/Seoul:20261012T093000\nRRULE:FREQ=WEEKLY;BYDAY=MO,TH;BYHOUR=9;BYMINUTE=30",
    "runAt": null,
-   "nextRunAt": "2026-10-12T00:30:00.000Z",
+   "nextRunAt": "2026-10-15T00:30:00.000Z",
    "lastRunAt": null
   },
   {
@@ -7883,7 +8219,7 @@
    "mediaEnabled": true,
    "approvedAt": "2026-10-05T02:50:13.000Z",
    "report": {
-    "at": "2026-10-12T00:23:29.669Z",
+    "at": "2026-10-12T01:29:13.121Z",
     "dataThrough": "2026-10-11",
     "start": "2026-10-05",
     "yesterday": {
@@ -8185,7 +8521,7 @@
    "selectionMonth": 12,
    "betaEnds": "2026-12"
   },
-  "at": "2026-10-12T00:24:03.487Z"
+  "at": "2026-10-12T01:29:46.979Z"
  },
  "loginOk": true,
  "preflight": "ok"
