@@ -9,7 +9,7 @@ let REQ = [];
 const reqIdx = (text) => { REQ.push(text); return REQ.length - 1; };
 const $ = (s, el = document) => el.querySelector(s);
 const view = $('#view');
-let D = null, H = [], S = null, C = null, CH = [], T = [], TL = [], tab = 'home', filters = { game: '전체', status: '전체' }, statDay = 'today', expand = {}, perfView = 'top';
+let D = null, H = [], S = null, C = null, CH = [], T = [], TL = [], tab = 'home', filters = { game: '전체', status: '전체' }, statDay = 'today', expand = {}, perfView = 'top', DY = null, calMonth = null, calDay = null;
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 /* ---------- utils ---------- */
@@ -53,14 +53,16 @@ async function fetchData(force) {
   const bust = force ? `?t=${Date.now()}` : '';
   // 2026-10-14: 'default'는 GitHub Pages max-age 10분 때문에 옛 tasks.json(대기)을 보여주던 문제 → 항상 서버에 재확인(no-cache, ETag라 가벼움)
   const opt = { cache: force ? 'reload' : 'no-cache' };
-  const [d, h, s, c, ch, t] = await Promise.all([
+  const [d, h, s, c, ch, t, dy] = await Promise.all([
     fetch(`./data/dashboard.json${bust}`, opt).then(r => r.json()),
     fetch(`./data/history/index.json${bust}`, opt).then(r => r.ok ? r.json() : []).catch(() => []),
     fetch(`./data/status.json${bust}`, opt).then(r => r.ok ? r.json() : null).catch(() => null),
     fetch(`./data/cafe.json${bust}`, opt).then(r => r.ok ? r.json() : null).catch(() => null),
     fetch(`./data/cafe_history.json${bust}`, opt).then(r => r.ok ? r.json() : []).catch(() => []),
     fetch(`./data/tasks.json${bust}`, opt).then(r => r.ok ? r.json() : []).catch(() => []),
+    fetch(`./data/daily.json${bust}`, opt).then(r => r.ok ? r.json() : null).catch(() => null),
   ]);
+  if (dy && dy.days) DY = dy; // 달력용 날짜별 기록(2026-10-14)
   return { d, h: Array.isArray(h) ? h : [], s, c, ch: Array.isArray(ch) ? ch : [], t: Array.isArray(t) ? t : [] };
 }
 async function load(force) {
@@ -220,6 +222,70 @@ function kwSection() {
   return `<div class="h-sec"><h2>키워드 기회</h2><span class="meta">${mapYmd ? `키워드 지도 ${md(mapYmd)} 기준` : ''}</span></div>
   <section class="card">${rt.length ? `<div class="sub-h">재공략 <small>쓴 지 14일 넘었는데 순위 밖</small></div>${limited('kwrt', rt, 2, rtRow)}` : ''}${ex.length ? `<div class="sub-h">확장 키워드 <small>아직 안 쓴 롱테일, AI 브리핑 우선</small></div>${limited('kwex', ex, 3, exRow)}` : ''}</section>`;
 }
+/* ---------- 달력 위젯 (2026-10-14): 날짜를 누르면 그날 기록 ---------- */
+const kfmt = (v) => v == null ? '' : v >= 10000 ? (v / 10000).toFixed(1).replace(/\.0$/, '') + '만' : v >= 1000 ? (v / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : String(v);
+const ymAdd = (ym, k) => { const [y, m] = ym.split('-').map(Number); const t = new Date(Date.UTC(y, m - 1 + k, 1)); return t.toISOString().slice(0, 7); };
+function calendarSection() {
+  if (!DY || !DY.days) return '';
+  const today = todayStr(); const from = DY.from || '2026-09-21';
+  const minYM = from.slice(0, 7), maxYM = today.slice(0, 7);
+  if (!calMonth) calMonth = maxYM; if (!calDay) calDay = today;
+  const [Y, M] = calMonth.split('-').map(Number);
+  const first = new Date(Date.UTC(Y, M - 1, 1)); const startDow = first.getUTCDay(); const dim = new Date(Date.UTC(Y, M, 0)).getUTCDate();
+  const days = Array.from({ length: dim }, (_, i) => `${calMonth}-${String(i + 1).padStart(2, '0')}`);
+  // 색 진하기 기준 = 그 달 최대 조회(집계 중인 오늘 제외)
+  const span = days.filter(d => d !== today && d >= from && d <= today).map(d => DY.days[d]?.cv).filter(v => v != null);
+  const max = Math.max(1, ...span), min = span.length > 1 ? Math.min(...span) : 0; // 그 달 최저~최고로 색 대비를 펼친다
+  const monthCv = days.reduce((s, d) => s + (d <= today ? (DY.days[d]?.cv || 0) : 0), 0);
+  const monthPub = days.reduce((s, d) => s + (DY.days[d]?.pub?.length || 0), 0);
+  const monthRev = days.reduce((s, d) => s + (DY.days[d]?.ad?.rev || 0), 0);
+  const cell = (d, i) => {
+    const x = DY.days[d]; const dow = (startDow + i) % 7;
+    const off = d < from || d > today; const cv = x?.cv;
+    const ratio = cv != null ? Math.max(0, Math.min(1, (cv - min) / Math.max(1, max - min))) : 0;
+    const heat = cv != null && !off ? `--heat:${(0.1 + ratio * 0.62).toFixed(3)}` : '';
+    const dots = (x?.pub?.length || 0) + (d === today ? (x?.queued?.length || 0) : 0);
+    const cls = ['cal-cell', off ? 'off' : '', d === calDay ? 'sel' : '', d === today ? 'today' : '', ratio > 0.6 ? 'hot' : '', dow === 0 ? 'sun' : dow === 6 ? 'sat' : ''].filter(Boolean).join(' ');
+    return `<button class="${cls}" ${off ? 'disabled' : `data-cal-day="${d}"`} style="${heat}" aria-label="${Number(d.slice(8))}일${cv != null ? ` 조회 ${cv}` : ''}${dots ? ` 발행 ${dots}` : ''}" aria-pressed="${d === calDay}"><span class="cal-n">${Number(d.slice(8))}</span>${dots ? `<span class="cal-dots">${'<i></i>'.repeat(Math.min(dots, 3))}</span>` : ''}<span class="cal-v">${off || cv == null ? '' : kfmt(cv)}</span></button>`;
+  };
+  const blanks = '<span class="cal-blank"></span>'.repeat(startDow);
+  return `<div class="h-sec"><h2>날짜별 기록</h2><span class="meta">날짜를 눌러 보세요</span></div>
+  <section class="card cal">
+    <div class="cal-head"><button class="icon-btn sm" data-cal-nav="-1" aria-label="이전 달" ${calMonth <= minYM ? 'disabled' : ''}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button><div class="cal-title"><b>${Y}년 ${M}월</b><span>조회 ${n(monthCv)} · 발행 ${monthPub}${monthRev ? ` · 수익 ${n(monthRev)}원` : ''}</span></div><button class="icon-btn sm" data-cal-nav="1" aria-label="다음 달" ${calMonth >= maxYM ? 'disabled' : ''}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button></div>
+    <div class="cal-dow">${['일', '월', '화', '수', '목', '금', '토'].map((w, i) => `<span class="${i === 0 ? 'sun' : i === 6 ? 'sat' : ''}">${w}</span>`).join('')}</div>
+    <div class="cal-grid" data-cal-swipe>${blanks}${days.map(cell).join('')}</div>
+    <div class="cal-legend"><span>조회 적음</span><i style="--heat:.1"></i><i style="--heat:.27"></i><i style="--heat:.45"></i><i style="--heat:.67"></i><span>많음</span><span class="lg-dot"><i></i>발행</span></div>
+  </section>
+  ${calDetail(calDay)}`;
+}
+function calDetail(d) {
+  const x = DY.days[d]; if (!x) return '';
+  const dt = new Date(d + 'T00:00:00+09:00'); const label = `${dt.getMonth() + 1}월 ${dt.getDate()}일 (${dow(d)})`;
+  const prevD = new Date(dt.getTime() - 86400e3 + 9 * 3600e3).toISOString().slice(0, 10); const px = DY.days[prevD];
+  const dlt = (a, b) => (a == null || b == null || x.partial) ? '' : delta(a - b);
+  const per = x.cv != null && x.uv ? (x.cv / x.uv).toFixed(2) : '-';
+  const kpi = (l, v, sub = '') => `<div class="dk"><span>${l}</span><b>${v}</b>${sub ? `<em>${sub}</em>` : ''}</div>`;
+  const won = (v) => v == null ? '-' : n(v) + '원';
+  const sec = (title, body, meta = '') => body ? `<div class="day-sec"><div class="ds-h"><b>${title}</b>${meta ? `<span>${meta}</span>` : ''}</div>${body}</div>` : '';
+  const pubList = (x.pub || []).map(p => `<a class="day-row" href="${postUrl(p.logNo)}" target="_blank" rel="noopener"><span class="time">${esc(p.time)}</span>${p.no ? `<span class="no">#${p.no}</span>` : ''}${gameBadge(p.game)}<span class="t">${esc(p.title)}</span></a>`).join('');
+  const qList = (x.queued || []).map(p => `<a class="day-row" href="${postUrl(p.logNo)}" target="_blank" rel="noopener"><span class="time">${esc(p.time)}</span><span class="badge info">${I.clock}예약</span><span class="t">${esc(p.title)}</span></a>`).join('');
+  const tmax = Math.max(1, ...(x.top || []).map(t => t.cv));
+  const topList = (x.top || []).map((t, i) => { const p = findPost(t.logNo); return `<a class="day-bar" href="${postUrl(t.logNo)}" target="_blank" rel="noopener"><div class="db-l"><span class="rk">${i + 1}</span><span class="t">${p && p.no ? `<em>#${p.no}</em> ` : ''}${esc(t.title)}</span><b>${n(t.cv)}</b></div><div class="db-bar"><i style="width:${Math.round(t.cv / tmax * 100)}%"></i></div></a>`; }).join('');
+  const qmax = Math.max(1, ...(x.q || []).map(t => t.cv));
+  const qs = (x.q || []).map(t => `<div class="day-bar"><div class="db-l"><span class="t">${esc(t.q)}</span><b>${n(t.cv)}</b></div><div class="db-bar"><i style="width:${Math.round(t.cv / qmax * 100)}%"></i></div></div>`).join('');
+  const refs = (x.ref || []).map(r => `<span class="chip-s">${esc(r.name.replace(/^네이버 /, ''))} <b>${r.pct}%</b></span>`).join('');
+  const extras = [x.cit?.delta != null ? `<span class="chip-s">${I.spark}AI 인용 <b>+${n(x.cit.delta)}</b></span>` : '', x.buddy?.delta != null ? `<span class="chip-s">${I.users}이웃 <b>${x.buddy.delta >= 0 ? '+' : ''}${x.buddy.delta}</b></span>` : '', x.like != null ? `<span class="chip-s">공감 <b>${n(x.like)}</b></span>` : '', x.comment != null ? `<span class="chip-s">${I.chat}댓글 <b>${n(x.comment)}</b></span>` : ''].join('');
+  const tasks = (x.tasks || []).map(t => `<div class="day-task">${stBadge(t.status)}<span>${esc(t.text)}</span></div>`).join('');
+  return `<section class="card day-card" id="dayCard">
+    <div class="day-h"><b>${label}</b>${x.partial ? '<span class="badge info">집계 중</span>' : ''}${d === todayStr() ? '' : `<button class="linkbtn" data-cal-day="${todayStr()}">오늘로</button>`}</div>
+    <div class="day-kpis">${kpi('조회수', n(x.cv), dlt(x.cv, px?.cv))}${kpi('방문자', n(x.uv), dlt(x.uv, px?.uv))}${kpi('1인당 조회', per)}${kpi('애드포스트', x.ad ? won(x.ad.rev) : (d < '2026-10-05' ? '승인 전' : x.partial ? '내일 반영' : '-'))}${kpi('RPM', x.ad ? won(x.ad.rpm) : '-')}${kpi('광고 클릭', x.ad ? n(x.ad.clk) : '-')}</div>
+    ${extras ? `<div class="day-chips">${extras}</div>` : ''}
+    ${sec('발행한 글', pubList, (x.pub || []).length ? (x.pub.length + '개') : '')}${sec('예약된 글', qList)}
+    ${!(x.pub || []).length && !(x.queued || []).length ? `<div class="day-sec"><div class="ds-h"><b>발행한 글</b></div><div class="day-empty">이날 발행한 글 없음</div></div>` : ''}
+    ${sec('많이 본 글', topList, 'TOP ' + (x.top || []).length)}${sec('유입 검색어', qs, 'TOP ' + (x.q || []).length)}${refs ? sec('유입 경로', `<div class="day-chips">${refs}</div>`) : ''}${sec('Aside 작업', tasks)}
+  </section>`;
+}
+
 /* ---------- 글별 성과 (2026-10-14) ---------- */
 function perfSection() {
   const P = D.perf; if (!P || !(P.rows || []).length) return '';
@@ -390,7 +456,7 @@ function stats() {
     ${(AR.posts || []).length ? `<h3 style="margin-top:12px">글별 추정 수입<small>최근 ${AR.postDays}일 · 조회 비중으로 나눈 추정</small></h3>${AR.posts.slice(0, 7).map(p => `<div class="rank"><span class="t">${esc(p.title)}</span><span class="val">${n(p.est)}원 · 조회 ${n(p.cv)}</span></div>`).join('')}` : ''}
   </section>`; })()}
   <section class="card"><h3>네이버 메이트 예상<small>${MT ? `${MT.month}월 인용 → ${MT.selectionMonth}월 선정` : ''}</small></h3>${MT ? `<div class="hbar"><div class="top"><div class="n">${MT.month}월 월말 예상 <b>${n(MT.projected)}</b></div><div class="p">참고선 ${n(MT.ref)} · ${matePct}%</div></div><div class="b"><span style="width:${matePct}%"></span></div></div><div class="rank"><span class="t">${MT.month}월 ${MT.day}일까지</span><span class="val">${n(MT.count)} (하루 ${n(MT.pace)})</span></div><div class="empty" style="padding:8px 0"><span>참고선은 비공식(8월 게임 주제 선정 사례). 인용수만으로 정해지지 않음 · 베타 12월 종료</span></div>` : empty('인용수 수집 후 표시')}</section>`;
-  return `${staleBanner()}${perfSection()}${revSec}
+  return `${staleBanner()}${calendarSection()}${perfSection()}${revSec}
   <div class="h-sec"><h2>일별 조회수</h2><span class="meta">최근 15일</span></div>
   <section class="card">${daily.length ? barChart(daily, 'total', r => Number(r.date.slice(8, 10))) : empty('데이터 없음')}</section>
 
@@ -651,6 +717,12 @@ function bind() {
   view.querySelectorAll('.chip').forEach(b => b.onclick = () => { filters[b.dataset.f] = b.dataset.v; render(false); });
   view.querySelectorAll('[data-day]').forEach(b => b.onclick = () => { statDay = b.dataset.day; render(false); });
   view.querySelectorAll('[data-perf]').forEach(b => b.onclick = () => { perfView = b.dataset.perf; render(false); });
+  // 달력: 날짜 선택·월 이동·좌우 스와이프 (스크롤 위치 유지)
+  const keepY = (fn) => { const y = window.scrollY; fn(); render(false); window.scrollTo(0, y); };
+  view.querySelectorAll('[data-cal-day]').forEach(b => b.onclick = () => { const d = b.dataset.calDay; keepY(() => { calDay = d; calMonth = d.slice(0, 7); }); const dc = $('#dayCard'); if (dc && b.closest('.day-card')) dc.scrollIntoView({ block: 'nearest' }); });
+  view.querySelectorAll('[data-cal-nav]').forEach(b => b.onclick = () => keepY(() => { calMonth = ymAdd(calMonth, Number(b.dataset.calNav)); }));
+  const sw = view.querySelector('[data-cal-swipe]');
+  if (sw) { let x0 = null, y0 = null; sw.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true }); sw.addEventListener('touchend', e => { if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0; x0 = null; if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) { const nb = view.querySelector(`[data-cal-nav="${dx < 0 ? 1 : -1}"]`); if (nb && !nb.disabled) nb.click(); } }, { passive: true }); }
   view.querySelectorAll('[data-more]').forEach(b => b.onclick = () => { expand[b.dataset.more] = !expand[b.dataset.more]; render(false); });
   view.querySelectorAll('[data-mr-help]').forEach(b => b.onclick = () => { const h = b.closest('.card').querySelector('.mr-help'); h.hidden = !h.hidden; b.textContent = h.hidden ? '기준 보기' : '기준 닫기'; });
 }

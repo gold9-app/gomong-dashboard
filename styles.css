@@ -379,3 +379,72 @@ html.sheet-open, html.sheet-open body { overflow: hidden; overscroll-behavior: n
 .card.primary .big .cum { margin-left: auto; display: flex; flex-direction: column; align-items: flex-end; line-height: 1.2; }
 .card.primary .big .cum span { font-size: var(--t-xs); color: var(--muted); font-weight: 500; letter-spacing: 0; }
 .card.primary .big .cum b { font-size: var(--t-lg); color: var(--text); font-weight: 700; letter-spacing: -0.01em; }
+/* ---------- 날짜별 기록 달력 (2026-10-14) ---------- */
+.cal { padding: 14px 12px 12px; }
+.cal-head { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.cal-head .icon-btn[disabled] { opacity: .3; pointer-events: none; }
+.cal-title { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0; }
+.cal-title b { font-size: var(--t-lg); font-weight: 700; letter-spacing: -0.02em; }
+.cal-title span { font-size: var(--t-xs); color: var(--muted); font-variant-numeric: tabular-nums; }
+.cal-dow, .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.cal-dow { margin-bottom: 4px; }
+.cal-dow span { text-align: center; font-size: var(--t-xs); color: var(--muted); font-weight: 600; padding: 2px 0; }
+.cal-dow .sun, .cal-cell.sun .cal-n { color: var(--red, #E5484D); }
+.cal-dow .sat, .cal-cell.sat .cal-n { color: var(--info, #3B82F6); }
+.cal-cell { position: relative; aspect-ratio: 1 / 1.08; border: 0; border-radius: 10px; padding: 5px 4px 4px; font: inherit; color: var(--text); cursor: pointer;
+  background: color-mix(in srgb, var(--green, #03C75A) calc(var(--heat, 0) * 100%), var(--surface-2, rgba(127,127,127,.06)));
+  display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; min-width: 0; transition: transform 120ms var(--ease-out, ease), box-shadow 120ms; -webkit-tap-highlight-color: transparent; }
+.cal-cell:active { transform: scale(.94); }
+.cal-cell.off { background: transparent; opacity: .35; cursor: default; }
+@media (prefers-color-scheme: dark) { .cal-cell.hot, .cal-cell.hot .cal-n, .cal-cell.hot .cal-v { color: #fff !important; } }
+.cal-cell.hot .cal-v { color: var(--text); }
+.cal-cell.today { box-shadow: inset 0 0 0 1.5px var(--green-deep, #06A84E); }
+.cal-cell.sel { box-shadow: 0 0 0 2px var(--surface, #fff), 0 0 0 4px var(--green, #03C75A); z-index: 1; }
+.cal-n { font-size: 12.5px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.cal-v { align-self: flex-end; font-size: 10px; font-weight: 600; line-height: 1; color: var(--muted); font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+.cal-dots { position: absolute; top: 21px; left: 5px; display: flex; gap: 2px; }
+.cal-dots i { width: 4px; height: 4px; border-radius: 50%; background: var(--green-deep, #06A84E); }
+.cal-cell.hot .cal-dots i { background: #fff; }
+.cal-blank { aspect-ratio: 1 / 1.08; }
+.cal-legend { display: flex; align-items: center; gap: 4px; justify-content: flex-end; margin-top: 10px; font-size: 10.5px; color: var(--muted); }
+.cal-legend > i { width: 12px; height: 12px; border-radius: 3px; background: color-mix(in srgb, var(--green, #03C75A) calc(var(--heat) * 100%), var(--surface-2, rgba(127,127,127,.06))); }
+.cal-legend .lg-dot { margin-left: 8px; display: inline-flex; align-items: center; gap: 4px; }
+.cal-legend .lg-dot i { width: 5px; height: 5px; border-radius: 50%; background: var(--green-deep, #06A84E); }
+/* 선택한 날 상세 */
+.day-card { margin-top: 10px; animation: dayIn 220ms var(--ease-out, ease); }
+@keyframes dayIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .day-card { animation: none; } }
+.day-h { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.day-h b { font-size: var(--t-lg); font-weight: 700; letter-spacing: -0.02em; }
+.day-h .linkbtn { margin-left: auto; }
+.day-kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.day-kpis .dk { background: var(--surface-2, rgba(127,127,127,.07)); border-radius: 12px; padding: 9px 10px; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.day-kpis .dk span { font-size: 11px; color: var(--muted); font-weight: 500; }
+.day-kpis .dk b { font-size: var(--t-md); font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.day-kpis .dk em { font-style: normal; font-size: 11px; }
+.day-kpis .dk em .delta { font-size: 11px; }
+.day-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.chip-s { display: inline-flex; align-items: center; gap: 4px; font-size: var(--t-xs); color: var(--muted); background: var(--surface-2, rgba(127,127,127,.07)); border-radius: 999px; padding: 5px 10px; }
+.chip-s svg { width: 12px; height: 12px; }
+.chip-s b { color: var(--text); font-variant-numeric: tabular-nums; }
+.day-sec { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); }
+.ds-h { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 8px; }
+.ds-h b { font-size: var(--t-sm); font-weight: 700; }
+.ds-h span { font-size: var(--t-xs); color: var(--muted); }
+.day-empty { font-size: var(--t-sm); color: var(--muted); padding: 4px 0; }
+.day-row { display: flex; align-items: center; gap: 6px; padding: 7px 0; text-decoration: none; color: var(--text); font-size: var(--t-sm); min-width: 0; }
+.day-row + .day-row { border-top: 1px dashed var(--line); }
+.day-row .time { color: var(--green-deep, #06A84E); font-weight: 700; font-variant-numeric: tabular-nums; flex: none; }
+.day-row .no { color: var(--muted); font-size: var(--t-xs); flex: none; }
+.day-row .badge { flex: none; }
+.day-row .t { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.day-bar { display: block; text-decoration: none; color: var(--text); padding: 6px 0; }
+.db-l { display: flex; align-items: center; gap: 8px; font-size: var(--t-sm); }
+.db-l .rk { width: 16px; flex: none; color: var(--green-deep, #06A84E); font-weight: 700; text-align: center; }
+.db-l .t { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.db-l .t em { font-style: normal; color: var(--muted); font-size: var(--t-xs); }
+.db-l b { flex: none; font-variant-numeric: tabular-nums; }
+.db-bar { height: 4px; border-radius: 2px; background: var(--surface-2, rgba(127,127,127,.1)); margin-top: 5px; overflow: hidden; }
+.db-bar i { display: block; height: 100%; border-radius: 2px; background: var(--green, #03C75A); }
+.day-task { display: flex; align-items: center; gap: 8px; font-size: var(--t-sm); padding: 4px 0; min-width: 0; }
+.day-task span:last-child { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
