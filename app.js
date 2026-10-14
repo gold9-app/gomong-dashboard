@@ -51,7 +51,8 @@ const empty = (t, ic = I.inbox) => `<div class="empty">${ic}<span>${esc(t)}</spa
 /* ---------- data ---------- */
 async function fetchData(force) {
   const bust = force ? `?t=${Date.now()}` : '';
-  const opt = { cache: force ? 'reload' : 'default' };
+  // 2026-10-14: 'default'는 GitHub Pages max-age 10분 때문에 옛 tasks.json(대기)을 보여주던 문제 → 항상 서버에 재확인(no-cache, ETag라 가벼움)
+  const opt = { cache: force ? 'reload' : 'no-cache' };
   const [d, h, s, c, ch, t] = await Promise.all([
     fetch(`./data/dashboard.json${bust}`, opt).then(r => r.json()),
     fetch(`./data/history/index.json${bust}`, opt).then(r => r.ok ? r.json() : []).catch(() => []),
@@ -543,6 +544,9 @@ const STATUS_CLS = { '대기': 'st-wait', '진행중': 'st-run', '완료': 'st-d
 const stBadge = (s) => `<span class="badge ${STATUS_CLS[s] || 'st-wait'}">${s === '진행중' ? I.sync : s === '완료' ? I.check : (s === '실패' || s === '거부') ? I.x : s === '보류' ? I.alert : I.clock} ${esc(s || '대기')}</span>`;
 const newId = () => Date.now().toString(36).slice(-5) + Math.random().toString(36).slice(2, 5);
 async function sig16(pin, id) { const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`${pin}:${id}`)); return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join('').slice(0, 16); }
+/* 상태 우선순위: 더 진행된 상태가 이긴다(오래된 캐시·알림 순서가 뒤섞여도 '완료'가 '대기'로 되돌아가지 않게) */
+const ST_RANK = { '대기': 0, '진행중': 1, '보류': 2, '실패': 2, '거부': 2, '완료': 2 };
+const stWins = (oldS, oldAt, newS, newAt) => { const a = ST_RANK[oldS] ?? -1, b = ST_RANK[newS] ?? -1; return b > a || (b === a && (!oldAt || (newAt && newAt >= oldAt))); };
 function mergedTasks() {
   // tasks.json(영구) + ntfy 실시간(내가 보낸 task, Aside의 result) + 로컬 보낸 기록
   const local = JSON.parse(localStorage.getItem('sentTasks') || '[]');
@@ -550,9 +554,9 @@ function mergedTasks() {
   for (const l of local) map.set(l.id, { id: l.id, text: l.text, at: l.at, atText: l.atText, status: '대기' });
   for (const m of TL) {
     if (m.kind === 'task') { const o = map.get(m.id) || { id: m.id, at: m.at, atText: m.atText, status: '대기' }; o.text = o.text || m.text; map.set(m.id, o); }
-    if (m.kind === 'result') { const o = map.get(m.id) || { id: m.id, at: m.at, atText: m.atText, text: '(내용 없음)' }; if (!o.doneAt || m.at >= o.doneAt) { o.status = m.status; o.result = m.text; o.doneAt = m.at; o.doneAtText = m.atText; } map.set(m.id, o); }
+    if (m.kind === 'result') { const o = map.get(m.id) || { id: m.id, at: m.at, atText: m.atText, text: '(내용 없음)' }; if (stWins(o.status, o.doneAt, m.status, m.at)) { o.status = m.status; o.result = m.text; o.doneAt = m.at; o.doneAtText = m.atText; } map.set(m.id, o); }
   }
-  for (const t of T) { const o = map.get(t.id) || { id: t.id }; const newer = !o.doneAt || (t.doneAt && t.doneAt >= o.doneAt); Object.assign(o, { text: t.text || o.text, at: t.at || o.at, atText: t.atText || o.atText }); if (newer && t.status) { o.status = t.status; o.result = t.result ?? o.result; o.doneAt = t.doneAt || o.doneAt; o.doneAtText = t.doneAtText || o.doneAtText; } map.set(t.id, o); }
+  for (const t of T) { const o = map.get(t.id) || { id: t.id }; const newer = stWins(o.status, o.doneAt, t.status, t.doneAt || t.startedAt || t.queuedAt); Object.assign(o, { text: t.text || o.text, at: t.at || o.at, atText: t.atText || o.atText }); if (newer && t.status) { o.status = t.status; o.result = t.result ?? o.result; o.doneAt = t.doneAt || o.doneAt; o.doneAtText = t.doneAtText || o.doneAtText; } map.set(t.id, o); }
   return [...map.values()].filter(x => x.text).sort((a, b) => (b.at || '').localeCompare(a.at || ''));
 }
 async function pollTaskLog(paint = true) {
