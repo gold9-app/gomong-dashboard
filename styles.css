@@ -349,8 +349,8 @@ html.sheet-open, html.sheet-open body { overflow: hidden; overscroll-behavior: n
 .delta:not(.up):not(.down) { color: var(--faint); }
 
 /* ---------- v4 (2026-10-14): 할 일 액션 · 키워드 기회 · 루틴 마지막 실행 ---------- */
-.todo a.tl { color: var(--text); text-decoration: none; display: block; }
-.todo a.tl:active { opacity: .7; }
+.todo a.tlink { color: var(--text); text-decoration: none; display: block; }
+.todo a.tlink:active { opacity: .7; }
 .mini-btn { display: inline-flex; align-items: center; gap: 4px; margin-top: 8px; min-height: 34px; border: 1px solid var(--green); background: var(--green-soft); color: var(--green-deep); border-radius: 999px; padding: 6px 14px; font: inherit; font-size: var(--t-xs); font-weight: 700; cursor: pointer; }
 .mini-btn:active { transform: scale(.97); }
 .todo.kw .k { font-size: var(--t-md); color: var(--text); font-weight: 700; margin-bottom: 4px; }
@@ -361,3 +361,5 @@ html.sheet-open, html.sheet-open body { overflow: hidden; overscroll-behavior: n
 .rt .rs { font-size: var(--t-xs); color: var(--muted); margin-top: 2px; }
 .rt .rs.clamp1 { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
 .rt .w .badge { vertical-align: 1px; }
+
+.rt.paused { opacity: .55; }

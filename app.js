@@ -176,7 +176,7 @@ function home() {
     <section class="card kpi ${s.unansweredComments ? 'alert' : ''}"><div class="l">${I.chat}미답변 댓글</div><div class="v" data-tick="${s.unansweredComments}">${n(s.unansweredComments)}</div><div class="d">전체 ${n(s.totalComments)}개</div></section>
     <section class="card kpi"><div class="l">${I.doc}공개 / 예약</div><div class="v"><span data-tick="${s.publicCount}">${n(s.publicCount)}</span><small> / ${n(s.queueCount)}</small></div><div class="d">${s.v5Pending ? `<span class="badge warn">v5 대기 ${s.v5Pending}</span>` : s.probeFail ? `<span class="badge info">확인 보류 ${s.probeFail}</span>` : `<span class="badge ok">${I.check}레이아웃 정상</span>`}${s.searchOff ? `<span class="badge danger">검색 OFF ${s.searchOff}</span>` : ''}</div></section>
     <section class="card kpi"><div class="l">${I.users}이웃</div><div class="v" data-tick="${s.buddyCount ?? 0}">${n(s.buddyCount)}</div><div class="d">서로이웃 신청·교류 매일 21:10</div></section>
-    ${(() => { const R = D.revenue || {}; const sc = R.shopConnect?.total; const ad = R.adpost; return `<section class="card kpi rev" data-goto="stats" role="link" tabindex="0"><div class="l"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 9l2 6 2-5 2 5 2-6M7.5 12h9"/></svg>수익 (쇼핑커넥트)</div><div class="v"><span data-tick="${sc?.commissionAmount ?? 0}">${n(sc?.commissionAmount ?? 0)}</span><small>원</small></div><div class="d"><span>클릭 ${n(sc?.accessCnt ?? 0)} · 주문 ${n(sc?.productOrderCnt ?? 0)}</span>${ad ? (ad.report?.mtd ? `<span class="badge ok">애드포스트 ${ad.report.mtd.month}월 ${n(ad.report.mtd.rev)}원</span>` : `<span class="badge ${/정상/.test(ad.mediaStatusKo || '') ? 'ok' : /보류|반려/.test(ad.mediaStatusKo || '') ? 'warn' : 'info'}">애드포스트 ${esc(ad.mediaStatusKo || '-')}</span>`) : ''}</div></section>`; })()}
+    ${(() => { const R = D.revenue || {}; const sc = R.shopConnect?.total; const ad = R.adpost; return `<section class="card kpi rev" data-goto="stats" role="link" tabindex="0"><div class="l"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 9l2 6 2-5 2 5 2-6M7.5 12h9"/></svg>${ad?.report?.mtd ? `${ad.report.mtd.month}월 수익` : '수익'}</div><div class="v"><span data-tick="${(ad?.report?.mtd?.rev ?? 0) + (sc?.commissionAmount ?? 0)}">${n((ad?.report?.mtd?.rev ?? 0) + (sc?.commissionAmount ?? 0))}</span><small>원</small></div><div class="d"><span>애드포스트 ${n(ad?.report?.mtd?.rev ?? 0)} · 쇼핑커넥트 ${n(sc?.commissionAmount ?? 0)} (클릭 ${n(sc?.accessCnt ?? 0)} · 주문 ${n(sc?.productOrderCnt ?? 0)})</span>${ad ? (ad.report?.mtd ? `<span class="badge ok">월말 예상 ${n(ad.report.mtd.projected)}원</span>` : `<span class="badge ${/정상/.test(ad.mediaStatusKo || '') ? 'ok' : /보류|반려/.test(ad.mediaStatusKo || '') ? 'warn' : 'info'}">애드포스트 ${esc(ad.mediaStatusKo || '-')}</span>`) : ''}</div></section>`; })()}
     ${C ? `<section class="card kpi cafe ${cafeIssues ? 'alert' : ''}" data-goto="cafe" role="link" tabindex="0"><div class="l">${I.users}카페 멤버 · 글</div><div class="v"><span data-tick="${C.members ?? 0}">${n(C.members)}</span><small> / ${n(C.articles)}</small></div><div class="d">${cafeMDelta != null ? delta(cafeMDelta) : ''}${C.pendingLevelUps ? `<span class="badge warn">등업 대기 ${C.pendingLevelUps}</span>` : ''}${(C.unansweredQuestions || []).length ? `<span class="badge danger">질문 ${C.unansweredQuestions.length}</span>` : ''}${(C.ruleFlags || []).length ? `<span class="badge danger">거래 경고 ${C.ruleFlags.length}</span>` : ''}${!cafeIssues ? `<span class="badge ok">${I.check}${esc(C.grade || '정상')}</span>` : ''}</div></section>` : ''}
   </div>
 
@@ -186,7 +186,7 @@ function home() {
   ${D.todos ? todoSection(cafeAlerts) + kwSection() : `<div class="h-sec"><h2>할 일</h2><span class="meta">${alerts.length}건</span></div>
   <section class="card">${alerts.length ? alerts.map(a => { const p = a.logNo ? findPost(a.logNo) : null; const tag = a.logNo ? `a href="${postUrl(a.logNo)}" target="_blank" rel="noopener"` : (a.cafe && a.url) ? `a href="${esc(a.url)}" target="_blank" rel="noopener"` : 'div'; const body = p ? `<div>${p.no ? `<span class="badge">#${p.no}</span> ` : ''}${esc(p.title)}</div>${a.priceUpdate || a.type === 'price' ? `<div class="pt">${esc(a.text.split(': ').slice(1).join(': '))}</div>` : ''}` : esc(a.text); return `<${tag} class="todo ${a.level}"><span class="ic">${a.level === 'danger' ? I.alert : a.level === 'warn' ? I.warn : I.info}</span><div><div class="k">${esc(kind[a.type] || a.type)}</div>${body}</div></${a.logNo || (a.cafe && a.url) ? 'a' : 'div'}>`; }).join('') : `<div class="empty">${I.check}<span>처리할 항목 없음</span></div>`}</section>`}
 
-  <div class="h-sec"><h2>Aside 작업</h2><span class="meta">${(() => { const m = mergedTasks(); const run = m.filter(x => x.status === '진행중' || x.status === '대기').length; return run ? run + '개 진행 중' : m.length + '개'; })()}</span></div>
+  <div class="h-sec"><h2>Aside 작업</h2><span class="meta">${(() => { const m = mergedTasks(); const run = m.filter(x => x.status === '진행중' || x.status === '대기').length; const wait = m.filter(x => !x.status || x.status === '대기').length, doing = m.filter(x => x.status === '진행중').length; return run ? [doing ? `진행 ${doing}` : '', wait ? `대기 ${wait} · ${nextTaskSlot()} 처리` : ''].filter(Boolean).join(' · ') : m.length + '개'; })()}</span></div>
   <section class="card tasks" data-open-tasks role="button" tabindex="0">${(() => { const m = mergedTasks().slice(0, 3); return m.length ? '<div class="tl-mini">' + m.map(x => `<div>${stBadge(x.status)}<span class="t">${esc(x.text)}</span><span class="meta">${esc((x.atText || '').slice(5, 16))}</span></div>`).join('') + '</div>' : `<div class="empty">${I.inbox}<span>보낸 작업 없음 · 위 종이비행기 버튼으로 Aside에 작업을 보내요</span></div>`; })()}</section>
 
   ${routines.some(r => 'last' in r) ? routineSection(routines, rName) : `<div class="h-sec"><h2>자동 루틴</h2><span class="meta">${routines.length}개</span></div>
@@ -203,7 +203,7 @@ function todoSection(cafeAlerts) {
   const row = (t) => {
     const href = t.logNo ? postUrl(t.logNo) : t.url || null;
     const act = t.action ? `<button class="mini-btn" data-req="${reqIdx(TASK_PRESETS[t.action.preset].t)}">${esc(t.action.label)}</button>` : '';
-    return `<div class="todo ${t.level}"><span class="ic">${ic(t.level)}</span><div><div class="k">${esc(t.title)}</div>${href ? `<a class="tl" href="${esc(href)}" target="_blank" rel="noopener">${esc(t.text)}</a>` : `<div>${esc(t.text)}</div>`}${t.note ? `<div class="pt">${esc(t.note)}</div>` : ''}${act}</div></div>`;
+    return `<div class="todo ${t.level}"><span class="ic">${ic(t.level)}</span><div><div class="k">${esc(t.title)}</div>${href ? `<a class="tlink" href="${esc(href)}" target="_blank" rel="noopener">${esc(t.text)}</a>` : `<div>${esc(t.text)}</div>`}${t.note ? `<div class="pt">${esc(t.note)}</div>` : ''}${act}</div></div>`;
   };
   return `<div class="h-sec"><h2>할 일</h2><span class="meta">${urgent ? `급한 것 ${urgent}건 · ` : ''}${list.length}건</span></div>
   <section class="card">${list.length ? limited('todo', list, 5, row) : `<div class="empty">${I.check}<span>급하게 처리할 항목 없음</span></div>`}</section>`;
@@ -213,7 +213,7 @@ function kwSection() {
   const exText = (x) => `확장 키워드 "${x.kw}"(월 검색 ${x.total}회, ${x.game}·${x.intent})로 신규 글 1개를 작성해 다음 빈 예약 슬롯에 예약 발행하고 제목·시각·URL 보고.${x.near ? ` 기존 #${x.near} 글과 검색 의도가 겹치지 않게 축을 달리하고, 겹침이 크면 쓰지 말고 보류로 알려줘.` : ''} SPEC v4.1·말투 v8·하루 3개 한도 준수.`;
   const rtText = (x) => `재공략 키워드 "${x.kw}"${x.total ? `(월 검색 ${x.total}회)` : ''}: 기존 #${x.no} "${x.title}"이 ${x.rankDate} 측정에서 PC·모바일 모두 순위 밖. 기존 글은 수정하지 말고, 같은 키워드를 다른 검색 의도(비교·가격·FAQ 등)로 잡은 새 글 1개를 작성해 다음 빈 예약 슬롯에 예약 발행. 제목·소제목·문장·표 구조는 새로 쓰고 관련 글 링크로 기존 글 1개만 연결. 결과(제목·시각·URL) 보고.`;
   const exRow = (x) => `<div class="todo info kw"><span class="ic">${I.spark}</span><div><div class="k">${esc(x.kw)}</div><div class="kwmeta">${gameBadge(x.game)}<span class="badge">월 ${n(x.total)}</span>${x.aib ? '<span class="badge ok">AI 브리핑</span>' : ''}${x.blogs != null ? `<span class="badge">블로그 ${x.blogs}</span>` : ''}${x.near ? `<span class="badge warn">#${x.near}와 가까움</span>` : ''}</div><button class="mini-btn" data-req="${reqIdx(exText(x))}">이 키워드로 새 글 요청</button></div></div>`;
-  const rtRow = (x) => `<div class="todo warn kw"><span class="ic">${I.sync}</span><div><div class="k">${esc(x.kw)}</div><a class="tl" href="${postUrl(x.logNo)}" target="_blank" rel="noopener">#${x.no} ${esc(x.title)}</a><div class="kwmeta">${gameBadge(x.game)}${x.total ? `<span class="badge">월 ${n(x.total)}</span>` : ''}<span class="badge danger">순위 밖 (${esc(md(x.rankDate))})</span><span class="badge">발행 ${x.age}일</span></div><button class="mini-btn" data-req="${reqIdx(rtText(x))}">다른 축 새 글 요청</button></div></div>`;
+  const rtRow = (x) => `<div class="todo warn kw"><span class="ic">${I.sync}</span><div><div class="k">${esc(x.kw)}</div><a class="tlink" href="${postUrl(x.logNo)}" target="_blank" rel="noopener">#${x.no} ${esc(x.title)}</a><div class="kwmeta">${gameBadge(x.game)}${x.total ? `<span class="badge">월 ${n(x.total)}</span>` : ''}<span class="badge danger">순위 밖 (${esc(md(x.rankDate))})</span><span class="badge">발행 ${x.age}일</span></div><button class="mini-btn" data-req="${reqIdx(rtText(x))}">다른 축 새 글 요청</button></div></div>`;
   const ex = K.expand || [], rt = K.retarget || [];
   const mapYmd = K.mapAt ? new Date(new Date(K.mapAt).getTime() + 9 * 3600e3).toISOString().slice(0, 10) : null;
   return `<div class="h-sec"><h2>키워드 기회</h2><span class="meta">${mapYmd ? `키워드 지도 ${md(mapYmd)} 기준` : ''}</span></div>
@@ -225,9 +225,9 @@ function routineSection(routines, rName) {
   const RS = { ok: ['ok', '정상'], skip: ['info', '건너뜀'], warn: ['warn', '확인 필요'], running: ['info', '실행 중'] };
   const row = (r) => {
     const w = r.nextRunAt ? fmtIso(r.nextRunAt) : null;
-    const st = r.missed ? ['danger', '놓침'] : r.last ? RS[r.last.result] || RS.ok : null;
+    const st = r.status === 'paused' ? ['', '일시정지'] : r.missed ? ['danger', '놓침'] : r.last ? RS[r.last.result] || RS.ok : null;
     const lastLine = r.last ? `<div class="w">${st ? `<span class="badge ${st[0]}">${esc(st[1])}</span> ` : ''}${esc(ago(r.last.at))} 실행 · 누적 ${n(r.last.runs)}회</div>${r.last.summary ? `<div class="rs clamp1">${esc(r.last.summary)}</div>` : ''}` : `<div class="w">아직 실행 기록 없음</div>`;
-    return `<div class="rt"><span class="ic">${I.bot}</span><div><div class="n" title="${esc(r.name)}">${esc(rName(r.name))}</div>${lastLine}</div>${r.status === 'paused' ? '<div class="when">상태<b>일시정지</b></div>' : w ? `<div class="when">다음<b>${w.d} ${w.t}</b></div>` : '<div class="when">다음<b>-</b></div>'}</div>`;
+    return `<div class="rt${r.status === 'paused' ? ' paused' : ''}"><span class="ic">${I.bot}</span><div><div class="n" title="${esc(r.name)}">${esc(rName(r.name))}</div>${lastLine}</div>${r.status === 'paused' ? '<div class="when">상태<b>일시정지</b></div>' : w ? `<div class="when">다음<b>${w.d} ${w.t}</b></div>` : '<div class="when">다음<b>-</b></div>'}</div>`;
   };
   const bad = live.filter(r => r.missed || (r.last && r.last.result === 'warn')).length;
   return `<div class="h-sec"><h2>자동 루틴</h2><span class="meta">${bad ? `확인 ${bad} · ` : ''}${live.length}개${done ? ` (끝난 1회성 ${done}개 숨김)` : ''}</span></div>
@@ -259,7 +259,9 @@ function queue() {
 function posts() {
   const gamesAll = ['전체', ...new Set(D.posts.map(p => p.game).filter(Boolean))];
   const statusAll = ['전체', '공개', '예약', '문제있음', 'AI인용'];
-  let list = D.posts.slice().sort((a, b) => (b.no || 0) - (a.no || 0));
+  // 2026-10-14: no 순서는 발행 순서와 다를 수 있어(#77이 #75보다 먼저 발행) 실제 발행·예약 시각으로 정렬
+  const pts = (p) => { const m = String(p.publishedText || '').match(/(\d{4}-\d{2}-\d{2} \d{2}:\d{2})/); return m ? m[1] : ''; };
+  let list = D.posts.slice().sort((a, b) => pts(b).localeCompare(pts(a)) || (b.no || 0) - (a.no || 0));
   if (filters.game !== '전체') list = list.filter(p => p.game === filters.game);
   if (filters.status === '공개' || filters.status === '예약') list = list.filter(p => p.status === filters.status);
   if (filters.status === '문제있음') list = list.filter(p => p.status === '공개' && (p.searchYn === false || p.v5 === false || p.relatedLinksPending || p.unanswered > 0 || (p.priceUpdate && p.priceUpdate.due <= todayStr())));
@@ -387,7 +389,7 @@ function cafe() {
   const prev = hist.length >= 2 ? hist[hist.length - 2] : null;
   const mDelta = prev && prev.members != null && C.members != null ? C.members - prev.members : null;
   const alerts = (C.alerts || []);
-  const kind = { levelup: '등업 신청 대기', question: '미답변 질문', trade: '거래 글 규칙 위반', greeting: '새 가입인사', account: '운영 계정', infoplan: '전환기 정보 글' };
+  const kind = { levelup: '등업 신청 대기', question: '미답변 질문', trade: '거래 글 규칙 위반', greeting: '새 가입인사', account: '운영 계정', infoplan: '정보 글' };
   const A = C.account || null; const transition = A ? A.mode !== '매니저' : false; const P = C.infoPlan || null;
   const pct = P && P.target ? Math.min(100, Math.round(P.done / P.target * 100)) : 0;
   const daysLeft = A?.managerExpected ? Math.max(0, Math.ceil((new Date(A.managerExpected + 'T00:00:00+09:00') - Date.now()) / 86400e3)) : null;
@@ -409,7 +411,7 @@ function cafe() {
   <section class="card">${alerts.length ? alerts.map(a => `<a class="todo ${a.level}" href="${a.url}" target="_blank" rel="noopener"><span class="ic">${a.level === 'danger' ? I.alert : a.level === 'warn' ? I.warn : I.info}</span><div><div class="k">${esc(kind[a.type] || a.type)}</div><div>${esc(a.text)}</div></div></a>`).join('') : `<div class="empty">${I.check}<span>처리할 항목 없음</span></div>`}
     <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">${transition ? '' : `<a class="badge primary" href="${esc(C.links?.levelUp || '')}" target="_blank" rel="noopener">등업 신청 관리</a><a class="badge" href="${esc(C.links?.manage || '')}" target="_blank" rel="noopener">카페 관리</a>`}<a class="badge" href="${esc(C.links?.attendance || '')}" target="_blank" rel="noopener">출석체크</a><a class="badge" href="${esc(C.url || '')}" target="_blank" rel="noopener">카페 홈</a></div></section>
 
-  ${P ? `<div class="h-sec"><h2>전환기 정보 글 (AEO)</h2><span class="meta">${P.done}/${P.target} · ${esc(P.start || '')}~</span></div>
+  ${P ? `<div class="h-sec"><h2>${transition ? '전환기 정보 글 (AEO)' : '정보 글 (AEO)'}</h2><span class="meta">${transition ? `${P.done}/${P.target}` : `누적 ${P.done}개 · 화·목 10:00`} · ${esc(P.start || '')}~</span></div>
   <section class="card"><div style="height:8px;border-radius:4px;background:rgba(127,127,127,.25);overflow:hidden;margin-bottom:10px"><div style="width:${pct}%;height:100%;background:#03c75a"></div></div><div class="list">${(P.posts || []).length ? P.posts.map(a => art(a, '<span class="badge ok">정보</span>')).join('') : empty('아직 전환기 정보 글 없음 · 화·목 10:00 루틴이 2개씩 발행')}</div></section>` : ''}
 
   <div class="h-sec"><h2>멤버 추이</h2><span class="meta">${hist.length ? `${md(hist[0].date)} ~ ${md(hist[hist.length - 1].date)}` : ''}</span></div>
