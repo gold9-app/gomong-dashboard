@@ -169,7 +169,7 @@ function home() {
   <div class="bento">
     <section class="card primary span2">
       <div class="eyebrow"><span>오늘 조회수</span><span class="num">${md(t)} (${dow(t)})</span></div>
-      <div class="big"><span data-tick="${s.todayCv ?? 0}">${n(s.todayCv)}</span><small>회</small></div>
+      <div class="big"><span data-tick="${s.todayCv ?? 0}">${n(s.todayCv)}</span><small>회</small>${s.totalReadCount != null ? `<span class="cum"><span>누적 조회</span><b class="num">${n(s.totalReadCount)}</b></span>` : ''}</div>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span style="font-size:var(--t-sm);color:var(--muted)">방문자 <b class="num" style="color:var(--text)">${n(s.todayVisitor)}</b></span><span style="font-size:var(--t-sm);color:var(--muted)">어제 <b class="num" style="color:var(--text)">${n(yd)}</b></span>${yd != null && dbf != null ? delta(yd - dbf, ' vs 그제') : ''}</div>
       ${daily.length ? sparkline(daily.map(r => r.total), daily.map(r => md(r.date))) : ''}
     </section>

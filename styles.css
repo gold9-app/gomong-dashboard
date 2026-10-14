@@ -374,3 +374,8 @@ html.sheet-open, html.sheet-open body { overflow: hidden; overscroll-behavior: n
 .perf-nums { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 8px; }
 .perf-nums span { background: var(--bg-soft, rgba(127,127,127,.08)); border-radius: 10px; padding: 7px 8px; font-size: var(--t-xs); color: var(--muted); display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .perf-nums b { font-size: var(--t-md); color: var(--text); font-variant-numeric: tabular-nums; }
+/* 홈 조회수 카드: 누적 조회수 (2026-10-14) */
+.card.primary .big { display: flex; align-items: baseline; gap: 4px; }
+.card.primary .big .cum { margin-left: auto; display: flex; flex-direction: column; align-items: flex-end; line-height: 1.2; }
+.card.primary .big .cum span { font-size: var(--t-xs); color: var(--muted); font-weight: 500; letter-spacing: 0; }
+.card.primary .big .cum b { font-size: var(--t-lg); color: var(--text); font-weight: 700; letter-spacing: -0.01em; }
