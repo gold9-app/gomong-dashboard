@@ -363,3 +363,5 @@ html.sheet-open, html.sheet-open body { overflow: hidden; overscroll-behavior: n
 .rt .w .badge { vertical-align: 1px; }
 
 .rt.paused { opacity: .55; }
+.card .kv dt { color: var(--muted); }
+.card .kv dd { margin: 0; font-variant-numeric: tabular-nums; font-weight: 700; text-align: right; }
