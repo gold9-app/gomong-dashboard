@@ -9,7 +9,7 @@ let REQ = [];
 const reqIdx = (text) => { REQ.push(text); return REQ.length - 1; };
 const $ = (s, el = document) => el.querySelector(s);
 const view = $('#view');
-let D = null, H = [], S = null, C = null, CH = [], T = [], TL = [], tab = 'home', filters = { game: '전체', status: '전체' }, statDay = 'today', expand = {};
+let D = null, H = [], S = null, C = null, CH = [], T = [], TL = [], tab = 'home', filters = { game: '전체', status: '전체' }, statDay = 'today', expand = {}, perfView = 'top';
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 /* ---------- utils ---------- */
@@ -220,6 +220,26 @@ function kwSection() {
   return `<div class="h-sec"><h2>키워드 기회</h2><span class="meta">${mapYmd ? `키워드 지도 ${md(mapYmd)} 기준` : ''}</span></div>
   <section class="card">${rt.length ? `<div class="sub-h">재공략 <small>쓴 지 14일 넘었는데 순위 밖</small></div>${limited('kwrt', rt, 2, rtRow)}` : ''}${ex.length ? `<div class="sub-h">확장 키워드 <small>아직 안 쓴 롱테일, AI 브리핑 우선</small></div>${limited('kwex', ex, 3, exRow)}` : ''}</section>`;
 }
+/* ---------- 글별 성과 (2026-10-14) ---------- */
+function perfSection() {
+  const P = D.perf; if (!P || !(P.rows || []).length) return '';
+  const views = { top: ['잘 되는 글', r => r.grade === 'top'], low: ['안 되는 글', r => r.grade === 'low'], noindex: ['미색인', r => r.grade === 'noindex'], all: ['전체', () => true] };
+  const [label, fn] = views[perfView] || views.top;
+  const list = P.rows.filter(fn);
+  const won = (v) => v == null ? '-' : n(v) + '원';
+  const srcTxt = { log: '', new: '', adpost: '', avg: '(평균 추정)' };
+  const exText = (r) => `잘 되는 글 #${r.no} "${r.title}"(최근 7일 조회 ${r.v7}회, 주키워드 "${r.keyword || ''}")과 같은 주제의 확장 키워드 1개를 키워드 지도에서 골라(이미 쓴 글과 검색 의도가 겹치지 않는 롱테일) 신규 글 1개를 작성해 다음 빈 예약 슬롯에 예약 발행. 기존 글은 수정하지 말고 관련 글 링크로 1번만 연결. 키워드·제목·시각·URL 보고.`;
+  const rtText = (r) => `안 되는 글 #${r.no} "${r.title}"(발행 ${r.ageD}일, 7일 조회 ${r.v7}회, 주키워드 "${r.keyword || ''}" 순위 밖): 기존 글은 수정하지 말고, 같은 키워드를 다른 검색 의도(비교·가격·FAQ 등)로 잡은 새 글 1개를 작성해 다음 빈 예약 슬롯에 예약 발행. 네이버에서 rmarn99 가 이미 그 키워드로 잡히면 보류. 결과 보고.`;
+  const row = (r) => {
+    const rk = r.mBest ? `<span class="badge ${r.mBest <= 3 ? 'ok' : r.mBest <= 10 ? 'info' : 'warn'}">모바일 ${r.mBest}위</span>` : r.indexed === false ? '<span class="badge danger">미색인</span>' : '<span class="badge">순위 밖</span>';
+    const act = r.grade === 'top' ? `<button class="mini-btn" data-req="${reqIdx(exText(r))}">같은 주제 확장 새 글 요청</button>` : r.grade === 'low' ? `<button class="mini-btn" data-req="${reqIdx(rtText(r))}">다른 축 새 글 요청</button>` : '';
+    return `<div class="perf-row"><a class="tlink" href="${postUrl(r.logNo)}" target="_blank" rel="noopener"><div class="meta"><span class="no">#${r.no ?? '?'}</span>${gameBadge(r.game)}<span class="right">${rk}</span></div><div class="title">${esc(r.title)}</div></a><div class="perf-nums"><span><b>${n(r.v7)}</b>7일 조회${srcTxt[r.v7src] || ''}</span><span><b>${won(r.est7)}</b>7일 추정 수익</span><span><b>${r.perDay != null ? n(Math.round(r.perDay)) : '-'}</b>하루 평균</span></div>${act}</div>`;
+  };
+  const c = P.counts || {};
+  return `<div class="h-sec"><h2>글별 성과</h2><span class="meta">RPM ${n(P.rpm7)}원 기준 추정</span></div>
+  <div class="chips" role="group" aria-label="글별 성과 보기">${Object.entries(views).map(([k, v]) => `<button class="chip" data-perf="${k}" aria-pressed="${perfView === k}">${v[0]} ${k === 'all' ? P.rows.length : (c[k] ?? 0)}</button>`).join('')}</div>
+  <section class="card">${list.length ? limited('perf_' + perfView, list, 5, row) : empty(perfView === 'low' ? '안 되는 글 없음 (14일 지난 글 중 하위 25%·순위 밖 기준)' : '해당 글 없음', I.check)}<p class="hint" style="margin:10px 0 0">7일 조회는 글별 조회수 기록(${P.logDays}일째 누적 중) → 애드포스트 글별 조회 → 평균 추정 순으로 계산해요. 수익은 조회 × 최근 7일 RPM으로 추정한 값이고 실제 글별 수입이 아니에요.</p></section>`;
+}
 function indexSection() {
   const X = D.indexing; if (!X) return '';
   const miss = X.missing48 || [];
@@ -290,7 +310,7 @@ function posts() {
       p.priceUpdate ? `<span class="badge ${p.priceUpdate.due <= todayStr() ? 'warn' : ''}">시세 ${md(p.priceUpdate.due)}</span>` : '',
       p.aiCited ? `<span class="badge ok" title="10/1 점검 기준">${I.spark}AI 인용(10/1)</span>` : '',
     ].join('');
-    const sub = p.status === '공개' ? `<span>${esc((p.publishedText || '').slice(5, 10).replace('-', '/'))}</span><span>조회 <b>${n(p.readCount)}</b></span><span>댓글 <b>${n(p.commentCount)}</b>${p.unanswered ? ` <b style="color:var(--danger)">미답변 ${p.unanswered}</b>` : ''}</span>${p.mRank ? (() => { const r = p.mRank; const c = r.mBlogRank == null ? 'danger' : r.mBlogRank <= 3 ? 'ok' : r.mBlogRank <= 7 ? 'info' : 'warn'; return `<span class="badge ${c}" title="${esc(r.keyword)} · ${esc(r.date)}">모바일 ${r.mBlogRank ? `블로그 ${r.mBlogRank}위` : '1페이지 밖'}${r.mContentRank ? ` · 통검 ${r.mContentRank}번째` : ''}</span>`; })() : ''}` : `<span>${esc(p.publishedText || '')} 예약</span>`;
+    const sub = p.status === '공개' ? `<span>${esc((p.publishedText || '').slice(5, 10).replace('-', '/'))}</span><span>조회 <b>${n(p.readCount)}</b></span><span>댓글 <b>${n(p.commentCount)}</b>${p.unanswered ? ` <b style="color:var(--danger)">미답변 ${p.unanswered}</b>` : ''}</span>${(() => { const r = (D.perf?.rows || []).find(x => x.logNo === p.logNo); return r && r.v7 != null ? `<span>7일 <b>${n(r.v7)}</b>회${r.est7 != null ? ` · 약 ${n(r.est7)}원` : ''}</span>` : ''; })()}${p.mRank ? (() => { const r = p.mRank; const c = r.mBlogRank == null ? 'danger' : r.mBlogRank <= 3 ? 'ok' : r.mBlogRank <= 7 ? 'info' : 'warn'; return `<span class="badge ${c}" title="${esc(r.keyword)} · ${esc(r.date)}">모바일 ${r.mBlogRank ? `블로그 ${r.mBlogRank}위` : '1페이지 밖'}${r.mContentRank ? ` · 통검 ${r.mContentRank}번째` : ''}</span>`; })() : ''}` : `<span>${esc(p.publishedText || '')} 예약</span>`;
     return item({ href: postUrl(p.logNo), no: p.no ?? '?', game: p.game, badges: flags, title: p.title, sub });
   }) : empty('조건에 맞는 글 없음')}</div></section>`;
 }
@@ -370,7 +390,7 @@ function stats() {
     ${(AR.posts || []).length ? `<h3 style="margin-top:12px">글별 추정 수입<small>최근 ${AR.postDays}일 · 조회 비중으로 나눈 추정</small></h3>${AR.posts.slice(0, 7).map(p => `<div class="rank"><span class="t">${esc(p.title)}</span><span class="val">${n(p.est)}원 · 조회 ${n(p.cv)}</span></div>`).join('')}` : ''}
   </section>`; })()}
   <section class="card"><h3>네이버 메이트 예상<small>${MT ? `${MT.month}월 인용 → ${MT.selectionMonth}월 선정` : ''}</small></h3>${MT ? `<div class="hbar"><div class="top"><div class="n">${MT.month}월 월말 예상 <b>${n(MT.projected)}</b></div><div class="p">참고선 ${n(MT.ref)} · ${matePct}%</div></div><div class="b"><span style="width:${matePct}%"></span></div></div><div class="rank"><span class="t">${MT.month}월 ${MT.day}일까지</span><span class="val">${n(MT.count)} (하루 ${n(MT.pace)})</span></div><div class="empty" style="padding:8px 0"><span>참고선은 비공식(8월 게임 주제 선정 사례). 인용수만으로 정해지지 않음 · 베타 12월 종료</span></div>` : empty('인용수 수집 후 표시')}</section>`;
-  return `${staleBanner()}${revSec}
+  return `${staleBanner()}${perfSection()}${revSec}
   <div class="h-sec"><h2>일별 조회수</h2><span class="meta">최근 15일</span></div>
   <section class="card">${daily.length ? barChart(daily, 'total', r => Number(r.date.slice(8, 10))) : empty('데이터 없음')}</section>
 
@@ -630,6 +650,7 @@ function bind() {
   document.querySelectorAll('[data-goto]').forEach(el => { const go = () => goTab(el.dataset.goto); el.onclick = go; el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } }; });
   view.querySelectorAll('.chip').forEach(b => b.onclick = () => { filters[b.dataset.f] = b.dataset.v; render(false); });
   view.querySelectorAll('[data-day]').forEach(b => b.onclick = () => { statDay = b.dataset.day; render(false); });
+  view.querySelectorAll('[data-perf]').forEach(b => b.onclick = () => { perfView = b.dataset.perf; render(false); });
   view.querySelectorAll('[data-more]').forEach(b => b.onclick = () => { expand[b.dataset.more] = !expand[b.dataset.more]; render(false); });
   view.querySelectorAll('[data-mr-help]').forEach(b => b.onclick = () => { const h = b.closest('.card').querySelector('.mr-help'); h.hidden = !h.hidden; b.textContent = h.hidden ? '기준 보기' : '기준 닫기'; });
 }

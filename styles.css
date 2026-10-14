@@ -365,3 +365,12 @@ html.sheet-open, html.sheet-open body { overflow: hidden; overscroll-behavior: n
 .rt.paused { opacity: .55; }
 .card .kv dt { color: var(--muted); }
 .card .kv dd { margin: 0; font-variant-numeric: tabular-nums; font-weight: 700; text-align: right; }
+/* ---------- 글별 성과 (2026-10-14) ---------- */
+.perf-row { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.perf-row:last-of-type { border-bottom: 0; }
+.perf-row .meta { display: flex; gap: 6px; align-items: center; font-size: var(--t-xs); color: var(--muted); margin-bottom: 4px; }
+.perf-row .meta .right { margin-left: auto; }
+.perf-row .title { font-size: var(--t-sm); font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; color: var(--text); }
+.perf-nums { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 8px; }
+.perf-nums span { background: var(--bg-soft, rgba(127,127,127,.08)); border-radius: 10px; padding: 7px 8px; font-size: var(--t-xs); color: var(--muted); display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.perf-nums b { font-size: var(--t-md); color: var(--text); font-variant-numeric: tabular-nums; }
