@@ -1,6 +1,12 @@
 /* 고몽이 TCG 센터 관제 v3.1 - 읽기 전용 + Aside 작업 보내기(ntfy). data/dashboard.json + data/history/index.json 만 읽는다.
    최신화: ntfy.sh 토픽에 "refresh <PIN>" POST → PC의 Aside 이벤트 루틴이 수집·push → 새 collectedAt 뜰 때까지 폴링 */
-const CFG = { ntfyTopic: 'gomong-dash-lvxu3bje', resultTopic: 'gomong-dash-lvxu3bje-r', pollMs: 10000, pollMaxMs: 300000, taskPollMs: 8000 };
+const CFG = { ntfyTopic: 'gomong-dash-lvxu3bje', resultTopic: 'gomong-dash-lvxu3bje-r', alertTopic: 'gomong-dash-lvxu3bje-alert', taskSlots: ['12:30', '15:30', '18:30', '21:30'], collectSlots: ['08:00', '13:00'], pollMs: 10000, pollMaxMs: 300000, taskPollMs: 8000 };
+/* v4 (2026-10-14): 작업 요청은 하루 4번 모아서 처리. 다음 처리 시각 */
+const nextSlot = (slots) => { const hm = new Date(Date.now() + 9 * 3600e3).toISOString().slice(11, 16); const s = slots.find(x => x > hm); return s ? `오늘 ${s}` : `내일 ${slots[0]}`; };
+const nextTaskSlot = () => nextSlot((typeof D !== 'undefined' && D && D.taskSlots) || CFG.taskSlots);
+/* 버튼에 붙일 요청 문구 저장소 (data-req=인덱스) */
+let REQ = [];
+const reqIdx = (text) => { REQ.push(text); return REQ.length - 1; };
 const $ = (s, el = document) => el.querySelector(s);
 const view = $('#view');
 let D = null, H = [], S = null, C = null, CH = [], T = [], TL = [], tab = 'home', filters = { game: '전체', status: '전체' }, statDay = 'today', expand = {};
@@ -89,6 +95,7 @@ function render(animate) {
   const cafeDot = $('#cafeDot'); if (cafeDot) cafeDot.hidden = !(C && (C.alerts || []).some(a => a.level !== 'info'));
   document.querySelectorAll('.tabs button').forEach(b => b.dataset.tab === tab ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
   view.classList.remove('enter');
+  REQ = [];
   view.innerHTML = { home, queue, posts, comments, stats, cafe }[tab]();
   if (animate && !reduced) requestAnimationFrame(() => view.classList.add('enter'));
   if (animate) window.scrollTo(0, 0);
@@ -167,7 +174,7 @@ function home() {
     </section>
     <section class="card kpi"><div class="l">${I.spark}AI 인용 누적</div><div class="v" data-tick="${s.citations.cumulative ?? 0}">${n(s.citations.cumulative)}</div><div class="d">${citDelta != null ? delta(citDelta) : ''}<span>이번 달 ${n(s.citations.month)}</span></div></section>
     <section class="card kpi ${s.unansweredComments ? 'alert' : ''}"><div class="l">${I.chat}미답변 댓글</div><div class="v" data-tick="${s.unansweredComments}">${n(s.unansweredComments)}</div><div class="d">전체 ${n(s.totalComments)}개</div></section>
-    <section class="card kpi"><div class="l">${I.doc}공개 / 예약</div><div class="v"><span data-tick="${s.publicCount}">${n(s.publicCount)}</span><small> / ${n(s.queueCount)}</small></div><div class="d">${s.v5Pending ? `<span class="badge warn">v5 대기 ${s.v5Pending}</span>` : `<span class="badge ok">${I.check}레이아웃 정상</span>`}${s.searchOff ? `<span class="badge danger">검색 OFF ${s.searchOff}</span>` : ''}</div></section>
+    <section class="card kpi"><div class="l">${I.doc}공개 / 예약</div><div class="v"><span data-tick="${s.publicCount}">${n(s.publicCount)}</span><small> / ${n(s.queueCount)}</small></div><div class="d">${s.v5Pending ? `<span class="badge warn">v5 대기 ${s.v5Pending}</span>` : s.probeFail ? `<span class="badge info">확인 보류 ${s.probeFail}</span>` : `<span class="badge ok">${I.check}레이아웃 정상</span>`}${s.searchOff ? `<span class="badge danger">검색 OFF ${s.searchOff}</span>` : ''}</div></section>
     <section class="card kpi"><div class="l">${I.users}이웃</div><div class="v" data-tick="${s.buddyCount ?? 0}">${n(s.buddyCount)}</div><div class="d">서로이웃 신청·교류 매일 21:10</div></section>
     ${(() => { const R = D.revenue || {}; const sc = R.shopConnect?.total; const ad = R.adpost; return `<section class="card kpi rev" data-goto="stats" role="link" tabindex="0"><div class="l"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 9l2 6 2-5 2 5 2-6M7.5 12h9"/></svg>수익 (쇼핑커넥트)</div><div class="v"><span data-tick="${sc?.commissionAmount ?? 0}">${n(sc?.commissionAmount ?? 0)}</span><small>원</small></div><div class="d"><span>클릭 ${n(sc?.accessCnt ?? 0)} · 주문 ${n(sc?.productOrderCnt ?? 0)}</span>${ad ? (ad.report?.mtd ? `<span class="badge ok">애드포스트 ${ad.report.mtd.month}월 ${n(ad.report.mtd.rev)}원</span>` : `<span class="badge ${/정상/.test(ad.mediaStatusKo || '') ? 'ok' : /보류|반려/.test(ad.mediaStatusKo || '') ? 'warn' : 'info'}">애드포스트 ${esc(ad.mediaStatusKo || '-')}</span>`) : ''}</div></section>`; })()}
     ${C ? `<section class="card kpi cafe ${cafeIssues ? 'alert' : ''}" data-goto="cafe" role="link" tabindex="0"><div class="l">${I.users}카페 멤버 · 글</div><div class="v"><span data-tick="${C.members ?? 0}">${n(C.members)}</span><small> / ${n(C.articles)}</small></div><div class="d">${cafeMDelta != null ? delta(cafeMDelta) : ''}${C.pendingLevelUps ? `<span class="badge warn">등업 대기 ${C.pendingLevelUps}</span>` : ''}${(C.unansweredQuestions || []).length ? `<span class="badge danger">질문 ${C.unansweredQuestions.length}</span>` : ''}${(C.ruleFlags || []).length ? `<span class="badge danger">거래 경고 ${C.ruleFlags.length}</span>` : ''}${!cafeIssues ? `<span class="badge ok">${I.check}${esc(C.grade || '정상')}</span>` : ''}</div></section>` : ''}
@@ -176,14 +183,55 @@ function home() {
   <div class="h-sec"><h2>오늘 일정</h2><span class="meta">${cards.length}건</span></div>
   <section class="card"><div class="list">${cards.length ? cards.map(c => item({ href: postUrl(c.logNo), time: c.time, no: c.no, game: c.game, badges: `<span class="badge ${c.state[0]}">${c.state[1]}${c.state[2]}</span>`, title: c.title })).join('') : empty('오늘 예약·발행 글 없음')}</div></section>
 
-  <div class="h-sec"><h2>할 일</h2><span class="meta">${alerts.length}건</span></div>
-  <section class="card">${alerts.length ? alerts.map(a => { const p = a.logNo ? findPost(a.logNo) : null; const tag = a.logNo ? `a href="${postUrl(a.logNo)}" target="_blank" rel="noopener"` : (a.cafe && a.url) ? `a href="${esc(a.url)}" target="_blank" rel="noopener"` : 'div'; const body = p ? `<div>${p.no ? `<span class="badge">#${p.no}</span> ` : ''}${esc(p.title)}</div>${a.priceUpdate || a.type === 'price' ? `<div class="pt">${esc(a.text.split(': ').slice(1).join(': '))}</div>` : ''}` : esc(a.text); return `<${tag} class="todo ${a.level}"><span class="ic">${a.level === 'danger' ? I.alert : a.level === 'warn' ? I.warn : I.info}</span><div><div class="k">${esc(kind[a.type] || a.type)}</div>${body}</div></${a.logNo || (a.cafe && a.url) ? 'a' : 'div'}>`; }).join('') : `<div class="empty">${I.check}<span>처리할 항목 없음</span></div>`}</section>
+  ${D.todos ? todoSection(cafeAlerts) + kwSection() : `<div class="h-sec"><h2>할 일</h2><span class="meta">${alerts.length}건</span></div>
+  <section class="card">${alerts.length ? alerts.map(a => { const p = a.logNo ? findPost(a.logNo) : null; const tag = a.logNo ? `a href="${postUrl(a.logNo)}" target="_blank" rel="noopener"` : (a.cafe && a.url) ? `a href="${esc(a.url)}" target="_blank" rel="noopener"` : 'div'; const body = p ? `<div>${p.no ? `<span class="badge">#${p.no}</span> ` : ''}${esc(p.title)}</div>${a.priceUpdate || a.type === 'price' ? `<div class="pt">${esc(a.text.split(': ').slice(1).join(': '))}</div>` : ''}` : esc(a.text); return `<${tag} class="todo ${a.level}"><span class="ic">${a.level === 'danger' ? I.alert : a.level === 'warn' ? I.warn : I.info}</span><div><div class="k">${esc(kind[a.type] || a.type)}</div>${body}</div></${a.logNo || (a.cafe && a.url) ? 'a' : 'div'}>`; }).join('') : `<div class="empty">${I.check}<span>처리할 항목 없음</span></div>`}</section>`}
 
   <div class="h-sec"><h2>Aside 작업</h2><span class="meta">${(() => { const m = mergedTasks(); const run = m.filter(x => x.status === '진행중' || x.status === '대기').length; return run ? run + '개 진행 중' : m.length + '개'; })()}</span></div>
   <section class="card tasks" data-open-tasks role="button" tabindex="0">${(() => { const m = mergedTasks().slice(0, 3); return m.length ? '<div class="tl-mini">' + m.map(x => `<div>${stBadge(x.status)}<span class="t">${esc(x.text)}</span><span class="meta">${esc((x.atText || '').slice(5, 16))}</span></div>`).join('') + '</div>' : `<div class="empty">${I.inbox}<span>보낸 작업 없음 · 위 종이비행기 버튼으로 Aside에 작업을 보내요</span></div>`; })()}</section>
 
-  <div class="h-sec"><h2>자동 루틴</h2><span class="meta">${routines.length}개</span></div>
-  <section class="card">${routines.length ? routines.map(r => { const w = r.nextRunAt ? fmtIso(r.nextRunAt) : null; return `<div class="rt"><span class="ic">${I.bot}</span><div><div class="n" title="${esc(r.name)}">${esc(rName(r.name))}</div><div class="w">${r.rrule ? '반복' : r.kind === 'cron' ? '앱 버튼으로 실행' : '1회'} · ${r.state === 'active' ? '활성' : esc(r.state)}</div></div>${w ? `<div class="when">다음<b>${w.d} ${w.t}</b></div>` : '<div class="when">앱 버튼<b>대기</b></div>'}</div>`; }).join('') : empty('루틴 정보 없음')}</section>`;
+  ${routines.some(r => 'last' in r) ? routineSection(routines, rName) : `<div class="h-sec"><h2>자동 루틴</h2><span class="meta">${routines.length}개</span></div>
+  <section class="card">${routines.length ? routines.map(r => { const w = r.nextRunAt ? fmtIso(r.nextRunAt) : null; return `<div class="rt"><span class="ic">${I.bot}</span><div><div class="n" title="${esc(r.name)}">${esc(rName(r.name))}</div><div class="w">${r.rrule ? '반복' : r.kind === 'cron' ? '앱 버튼으로 실행' : '1회'} · ${r.state === 'active' ? '활성' : esc(r.state)}</div></div>${w ? `<div class="when">다음<b>${w.d} ${w.t}</b></div>` : '<div class="when">앱 버튼<b>대기</b></div>'}</div>`; }).join('') : empty('루틴 정보 없음')}</section>`}`;
+}
+
+/* ---------- v4 홈 섹션 (2026-10-14) ---------- */
+function todoSection(cafeAlerts) {
+  const order = { danger: 0, warn: 1, info: 2 };
+  const cafeT = (cafeAlerts || []).map(a => ({ level: a.level, type: a.type, title: ({ cafe_levelup: '카페 등업 신청 대기', cafe_question: '카페 미답변 질문', cafe_trade: '카페 거래 글 규칙 위반', cafe_greeting: '카페 새 가입인사' })[a.type] || '카페', text: a.text, url: a.url }));
+  const list = [...(D.todos || []), ...cafeT].sort((a, b) => (order[a.level] ?? 3) - (order[b.level] ?? 3));
+  const urgent = list.filter(t => t.level !== 'info').length;
+  const ic = (l) => l === 'danger' ? I.alert : l === 'warn' ? I.warn : I.info;
+  const row = (t) => {
+    const href = t.logNo ? postUrl(t.logNo) : t.url || null;
+    const act = t.action ? `<button class="mini-btn" data-req="${reqIdx(TASK_PRESETS[t.action.preset].t)}">${esc(t.action.label)}</button>` : '';
+    return `<div class="todo ${t.level}"><span class="ic">${ic(t.level)}</span><div><div class="k">${esc(t.title)}</div>${href ? `<a class="tl" href="${esc(href)}" target="_blank" rel="noopener">${esc(t.text)}</a>` : `<div>${esc(t.text)}</div>`}${t.note ? `<div class="pt">${esc(t.note)}</div>` : ''}${act}</div></div>`;
+  };
+  return `<div class="h-sec"><h2>할 일</h2><span class="meta">${urgent ? `급한 것 ${urgent}건 · ` : ''}${list.length}건</span></div>
+  <section class="card">${list.length ? limited('todo', list, 5, row) : `<div class="empty">${I.check}<span>급하게 처리할 항목 없음</span></div>`}</section>`;
+}
+function kwSection() {
+  const K = D.kw; if (!K || (!(K.expand || []).length && !(K.retarget || []).length)) return '';
+  const exText = (x) => `확장 키워드 "${x.kw}"(월 검색 ${x.total}회, ${x.game}·${x.intent})로 신규 글 1개를 작성해 다음 빈 예약 슬롯에 예약 발행하고 제목·시각·URL 보고.${x.near ? ` 기존 #${x.near} 글과 검색 의도가 겹치지 않게 축을 달리하고, 겹침이 크면 쓰지 말고 보류로 알려줘.` : ''} SPEC v4.1·말투 v8·하루 3개 한도 준수.`;
+  const rtText = (x) => `재공략 키워드 "${x.kw}"${x.total ? `(월 검색 ${x.total}회)` : ''}: 기존 #${x.no} "${x.title}"이 ${x.rankDate} 측정에서 PC·모바일 모두 순위 밖. 기존 글은 수정하지 말고, 같은 키워드를 다른 검색 의도(비교·가격·FAQ 등)로 잡은 새 글 1개를 작성해 다음 빈 예약 슬롯에 예약 발행. 제목·소제목·문장·표 구조는 새로 쓰고 관련 글 링크로 기존 글 1개만 연결. 결과(제목·시각·URL) 보고.`;
+  const exRow = (x) => `<div class="todo info kw"><span class="ic">${I.spark}</span><div><div class="k">${esc(x.kw)}</div><div class="kwmeta">${gameBadge(x.game)}<span class="badge">월 ${n(x.total)}</span>${x.aib ? '<span class="badge ok">AI 브리핑</span>' : ''}${x.blogs != null ? `<span class="badge">블로그 ${x.blogs}</span>` : ''}${x.near ? `<span class="badge warn">#${x.near}와 가까움</span>` : ''}</div><button class="mini-btn" data-req="${reqIdx(exText(x))}">이 키워드로 새 글 요청</button></div></div>`;
+  const rtRow = (x) => `<div class="todo warn kw"><span class="ic">${I.sync}</span><div><div class="k">${esc(x.kw)}</div><a class="tl" href="${postUrl(x.logNo)}" target="_blank" rel="noopener">#${x.no} ${esc(x.title)}</a><div class="kwmeta">${gameBadge(x.game)}${x.total ? `<span class="badge">월 ${n(x.total)}</span>` : ''}<span class="badge danger">순위 밖 (${esc(md(x.rankDate))})</span><span class="badge">발행 ${x.age}일</span></div><button class="mini-btn" data-req="${reqIdx(rtText(x))}">다른 축 새 글 요청</button></div></div>`;
+  const ex = K.expand || [], rt = K.retarget || [];
+  const mapYmd = K.mapAt ? new Date(new Date(K.mapAt).getTime() + 9 * 3600e3).toISOString().slice(0, 10) : null;
+  return `<div class="h-sec"><h2>키워드 기회</h2><span class="meta">${mapYmd ? `키워드 지도 ${md(mapYmd)} 기준` : ''}</span></div>
+  <section class="card">${rt.length ? `<div class="sub-h">재공략 <small>쓴 지 14일 넘었는데 순위 밖</small></div>${limited('kwrt', rt, 2, rtRow)}` : ''}${ex.length ? `<div class="sub-h">확장 키워드 <small>아직 안 쓴 롱테일, AI 브리핑 우선</small></div>${limited('kwex', ex, 3, exRow)}` : ''}</section>`;
+}
+function routineSection(routines, rName) {
+  const live = routines.filter(r => r.status !== 'completed');
+  const done = routines.length - live.length;
+  const RS = { ok: ['ok', '정상'], skip: ['info', '건너뜀'], warn: ['warn', '확인 필요'], running: ['info', '실행 중'] };
+  const row = (r) => {
+    const w = r.nextRunAt ? fmtIso(r.nextRunAt) : null;
+    const st = r.missed ? ['danger', '놓침'] : r.last ? RS[r.last.result] || RS.ok : null;
+    const lastLine = r.last ? `<div class="w">${st ? `<span class="badge ${st[0]}">${esc(st[1])}</span> ` : ''}${esc(ago(r.last.at))} 실행 · 누적 ${n(r.last.runs)}회</div>${r.last.summary ? `<div class="rs clamp1">${esc(r.last.summary)}</div>` : ''}` : `<div class="w">아직 실행 기록 없음</div>`;
+    return `<div class="rt"><span class="ic">${I.bot}</span><div><div class="n" title="${esc(r.name)}">${esc(rName(r.name))}</div>${lastLine}</div>${r.status === 'paused' ? '<div class="when">상태<b>일시정지</b></div>' : w ? `<div class="when">다음<b>${w.d} ${w.t}</b></div>` : '<div class="when">다음<b>-</b></div>'}</div>`;
+  };
+  const bad = live.filter(r => r.missed || (r.last && r.last.result === 'warn')).length;
+  return `<div class="h-sec"><h2>자동 루틴</h2><span class="meta">${bad ? `확인 ${bad} · ` : ''}${live.length}개${done ? ` (끝난 1회성 ${done}개 숨김)` : ''}</span></div>
+  <section class="card">${live.length ? live.map(row).join('') : empty('루틴 정보 없음')}</section>`;
 }
 
 /* ---------- 예약 ---------- */
@@ -220,7 +268,7 @@ function posts() {
   return `
   <div class="chips" role="group" aria-label="게임">${gamesAll.map(g => chip('game', g)).join('')}</div>
   <div class="chips" role="group" aria-label="상태">${statusAll.map(s => chip('status', s)).join('')}</div>
-  <div class="h-sec"><h2>글 ${list.length}개</h2><span class="meta">조회수는 네이버 글 목록 기준</span></div>
+  <div class="h-sec"><h2>글 ${list.length}개</h2><span class="meta">${filters.status === 'AI인용' ? '10/1 기준 · 글별 인용 점검은 10/1에 중단' : '조회수는 네이버 글 목록 기준'}</span></div>
   <section class="card"><div class="list">${list.length ? limited('posts', list, 15, p => {
     const flags = [
       p.status === '예약' ? `<span class="badge info">${I.clock}예약</span>` : '',
@@ -228,7 +276,7 @@ function posts() {
       p.status === '공개' && p.v5 === false ? '<span class="badge warn">v5 미적용</span>' : '',
       p.relatedLinksPending ? '<span class="badge info">링크 보강</span>' : '',
       p.priceUpdate ? `<span class="badge ${p.priceUpdate.due <= todayStr() ? 'warn' : ''}">시세 ${md(p.priceUpdate.due)}</span>` : '',
-      p.aiCited ? `<span class="badge ok">${I.spark}AI 인용</span>` : '',
+      p.aiCited ? `<span class="badge ok" title="10/1 점검 기준">${I.spark}AI 인용(10/1)</span>` : '',
     ].join('');
     const sub = p.status === '공개' ? `<span>${esc((p.publishedText || '').slice(5, 10).replace('-', '/'))}</span><span>조회 <b>${n(p.readCount)}</b></span><span>댓글 <b>${n(p.commentCount)}</b>${p.unanswered ? ` <b style="color:var(--danger)">미답변 ${p.unanswered}</b>` : ''}</span>${p.mRank ? (() => { const r = p.mRank; const c = r.mBlogRank == null ? 'danger' : r.mBlogRank <= 3 ? 'ok' : r.mBlogRank <= 7 ? 'info' : 'warn'; return `<span class="badge ${c}" title="${esc(r.keyword)} · ${esc(r.date)}">모바일 ${r.mBlogRank ? `블로그 ${r.mBlogRank}위` : '1페이지 밖'}${r.mContentRank ? ` · 통검 ${r.mContentRank}번째` : ''}</span>`; })() : ''}` : `<span>${esc(p.publishedText || '')} 예약</span>`;
     return item({ href: postUrl(p.logNo), no: p.no ?? '?', game: p.game, badges: flags, title: p.title, sub });
@@ -410,24 +458,24 @@ function closeSheet(fromPop) {
   sheetOpener = null;
 }
 function toast(msg, ms = 2600) { document.querySelectorAll('.toast').forEach(e => e.remove()); document.body.insertAdjacentHTML('beforeend', `<div class="toast">${esc(msg)}</div>`); setTimeout(() => document.querySelectorAll('.toast').forEach(e => e.remove()), ms); }
+/* v4 (2026-10-14): 즉시 수집 루틴(이벤트 트리거)은 Aside v2 이전으로 막혔다. 버튼은 '상태·다시 받기' 시트로 바꾸고,
+   수집이 꼭 필요하면 작업 요청(다음 처리 시각에 실행)으로 보낸다. */
 function refreshSheet() {
   if (refreshing) return;
   const nx = D ? nextAutoRun() : null;
-  const pin = localStorage.getItem('refreshPin');
+  const alertUrl = `https://ntfy.sh/${CFG.alertTopic}`;
   openSheet(`
-    <p>PC의 Aside에 "지금 수집" 신호를 보내요. PC가 켜져 있으면 보통 1~2분 안에 새 데이터가 반영됩니다.</p>
-    <dl class="kv"><dt>마지막 수집</dt><dd>${D ? esc(D.collectedAtText) + ' (' + ago(D.collectedAt) + ')' : '-'}</dd><dt>다음 자동 수집</dt><dd>${nx ? nx.d + ' ' + nx.t : '-'}</dd></dl>
-    ${pin ? '' : `<p>처음 한 번 PIN을 입력해요 (Aside가 알려준 6자리).</p><input id="pinInput" inputmode="numeric" maxlength="6" placeholder="······" autocomplete="off">`}
-    <button class="btn primary" id="doRefresh">지금 수집 요청</button>
-    <button class="btn ghost" id="doRefetch">신호 없이 다시 받기만</button>${pin ? '<button class="linkbtn" id="resetPin">저장된 PIN 지우기</button>' : ''}`, '최신화');
-  const rp = $('#resetPin'); if (rp) rp.onclick = () => { localStorage.removeItem('refreshPin'); toast('PIN을 지웠어요. 다시 입력해 주세요'); refreshSheet(); };
+    <dl class="kv"><dt>마지막 수집</dt><dd>${D ? esc(D.collectedAtText) + ' (' + ago(D.collectedAt) + ')' : '-'}</dd><dt>자동 수집</dt><dd>매일 ${CFG.collectSlots.join(' · ')}${nx ? ` (다음 ${nx.d} ${nx.t})` : ''}</dd><dt>작업 처리</dt><dd>매일 ${((D && D.taskSlots) || CFG.taskSlots).join(' · ')} (다음 ${esc(nextTaskSlot())})</dd></dl>
+    <button class="btn primary" id="doRefetch">최신 데이터 다시 받기</button>
+    <button class="btn ghost" id="doCollectTask">수집 요청 보내기 (${esc(nextTaskSlot())}에 실행)</button>
+    <div class="h-sec" style="margin-top:18px"><h2>휴대폰 알림</h2></div>
+    <p class="hint">문제가 생길 때만 알림이 와요: 수집 실패·로그인 풀림, 예약글 공개 실패, 검색허용 OFF, 루틴 놓침·이상, 미답변 댓글, 조회수 30% 이상 급락, 애드포스트 RPM 절반 이하. ntfy 앱(무료)에서 아래 토픽을 한 번 구독하면 돼요.</p>
+    <dl class="kv"><dt>토픽</dt><dd style="overflow-wrap:anywhere">${esc(CFG.alertTopic)}</dd></dl>
+    <button class="btn ghost" id="copyTopic">토픽 이름 복사</button>
+    <a class="linkbtn" href="${alertUrl}" target="_blank" rel="noopener">브라우저에서 최근 알림 보기</a>`, '상태·알림');
   $('#doRefetch').onclick = async () => { closeSheet(); await load(true); toast(`다시 받았어요 · ${D.collectedAtText} 수집본`); };
-  $('#doRefresh').onclick = async () => {
-    let p = pin || ($('#pinInput')?.value || '').trim();
-    if (!/^\d{6}$/.test(p)) { toast('PIN 6자리를 입력해 주세요'); return; }
-    localStorage.setItem('refreshPin', p);
-    await runRefresh(p);
-  };
+  $('#doCollectTask').onclick = () => taskSheet(TASK_PRESETS[4].t);
+  $('#copyTopic').onclick = async () => { try { await navigator.clipboard.writeText(CFG.alertTopic); toast('토픽 이름을 복사했어요'); } catch { toast(CFG.alertTopic, 5000); } };
 }
 async function runRefresh(pin) {
   refreshing = true;
@@ -474,7 +522,7 @@ async function runRefresh(pin) {
 const TASK_PRESETS = [
   { l: '예약글 점검', t: '예약글 큐와 CSV 상태를 대조해서 불일치·검색허용 OFF·v5 미적용이 있으면 고치고 결과 보고' },
   { l: '미답변 댓글', t: '미답변 댓글을 확인해서 고몽이 톤으로 답글을 달고 어떤 댓글에 뭐라고 답했는지 보고' },
-  { l: '시세 글 갱신', t: 'ops.json priceUpdates 중 due가 가장 가까운 공개 시세 글 1개를 당일 시세로 갱신하고 바뀐 핵심 수치 보고' },
+  { l: '확장 키워드 새 글', t: '키워드 지도(keyword_map_latest.json)에서 AI 브리핑이 있고 아직 안 쓴 확장 키워드 1개를 골라 신규 글 1개를 작성해 다음 빈 예약 슬롯에 예약 발행하고 키워드·제목·시각·URL 보고. 기존 글과 검색 의도가 겹치면 제외' },
   { l: '모바일 순위 점검', t: 'tools/mobile_rank.js 로 공개 글 주키워드의 모바일 통합검색 순위를 지금 조회해서 지난 측정 대비 변화 보고 (모바일순위_history.json 에 기록)' },
   { l: '대시보드 갱신', t: '대시보드 데이터만 다시 수집해서 push' },
   { l: '새 글 1개', t: 'SPEC v4.1로 신규 글 1개를 작성해 다음 빈 예약 슬롯(하루 3개 기준)에 예약 발행하고 제목·시각·URL 보고. 주제는 자동완성·AI 브리핑 근거로 고르고 포켓몬 80% 비중 유지' },
@@ -517,20 +565,21 @@ const fmtK = (ms) => new Date(ms + 9 * 3600e3).toISOString().slice(0, 16).replac
 let taskLogAll = false;
 function taskLogHtml() {
   const all = mergedTasks(); const m = taskLogAll ? all.slice(0, 30) : all.slice(0, 5);
-  return `<ul class="tasklog">${m.length ? m.map(x => `<li><div class="tl-meta">${stBadge(x.status)}<span>${esc((x.atText || '').slice(5, 16))}</span>${x.doneAtText ? `<span>→ ${esc(x.doneAtText.slice(11, 16))}</span>` : ''}</div><div class="tl-text">${esc(x.text)}</div>${x.result ? `<div class="tl-res clamp" role="button" tabindex="0" title="눌러서 펼치기">${esc(x.result)}</div>` : ''}</li>`).join('') : `<li><div class="empty">${I.inbox}<span>아직 보낸 작업이 없어요</span></div></li>`}${all.length > 5 ? `<li class="tl-more-li"><button class="more" data-tl-more>${taskLogAll ? '최근 5개만 보기' : `이전 기록 ${Math.min(all.length, 30) - 5}개 더보기`}</button></li>` : ''}</ul>`;
+  return `<ul class="tasklog">${m.length ? m.map(x => `<li><div class="tl-meta">${stBadge(x.status)}<span>${esc((x.atText || '').slice(5, 16))}</span>${x.doneAtText ? `<span>→ ${esc(x.doneAtText.slice(11, 16))}</span>` : (!x.status || x.status === '대기') ? `<span>다음 처리 ${esc(nextTaskSlot())}</span>` : ''}</div><div class="tl-text">${esc(x.text)}</div>${x.result ? `<div class="tl-res clamp" role="button" tabindex="0" title="눌러서 펼치기">${esc(x.result)}</div>` : ''}</li>`).join('') : `<li><div class="empty">${I.inbox}<span>아직 보낸 작업이 없어요</span></div></li>`}${all.length > 5 ? `<li class="tl-more-li"><button class="more" data-tl-more>${taskLogAll ? '최근 5개만 보기' : `이전 기록 ${Math.min(all.length, 30) - 5}개 더보기`}</button></li>` : ''}</ul>`;
 }
 function wireTaskLog() {
   document.querySelectorAll('.tasklog .tl-res').forEach(el => { const t = () => el.classList.toggle('clamp'); el.onclick = t; el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); t(); } }; });
   const mb = $('[data-tl-more]'); if (mb) mb.onclick = () => { taskLogAll = !taskLogAll; $('.tasklog').outerHTML = taskLogHtml(); wireTaskLog(); };
 }
-function taskSheet() {
+function taskSheet(prefill) {
+  if (typeof prefill !== 'string') prefill = '';
   const pin = localStorage.getItem('refreshPin');
   openSheet(`
     <p>PC의 Aside가 블로그 운영 규칙(gomong-blog 스킬) 안에서 실행하고 결과를 여기로 돌려줘요. 예약글 수정·글 삭제·다른 카페 활동 같은 금지 작업은 "보류"로 되묻습니다.</p>
     <div class="chips wrap" id="taskPresets">${TASK_PRESETS.map((p, i) => `<button class="chip" data-preset="${i}">${esc(p.l)}</button>`).join('')}</div>
-    <textarea id="taskText" placeholder="할 일을 적어 주세요. 예) #36 박스 시세 글의 미개봉 TOP 10 가격을 오늘 KREAM 기준으로 갱신해줘" maxlength="1500"></textarea>
+    <textarea id="taskText" placeholder="할 일을 적어 주세요. 예) 키워드 '다이소 탑로더'로 새 글 1개 예약해줘" maxlength="1500">${esc(prefill)}</textarea>
     ${pin ? '' : `<input id="pinInput" class="pin-inline" inputmode="numeric" maxlength="6" placeholder="PIN 6자리 (처음 한 번)" autocomplete="off">`}
-    <p class="hint">PIN은 전송되지 않고 서명(sha256)만 붙어요. 결과는 보통 1~10분, 글 작성은 더 걸릴 수 있어요.${pin ? ' <button class="linkbtn" id="resetPin">PIN 다시 입력</button>' : ''}</p>
+    <p class="hint">작업은 하루 4번(${((D && D.taskSlots) || CFG.taskSlots).join(' · ')}) 모아서 처리해요. 지금 보내면 <b>${esc(nextTaskSlot())}</b>에 시작해요. PIN은 전송되지 않고 서명(sha256)만 붙어요.${pin ? ' <button class="linkbtn" id="resetPin">PIN 다시 입력</button>' : ''}</p>
     <button class="btn primary" id="doTask">${I.send} 보내기</button>
     <div class="h-sec" style="margin-top:16px"><h2>작업 로그</h2><span class="meta">최근 12시간 + 기록</span></div>
     ${taskLogHtml()}`, 'Aside에 작업 보내기');
@@ -549,7 +598,7 @@ function taskSheet() {
       const r = await fetch(`https://ntfy.sh/${CFG.ntfyTopic}`, { method: 'POST', body: `task #${id} ${s}\n${text}`, headers: { Title: 'gomong task', Tags: 'clipboard', Priority: 'high' } });
       if (!r.ok) throw new Error('ntfy ' + r.status);
       const local = JSON.parse(localStorage.getItem('sentTasks') || '[]'); local.push({ id, text, at: new Date().toISOString(), atText: fmtK(Date.now()) }); localStorage.setItem('sentTasks', JSON.stringify(local.slice(-50)));
-      $('#taskText').value = ''; toast('보냈어요. Aside가 받으면 "진행중"으로 바뀝니다');
+      $('#taskText').value = ''; toast(`접수했어요. ${nextTaskSlot()}에 처리해요`, 3200);
       $('.tasklog').outerHTML = taskLogHtml(); wireTaskLog(); pollTaskLog();
     } catch (e) { toast('전송 실패: ' + e.message, 4000); }
     $('#doTask').disabled = false;
@@ -559,6 +608,7 @@ function taskSheet() {
 
 /* ---------- events ---------- */
 function bind() {
+  view.querySelectorAll('[data-req]').forEach(b => b.onclick = (e) => { e.preventDefault(); e.stopPropagation(); taskSheet(REQ[Number(b.dataset.req)] || ''); });
   view.querySelectorAll('[data-open-tasks]').forEach(el => { el.onclick = taskSheet; el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); taskSheet(); } }; });
   document.querySelectorAll('[data-goto]').forEach(el => { const go = () => goTab(el.dataset.goto); el.onclick = go; el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } }; });
   view.querySelectorAll('.chip').forEach(b => b.onclick = () => { filters[b.dataset.f] = b.dataset.v; render(false); });
