@@ -174,7 +174,7 @@ function home() {
     </section>
     <section class="card kpi"><div class="l">${I.spark}AI 인용 누적</div><div class="v" data-tick="${s.citations.cumulative ?? 0}">${n(s.citations.cumulative)}</div><div class="d">${citDelta != null ? delta(citDelta) : ''}<span>이번 달 ${n(s.citations.month)}</span></div></section>
     <section class="card kpi ${s.unansweredComments ? 'alert' : ''}"><div class="l">${I.chat}미답변 댓글</div><div class="v" data-tick="${s.unansweredComments}">${n(s.unansweredComments)}</div><div class="d">전체 ${n(s.totalComments)}개</div></section>
-    <section class="card kpi"><div class="l">${I.doc}공개 / 예약</div><div class="v"><span data-tick="${s.publicCount}">${n(s.publicCount)}</span><small> / ${n(s.queueCount)}</small></div><div class="d">${s.v5Pending ? `<span class="badge warn">v5 대기 ${s.v5Pending}</span>` : s.probeFail ? `<span class="badge info">확인 보류 ${s.probeFail}</span>` : `<span class="badge ok">${I.check}레이아웃 정상</span>`}${s.searchOff ? `<span class="badge danger">검색 OFF ${s.searchOff}</span>` : ''}</div></section>
+    <section class="card kpi"><div class="l">${I.doc}공개 / 예약</div><div class="v"><span data-tick="${s.publicCount}">${n(s.publicCount)}</span><small> / ${n(s.queueCount)}</small></div><div class="d">${s.v5Pending ? `<span class="badge warn">v5 대기 ${s.v5Pending}</span>` : s.probeFail ? `<span class="badge info">확인 보류 ${s.probeFail}</span>` : `<span class="badge ok">${I.check}레이아웃 정상</span>`}${s.searchOff ? `<span class="badge danger">검색 OFF ${s.searchOff}</span>` : ''}${s.notIndexed48 ? `<span class="badge danger">미색인 ${s.notIndexed48}</span>` : ''}</div></section>
     <section class="card kpi"><div class="l">${I.users}이웃</div><div class="v" data-tick="${s.buddyCount ?? 0}">${n(s.buddyCount)}</div><div class="d">서로이웃 신청·교류 매일 21:10</div></section>
     ${(() => { const R = D.revenue || {}; const sc = R.shopConnect?.total; const ad = R.adpost; return `<section class="card kpi rev" data-goto="stats" role="link" tabindex="0"><div class="l"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 9l2 6 2-5 2 5 2-6M7.5 12h9"/></svg>${ad?.report?.mtd ? `${ad.report.mtd.month}월 수익` : '수익'}</div><div class="v"><span data-tick="${(ad?.report?.mtd?.rev ?? 0) + (sc?.commissionAmount ?? 0)}">${n((ad?.report?.mtd?.rev ?? 0) + (sc?.commissionAmount ?? 0))}</span><small>원</small></div><div class="d"><span>애드포스트 ${n(ad?.report?.mtd?.rev ?? 0)} · 쇼핑커넥트 ${n(sc?.commissionAmount ?? 0)} (클릭 ${n(sc?.accessCnt ?? 0)} · 주문 ${n(sc?.productOrderCnt ?? 0)})</span>${ad ? (ad.report?.mtd ? `<span class="badge ok">월말 예상 ${n(ad.report.mtd.projected)}원</span>` : `<span class="badge ${/정상/.test(ad.mediaStatusKo || '') ? 'ok' : /보류|반려/.test(ad.mediaStatusKo || '') ? 'warn' : 'info'}">애드포스트 ${esc(ad.mediaStatusKo || '-')}</span>`) : ''}</div></section>`; })()}
     ${C ? `<section class="card kpi cafe ${cafeIssues ? 'alert' : ''}" data-goto="cafe" role="link" tabindex="0"><div class="l">${I.users}카페 멤버 · 글</div><div class="v"><span data-tick="${C.members ?? 0}">${n(C.members)}</span><small> / ${n(C.articles)}</small></div><div class="d">${cafeMDelta != null ? delta(cafeMDelta) : ''}${C.pendingLevelUps ? `<span class="badge warn">등업 대기 ${C.pendingLevelUps}</span>` : ''}${(C.unansweredQuestions || []).length ? `<span class="badge danger">질문 ${C.unansweredQuestions.length}</span>` : ''}${(C.ruleFlags || []).length ? `<span class="badge danger">거래 경고 ${C.ruleFlags.length}</span>` : ''}${!cafeIssues ? `<span class="badge ok">${I.check}${esc(C.grade || '정상')}</span>` : ''}</div></section>` : ''}
@@ -202,7 +202,7 @@ function todoSection(cafeAlerts) {
   const ic = (l) => l === 'danger' ? I.alert : l === 'warn' ? I.warn : I.info;
   const row = (t) => {
     const href = t.logNo ? postUrl(t.logNo) : t.url || null;
-    const act = t.action ? `<button class="mini-btn" data-req="${reqIdx(TASK_PRESETS[t.action.preset].t)}">${esc(t.action.label)}</button>` : '';
+    const act = (t.action ? `<button class="mini-btn" data-req="${reqIdx(TASK_PRESETS[t.action.preset].t)}">${esc(t.action.label)}</button>` : '') + (t.goto && t.goto.startsWith('posts:') ? `<button class="mini-btn" data-goto-posts="${esc(t.goto.slice(6))}">글 목록에서 보기</button>` : '');
     return `<div class="todo ${t.level}"><span class="ic">${ic(t.level)}</span><div><div class="k">${esc(t.title)}</div>${href ? `<a class="tlink" href="${esc(href)}" target="_blank" rel="noopener">${esc(t.text)}</a>` : `<div>${esc(t.text)}</div>`}${t.note ? `<div class="pt">${esc(t.note)}</div>` : ''}${act}</div></div>`;
   };
   return `<div class="h-sec"><h2>할 일</h2><span class="meta">${urgent ? `급한 것 ${urgent}건 · ` : ''}${list.length}건</span></div>
@@ -218,6 +218,13 @@ function kwSection() {
   const mapYmd = K.mapAt ? new Date(new Date(K.mapAt).getTime() + 9 * 3600e3).toISOString().slice(0, 10) : null;
   return `<div class="h-sec"><h2>키워드 기회</h2><span class="meta">${mapYmd ? `키워드 지도 ${md(mapYmd)} 기준` : ''}</span></div>
   <section class="card">${rt.length ? `<div class="sub-h">재공략 <small>쓴 지 14일 넘었는데 순위 밖</small></div>${limited('kwrt', rt, 2, rtRow)}` : ''}${ex.length ? `<div class="sub-h">확장 키워드 <small>아직 안 쓴 롱테일, AI 브리핑 우선</small></div>${limited('kwex', ex, 3, exRow)}` : ''}</section>`;
+}
+function indexSection() {
+  const X = D.indexing; if (!X) return '';
+  const miss = X.missing48 || [];
+  const row = (r) => `<a class="item" href="${postUrl(r.logNo)}" target="_blank" rel="noopener"><div class="meta"><span class="no">#${r.no ?? '?'}</span>${gameBadge(r.game)}<span class="right"><span class="badge danger">${Math.floor(r.ageH / 24)}일째 미색인</span></span></div><div class="title">${esc(r.title)}</div>${r.lastIndexedAt ? `<div class="sub"><span>마지막 색인 확인 ${esc(fmtIso(r.lastIndexedAt).d)}</span></div>` : ''}</a>`;
+  return `<div class="h-sec"><h2>검색 색인</h2><span class="meta">${esc(fmtIso(X.at).d)} ${esc(fmtIso(X.at).t)} 확인</span></div>
+  <section class="card"><dl class="kv" style="margin-bottom:8px"><dt>48시간 색인율</dt><dd>${X.ratio48 != null ? X.ratio48 + '%' : '-'}</dd><dt>색인 / 미색인 / 확인 중</dt><dd>${n(X.indexed)} / ${n(X.notIndexed)} / ${n(X.unknown)}</dd></dl><p class="hint">블로그탭에서 제목으로 검색해 내 글이 잡히는지 수집 때마다 일부씩 확인해요. 미색인은 두 번 연속 안 잡혔을 때만 표시해요. 글 수정·재발행은 하지 않아요.</p>${(X.dropped || []).length ? `<div class="banner danger">${I.alert}<span>전엔 잡히다 빠진 글 ${X.dropped.length}개: ${X.dropped.map(r => '#' + (r.no ?? '?')).join(' ')}</span></div>` : ''}<div class="list">${miss.length ? limited('idx', miss, 5, row) : empty('48시간 지난 미색인 글 없음', I.check)}</div></section>`;
 }
 function routineSection(routines, rName) {
   const live = routines.filter(r => r.status !== 'completed');
@@ -258,13 +265,14 @@ function queue() {
 /* ---------- 글 ---------- */
 function posts() {
   const gamesAll = ['전체', ...new Set(D.posts.map(p => p.game).filter(Boolean))];
-  const statusAll = ['전체', '공개', '예약', '문제있음', 'AI인용'];
+  const statusAll = ['전체', '공개', '예약', '문제있음', ...(D.indexing ? ['색인 안 됨'] : []), 'AI인용'];
   // 2026-10-14: no 순서는 발행 순서와 다를 수 있어(#77이 #75보다 먼저 발행) 실제 발행·예약 시각으로 정렬
   const pts = (p) => { const m = String(p.publishedText || '').match(/(\d{4}-\d{2}-\d{2} \d{2}:\d{2})/); return m ? m[1] : ''; };
   let list = D.posts.slice().sort((a, b) => pts(b).localeCompare(pts(a)) || (b.no || 0) - (a.no || 0));
   if (filters.game !== '전체') list = list.filter(p => p.game === filters.game);
   if (filters.status === '공개' || filters.status === '예약') list = list.filter(p => p.status === filters.status);
-  if (filters.status === '문제있음') list = list.filter(p => p.status === '공개' && (p.searchYn === false || p.v5 === false || p.relatedLinksPending || p.unanswered > 0 || (p.priceUpdate && p.priceUpdate.due <= todayStr())));
+  if (filters.status === '색인 안 됨') list = list.filter(p => p.status === '공개' && p.indexed === false);
+  if (filters.status === '문제있음') list = list.filter(p => p.status === '공개' && (p.indexed === false || p.searchYn === false || p.v5 === false || p.relatedLinksPending || p.unanswered > 0 || (p.priceUpdate && p.priceUpdate.due <= todayStr())));
   if (filters.status === 'AI인용') list = list.filter(p => p.aiCited);
   const chip = (f, v) => `<button class="chip" aria-pressed="${filters[f] === v}" data-f="${f}" data-v="${esc(v)}">${esc(v)}</button>`;
   return `
@@ -275,6 +283,7 @@ function posts() {
     const flags = [
       p.status === '예약' ? `<span class="badge info">${I.clock}예약</span>` : '',
       p.status === '공개' && p.searchYn === false ? '<span class="badge danger">검색 OFF</span>' : '',
+      p.status === '공개' && p.indexed === false ? '<span class="badge danger">미색인</span>' : '',
       p.status === '공개' && p.v5 === false ? '<span class="badge warn">v5 미적용</span>' : '',
       p.relatedLinksPending ? '<span class="badge info">링크 보강</span>' : '',
       p.priceUpdate ? `<span class="badge ${p.priceUpdate.due <= todayStr() ? 'warn' : ''}">시세 ${md(p.priceUpdate.due)}</span>` : '',
@@ -372,6 +381,7 @@ function stats() {
   <section class="card"><h3>검색 유입 키워드</h3>${hb('kw', (day?.searchQueries || []).slice(0, 30), 'query', 'cv', null, 8)}</section>
   <section class="card"><h3>글별 조회수 순위</h3>${(day?.rankCv || []).map(r => { const p = findPost(r.logNo); return `<a class="rank" href="${postUrl(r.logNo)}" target="_blank" rel="noopener"><span class="no">${r.rank}</span><span class="t">${p?.no ? `<span style="color:var(--faint)">#${p.no}</span> ` : ''}${esc(r.title)}</span><span class="val">${n(r.cv)}</span></a>`; }).join('') || empty('데이터 없음')}</section>
 
+  ${indexSection()}
   <div class="h-sec"><h2>모바일 통합검색 순위</h2><span class="meta">${mDate ? `${mDate} · 1페이지 노출 ${mIn}/${mLatest.length}` : '첫 측정 후 표시'}</span></div>
   <section class="card">${mLatest.length ? `<div class="mr-legend"><span class="badge ok">좋음</span><span class="badge info">보통</span><span class="badge warn">낮음</span><span class="badge danger">1페이지 밖</span><button class="linkbtn" data-mr-help>기준 보기</button></div><div class="mr-help" hidden>통검 블로그: 1~3위 좋음 · 4~7위 보통 · 8위~ 낮음<br>통검 n번째(카페·웹 포함 순서): 1~5 · 6~10 · 11~<br>블로그탭: 1위 · 2~5위 · 6위~</div>` : ''}${mLatest.length ? limited('mrank', mLatest.slice().sort((a, b) => (a.mBlogRank || 99) - (b.mBlogRank || 99) || (a.mTabRank || 99) - (b.mTabRank || 99)), 12, mRow) : empty('아직 기록 없음')}</section>
 
@@ -610,6 +620,7 @@ function taskSheet(prefill) {
 
 /* ---------- events ---------- */
 function bind() {
+  view.querySelectorAll('[data-goto-posts]').forEach(b => b.onclick = () => { filters.status = b.dataset.gotoPosts; filters.game = '전체'; goTab('posts'); });
   view.querySelectorAll('[data-req]').forEach(b => b.onclick = (e) => { e.preventDefault(); e.stopPropagation(); taskSheet(REQ[Number(b.dataset.req)] || ''); });
   view.querySelectorAll('[data-open-tasks]').forEach(el => { el.onclick = taskSheet; el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); taskSheet(); } }; });
   document.querySelectorAll('[data-goto]').forEach(el => { const go = () => goTab(el.dataset.goto); el.onclick = go; el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } }; });
