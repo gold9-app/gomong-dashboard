@@ -1,20 +1,20 @@
 {
- "collectedAt": "2026-10-17T15:03:23.113Z",
- "collectedAtText": "2026-10-18 00:03",
+ "collectedAt": "2026-10-17T15:06:02.503Z",
+ "collectedAtText": "2026-10-18 00:06",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 20984,
+ "elapsedMs": 15826,
  "errors": [],
  "summary": {
   "publicCount": 78,
   "queueCount": 15,
   "totalCount": 93,
-  "todayCv": 0,
+  "todayCv": 2,
   "yesterdayCv": 745,
-  "todayVisitor": 0,
+  "todayVisitor": 2,
   "buddyCount": 141,
   "citations": {
    "cumulative": 109714,
@@ -23,22 +23,16 @@
    "currentMonth": 10,
    "selectionPeriodMonth": 8
   },
-  "unansweredComments": 2,
+  "unansweredComments": 0,
   "totalComments": 47,
   "v5Pending": 0,
   "probeFail": 0,
   "searchOff": 0,
-  "totalReadCount": 15650,
+  "totalReadCount": 15652,
   "notIndexed48": 18,
   "indexRatio48": 75
  },
- "alerts": [
-  {
-   "level": "warn",
-   "type": "comment",
-   "text": "미답변 댓글 2건"
-  }
- ],
+ "alerts": [],
  "posts": [
   {
    "no": 1,
@@ -2199,8 +2193,8 @@
    "openType": "2",
    "searchYn": true,
    "readCount": 144,
-   "commentCount": 1,
-   "unanswered": 1,
+   "commentCount": 2,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 15,
    "imgs": 5,
@@ -2285,7 +2279,7 @@
    "url": "https://blog.naver.com/rmarn99/224433498034",
    "openType": "2",
    "searchYn": true,
-   "readCount": 188,
+   "readCount": 189,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -2385,7 +2379,7 @@
    "url": "https://blog.naver.com/rmarn99/224433501916",
    "openType": "2",
    "searchYn": true,
-   "readCount": 130,
+   "readCount": 131,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -2560,8 +2554,8 @@
    "openType": "2",
    "searchYn": true,
    "readCount": 5,
-   "commentCount": 1,
-   "unanswered": 1,
+   "commentCount": 2,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 15,
    "imgs": 4,
@@ -3147,6 +3141,34 @@
  ],
  "comments": [
   {
+   "logNo": "224434947962",
+   "commentNo": "907918225247830116",
+   "parentCommentNo": "907715847294812236",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "들러 주셔서 감사해요! 선물 고르실 일 있으면 예산부터 정하고 조합 표 참고해 보세요. 오늘도 좋은 하루 보내세요.",
+   "regTime": "2026-10-18T00:05:39+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": true,
+   "unanswered": false
+  },
+  {
+   "logNo": "224431720572",
+   "commentNo": "907918207161991227",
+   "parentCommentNo": "907869272401772712",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "와, 129번 뮤 SAR이라니 축하드려요! 우선 앞면은 맨손으로 만지지 말고 바로 이너 슬리브에 넣은 뒤 탑로더나 세미리지드에 보관해 두세요. 그다음은 그냥 소장, 등급 감정, 교환 중에 편하신 쪽으로 고르시면 돼요. 감정을 생각하신다면 밝은 조명에서 모서리 흰 점과 센터링부터 확인해 ",
+   "regTime": "2026-10-18T00:05:22+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
    "logNo": "224431720572",
    "commentNo": "907869272401772712",
    "parentCommentNo": "907869272401772712",
@@ -3155,10 +3177,10 @@
    "contents": "방금 sar129번 뮤 뽑았어요...우째야하나요?",
    "regTime": "2026-10-17T11:25:49+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": false,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224434947962",
@@ -3169,10 +3191,10 @@
    "contents": "포스팅 잘 보고 갑니다^^<br>원하시는 모든 일이 잘 이루어지는 하루 되세요.",
    "regTime": "2026-10-15T19:44:20+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": true,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224433500995",
@@ -4531,23 +4553,23 @@
   ],
   "today": {
    "date": "2026-10-18",
-   "utime": "2026-10-18T00:03:08",
+   "utime": "2026-10-18T00:05:53",
    "dashboard": {
-    "dailyComment": 0,
+    "dailyComment": 1,
     "dailyPlayCount": "0",
-    "dailyCv": 0,
+    "dailyCv": 2,
     "dailyLike": 0,
-    "dailyCommentUtime": "2026-10-18T00:03:09",
-    "dailyRelationDeltaUtime": "2026-10-18T00:03:09",
+    "dailyCommentUtime": "2026-10-18T00:05:53",
+    "dailyRelationDeltaUtime": "2026-10-18T00:05:53",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-10-18T00:03:09",
-    "dailyCvUtime": "2026-10-18T00:03:09"
+    "dailyLikeUtime": "2026-10-18T00:05:53",
+    "dailyCvUtime": "2026-10-18T00:05:53"
    },
    "dailyCv": [
     {
      "date": "2026-10-18",
-     "cv": 0
+     "cv": 2
     },
     {
      "date": "2026-10-17",
@@ -4626,18 +4648,18 @@
   },
   "yesterday": {
    "date": "2026-10-17",
-   "utime": "2026-10-18T00:03:09",
+   "utime": "2026-10-18T00:05:53",
    "dashboard": {
     "dailyComment": 1,
     "dailyPlayCount": "0",
     "dailyCv": 745,
     "dailyLike": 5,
-    "dailyCommentUtime": "2026-10-18T00:03:09",
-    "dailyRelationDeltaUtime": "2026-10-18T00:03:09",
+    "dailyCommentUtime": "2026-10-18T00:05:53",
+    "dailyRelationDeltaUtime": "2026-10-18T00:05:53",
     "dailyRelationDelta": -1,
     "isToday": false,
-    "dailyLikeUtime": "2026-10-18T00:03:09",
-    "dailyCvUtime": "2026-10-18T00:03:09"
+    "dailyLikeUtime": "2026-10-18T00:05:53",
+    "dailyCvUtime": "2026-10-18T00:05:53"
    },
    "dailyCv": [
     {
@@ -8589,7 +8611,7 @@
    "mediaEnabled": true,
    "approvedAt": "2026-10-05T02:50:13.000Z",
    "report": {
-    "at": "2026-10-17T15:03:18.777Z",
+    "at": "2026-10-17T15:06:00.520Z",
     "dataThrough": "2026-10-17",
     "start": "2026-10-05",
     "yesterday": {
@@ -8941,13 +8963,13 @@
    "selectionMonth": 12,
    "betaEnds": "2026-12"
   },
-  "at": "2026-10-17T15:03:23.113Z"
+  "at": "2026-10-17T15:06:02.503Z"
  },
  "loginOk": true,
  "preflight": "ok",
  "indexing": {
-  "at": "2026-10-17T15:04:03.654Z",
-  "checked": 16,
+  "at": "2026-10-17T15:06:34.102Z",
+  "checked": 12,
   "indexed": 60,
   "notIndexed": 18,
   "unknown": 0,
@@ -8960,7 +8982,7 @@
     "game": "포켓몬",
     "ageH": 281,
     "indexed": false,
-    "checkedAt": "2026-10-16T00:56:10.228Z",
+    "checkedAt": "2026-10-17T15:06:05.037Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -8971,7 +8993,7 @@
     "game": "리프트바운드",
     "ageH": 276,
     "indexed": false,
-    "checkedAt": "2026-10-16T00:56:13.436Z",
+    "checkedAt": "2026-10-17T15:06:08.262Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -9092,7 +9114,7 @@
     "game": "포켓몬",
     "ageH": 185,
     "indexed": false,
-    "checkedAt": "2026-10-16T00:56:33.746Z",
+    "checkedAt": "2026-10-17T15:06:28.797Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -9103,7 +9125,7 @@
     "game": "포켓몬",
     "ageH": 180,
     "indexed": false,
-    "checkedAt": "2026-10-16T00:56:30.302Z",
+    "checkedAt": "2026-10-17T15:06:25.377Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -9114,7 +9136,7 @@
     "game": "포켓몬",
     "ageH": 172,
     "indexed": false,
-    "checkedAt": "2026-10-16T00:56:26.959Z",
+    "checkedAt": "2026-10-17T15:06:21.991Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -9125,7 +9147,7 @@
     "game": "포켓몬",
     "ageH": 160,
     "indexed": false,
-    "checkedAt": "2026-10-16T00:56:23.562Z",
+    "checkedAt": "2026-10-17T15:06:18.529Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -9136,7 +9158,7 @@
     "game": "포켓몬",
     "ageH": 156,
     "indexed": false,
-    "checkedAt": "2026-10-16T00:56:20.184Z",
+    "checkedAt": "2026-10-17T15:06:15.117Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -9147,7 +9169,7 @@
     "game": "포켓몬",
     "ageH": 149,
     "indexed": false,
-    "checkedAt": "2026-10-16T00:56:16.802Z",
+    "checkedAt": "2026-10-17T15:06:11.738Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    }
@@ -9155,7 +9177,7 @@
   "dropped": []
  },
  "perf": {
-  "at": "2026-10-17T15:04:03.673Z",
+  "at": "2026-10-17T15:06:34.127Z",
   "rpm7": 1230,
   "logDays": 4,
   "base7Date": null,
@@ -9311,9 +9333,9 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 인페르노x 박스 정가",
     "ageD": 5,
-    "views": 188,
-    "perDay": 40.1,
-    "v7": 188,
+    "views": 189,
+    "perDay": 40.3,
+    "v7": 189,
     "v7src": "new",
     "est7": 106,
     "mBest": null,
@@ -9355,7 +9377,7 @@
     "mBest": 7,
     "pcBlog": 7,
     "indexed": true,
-    "comments": 1,
+    "comments": 2,
     "grade": "top"
    },
    {
@@ -9383,9 +9405,9 @@
     "game": "포켓몬",
     "keyword": "닌자스피너 리스트",
     "ageD": 3,
-    "views": 130,
-    "perDay": 37.4,
-    "v7": 130,
+    "views": 131,
+    "perDay": 37.7,
+    "v7": 131,
     "v7src": "new",
     "est7": 102,
     "mBest": null,
@@ -9924,7 +9946,7 @@
     "keyword": "다이소 카드 슬리브",
     "ageD": 1,
     "views": 29,
-    "perDay": 24.7,
+    "perDay": 24.6,
     "v7": 29,
     "v7src": "new",
     "est7": 36,
@@ -10014,7 +10036,7 @@
     "keyword": "일본 포켓몬카드 파는곳",
     "ageD": 1,
     "views": 26,
-    "perDay": 17.5,
+    "perDay": 17.4,
     "v7": 26,
     "v7src": "new",
     "est7": 32,
@@ -10435,7 +10457,7 @@
     "mBest": null,
     "pcBlog": null,
     "indexed": true,
-    "comments": 1,
+    "comments": 2,
     "grade": "mid"
    },
    {
@@ -10668,16 +10690,6 @@
    "text": "#41 #44 #46 #54 #55 #56 #58 #59 #60 #61 #62 #63 외 6개",
    "note": "제목 검색(블로그탭) 기준, 수집 때마다 재확인. 글 수정·재발행은 하지 않음",
    "goto": "posts:색인 안 됨"
-  },
-  {
-   "level": "warn",
-   "type": "comment",
-   "title": "미답변 댓글 2건",
-   "text": "예의벼룩: 방금 sar129번 뮤 뽑았어요...우째야하나요? / 마케팅 전문가 김준호: 포스팅 잘 보고 갑니다^^<br>원하시는 모든 일이 잘 이루어지는 하루 ",
-   "action": {
-    "label": "답글 요청",
-    "preset": 1
-   }
   },
   {
    "level": "warn",
