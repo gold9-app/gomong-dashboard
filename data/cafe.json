@@ -1,7 +1,7 @@
 {
- "collectedAt": "2026-10-19T11:30:36.749Z",
- "collectedAtText": "2026-10-19 20:30",
- "elapsedMs": 711,
+ "collectedAt": "2026-10-19T23:01:26.001Z",
+ "collectedAtText": "2026-10-20 08:01",
+ "elapsedMs": 596,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 5,
@@ -9,7 +9,7 @@
  "grade": "씨앗3단계",
  "pendingLevelUps": 0,
  "todayAttendance": 0,
- "todayMission": "오늘 산 TCG 제품명 한 줄로 출첵",
+ "todayMission": "요즘 하는 TCG 종류로 출첵",
  "useMemberLevel": true,
  "account": {
   "nick": "고몽이TCG",
