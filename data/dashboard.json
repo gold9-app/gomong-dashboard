@@ -1,21 +1,21 @@
 {
- "collectedAt": "2026-10-23T03:40:49.658Z",
- "collectedAtText": "2026-10-23 12:40",
+ "collectedAt": "2026-10-23T04:00:47.699Z",
+ "collectedAtText": "2026-10-23 13:00",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 16325,
+ "elapsedMs": 18353,
  "errors": [],
  "summary": {
-  "publicCount": 94,
-  "queueCount": 24,
+  "publicCount": 95,
+  "queueCount": 23,
   "totalCount": 118,
-  "todayCv": 867,
+  "todayCv": 903,
   "yesterdayCv": 1418,
-  "todayVisitor": 801,
-  "buddyCount": 227,
+  "todayVisitor": 837,
+  "buddyCount": 228,
   "citations": {
    "cumulative": 137842,
    "month": 125154,
@@ -28,7 +28,7 @@
   "v5Pending": 0,
   "probeFail": 0,
   "searchOff": 0,
-  "totalReadCount": 20515,
+  "totalReadCount": 20551,
   "notIndexed48": 18,
   "indexRatio48": 79.8
  },
@@ -681,7 +681,7 @@
    "url": "https://blog.naver.com/rmarn99/224421387940",
    "openType": "2",
    "searchYn": true,
-   "readCount": 682,
+   "readCount": 683,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -1606,7 +1606,7 @@
    "url": "https://blog.naver.com/rmarn99/224431138770",
    "openType": "2",
    "searchYn": true,
-   "readCount": 832,
+   "readCount": 833,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -2457,7 +2457,7 @@
    "url": "https://blog.naver.com/rmarn99/224433501916",
    "openType": "2",
    "searchYn": true,
-   "readCount": 215,
+   "readCount": 216,
    "commentCount": 7,
    "unanswered": 0,
    "v5": true,
@@ -2975,7 +2975,7 @@
    "url": "https://blog.naver.com/rmarn99/224438747261",
    "openType": "2",
    "searchYn": true,
-   "readCount": 178,
+   "readCount": 179,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3148,7 +3148,7 @@
    "url": "https://blog.naver.com/rmarn99/224440350267",
    "openType": "2",
    "searchYn": true,
-   "readCount": 1724,
+   "readCount": 1752,
    "commentCount": 1,
    "unanswered": 1,
    "v5": true,
@@ -3179,7 +3179,7 @@
    "url": "https://blog.naver.com/rmarn99/224442278812",
    "openType": "2",
    "searchYn": true,
-   "readCount": 43,
+   "readCount": 44,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -3396,7 +3396,7 @@
    "url": "https://blog.naver.com/rmarn99/224442289706",
    "openType": "2",
    "searchYn": true,
-   "readCount": 10,
+   "readCount": 11,
    "commentCount": 1,
    "unanswered": 1,
    "v5": true,
@@ -3450,22 +3450,26 @@
    "no": 104,
    "logNo": "224446259410",
    "title": "원피스카드 EBK-04 에그헤드 크라이시스 발매, 정가와 구성 68종",
-   "status": "예약",
+   "status": "공개",
    "game": "원피스",
    "category": "원피스 카드 신제품·덱",
    "keyword": "원피스카드 EBK-04",
-   "publishedText": "2026-10-23 12:40",
-   "postDate": 1792726800000,
+   "publishedText": "2026-10-23 12:40 발행",
    "url": "https://blog.naver.com/rmarn99/224446259410",
-   "searchYn": null,
-   "readCount": 0,
+   "openType": "2",
+   "searchYn": true,
+   "readCount": 2,
    "commentCount": 0,
    "unanswered": 0,
-   "v5": false,
+   "v5": true,
+   "internalLinks": 15,
+   "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": null,
-   "aiCited": false
+   "aiCited": false,
+   "mRank": null,
+   "indexed": null
   },
   {
    "no": 105,
@@ -3952,13 +3956,6 @@
   }
  ],
  "queue": [
-  {
-   "logNo": "224446259410",
-   "title": "원피스카드 EBK-04 에그헤드 크라이시스 발매, 정가와 구성 68종",
-   "postDate": 1792726800000,
-   "postDateText": "2026-10-23 12:40",
-   "addDate": 1792372025165
-  },
   {
    "logNo": "224446261611",
    "title": "탑로더 35PT 55PT 차이, 파브 탑로더 두께별 가격과 용도",
@@ -5527,10 +5524,10 @@
   "dailyCv": [
    {
     "date": "2026-10-23",
-    "total": 864,
-    "friend": 12,
+    "total": 902,
+    "friend": 14,
     "follow": 0,
-    "etc": 852
+    "etc": 888
    },
    {
     "date": "2026-10-22",
@@ -5633,23 +5630,23 @@
   ],
   "today": {
    "date": "2026-10-23",
-   "utime": "2026-10-23T12:40:40",
+   "utime": "2026-10-23T13:00:37",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 867,
-    "dailyLike": 12,
-    "dailyCommentUtime": "2026-10-23T12:40:40",
-    "dailyRelationDeltaUtime": "2026-10-23T12:40:40",
+    "dailyCv": 903,
+    "dailyLike": 13,
+    "dailyCommentUtime": "2026-10-23T13:00:37",
+    "dailyRelationDeltaUtime": "2026-10-23T13:00:37",
     "dailyRelationDelta": 1,
     "isToday": true,
-    "dailyLikeUtime": "2026-10-23T12:40:40",
-    "dailyCvUtime": "2026-10-23T12:40:40"
+    "dailyLikeUtime": "2026-10-23T13:00:37",
+    "dailyCvUtime": "2026-10-23T13:00:37"
    },
    "dailyCv": [
     {
      "date": "2026-10-23",
-     "cv": 867
+     "cv": 903
     },
     {
      "date": "2026-10-22",
@@ -5711,14 +5708,14 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 634,
+     "cv": 665,
      "title": "포켓몬카드 CU 30주년 입고일 10월 24일, 편의점 4사 예약법",
      "logNo": "224440350267",
      "createDate": "2026.10.20. 07:30"
     },
     {
      "rank": 2,
-     "cv": 21,
+     "cv": 22,
      "title": "포켓몬카드 등급 받는법 3가지, 해외 직접 접수 대행 국내 업체 비교",
      "logNo": "224438747261",
      "createDate": "2026.10.18. 12:40"
@@ -5755,33 +5752,33 @@
    "referer": [
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 569,
-     "pct": 69
+     "cv": 598,
+     "pct": 69.3
     },
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 135,
-     "pct": 16.4
+     "cv": 136,
+     "pct": 15.8
     },
     {
      "name": "네이버 메인_모바일",
-     "cv": 58,
-     "pct": 7
+     "cv": 61,
+     "pct": 7.1
     },
     {
      "name": "네이버 통합검색_PC",
-     "cv": 28,
-     "pct": 3.4
+     "cv": 30,
+     "pct": 3.5
     },
     {
      "name": "네이버 블로그_모바일",
-     "cv": 10,
-     "pct": 1.2
+     "cv": 11,
+     "pct": 1.3
     },
     {
      "name": "네이버 블로그검색_모바일",
-     "cv": 10,
-     "pct": 1.2
+     "cv": 11,
+     "pct": 1.3
     },
     {
      "name": "네이버 블로그_PC",
@@ -5800,6 +5797,11 @@
     },
     {
      "name": "Daum 검색_모바일",
+     "cv": 1,
+     "pct": 0.1
+    },
+    {
+     "name": "Daum_모바일",
      "cv": 1,
      "pct": 0.1
     },
@@ -5826,7 +5828,7 @@
    ],
    "searchQueries": [
     {
-     "cv": 569,
+     "cv": 598,
      "pct": 100
     }
    ]
@@ -12584,10 +12586,10 @@
    "last": {
     "id": "C45WzXJ2XlkKtzh1",
     "at": "2026-10-23T03:30:17.000Z",
-    "endAt": "2026-10-23T03:40:33.000Z",
+    "endAt": "2026-10-23T03:42:25.000Z",
     "runs": 140,
-    "result": "running",
-    "summary": ""
+    "result": "ok",
+    "summary": "12:30 회차 처리 결과: · ecs3jkss 완료 — 모바일 통합검색 순위 99개 키워드 전수 측정. 블로그 1페이지 노출 36/99 (전주 31/87)."
    },
    "missed": false,
    "maxGapH": 15
@@ -12614,14 +12616,14 @@
    "name": "고몽이 관제 대시보드 갱신 + 예약글 공개 확인 (rmarn99, 첫 2주 보호)",
    "status": "active",
    "rrule": "DTSTART;TZID=Asia/Seoul:20261011T080000\nRRULE:FREQ=DAILY;BYHOUR=8,13;BYMINUTE=0",
-   "nextRunAt": "2026-10-23T04:00:00.000Z",
+   "nextRunAt": "2026-10-23T23:00:00.000Z",
    "last": {
-    "id": "gpzGBzTt7Er4rQ7Z",
-    "at": "2026-10-23T00:00:16.000Z",
-    "endAt": "2026-10-23T00:00:42.000Z",
-    "runs": 69,
-    "result": "skip",
-    "summary": "Inbox 비우기 완료(추가 0건). 예정 08:00보다 1시간 늦게(09:00) 시작된 밀린 회차라 지연 가드에 따라 수집은 건너뛴다. · 밀린 회차(예정 08:00, 시작 09:00) 건너뜀. 다음 회차에 처리"
+    "id": "U7ZckEPRrGJzQLe3",
+    "at": "2026-10-23T04:00:17.000Z",
+    "endAt": "2026-10-23T04:00:29.000Z",
+    "runs": 70,
+    "result": "running",
+    "summary": "On time for the 13:00 run. Proceeding with the normal check."
    },
    "missed": false,
    "maxGapH": 19
@@ -12814,7 +12816,7 @@
    "mediaEnabled": true,
    "approvedAt": "2026-10-05T02:50:13.000Z",
    "report": {
-    "at": "2026-10-23T03:40:47.260Z",
+    "at": "2026-10-23T04:00:44.931Z",
     "dataThrough": "2026-10-22",
     "start": "2026-10-05",
     "yesterday": {
@@ -13226,16 +13228,16 @@
    "selectionMonth": 12,
    "betaEnds": "2026-12"
   },
-  "at": "2026-10-23T03:40:49.658Z"
+  "at": "2026-10-23T04:00:47.699Z"
  },
  "loginOk": true,
  "preflight": "ok",
  "indexing": {
-  "at": "2026-10-23T03:41:21.568Z",
-  "checked": 12,
+  "at": "2026-10-23T04:00:53.098Z",
+  "checked": 4,
   "indexed": 76,
   "notIndexed": 18,
-  "unknown": 0,
+  "unknown": 1,
   "ratio48": 79.8,
   "missing48": [
    {
@@ -13243,7 +13245,7 @@
     "no": 54,
     "title": "포켓몬카드 시세 사이트 4곳, 조회 순서와 체결가 읽는 법",
     "game": "포켓몬",
-    "ageH": 413,
+    "ageH": 414,
     "indexed": false,
     "checkedAt": "2026-10-23T03:40:52.159Z",
     "firstIndexedAt": null,
@@ -13254,7 +13256,7 @@
     "no": 41,
     "title": "리프트바운드 레디언스 출시일 10월 23일, 신규 체계 3개 정리",
     "game": "리프트바운드",
-    "ageH": 408,
+    "ageH": 409,
     "indexed": false,
     "checkedAt": "2026-10-23T03:40:55.445Z",
     "firstIndexedAt": null,
@@ -13265,7 +13267,7 @@
     "no": 55,
     "title": "포켓몬카드 메가브레이브 힛카드 리스트, 92장과 정가 3만원 박스",
     "game": "포켓몬",
-    "ageH": 401,
+    "ageH": 402,
     "indexed": false,
     "checkedAt": "2026-10-23T03:38:19.812Z",
     "firstIndexedAt": null,
@@ -13309,7 +13311,7 @@
     "no": 46,
     "title": "포켓몬카드 센터링 뜻, PSA 10 기준 55/45와 재는 법 4단계",
     "game": "포켓몬",
-    "ageH": 365,
+    "ageH": 366,
     "indexed": false,
     "checkedAt": "2026-10-23T03:38:05.520Z",
     "firstIndexedAt": null,
@@ -13353,7 +13355,7 @@
     "no": 60,
     "title": "포켓몬카드 슈링크 뜻과 확인방법, 박스 비닐 5단계와 제거 판매 이유",
     "game": "포켓몬",
-    "ageH": 336,
+    "ageH": 337,
     "indexed": false,
     "checkedAt": "2026-10-23T03:37:52.577Z",
     "firstIndexedAt": null,
@@ -13375,7 +13377,7 @@
     "no": 62,
     "title": "포켓몬카드 대전 파는곳 총정리, 공식 카드샵 1곳과 자판기 8곳 위치",
     "game": "포켓몬",
-    "ageH": 317,
+    "ageH": 318,
     "indexed": false,
     "checkedAt": "2026-10-23T03:41:16.314Z",
     "firstIndexedAt": null,
@@ -13430,7 +13432,7 @@
     "no": 67,
     "title": "포켓몬 카드 직구 사이트 3곳 비교, 수수료 3.5%와 관세 기준",
     "game": "포켓몬",
-    "ageH": 281,
+    "ageH": 282,
     "indexed": false,
     "checkedAt": "2026-10-23T03:40:58.903Z",
     "firstIndexedAt": null,
@@ -13440,7 +13442,7 @@
   "dropped": []
  },
  "perf": {
-  "at": "2026-10-23T03:41:21.580Z",
+  "at": "2026-10-23T04:00:53.119Z",
   "rpm7": 1472,
   "logDays": 8,
   "base7Date": "2026-10-16",
@@ -13452,9 +13454,9 @@
     "game": "포켓몬",
     "keyword": "CU 포켓몬카드 30주년",
     "ageD": 3,
-    "views": 1724,
-    "perDay": 536,
-    "v7": 1724,
+    "views": 1752,
+    "perDay": 542.5,
+    "v7": 1752,
     "v7src": "new",
     "est7": 2177,
     "mBest": null,
@@ -13507,7 +13509,7 @@
     "keyword": "잠실 포켓몬카드 자판기",
     "ageD": 6,
     "views": 208,
-    "perDay": 33.4,
+    "perDay": 33.3,
     "v7": 208,
     "v7src": "new",
     "est7": 252,
@@ -13525,7 +13527,7 @@
     "keyword": "포켓몬카드 PSA 등급",
     "ageD": 24,
     "views": 681,
-    "perDay": 28.4,
+    "perDay": 28.3,
     "v7": 182,
     "v7src": "log",
     "est7": 259,
@@ -13543,7 +13545,7 @@
     "keyword": "용산 포켓몬카드샵",
     "ageD": 10,
     "views": 229,
-    "perDay": 22.9,
+    "perDay": 22.8,
     "v7": 182,
     "v7src": "log",
     "est7": 222,
@@ -13560,9 +13562,9 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 등급 받는법",
     "ageD": 5,
-    "views": 178,
-    "perDay": 35.6,
-    "v7": 178,
+    "views": 179,
+    "perDay": 35.7,
+    "v7": 179,
     "v7src": "new",
     "est7": 236,
     "mBest": 1,
@@ -13614,9 +13616,9 @@
     "game": "포켓몬",
     "keyword": "닌자스피너 리스트",
     "ageD": 9,
-    "views": 215,
-    "perDay": 23.9,
-    "v7": 155,
+    "views": 216,
+    "perDay": 24,
+    "v7": 156,
     "v7src": "log",
     "est7": 193,
     "mBest": 1,
@@ -13632,9 +13634,9 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 30주년 재입고",
     "ageD": 18,
-    "views": 832,
+    "views": 833,
     "perDay": 45.7,
-    "v7": 154,
+    "v7": 155,
     "v7src": "log",
     "est7": 154,
     "mBest": 12,
@@ -13741,7 +13743,7 @@
     "keyword": "포켓몬카드 인페르노x 박스 정가",
     "ageD": 10,
     "views": 256,
-    "perDay": 25.1,
+    "perDay": 25,
     "v7": 84,
     "v7src": "log",
     "est7": 124,
@@ -13831,7 +13833,7 @@
     "keyword": "일본 포켓몬카드 파는곳",
     "ageD": 7,
     "views": 67,
-    "perDay": 9.6,
+    "perDay": 9.5,
     "v7": 67,
     "v7src": "avg",
     "est7": 99,
@@ -13867,7 +13869,7 @@
     "keyword": "포켓몬카드 스타터세트",
     "ageD": 25,
     "views": 560,
-    "perDay": 22.7,
+    "perDay": 22.6,
     "v7": 56,
     "v7src": "log",
     "est7": 82,
@@ -13896,6 +13898,24 @@
     "grade": "mid"
    },
    {
+    "logNo": "224421387940",
+    "no": 18,
+    "title": "포켓몬카드 일본판 한글판 차이 5가지, 정가 발매일 대회 사용 기준",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 일본판 한글판 차이",
+    "ageD": 24,
+    "views": 683,
+    "perDay": 28.2,
+    "v7": 52,
+    "v7src": "log",
+    "est7": 77,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": true,
+    "comments": 2,
+    "grade": "mid"
+   },
+   {
     "logNo": "224438751150",
     "no": 92,
     "title": "포켓몬카드 광주 파는곳, 동구 공식 카드샵 1곳과 자판기 5대 위치",
@@ -13911,24 +13931,6 @@
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224421387940",
-    "no": 18,
-    "title": "포켓몬카드 일본판 한글판 차이 5가지, 정가 발매일 대회 사용 기준",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 일본판 한글판 차이",
-    "ageD": 24,
-    "views": 682,
-    "perDay": 28.2,
-    "v7": 51,
-    "v7src": "log",
-    "est7": 75,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
     "grade": "mid"
    },
    {
@@ -13974,11 +13976,11 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 자판기 재고",
     "ageD": 3,
-    "views": 43,
-    "perDay": 14.3,
-    "v7": 43,
+    "views": 44,
+    "perDay": 14.6,
+    "v7": 44,
     "v7src": "new",
-    "est7": 63,
+    "est7": 65,
     "mBest": null,
     "pcBlog": null,
     "indexed": true,
@@ -14011,7 +14013,7 @@
     "keyword": "수원 포켓몬카드 파는곳",
     "ageD": 1,
     "views": 42,
-    "perDay": 42,
+    "perDay": 41.7,
     "v7": 42,
     "v7src": "new",
     "est7": 62,
@@ -14119,7 +14121,7 @@
     "keyword": "청주 포켓몬카드",
     "ageD": 2,
     "views": 33,
-    "perDay": 14.9,
+    "perDay": 14.8,
     "v7": 33,
     "v7src": "new",
     "est7": 49,
@@ -14551,7 +14553,7 @@
     "keyword": "포켓몬카드 30주년 카드",
     "ageD": 2,
     "views": 13,
-    "perDay": 6.5,
+    "perDay": 6.4,
     "v7": 13,
     "v7src": "new",
     "est7": 19,
@@ -14604,11 +14606,11 @@
     "game": "리프트바운드",
     "keyword": "리프트바운드 레디언스",
     "ageD": 1,
-    "views": 10,
-    "perDay": 10,
-    "v7": 10,
+    "views": 11,
+    "perDay": 11,
+    "v7": 11,
     "v7src": "new",
-    "est7": 15,
+    "est7": 16,
     "mBest": 1,
     "pcBlog": null,
     "indexed": true,
@@ -14713,7 +14715,7 @@
     "keyword": "카드 세이버 (구매형)",
     "ageD": 2,
     "views": 8,
-    "perDay": 4.7,
+    "perDay": 4.6,
     "v7": 8,
     "v7src": "new",
     "est7": 12,
@@ -14976,6 +14978,24 @@
     "grade": "low"
    },
    {
+    "logNo": "224446259410",
+    "no": 104,
+    "title": "원피스카드 EBK-04 에그헤드 크라이시스 발매, 정가와 구성 68종",
+    "game": "원피스",
+    "keyword": "원피스카드 EBK-04",
+    "ageD": 1,
+    "views": 2,
+    "perDay": 2,
+    "v7": 2,
+    "v7src": "new",
+    "est7": 3,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
     "logNo": "224427965084",
     "no": 41,
     "title": "리프트바운드 레디언스 출시일 10월 23일, 신규 체계 3개 정리",
@@ -15142,7 +15162,7 @@
    "top": 19,
    "low": 4,
    "noindex": 18,
-   "mid": 53
+   "mid": 54
   }
  },
  "kw": {
