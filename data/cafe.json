@@ -1,7 +1,7 @@
 {
- "collectedAt": "2026-10-26T11:30:38.003Z",
- "collectedAtText": "2026-10-26 20:30",
- "elapsedMs": 761,
+ "collectedAt": "2026-10-26T23:01:39.949Z",
+ "collectedAtText": "2026-10-27 08:01",
+ "elapsedMs": 625,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 5,
@@ -9,7 +9,7 @@
  "grade": "씨앗3단계",
  "pendingLevelUps": 0,
  "todayAttendance": 0,
- "todayMission": null,
+ "todayMission": "요즘 모으고 있는 카드 레어도 한 등급만 적어주세요!",
  "useMemberLevel": true,
  "account": {
   "nick": "고몽이TCG",
@@ -26,7 +26,7 @@
   "target": 8,
   "done": 20,
   "thisWeek": 4,
-  "reads": 120,
+  "reads": 121,
   "comments": 0,
   "posts": [
    {
@@ -602,7 +602,7 @@
    "writeDate": "2026-09-22 10:53",
    "ts": 1790042038977,
    "commentCount": 0,
-   "readCount": 16,
+   "readCount": 17,
    "likeCount": 0,
    "isNotice": false,
    "hasImage": false,
@@ -1128,7 +1128,7 @@
    "writeDate": "2026-09-22 10:53",
    "ts": 1790042038977,
    "commentCount": 0,
-   "readCount": 16,
+   "readCount": 17,
    "likeCount": 0,
    "isNotice": false,
    "hasImage": false,
