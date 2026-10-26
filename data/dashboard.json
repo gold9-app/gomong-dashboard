@@ -1,21 +1,21 @@
 {
- "collectedAt": "2026-10-25T23:00:58.611Z",
- "collectedAtText": "2026-10-26 08:00",
+ "collectedAt": "2026-10-26T00:24:45.596Z",
+ "collectedAtText": "2026-10-26 09:24",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 22078,
+ "elapsedMs": 16855,
  "errors": [],
  "summary": {
   "publicCount": 103,
   "queueCount": 15,
   "totalCount": 118,
-  "todayCv": 105,
+  "todayCv": 144,
   "yesterdayCv": 847,
-  "todayVisitor": 91,
-  "buddyCount": 254,
+  "todayVisitor": 126,
+  "buddyCount": 255,
   "citations": {
    "cumulative": 160998,
    "month": 148310,
@@ -28,7 +28,7 @@
   "v5Pending": 0,
   "probeFail": 0,
   "searchOff": 0,
-  "totalReadCount": 24802,
+  "totalReadCount": 24840,
   "notIndexed48": 17,
   "indexRatio48": 82.5
  },
@@ -61,15 +61,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년",
     "logNo": "224419166297",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 7,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년",
     "mBlogRank": null,
     "mContentRank": null,
@@ -98,15 +100,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬 카드샵",
     "logNo": "224419198719",
-    "searchRank": 25,
-    "blogRank": null
+    "searchRank": 29,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬 카드샵",
     "mBlogRank": null,
     "mContentRank": null,
@@ -135,18 +139,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 보관법",
     "logNo": "224419199649",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": true
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 보관법",
-    "mBlogRank": null,
-    "mContentRank": null,
+    "mBlogRank": 5,
+    "mContentRank": 8,
     "mTabRank": null
    },
    "indexed": true
@@ -172,15 +178,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "리프트바운드 오리진",
     "logNo": "224419203598",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "리프트바운드 오리진",
     "mBlogRank": null,
     "mContentRank": null,
@@ -209,15 +217,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 박스",
     "logNo": "224419204577",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 박스",
     "mBlogRank": null,
     "mContentRank": null,
@@ -246,15 +256,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 대회",
     "logNo": "224420640680",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 대회",
     "mBlogRank": null,
     "mContentRank": null,
@@ -274,7 +286,7 @@
    "url": "https://blog.naver.com/rmarn99/224420642062",
    "openType": "2",
    "searchYn": true,
-   "readCount": 512,
+   "readCount": 513,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -283,15 +295,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 등급",
     "logNo": "224420642062",
     "searchRank": 6,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 등급",
     "mBlogRank": null,
     "mContentRank": null,
@@ -320,18 +334,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 하는 법",
     "logNo": "224420643203",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 하는 법",
-    "mBlogRank": 3,
-    "mContentRank": 7,
+    "mBlogRank": null,
+    "mContentRank": null,
     "mTabRank": null
    },
    "indexed": true
@@ -357,15 +373,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "원피스카드 하는 법",
     "logNo": "224420644720",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "원피스카드 하는 법",
     "mBlogRank": null,
     "mContentRank": null,
@@ -394,15 +412,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "FUTURISTIC BOX 추첨",
     "logNo": "224421176128",
-    "searchRank": 5,
-    "blogRank": null
+    "searchRank": 6,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "FUTURISTIC BOX 추첨",
     "mBlogRank": null,
     "mContentRank": null,
@@ -431,15 +451,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 어디서 사",
     "logNo": "224421189221",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 8,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 어디서 사",
     "mBlogRank": null,
     "mContentRank": null,
@@ -468,15 +490,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 자판기 위치",
     "logNo": "224421189866",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 27,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 자판기 위치",
     "mBlogRank": null,
     "mContentRank": null,
@@ -505,15 +529,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 온라인 구매",
     "logNo": "224421190483",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 온라인 구매",
     "mBlogRank": null,
     "mContentRank": null,
@@ -542,15 +568,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 레귤레이션 마크",
     "logNo": "224421385102",
-    "searchRank": 13,
-    "blogRank": null
+    "searchRank": 11,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 레귤레이션 마크",
     "mBlogRank": null,
     "mContentRank": null,
@@ -579,15 +607,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "카드슬리브 사이즈",
     "logNo": "224421385780",
     "searchRank": 4,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "카드슬리브 사이즈",
     "mBlogRank": null,
     "mContentRank": null,
@@ -616,18 +646,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 리자몽",
     "logNo": "224421386521",
-    "searchRank": 11,
-    "blogRank": null
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 리자몽",
-    "mBlogRank": 7,
-    "mContentRank": 19,
+    "mBlogRank": null,
+    "mContentRank": null,
     "mTabRank": null
    },
    "indexed": true
@@ -653,15 +685,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "리프트바운드 룰",
     "logNo": "224421387218",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": true
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "리프트바운드 룰",
     "mBlogRank": null,
     "mContentRank": null,
@@ -690,15 +724,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 일본판 한글판 차이",
     "logNo": "224421387940",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": true
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 일본판 한글판 차이",
     "mBlogRank": null,
     "mContentRank": null,
@@ -727,18 +763,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 PSA 등급",
     "logNo": "224421388588",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": true
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 PSA 등급",
-    "mBlogRank": 7,
-    "mContentRank": 20,
+    "mBlogRank": null,
+    "mContentRank": null,
     "mTabRank": null
    },
    "indexed": true
@@ -764,18 +802,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "원피스카드 스타트덱",
     "logNo": "224421389263",
-    "searchRank": 3,
-    "blogRank": null
+    "searchRank": 4,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": true
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "원피스카드 스타트덱",
     "mBlogRank": 7,
-    "mContentRank": 13,
+    "mContentRank": 12,
     "mTabRank": null
    },
    "indexed": true
@@ -792,7 +832,7 @@
    "url": "https://blog.naver.com/rmarn99/224421389946",
    "openType": "2",
    "searchYn": true,
-   "readCount": 1336,
+   "readCount": 1341,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -801,18 +841,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 서치팩",
     "logNo": "224421389946",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 서치팩",
-    "mBlogRank": 8,
-    "mContentRank": 18,
+    "mBlogRank": null,
+    "mContentRank": null,
     "mTabRank": null
    },
    "indexed": true
@@ -838,15 +880,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 스타터세트",
     "logNo": "224422742437",
-    "searchRank": 8,
-    "blogRank": null
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 스타터세트",
     "mBlogRank": null,
     "mContentRank": null,
@@ -875,15 +919,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 힛카드",
     "logNo": "224422743238",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 힛카드",
     "mBlogRank": null,
     "mContentRank": null,
@@ -903,7 +949,7 @@
    "url": "https://blog.naver.com/rmarn99/224422743869",
    "openType": "2",
    "searchYn": true,
-   "readCount": 85,
+   "readCount": 86,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -912,15 +958,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 메가 진화",
     "logNo": "224422743869",
-    "searchRank": 5,
-    "blogRank": null
+    "searchRank": 6,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": true
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 메가 진화",
     "mBlogRank": null,
     "mContentRank": null,
@@ -940,7 +988,7 @@
    "url": "https://blog.naver.com/rmarn99/224422744444",
    "openType": "2",
    "searchYn": true,
-   "readCount": 290,
+   "readCount": 291,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -949,15 +997,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬 카드 발매 순서",
     "logNo": "224422744444",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": true
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬 카드 발매 순서",
     "mBlogRank": 1,
     "mContentRank": 3,
@@ -986,15 +1036,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 탑로더",
     "logNo": "224422744989",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 2,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 탑로더",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1014,7 +1066,7 @@
    "url": "https://blog.naver.com/rmarn99/224422745611",
    "openType": "2",
    "searchYn": true,
-   "readCount": 96,
+   "readCount": 98,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -1023,18 +1075,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 ex 뜻",
     "logNo": "224422745611",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 16,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 ex 뜻",
-    "mBlogRank": 3,
-    "mContentRank": 4,
+    "mBlogRank": 12,
+    "mContentRank": 19,
     "mTabRank": null
    },
    "indexed": true
@@ -1060,17 +1114,19 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 151",
     "logNo": "224422746245",
     "searchRank": 8,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 151",
-    "mBlogRank": 7,
+    "mBlogRank": 6,
     "mContentRank": 17,
     "mTabRank": null
    },
@@ -1097,18 +1153,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 종류",
     "logNo": "224422746943",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 27,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 종류",
-    "mBlogRank": 7,
-    "mContentRank": 18,
+    "mBlogRank": 6,
+    "mContentRank": 16,
     "mTabRank": null
    },
    "indexed": true
@@ -1134,18 +1192,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "리프트바운드 T1",
     "logNo": "224422747557",
-    "searchRank": 6,
-    "blogRank": null
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "리프트바운드 T1",
-    "mBlogRank": 5,
-    "mContentRank": 11,
+    "mBlogRank": null,
+    "mContentRank": null,
     "mTabRank": null
    },
    "indexed": true
@@ -1171,18 +1231,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 어비스아이",
     "logNo": "224422748268",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 6,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 어비스아이",
-    "mBlogRank": 7,
-    "mContentRank": 20,
+    "mBlogRank": 5,
+    "mContentRank": 13,
     "mTabRank": null
    },
    "indexed": true
@@ -1208,18 +1270,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 선물",
     "logNo": "224422749069",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 14,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 선물",
-    "mBlogRank": null,
-    "mContentRank": null,
+    "mBlogRank": 9,
+    "mContentRank": 18,
     "mTabRank": null
    },
    "indexed": true
@@ -1245,15 +1309,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "카드 바인더",
     "logNo": "224422749746",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "카드 바인더",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1282,18 +1348,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 메가드림ex",
     "logNo": "224422750359",
-    "searchRank": 9,
-    "blogRank": null
+    "searchRank": 8,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 메가드림ex",
     "mBlogRank": 6,
-    "mContentRank": 16,
+    "mContentRank": 18,
     "mTabRank": null
    },
    "indexed": true
@@ -1319,18 +1387,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 할로윈 팩",
     "logNo": "224422751014",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 5,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 할로윈 팩",
-    "mBlogRank": 7,
-    "mContentRank": 13,
+    "mBlogRank": 6,
+    "mContentRank": 12,
     "mTabRank": null
    },
    "indexed": true
@@ -1356,18 +1426,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 스톰에메랄다 힛카드",
     "logNo": "224424491242",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 스톰에메랄다 힛카드",
     "mBlogRank": 10,
-    "mContentRank": 16,
+    "mContentRank": 17,
     "mTabRank": null
    },
    "indexed": true
@@ -1430,15 +1502,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬 팀 마스터즈",
     "logNo": "224427969059",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬 팀 마스터즈",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1467,15 +1541,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 센터링 뜻",
     "logNo": "224427971701",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 센터링 뜻",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1504,18 +1580,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "퓨처리스틱 박스 응모 방법",
     "logNo": "224428326179",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
    },
    "aiCited": true,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "퓨처리스틱 박스 응모 방법",
-    "mBlogRank": 18,
-    "mContentRank": 20,
+    "mBlogRank": null,
+    "mContentRank": null,
     "mTabRank": null
    },
    "indexed": true
@@ -1541,15 +1619,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 앨범",
     "logNo": "224429569707",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 8,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 앨범",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1578,15 +1658,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 편의점 재고 조회",
     "logNo": "224431135228",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 편의점 재고 조회",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1615,18 +1697,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 재입고",
     "logNo": "224431138770",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 12,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 재입고",
-    "mBlogRank": 12,
-    "mContentRank": 16,
+    "mBlogRank": 11,
+    "mContentRank": 15,
     "mTabRank": null
    },
    "indexed": true
@@ -1652,15 +1736,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬 카드샵 일산",
     "logNo": "224431139430",
-    "searchRank": 8,
-    "blogRank": null
+    "searchRank": 11,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬 카드샵 일산",
     "mBlogRank": 11,
     "mContentRank": 19,
@@ -1689,15 +1775,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 시세 사이트",
     "logNo": "224431137457",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 시세 사이트",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1726,15 +1814,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 메가브레이브 힛카드",
     "logNo": "224431138041",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 2,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 메가브레이브 힛카드",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1763,15 +1853,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 피카츄",
     "logNo": "224431136669",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 피카츄",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1800,15 +1892,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 이마트 입고일",
     "logNo": "224431709398",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 이마트 입고일",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1837,15 +1931,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "탑로더 추천",
     "logNo": "224431710952",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 9,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "탑로더 추천",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1874,15 +1970,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 박스 시세",
     "logNo": "224431711706",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 박스 시세",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1911,15 +2009,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 슈링크 뜻",
     "logNo": "224431712498",
-    "searchRank": 8,
-    "blogRank": null
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 슈링크 뜻",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1948,15 +2048,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "원피스카드 발매일정",
     "logNo": "224431713458",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "원피스카드 발매일정",
     "mBlogRank": null,
     "mContentRank": null,
@@ -1985,15 +2087,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "대전 포켓몬카드 파는곳",
     "logNo": "224431714247",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 16,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "대전 포켓몬카드 파는곳",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2022,15 +2126,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 슬리브 추천",
     "logNo": "224431716369",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 8,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 슬리브 추천",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2059,15 +2165,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 중고거래",
     "logNo": "224431717214",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 중고거래",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2096,15 +2204,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬 카드 가장 비싼 카드 가격",
     "logNo": "224431718047",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 4,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬 카드 가장 비싼 카드 가격",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2133,15 +2243,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "부산 포켓몬카드 파는곳",
     "logNo": "224431718856",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 16,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "부산 포켓몬카드 파는곳",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2170,15 +2282,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬 카드 직구 사이트",
     "logNo": "224431719692",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 10,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬 카드 직구 사이트",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2198,7 +2312,7 @@
    "url": "https://blog.naver.com/rmarn99/224431720572",
    "openType": "2",
    "searchYn": true,
-   "readCount": 383,
+   "readCount": 386,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -2207,17 +2321,19 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 뮤",
     "logNo": "224431720572",
-    "searchRank": 11,
-    "blogRank": null
+    "searchRank": 20,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 뮤",
-    "mBlogRank": 10,
+    "mBlogRank": 13,
     "mContentRank": 20,
     "mTabRank": null
    },
@@ -2244,15 +2360,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 선물세트",
     "logNo": "224432145551",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 1,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 선물세트",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2281,18 +2399,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 정품 가품 차이",
     "logNo": "224432146185",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 정품 가품 차이",
     "mBlogRank": 2,
-    "mContentRank": 4,
+    "mContentRank": 6,
     "mTabRank": null
    },
    "indexed": true
@@ -2318,15 +2438,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 인페르노x 박스 정가",
     "logNo": "224433498034",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 5,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 인페르노x 박스 정가",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2346,7 +2468,7 @@
    "url": "https://blog.naver.com/rmarn99/224433499013",
    "openType": "2",
    "searchYn": true,
-   "readCount": 280,
+   "readCount": 282,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -2355,18 +2477,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "용산 포켓몬카드샵",
     "logNo": "224433499013",
-    "searchRank": 6,
-    "blogRank": null
+    "searchRank": 18,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "용산 포켓몬카드샵",
-    "mBlogRank": 6,
-    "mContentRank": 14,
+    "mBlogRank": 8,
+    "mContentRank": 18,
     "mTabRank": null
    },
    "indexed": true
@@ -2392,18 +2516,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "메가심포니아 힛카드",
     "logNo": "224433500029",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 9,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "메가심포니아 힛카드",
-    "mBlogRank": 6,
-    "mContentRank": 7,
+    "mBlogRank": 9,
+    "mContentRank": 12,
     "mTabRank": null
    },
    "indexed": true
@@ -2420,7 +2546,7 @@
    "url": "https://blog.naver.com/rmarn99/224433500995",
    "openType": "2",
    "searchYn": true,
-   "readCount": 208,
+   "readCount": 209,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -2429,18 +2555,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "대구 포켓몬카드샵",
     "logNo": "224433500995",
-    "searchRank": 5,
-    "blogRank": null
+    "searchRank": 14,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "대구 포켓몬카드샵",
-    "mBlogRank": 6,
-    "mContentRank": 12,
+    "mBlogRank": 11,
+    "mContentRank": 17,
     "mTabRank": null
    },
    "indexed": true
@@ -2466,18 +2594,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "닌자스피너 리스트",
     "logNo": "224433501916",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "닌자스피너 리스트",
-    "mBlogRank": 1,
-    "mContentRank": 5,
+    "mBlogRank": 2,
+    "mContentRank": 6,
     "mTabRank": null
    },
    "indexed": true
@@ -2503,15 +2633,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "퓨처리스틱 박스",
     "logNo": "224434569345",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 15,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "퓨처리스틱 박스",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2540,15 +2672,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "메가브레이브 일판",
     "logNo": "224434655685",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "메가브레이브 일판",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2577,18 +2711,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "psa 케이스 추천",
     "logNo": "224434943688",
     "searchRank": 1,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "psa 케이스 추천",
     "mBlogRank": 1,
-    "mContentRank": 3,
+    "mContentRank": 4,
     "mTabRank": null
    },
    "indexed": true
@@ -2614,18 +2750,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "천안 포켓몬카드샵",
     "logNo": "224434944911",
-    "searchRank": 1,
-    "blogRank": null
+    "searchRank": 3,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "천안 포켓몬카드샵",
     "mBlogRank": 3,
-    "mContentRank": 12,
+    "mContentRank": 11,
     "mTabRank": null
    },
    "indexed": true
@@ -2642,7 +2780,7 @@
    "url": "https://blog.naver.com/rmarn99/224434946013",
    "openType": "2",
    "searchYn": true,
-   "readCount": 239,
+   "readCount": 241,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -2651,15 +2789,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "인천 포켓몬카드 파는곳",
     "logNo": "224434946013",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 3,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "인천 포켓몬카드 파는곳",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2688,15 +2828,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "7살 남아 선물 포켓몬",
     "logNo": "224434947962",
-    "searchRank": 25,
-    "blogRank": null
+    "searchRank": 5,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "7살 남아 선물 포켓몬",
     "mBlogRank": 3,
     "mContentRank": 7,
@@ -2725,15 +2867,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 가격",
     "logNo": "224438737498",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 가격",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2753,7 +2897,7 @@
    "url": "https://blog.naver.com/rmarn99/224438738647",
    "openType": "2",
    "searchYn": true,
-   "readCount": 91,
+   "readCount": 92,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -2762,15 +2906,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "일본 포켓몬카드 파는곳",
     "logNo": "224438738647",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "일본 포켓몬카드 파는곳",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2799,17 +2945,19 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "다이소 카드 슬리브",
     "logNo": "224438739836",
-    "searchRank": 3,
-    "blogRank": null
+    "searchRank": 18,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "다이소 카드 슬리브",
-    "mBlogRank": 9,
+    "mBlogRank": 11,
     "mContentRank": 18,
     "mTabRank": null
    },
@@ -2836,18 +2984,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "잠실 포켓몬카드 자판기",
     "logNo": "224438740970",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "잠실 포켓몬카드 자판기",
-    "mBlogRank": 4,
-    "mContentRank": 8,
+    "mBlogRank": 8,
+    "mContentRank": 13,
     "mTabRank": null
    },
    "indexed": true
@@ -2873,18 +3023,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬 띠부씰 앨범",
     "logNo": "224438743702",
-    "searchRank": 3,
-    "blogRank": null
+    "searchRank": 2,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬 띠부씰 앨범",
-    "mBlogRank": 5,
-    "mContentRank": 13,
+    "mBlogRank": 9,
+    "mContentRank": 16,
     "mTabRank": null
    },
    "indexed": true
@@ -2910,15 +3062,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 일본판",
     "logNo": "224438744951",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 4,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 일본판",
     "mBlogRank": null,
     "mContentRank": null,
@@ -2938,7 +3092,7 @@
    "url": "https://blog.naver.com/rmarn99/224438746065",
    "openType": "2",
    "searchYn": true,
-   "readCount": 63,
+   "readCount": 64,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -2947,18 +3101,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "오사카 포켓몬카드 파는곳",
     "logNo": "224438746065",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "오사카 포켓몬카드 파는곳",
-    "mBlogRank": null,
-    "mContentRank": null,
+    "mBlogRank": 1,
+    "mContentRank": 7,
     "mTabRank": null
    },
    "indexed": true
@@ -2975,7 +3131,7 @@
    "url": "https://blog.naver.com/rmarn99/224438747261",
    "openType": "2",
    "searchYn": true,
-   "readCount": 284,
+   "readCount": 285,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -2984,18 +3140,20 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 등급 받는법",
     "logNo": "224438747261",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 등급 받는법",
-    "mBlogRank": 1,
-    "mContentRank": 6,
+    "mBlogRank": 2,
+    "mContentRank": 8,
     "mTabRank": null
    },
    "indexed": true
@@ -3021,15 +3179,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "원피스 카드 파는곳",
     "logNo": "224438748487",
-    "searchRank": null,
-    "blogRank": null
+    "searchRank": 2,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "원피스 카드 파는곳",
     "mBlogRank": null,
     "mContentRank": null,
@@ -3058,15 +3218,17 @@
    "relatedLinksPending": false,
    "priceUpdate": null,
    "rank": {
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "keyword": "도쿄 포켓몬카드 파는곳",
     "logNo": "224438749845",
     "searchRank": null,
-    "blogRank": null
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
    },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "도쿄 포켓몬카드 파는곳",
     "mBlogRank": null,
     "mContentRank": null,
@@ -3094,10 +3256,18 @@
    "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "광주 포켓몬카드 파는곳",
+    "logNo": "224438751150",
+    "searchRank": 2,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "광주 포켓몬카드 파는곳",
     "mBlogRank": 1,
     "mContentRank": 6,
@@ -3125,13 +3295,21 @@
    "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "자석 탑로더",
+    "logNo": "224438753288",
+    "searchRank": 2,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "자석 탑로더",
     "mBlogRank": 1,
-    "mContentRank": 1,
+    "mContentRank": 3,
     "mTabRank": null
    },
    "indexed": true
@@ -3148,7 +3326,7 @@
    "url": "https://blog.naver.com/rmarn99/224440350267",
    "openType": "2",
    "searchYn": true,
-   "readCount": 3923,
+   "readCount": 3929,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -3156,13 +3334,21 @@
    "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "CU 포켓몬카드 30주년",
+    "logNo": "224440350267",
+    "searchRank": 8,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "CU 포켓몬카드 30주년",
-    "mBlogRank": null,
-    "mContentRank": null,
+    "mBlogRank": 9,
+    "mContentRank": 16,
     "mTabRank": null
    },
    "indexed": true
@@ -3179,7 +3365,7 @@
    "url": "https://blog.naver.com/rmarn99/224442278812",
    "openType": "2",
    "searchYn": true,
-   "readCount": 78,
+   "readCount": 81,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -3187,13 +3373,21 @@
    "imgs": 3,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 자판기 재고",
+    "logNo": "224442278812",
+    "searchRank": 11,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 자판기 재고",
-    "mBlogRank": null,
-    "mContentRank": null,
+    "mBlogRank": 7,
+    "mContentRank": 17,
     "mTabRank": null
    },
    "indexed": true
@@ -3218,13 +3412,21 @@
    "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "원피스 카드 시세",
+    "logNo": "224442280119",
+    "searchRank": 7,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "원피스 카드 시세",
-    "mBlogRank": null,
-    "mContentRank": null,
+    "mBlogRank": 5,
+    "mContentRank": 20,
     "mTabRank": null
    },
    "indexed": true
@@ -3241,7 +3443,7 @@
    "url": "https://blog.naver.com/rmarn99/224442281297",
    "openType": "2",
    "searchYn": true,
-   "readCount": 93,
+   "readCount": 94,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -3249,13 +3451,21 @@
    "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "청주 포켓몬카드",
+    "logNo": "224442281297",
+    "searchRank": 4,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "청주 포켓몬카드",
     "mBlogRank": 2,
-    "mContentRank": 7,
+    "mContentRank": 6,
     "mTabRank": null
    },
    "indexed": true
@@ -3272,7 +3482,7 @@
    "url": "https://blog.naver.com/rmarn99/224442282743",
    "openType": "2",
    "searchYn": true,
-   "readCount": 54,
+   "readCount": 55,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -3280,10 +3490,18 @@
    "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 30주년 카드",
+    "logNo": "224442282743",
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 카드",
     "mBlogRank": null,
     "mContentRank": null,
@@ -3311,10 +3529,18 @@
    "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "카드 세이버",
+    "logNo": "224442285878",
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "카드 세이버",
     "mBlogRank": null,
     "mContentRank": null,
@@ -3342,10 +3568,18 @@
    "imgs": 3,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 매입",
+    "logNo": "224442287156",
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 매입",
     "mBlogRank": null,
     "mContentRank": null,
@@ -3365,7 +3599,7 @@
    "url": "https://blog.naver.com/rmarn99/224442288371",
    "openType": "2",
    "searchYn": true,
-   "readCount": 99,
+   "readCount": 100,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3373,10 +3607,18 @@
    "imgs": 3,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "수원 포켓몬카드 파는곳",
+    "logNo": "224442288371",
+    "searchRank": 4,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "수원 포켓몬카드 파는곳",
     "mBlogRank": 1,
     "mContentRank": 6,
@@ -3404,14 +3646,22 @@
    "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "리프트바운드 레디언스",
+    "logNo": "224442289706",
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "리프트바운드 레디언스",
     "mBlogRank": 1,
     "mContentRank": 4,
-    "mTabRank": null
+    "mTabRank": 13
    },
    "indexed": true
   },
@@ -3435,10 +3685,18 @@
    "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 30주년 추첨",
+    "logNo": "224446257982",
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
    "mRank": {
-    "date": "2026-10-23",
+    "date": "2026-10-26",
     "keyword": "포켓몬카드 30주년 추첨",
     "mBlogRank": null,
     "mContentRank": null,
@@ -3458,7 +3716,7 @@
    "url": "https://blog.naver.com/rmarn99/224446259410",
    "openType": "2",
    "searchYn": true,
-   "readCount": 100,
+   "readCount": 102,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3466,9 +3724,23 @@
    "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "원피스카드 EBK-04",
+    "logNo": "224446259410",
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
-   "mRank": null,
+   "mRank": {
+    "date": "2026-10-26",
+    "keyword": "원피스카드 EBK-04",
+    "mBlogRank": null,
+    "mContentRank": null,
+    "mTabRank": null
+   },
    "indexed": true
   },
   {
@@ -3491,9 +3763,23 @@
    "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "파브 탑로더",
+    "logNo": "224446261611",
+    "searchRank": 4,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
-   "mRank": null,
+   "mRank": {
+    "date": "2026-10-26",
+    "keyword": "파브 탑로더",
+    "mBlogRank": 2,
+    "mContentRank": 3,
+    "mTabRank": null
+   },
    "indexed": true
   },
   {
@@ -3516,9 +3802,23 @@
    "imgs": 5,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 할로윈",
+    "logNo": "224446262953",
+    "searchRank": 3,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
-   "mRank": null,
+   "mRank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 할로윈",
+    "mBlogRank": null,
+    "mContentRank": null,
+    "mTabRank": null
+   },
    "indexed": true
   },
   {
@@ -3533,7 +3833,7 @@
    "url": "https://blog.naver.com/rmarn99/224446264175",
    "openType": "2",
    "searchYn": true,
-   "readCount": 38,
+   "readCount": 39,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3541,9 +3841,23 @@
    "imgs": 3,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "울산 포켓몬카드",
+    "logNo": "224446264175",
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
-   "mRank": null,
+   "mRank": {
+    "date": "2026-10-26",
+    "keyword": "울산 포켓몬카드",
+    "mBlogRank": null,
+    "mContentRank": null,
+    "mTabRank": null
+   },
    "indexed": true
   },
   {
@@ -3566,9 +3880,23 @@
    "imgs": 3,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 보관함",
+    "logNo": "224446265413",
+    "searchRank": 1,
+    "blogRank": null,
+    "blogTabMeasured": true,
+    "aibCited": false
+   },
    "aiCited": false,
-   "mRank": null,
+   "mRank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 보관함",
+    "mBlogRank": 1,
+    "mContentRank": 6,
+    "mTabRank": null
+   },
    "indexed": true
   },
   {
@@ -3591,9 +3919,23 @@
    "imgs": 3,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "전주 포켓몬카드",
+    "logNo": "224446266584",
+    "searchRank": 4,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
-   "mRank": null,
+   "mRank": {
+    "date": "2026-10-26",
+    "keyword": "전주 포켓몬카드",
+    "mBlogRank": 2,
+    "mContentRank": 4,
+    "mTabRank": null
+   },
    "indexed": true
   },
   {
@@ -3616,9 +3958,23 @@
    "imgs": 3,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 등급표",
+    "logNo": "224446267844",
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": true
+   },
    "aiCited": false,
-   "mRank": null,
+   "mRank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 등급표",
+    "mBlogRank": null,
+    "mContentRank": null,
+    "mTabRank": null
+   },
    "indexed": true
   },
   {
@@ -3641,9 +3997,23 @@
    "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 거치대",
+    "logNo": "224446270177",
+    "searchRank": 1,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
-   "mRank": null,
+   "mRank": {
+    "date": "2026-10-26",
+    "keyword": "포켓몬카드 거치대",
+    "mBlogRank": 1,
+    "mContentRank": 2,
+    "mTabRank": null
+   },
    "indexed": true
   },
   {
@@ -3658,7 +4028,7 @@
    "url": "https://blog.naver.com/rmarn99/224446271539",
    "openType": "2",
    "searchYn": true,
-   "readCount": 0,
+   "readCount": 2,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3666,9 +4036,23 @@
    "imgs": 4,
    "relatedLinksPending": false,
    "priceUpdate": null,
-   "rank": null,
+   "rank": {
+    "date": "2026-10-26",
+    "keyword": "창원 포켓몬카드",
+    "logNo": "224446271539",
+    "searchRank": null,
+    "blogRank": null,
+    "blogTabMeasured": false,
+    "aibCited": false
+   },
    "aiCited": false,
-   "mRank": null,
+   "mRank": {
+    "date": "2026-10-26",
+    "keyword": "창원 포켓몬카드",
+    "mBlogRank": null,
+    "mContentRank": null,
+    "mTabRank": null
+   },
    "indexed": null
   },
   {
@@ -5500,10 +5884,10 @@
   "dailyCv": [
    {
     "date": "2026-10-26",
-    "total": 105,
-    "friend": 6,
+    "total": 144,
+    "friend": 8,
     "follow": 0,
-    "etc": 99
+    "etc": 136
    },
    {
     "date": "2026-10-25",
@@ -5606,23 +5990,23 @@
   ],
   "today": {
    "date": "2026-10-26",
-   "utime": "2026-10-26T08:00:44",
+   "utime": "2026-10-26T09:24:35",
    "dashboard": {
     "dailyComment": 0,
     "dailyPlayCount": "0",
-    "dailyCv": 105,
-    "dailyLike": 7,
-    "dailyCommentUtime": "2026-10-26T08:00:44",
-    "dailyRelationDeltaUtime": "2026-10-26T08:00:44",
+    "dailyCv": 144,
+    "dailyLike": 8,
+    "dailyCommentUtime": "2026-10-26T09:24:35",
+    "dailyRelationDeltaUtime": "2026-10-26T09:24:35",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-10-26T08:00:44",
-    "dailyCvUtime": "2026-10-26T08:00:44"
+    "dailyLikeUtime": "2026-10-26T09:24:35",
+    "dailyCvUtime": "2026-10-26T09:24:35"
    },
    "dailyCv": [
     {
      "date": "2026-10-26",
-     "cv": 105
+     "cv": 144
     },
     {
      "date": "2026-10-25",
@@ -5684,7 +6068,7 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 15,
+     "cv": 21,
      "title": "포켓몬카드 CU 30주년 입고일 10월 24일, 편의점 4사 예약법",
      "logNo": "224440350267",
      "createDate": "2026.10.20. 07:30"
@@ -5698,175 +6082,185 @@
     },
     {
      "rank": 3,
-     "cv": 7,
+     "cv": 8,
+     "title": "포켓몬카드 서치팩 재포장 구별법 6가지, 정가보다 싼 낱팩 확인 순서",
+     "logNo": "224421389946",
+     "createDate": "2026.09.30. 12:30"
+    },
+    {
+     "rank": 3,
+     "cv": 8,
      "title": "포켓몬카드 30주년 카드 리스트 176번까지, 레어도 장수와 시크릿",
      "logNo": "224442282743",
      "createDate": "2026.10.21. 12:20"
     },
     {
-     "rank": 4,
-     "cv": 5,
+     "rank": 5,
+     "cv": 6,
      "title": "포켓몬카드 오사카 파는곳, 포켓몬센터 2곳과 난바 카드샵 54곳 동선",
      "logNo": "224438746065",
      "createDate": "2026.10.18. 07:30"
     },
     {
-     "rank": 4,
-     "cv": 5,
+     "rank": 5,
+     "cv": 6,
      "title": "포켓몬카드 등급 받는법 3가지, 해외 직접 접수 대행 국내 업체 비교",
      "logNo": "224438747261",
      "createDate": "2026.10.18. 12:40"
-    },
-    {
-     "rank": 6,
-     "cv": 4,
-     "title": "포켓몬카드 편의점 재고 조회 방법, 4사 앱 순서와 예약 주의점",
-     "logNo": "224431135228",
-     "createDate": "2026.10.04. 15:51"
     }
    ],
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 67,
-     "pct": 67.7
+     "cv": 97,
+     "pct": 70.8
     },
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 13,
-     "pct": 13.1
+     "cv": 14,
+     "pct": 10.2
     },
     {
      "name": "네이버 통합검색_PC",
-     "cv": 6,
-     "pct": 6.1
+     "cv": 10,
+     "pct": 7.3
     },
     {
      "name": "네이버 블로그_모바일",
      "cv": 5,
-     "pct": 5.1
+     "pct": 3.6
     },
     {
      "name": "네이버 메인_PC",
      "cv": 3,
-     "pct": 3
+     "pct": 2.2
     },
     {
      "name": "네이버 메인_모바일",
      "cv": 3,
-     "pct": 3
+     "pct": 2.2
     },
     {
      "name": "Daum 검색_모바일",
-     "cv": 1,
-     "pct": 1
+     "cv": 2,
+     "pct": 1.5
     },
     {
      "name": "Daum_모바일",
      "cv": 1,
-     "pct": 1
+     "pct": 0.7
+    },
+    {
+     "name": "네이버 블로그_PC",
+     "cv": 1,
+     "pct": 0.7
+    },
+    {
+     "name": "네이버 블로그검색_PC",
+     "cv": 1,
+     "pct": 0.7
     }
    ],
    "searchQueries": [
     {
+     "query": "포켓몬카드",
+     "cv": 5,
+     "pct": 5.2
+    },
+    {
+     "query": "포켓몬카드 30주년",
+     "cv": 3,
+     "pct": 3.1
+    },
+    {
+     "query": "포켓몬카드 자판기 위치",
+     "cv": 3,
+     "pct": 3.1
+    },
+    {
+     "query": "30주년 서치팩",
+     "cv": 2,
+     "pct": 2.1
+    },
+    {
+     "query": "경기도 포켓몬자판기",
+     "cv": 2,
+     "pct": 2.1
+    },
+    {
      "query": "상무지구 포켓몬카드",
      "cv": 2,
-     "pct": 3
+     "pct": 2.1
+    },
+    {
+     "query": "서치팩 뜻",
+     "cv": 2,
+     "pct": 2.1
     },
     {
      "query": "세븐일레븐 포켓몬카드",
      "cv": 2,
-     "pct": 3
+     "pct": 2.1
     },
     {
      "query": "오사카 포켓몬카드 파는곳",
      "cv": 2,
-     "pct": 3
+     "pct": 2.1
+    },
+    {
+     "query": "원피스카드 에그헤드",
+     "cv": 2,
+     "pct": 2.1
     },
     {
      "query": "탑로더 슬리브",
      "cv": 2,
-     "pct": 3
+     "pct": 2.1
     },
     {
      "query": "포켓몬 30주년 sar 리스트",
      "cv": 2,
-     "pct": 3
+     "pct": 2.1
     },
     {
-     "query": "포켓몬카드 30주년",
+     "query": "포켓몬 hp 뜻",
      "cv": 2,
-     "pct": 3
+     "pct": 2.1
     },
     {
      "query": "포켓몬카드 등급 받는법",
      "cv": 2,
-     "pct": 3
+     "pct": 2.1
+    },
+    {
+     "query": "30 주년 포켓몬 카드팩에서 나온 뮤츠 EX 가격",
+     "cv": 1,
+     "pct": 1
     },
     {
      "query": "30주년 뮤츠 fur 가격",
      "cv": 1,
-     "pct": 1.5
+     "pct": 1
+    },
+    {
+     "query": "30주년 뮤츠 sar",
+     "cv": 1,
+     "pct": 1
     },
     {
      "query": "30주년 카드 전체 순서",
      "cv": 1,
-     "pct": 1.5
+     "pct": 1
     },
     {
      "query": "brg a등급 뜻",
      "cv": 1,
-     "pct": 1.5
+     "pct": 1
     },
     {
      "query": "cgc 등급대행",
      "cv": 1,
-     "pct": 1.5
-    },
-    {
-     "query": "경기도 포켓몬자판기",
-     "cv": 1,
-     "pct": 1.5
-    },
-    {
-     "query": "국내 카드 그레이딩 업체",
-     "cv": 1,
-     "pct": 1.5
-    },
-    {
-     "query": "군산 포켓몬카드",
-     "cv": 1,
-     "pct": 1.5
-    },
-    {
-     "query": "난바 포켓몬카드",
-     "cv": 1,
-     "pct": 1.5
-    },
-    {
-     "query": "다이소 탑로더 보관함",
-     "cv": 1,
-     "pct": 1.5
-    },
-    {
-     "query": "대구 포켓몬 30주년 파는곳",
-     "cv": 1,
-     "pct": 1.5
-    },
-    {
-     "query": "롯데월드 포켓몬 카드",
-     "cv": 1,
-     "pct": 1.5
-    },
-    {
-     "query": "롯데월드몰 포켓몬 카드 자판기 위치",
-     "cv": 1,
-     "pct": 1.5
-    },
-    {
-     "query": "메가드림 발매일",
-     "cv": 1,
-     "pct": 1.5
+     "pct": 1
     }
    ]
   },
@@ -7769,6 +8163,987 @@
    "logNo": null,
    "searchRank": null,
    "blogRank": null
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "창원 포켓몬카드",
+   "logNo": "224446271539",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 거치대",
+   "logNo": "224446270177",
+   "searchRank": 1,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 등급표",
+   "logNo": "224446267844",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "전주 포켓몬카드",
+   "logNo": "224446266584",
+   "searchRank": 4,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 보관함",
+   "logNo": "224446265413",
+   "searchRank": 1,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "울산 포켓몬카드",
+   "logNo": "224446264175",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 할로윈",
+   "logNo": "224446262953",
+   "searchRank": 3,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "파브 탑로더",
+   "logNo": "224446261611",
+   "searchRank": 4,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스카드 EBK-04",
+   "logNo": "224446259410",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 추첨",
+   "logNo": "224446257982",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 레디언스",
+   "logNo": "224442289706",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "수원 포켓몬카드 파는곳",
+   "logNo": "224442288371",
+   "searchRank": 4,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 매입",
+   "logNo": "224442287156",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "카드 세이버",
+   "logNo": "224442285878",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 카드",
+   "logNo": "224442282743",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "청주 포켓몬카드",
+   "logNo": "224442281297",
+   "searchRank": 4,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스 카드 시세",
+   "logNo": "224442280119",
+   "searchRank": 7,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 자판기 재고",
+   "logNo": "224442278812",
+   "searchRank": 11,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "CU 포켓몬카드 30주년",
+   "logNo": "224440350267",
+   "searchRank": 8,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "자석 탑로더",
+   "logNo": "224438753288",
+   "searchRank": 2,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "광주 포켓몬카드 파는곳",
+   "logNo": "224438751150",
+   "searchRank": 2,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "도쿄 포켓몬카드 파는곳",
+   "logNo": "224438749845",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스 카드 파는곳",
+   "logNo": "224438748487",
+   "searchRank": 2,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 등급 받는법",
+   "logNo": "224438747261",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "오사카 포켓몬카드 파는곳",
+   "logNo": "224438746065",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 일본판",
+   "logNo": "224438744951",
+   "searchRank": 4,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 띠부씰 앨범",
+   "logNo": "224438743702",
+   "searchRank": 2,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "잠실 포켓몬카드 자판기",
+   "logNo": "224438740970",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "다이소 카드 슬리브",
+   "logNo": "224438739836",
+   "searchRank": 18,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "일본 포켓몬카드 파는곳",
+   "logNo": "224438738647",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 가격",
+   "logNo": "224438737498",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "7살 남아 선물 포켓몬",
+   "logNo": "224434947962",
+   "searchRank": 5,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "인천 포켓몬카드 파는곳",
+   "logNo": "224434946013",
+   "searchRank": 3,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "천안 포켓몬카드샵",
+   "logNo": "224434944911",
+   "searchRank": 3,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "psa 케이스 추천",
+   "logNo": "224434943688",
+   "searchRank": 1,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "닌자스피너 리스트",
+   "logNo": "224433501916",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "대구 포켓몬카드샵",
+   "logNo": "224433500995",
+   "searchRank": 14,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "메가심포니아 힛카드",
+   "logNo": "224433500029",
+   "searchRank": 9,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "용산 포켓몬카드샵",
+   "logNo": "224433499013",
+   "searchRank": 18,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 인페르노x 박스 정가",
+   "logNo": "224433498034",
+   "searchRank": 5,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 정품 가품 차이",
+   "logNo": "224432146185",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 선물세트",
+   "logNo": "224432145551",
+   "searchRank": 1,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 뮤",
+   "logNo": "224431720572",
+   "searchRank": 20,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 카드 직구 사이트",
+   "logNo": "224431719692",
+   "searchRank": 10,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "부산 포켓몬카드 파는곳",
+   "logNo": "224431718856",
+   "searchRank": 16,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 카드 가장 비싼 카드 가격",
+   "logNo": "224431718047",
+   "searchRank": 4,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 중고거래",
+   "logNo": "224431717214",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 슬리브 추천",
+   "logNo": "224431716369",
+   "searchRank": 8,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "대전 포켓몬카드 파는곳",
+   "logNo": "224431714247",
+   "searchRank": 16,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스카드 발매일정",
+   "logNo": "224431713458",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 슈링크 뜻",
+   "logNo": "224431712498",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 박스 시세",
+   "logNo": "224431711706",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "탑로더 추천",
+   "logNo": "224431710952",
+   "searchRank": 9,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "메가브레이브 일판",
+   "logNo": "224434655685",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 센터링 뜻",
+   "logNo": "224427971701",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "퓨처리스틱 박스",
+   "logNo": "224434569345",
+   "searchRank": 15,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 피카츄",
+   "logNo": "224431136669",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 팀 마스터즈",
+   "logNo": "224427969059",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 이마트 입고일",
+   "logNo": "224431709398",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 메가브레이브 힛카드",
+   "logNo": "224431138041",
+   "searchRank": 2,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 시세 사이트",
+   "logNo": "224431137457",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 스톰에메랄다 힛카드",
+   "logNo": "224424491242",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 카드샵 일산",
+   "logNo": "224431139430",
+   "searchRank": 11,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 재입고",
+   "logNo": "224431138770",
+   "searchRank": 12,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 편의점 재고 조회",
+   "logNo": "224431135228",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 할로윈 팩",
+   "logNo": "224422751014",
+   "searchRank": 5,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 메가드림ex",
+   "logNo": "224422750359",
+   "searchRank": 8,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "카드 바인더",
+   "logNo": "224422749746",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 선물",
+   "logNo": "224422749069",
+   "searchRank": 14,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 어비스아이",
+   "logNo": "224422748268",
+   "searchRank": 6,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 T1",
+   "logNo": "224422747557",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 앨범",
+   "logNo": "224429569707",
+   "searchRank": 8,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 종류",
+   "logNo": "224422746943",
+   "searchRank": 27,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 151",
+   "logNo": "224422746245",
+   "searchRank": 8,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 ex 뜻",
+   "logNo": "224422745611",
+   "searchRank": 16,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "퓨처리스틱 박스 응모 방법",
+   "logNo": "224428326179",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 탑로더",
+   "logNo": "224422744989",
+   "searchRank": 2,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 카드 발매 순서",
+   "logNo": "224422744444",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 메가 진화",
+   "logNo": "224422743869",
+   "searchRank": 6,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 서치팩",
+   "logNo": "224421389946",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스카드 스타트덱",
+   "logNo": "224421389263",
+   "searchRank": 4,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 힛카드",
+   "logNo": "224422743238",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 PSA 등급",
+   "logNo": "224421388588",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 일본판 한글판 차이",
+   "logNo": "224421387940",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 스타터세트",
+   "logNo": "224422742437",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 룰",
+   "logNo": "224421387218",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 리자몽",
+   "logNo": "224421386521",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "카드슬리브 사이즈",
+   "logNo": "224421385780",
+   "searchRank": 4,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 온라인 구매",
+   "logNo": "224421190483",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 레귤레이션 마크",
+   "logNo": "224421385102",
+   "searchRank": 11,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 자판기 위치",
+   "logNo": "224421189866",
+   "searchRank": 27,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 어디서 사",
+   "logNo": "224421189221",
+   "searchRank": 8,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스카드 하는 법",
+   "logNo": "224420644720",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 하는 법",
+   "logNo": "224420643203",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 등급",
+   "logNo": "224420642062",
+   "searchRank": 6,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "FUTURISTIC BOX 추첨",
+   "logNo": "224421176128",
+   "searchRank": 6,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 대회",
+   "logNo": "224420640680",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 박스",
+   "logNo": "224419204577",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 오리진",
+   "logNo": "224419203598",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 보관법",
+   "logNo": "224419199649",
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": true
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 카드샵",
+   "logNo": "224419198719",
+   "searchRank": 29,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년",
+   "logNo": "224419166297",
+   "searchRank": 7,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드",
+   "logNo": null,
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 예약",
+   "logNo": null,
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 카드",
+   "logNo": null,
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "탑로더",
+   "logNo": null,
+   "searchRank": 6,
+   "blogRank": null,
+   "blogTabMeasured": true,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "카드슬리브",
+   "logNo": null,
+   "searchRank": 12,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스카드 시세",
+   "logNo": null,
+   "searchRank": 8,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 시세",
+   "logNo": null,
+   "searchRank": null,
+   "blogRank": null,
+   "blogTabMeasured": false,
+   "aibCited": false
   }
  ],
  "mobileRankHistory": [
@@ -12160,6 +13535,1462 @@
    "mContentRank": null,
    "mTabRank": null,
    "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "창원 포켓몬카드",
+   "no": "112",
+   "logNo": "224446271539",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 6,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 거치대",
+   "no": "111",
+   "logNo": "224446270177",
+   "hasBlog": true,
+   "mBlogRank": 1,
+   "mBlogCount": 6,
+   "mContentRank": 2,
+   "mTabRank": null,
+   "mineAll": [
+    "224446270177"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 등급표",
+   "no": "110",
+   "logNo": "224446267844",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 8,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224422748268"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "전주 포켓몬카드",
+   "no": "109",
+   "logNo": "224446266584",
+   "hasBlog": true,
+   "mBlogRank": 2,
+   "mBlogCount": 5,
+   "mContentRank": 4,
+   "mTabRank": null,
+   "mineAll": [
+    "224446266584"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 보관함",
+   "no": "108",
+   "logNo": "224446265413",
+   "hasBlog": true,
+   "mBlogRank": 1,
+   "mBlogCount": 5,
+   "mContentRank": 6,
+   "mTabRank": null,
+   "mineAll": [
+    "224446265413"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "울산 포켓몬카드",
+   "no": "107",
+   "logNo": "224446264175",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 8,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 할로윈",
+   "no": "106",
+   "logNo": "224446262953",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 7,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224422751014"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "파브 탑로더",
+   "no": "105",
+   "logNo": "224446261611",
+   "hasBlog": true,
+   "mBlogRank": 2,
+   "mBlogCount": 7,
+   "mContentRank": 3,
+   "mTabRank": null,
+   "mineAll": [
+    "224446261611"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스카드 EBK-04",
+   "no": "104",
+   "logNo": "224446259410",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 12,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 추첨",
+   "no": "103",
+   "logNo": "224446257982",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 12,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 레디언스",
+   "no": "102",
+   "logNo": "224442289706",
+   "hasBlog": true,
+   "mBlogRank": 1,
+   "mBlogCount": 7,
+   "mContentRank": 4,
+   "mTabRank": 13,
+   "mineAll": [
+    "224442289706"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "수원 포켓몬카드 파는곳",
+   "no": "101",
+   "logNo": "224442288371",
+   "hasBlog": true,
+   "mBlogRank": 1,
+   "mBlogCount": 11,
+   "mContentRank": 6,
+   "mTabRank": null,
+   "mineAll": [
+    "224442288371"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 매입",
+   "no": "100",
+   "logNo": "224442287156",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 7,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "카드 세이버",
+   "no": "99",
+   "logNo": "224442285878",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 8,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 카드",
+   "no": "98",
+   "logNo": "224442282743",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 5,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "청주 포켓몬카드",
+   "no": "97",
+   "logNo": "224442281297",
+   "hasBlog": true,
+   "mBlogRank": 2,
+   "mBlogCount": 7,
+   "mContentRank": 6,
+   "mTabRank": null,
+   "mineAll": [
+    "224442281297"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스 카드 시세",
+   "no": "96",
+   "logNo": "224442280119",
+   "hasBlog": true,
+   "mBlogRank": 5,
+   "mBlogCount": 6,
+   "mContentRank": 20,
+   "mTabRank": null,
+   "mineAll": [
+    "224442280119"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 자판기 재고",
+   "no": "95",
+   "logNo": "224442278812",
+   "hasBlog": true,
+   "mBlogRank": 7,
+   "mBlogCount": 10,
+   "mContentRank": 17,
+   "mTabRank": null,
+   "mineAll": [
+    "224442278812"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "CU 포켓몬카드 30주년",
+   "no": "94",
+   "logNo": "224440350267",
+   "hasBlog": true,
+   "mBlogRank": 9,
+   "mBlogCount": 13,
+   "mContentRank": 16,
+   "mTabRank": null,
+   "mineAll": [
+    "224440350267"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "자석 탑로더",
+   "no": "93",
+   "logNo": "224438753288",
+   "hasBlog": true,
+   "mBlogRank": 1,
+   "mBlogCount": 4,
+   "mContentRank": 3,
+   "mTabRank": null,
+   "mineAll": [
+    "224438753288"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "광주 포켓몬카드 파는곳",
+   "no": "92",
+   "logNo": "224438751150",
+   "hasBlog": true,
+   "mBlogRank": 1,
+   "mBlogCount": 11,
+   "mContentRank": 6,
+   "mTabRank": null,
+   "mineAll": [
+    "224438751150"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "도쿄 포켓몬카드 파는곳",
+   "no": "91",
+   "logNo": "224438749845",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 10,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438738647"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스 카드 파는곳",
+   "no": "90",
+   "logNo": "224438748487",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 11,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224442280119"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 등급 받는법",
+   "no": "89",
+   "logNo": "224438747261",
+   "hasBlog": true,
+   "mBlogRank": 2,
+   "mBlogCount": 8,
+   "mContentRank": 8,
+   "mTabRank": null,
+   "mineAll": [
+    "224438747261"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "오사카 포켓몬카드 파는곳",
+   "no": "88",
+   "logNo": "224438746065",
+   "hasBlog": true,
+   "mBlogRank": 1,
+   "mBlogCount": 9,
+   "mContentRank": 7,
+   "mTabRank": null,
+   "mineAll": [
+    "224438746065"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 일본판",
+   "no": "87",
+   "logNo": "224438744951",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 12,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 띠부씰 앨범",
+   "no": "86",
+   "logNo": "224438743702",
+   "hasBlog": true,
+   "mBlogRank": 9,
+   "mBlogCount": 11,
+   "mContentRank": 16,
+   "mTabRank": null,
+   "mineAll": [
+    "224438743702"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "잠실 포켓몬카드 자판기",
+   "no": "85",
+   "logNo": "224438740970",
+   "hasBlog": true,
+   "mBlogRank": 8,
+   "mBlogCount": 14,
+   "mContentRank": 13,
+   "mTabRank": null,
+   "mineAll": [
+    "224438740970"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "다이소 카드 슬리브",
+   "no": "84",
+   "logNo": "224438739836",
+   "hasBlog": true,
+   "mBlogRank": 11,
+   "mBlogCount": 11,
+   "mContentRank": 18,
+   "mTabRank": null,
+   "mineAll": [
+    "224438739836"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "일본 포켓몬카드 파는곳",
+   "no": "83",
+   "logNo": "224438738647",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 10,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 가격",
+   "no": "82",
+   "logNo": "224438737498",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 5,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "7살 남아 선물 포켓몬",
+   "no": "81",
+   "logNo": "224434947962",
+   "hasBlog": true,
+   "mBlogRank": 3,
+   "mBlogCount": 5,
+   "mContentRank": 7,
+   "mTabRank": null,
+   "mineAll": [
+    "224434947962"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "인천 포켓몬카드 파는곳",
+   "no": "80",
+   "logNo": "224434946013",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 11,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438751150"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "천안 포켓몬카드샵",
+   "no": "79",
+   "logNo": "224434944911",
+   "hasBlog": true,
+   "mBlogRank": 3,
+   "mBlogCount": 5,
+   "mContentRank": 11,
+   "mTabRank": null,
+   "mineAll": [
+    "224434944911"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "psa 케이스 추천",
+   "no": "78",
+   "logNo": "224434943688",
+   "hasBlog": true,
+   "mBlogRank": 1,
+   "mBlogCount": 6,
+   "mContentRank": 4,
+   "mTabRank": null,
+   "mineAll": [
+    "224434943688"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "닌자스피너 리스트",
+   "no": "75",
+   "logNo": "224433501916",
+   "hasBlog": true,
+   "mBlogRank": 2,
+   "mBlogCount": 7,
+   "mContentRank": 6,
+   "mTabRank": null,
+   "mineAll": [
+    "224433501916"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "대구 포켓몬카드샵",
+   "no": "74",
+   "logNo": "224433500995",
+   "hasBlog": true,
+   "mBlogRank": 11,
+   "mBlogCount": 11,
+   "mContentRank": 17,
+   "mTabRank": null,
+   "mineAll": [
+    "224433500995"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "메가심포니아 힛카드",
+   "no": "73",
+   "logNo": "224433500029",
+   "hasBlog": true,
+   "mBlogRank": 9,
+   "mBlogCount": 14,
+   "mContentRank": 12,
+   "mTabRank": null,
+   "mineAll": [
+    "224433500029"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "용산 포켓몬카드샵",
+   "no": "72",
+   "logNo": "224433499013",
+   "hasBlog": true,
+   "mBlogRank": 8,
+   "mBlogCount": 11,
+   "mContentRank": 18,
+   "mTabRank": null,
+   "mineAll": [
+    "224433499013"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 인페르노x 박스 정가",
+   "no": "71",
+   "logNo": "224433498034",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 11,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224433500029"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 정품 가품 차이",
+   "no": "70",
+   "logNo": "224432146185",
+   "hasBlog": true,
+   "mBlogRank": 2,
+   "mBlogCount": 13,
+   "mContentRank": 6,
+   "mTabRank": null,
+   "mineAll": [
+    "224432146185"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 선물세트",
+   "no": "69",
+   "logNo": "224432145551",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 4,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224434947962"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 뮤",
+   "no": "68",
+   "logNo": "224431720572",
+   "hasBlog": true,
+   "mBlogRank": 13,
+   "mBlogCount": 13,
+   "mContentRank": 20,
+   "mTabRank": null,
+   "mineAll": [
+    "224431720572"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 카드 직구 사이트",
+   "no": "67",
+   "logNo": "224431719692",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 10,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438738647"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "부산 포켓몬카드 파는곳",
+   "no": "66",
+   "logNo": "224431718856",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 9,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438751150"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 카드 가장 비싼 카드 가격",
+   "no": "65",
+   "logNo": "224431718047",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 10,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224433500029"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 중고거래",
+   "no": "64",
+   "logNo": "224431717214",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 4,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 슬리브 추천",
+   "no": "63",
+   "logNo": "224431716369",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 6,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224434947962"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "대전 포켓몬카드 파는곳",
+   "no": "62",
+   "logNo": "224431714247",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 12,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438751150"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스카드 발매일정",
+   "no": "61",
+   "logNo": "224431713458",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 13,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 슈링크 뜻",
+   "no": "60",
+   "logNo": "224431712498",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 10,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 박스 시세",
+   "no": "59",
+   "logNo": "224431711706",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 15,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "탑로더 추천",
+   "no": "58",
+   "logNo": "224431710952",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 12,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438753288"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "메가브레이브 일판",
+   "no": "77",
+   "logNo": "224434655685",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 6,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 센터링 뜻",
+   "no": "46",
+   "logNo": "224427971701",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 10,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224446267844"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "퓨처리스틱 박스",
+   "no": "76",
+   "logNo": "224434569345",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 16,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224428326179"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 피카츄",
+   "no": "56",
+   "logNo": "224431136669",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 10,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 팀 마스터즈",
+   "no": "44",
+   "logNo": "224427969059",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 4,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 이마트 입고일",
+   "no": "57",
+   "logNo": "224431709398",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 11,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224440350267"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 메가브레이브 힛카드",
+   "no": "55",
+   "logNo": "224431138041",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 14,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224433501916"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 시세 사이트",
+   "no": "54",
+   "logNo": "224431137457",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 5,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 스톰에메랄다 힛카드",
+   "no": "39",
+   "logNo": "224424491242",
+   "hasBlog": true,
+   "mBlogRank": 10,
+   "mBlogCount": 12,
+   "mContentRank": 17,
+   "mTabRank": null,
+   "mineAll": [
+    "224424491242"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 카드샵 일산",
+   "no": "53",
+   "logNo": "224431139430",
+   "hasBlog": true,
+   "mBlogRank": 11,
+   "mBlogCount": 11,
+   "mContentRank": 19,
+   "mTabRank": null,
+   "mineAll": [
+    "224431139430"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 재입고",
+   "no": "52",
+   "logNo": "224431138770",
+   "hasBlog": true,
+   "mBlogRank": 11,
+   "mBlogCount": 15,
+   "mContentRank": 15,
+   "mTabRank": null,
+   "mineAll": [
+    "224431138770"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 편의점 재고 조회",
+   "no": "51",
+   "logNo": "224431135228",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 11,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224440350267"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 할로윈 팩",
+   "no": "35",
+   "logNo": "224422751014",
+   "hasBlog": true,
+   "mBlogRank": 6,
+   "mBlogCount": 7,
+   "mContentRank": 12,
+   "mTabRank": null,
+   "mineAll": [
+    "224422751014"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 메가드림ex",
+   "no": "34",
+   "logNo": "224422750359",
+   "hasBlog": true,
+   "mBlogRank": 6,
+   "mBlogCount": 7,
+   "mContentRank": 18,
+   "mTabRank": null,
+   "mineAll": [
+    "224422750359"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "카드 바인더",
+   "no": "33",
+   "logNo": "224422749746",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 7,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 선물",
+   "no": "32",
+   "logNo": "224422749069",
+   "hasBlog": true,
+   "mBlogRank": 9,
+   "mBlogCount": 9,
+   "mContentRank": 18,
+   "mTabRank": null,
+   "mineAll": [
+    "224422749069"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 어비스아이",
+   "no": "31",
+   "logNo": "224422748268",
+   "hasBlog": true,
+   "mBlogRank": 5,
+   "mBlogCount": 5,
+   "mContentRank": 13,
+   "mTabRank": null,
+   "mineAll": [
+    "224422748268"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 T1",
+   "no": "30",
+   "logNo": "224422747557",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 7,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 앨범",
+   "no": "50",
+   "logNo": "224429569707",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 6,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224434947962"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 종류",
+   "no": "29",
+   "logNo": "224422746943",
+   "hasBlog": true,
+   "mBlogRank": 6,
+   "mBlogCount": 7,
+   "mContentRank": 16,
+   "mTabRank": null,
+   "mineAll": [
+    "224422746943"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 151",
+   "no": "28",
+   "logNo": "224422746245",
+   "hasBlog": true,
+   "mBlogRank": 6,
+   "mBlogCount": 7,
+   "mContentRank": 17,
+   "mTabRank": null,
+   "mineAll": [
+    "224422746245"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 ex 뜻",
+   "no": "27",
+   "logNo": "224422745611",
+   "hasBlog": true,
+   "mBlogRank": 12,
+   "mBlogCount": 12,
+   "mContentRank": 19,
+   "mTabRank": null,
+   "mineAll": [
+    "224422745611"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "퓨처리스틱 박스 응모 방법",
+   "no": "49",
+   "logNo": "224428326179",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 16,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 탑로더",
+   "no": "26",
+   "logNo": "224422744989",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 6,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438753288"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 카드 발매 순서",
+   "no": "25",
+   "logNo": "224422744444",
+   "hasBlog": true,
+   "mBlogRank": 1,
+   "mBlogCount": 11,
+   "mContentRank": 3,
+   "mTabRank": null,
+   "mineAll": [
+    "224422744444"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 메가 진화",
+   "no": "24",
+   "logNo": "224422743869",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 7,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224433501916"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 서치팩",
+   "no": "21",
+   "logNo": "224421389946",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 6,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스카드 스타트덱",
+   "no": "20",
+   "logNo": "224421389263",
+   "hasBlog": true,
+   "mBlogRank": 7,
+   "mBlogCount": 8,
+   "mContentRank": 12,
+   "mTabRank": null,
+   "mineAll": [
+    "224421389263"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년 힛카드",
+   "no": "23",
+   "logNo": "224422743238",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 11,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 PSA 등급",
+   "no": "19",
+   "logNo": "224421388588",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 7,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438747261"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 일본판 한글판 차이",
+   "no": "18",
+   "logNo": "224421387940",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 11,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438738647"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 스타터세트",
+   "no": "22",
+   "logNo": "224422742437",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 7,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 룰",
+   "no": "17",
+   "logNo": "224421387218",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 5,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 리자몽",
+   "no": "16",
+   "logNo": "224421386521",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 8,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "카드슬리브 사이즈",
+   "no": "15",
+   "logNo": "224421385780",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 9,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438739836"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 온라인 구매",
+   "no": "13",
+   "logNo": "224421190483",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 7,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 레귤레이션 마크",
+   "no": "14",
+   "logNo": "224421385102",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 8,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224424491242"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 자판기 위치",
+   "no": "12",
+   "logNo": "224421189866",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 6,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438751150"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 어디서 사",
+   "no": "11",
+   "logNo": "224421189221",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 5,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224433500995"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스카드 하는 법",
+   "no": "9",
+   "logNo": "224420644720",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 13,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 하는 법",
+   "no": "8",
+   "logNo": "224420643203",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 6,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224440350267"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 등급",
+   "no": "7",
+   "logNo": "224420642062",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 7,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438747261"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "FUTURISTIC BOX 추첨",
+   "no": "10",
+   "logNo": "224421176128",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 15,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224428326179"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 대회",
+   "no": "6",
+   "logNo": "224420640680",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 6,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 박스",
+   "no": "5",
+   "logNo": "224419204577",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 4,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 오리진",
+   "no": "4",
+   "logNo": "224419203598",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 7,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 보관법",
+   "no": "3",
+   "logNo": "224419199649",
+   "hasBlog": true,
+   "mBlogRank": 5,
+   "mBlogCount": 6,
+   "mContentRank": 8,
+   "mTabRank": null,
+   "mineAll": [
+    "224419199649"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬 카드샵",
+   "no": "2",
+   "logNo": "224419198719",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 7,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224438751150"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 30주년",
+   "no": "1",
+   "logNo": "224419166297",
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 6,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": [
+    "224440350267"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드",
+   "no": "-",
+   "logNo": null,
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 5,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 예약",
+   "no": "-",
+   "logNo": null,
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 6,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "리프트바운드 카드",
+   "no": "-",
+   "logNo": null,
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 5,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "탑로더",
+   "no": "-",
+   "logNo": "224438753288",
+   "hasBlog": true,
+   "mBlogRank": 3,
+   "mBlogCount": 8,
+   "mContentRank": 8,
+   "mTabRank": null,
+   "mineAll": [
+    "224438753288"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "카드슬리브",
+   "no": "-",
+   "logNo": "224438739836",
+   "hasBlog": true,
+   "mBlogRank": 7,
+   "mBlogCount": 8,
+   "mContentRank": 17,
+   "mTabRank": null,
+   "mineAll": [
+    "224438739836"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "원피스카드 시세",
+   "no": "-",
+   "logNo": "224442280119",
+   "hasBlog": true,
+   "mBlogRank": 6,
+   "mBlogCount": 6,
+   "mContentRank": 21,
+   "mTabRank": null,
+   "mineAll": [
+    "224442280119"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "keyword": "포켓몬카드 시세",
+   "no": "-",
+   "logNo": null,
+   "hasBlog": true,
+   "mBlogRank": null,
+   "mBlogCount": 5,
+   "mContentRank": null,
+   "mTabRank": null,
+   "mineAll": []
   }
  ],
  "aiCited": [
@@ -12723,10 +15554,10 @@
    "last": {
     "id": "Dq9gPuGHrsZzC7vH",
     "at": "2026-10-25T23:00:26.000Z",
-    "endAt": "2026-10-25T23:00:36.000Z",
+    "endAt": "2026-10-25T23:03:02.000Z",
     "runs": 75,
-    "result": "running",
-    "summary": "Starting the 08:00 회차 점검 진행할게."
+    "result": "ok",
+    "summary": "08:00 회차 완료. · 색인: 48시간 색인율 82.5% (미색인 17개, dropped 0)"
    },
    "missed": false,
    "maxGapH": 19
@@ -12753,14 +15584,14 @@
    "name": "고몽이 TCG 센터 주간 노출순위 + 색인 점검 + AI 브리핑 인용수 (rmarn99)",
    "status": "active",
    "rrule": "DTSTART;TZID=Asia/Seoul:20261012T090000\nRRULE:FREQ=WEEKLY;BYDAY=MO;BYHOUR=9;BYMINUTE=0",
-   "nextRunAt": "2026-10-26T00:00:00.000Z",
+   "nextRunAt": "2026-11-02T00:00:00.000Z",
    "last": {
-    "id": "6IxYAlWv6Jo5IgaH",
-    "at": "2026-10-19T00:00:23.000Z",
-    "endAt": "2026-10-19T00:29:58.000Z",
-    "runs": 5,
-    "result": "ok",
-    "summary": "주간 점검 끝났어. 이번 주는 블로그탭에서 전면 이탈이 터졌다. · 색인 상태: 색인은 살아있는데 블로그탭 랭킹이 전멸"
+    "id": "pclyla6OnTFyOzvr",
+    "at": "2026-10-26T00:00:27.000Z",
+    "endAt": "2026-10-26T00:24:28.000Z",
+    "runs": 6,
+    "result": "running",
+    "summary": "파일 저장 끝났어. 대시보드 갱신하고 메모리 기록할게."
    },
    "missed": false,
    "maxGapH": 168
@@ -12930,7 +15761,7 @@
    "mediaEnabled": true,
    "approvedAt": "2026-10-05T02:50:13.000Z",
    "report": {
-    "at": "2026-10-25T23:00:55.273Z",
+    "at": "2026-10-26T00:24:43.019Z",
     "dataThrough": "2026-10-25",
     "start": "2026-10-05",
     "yesterday": {
@@ -13372,13 +16203,13 @@
    "selectionMonth": 12,
    "betaEnds": "2026-12"
   },
-  "at": "2026-10-25T23:00:58.611Z"
+  "at": "2026-10-26T00:24:45.596Z"
  },
  "loginOk": true,
  "preflight": "ok",
  "indexing": {
-  "at": "2026-10-25T23:01:40.856Z",
-  "checked": 14,
+  "at": "2026-10-26T00:25:06.671Z",
+  "checked": 9,
   "indexed": 85,
   "notIndexed": 17,
   "unknown": 1,
@@ -13389,9 +16220,9 @@
     "no": 54,
     "title": "포켓몬카드 시세 사이트 4곳, 조회 순서와 체결가 읽는 법",
     "game": "포켓몬",
-    "ageH": 481,
+    "ageH": 482,
     "indexed": false,
-    "checkedAt": "2026-10-25T04:01:01.906Z",
+    "checkedAt": "2026-10-26T00:24:58.268Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -13400,9 +16231,9 @@
     "no": 41,
     "title": "리프트바운드 레디언스 출시일 10월 23일, 신규 체계 3개 정리",
     "game": "리프트바운드",
-    "ageH": 476,
+    "ageH": 477,
     "indexed": false,
-    "checkedAt": "2026-10-25T04:01:05.183Z",
+    "checkedAt": "2026-10-26T00:25:01.438Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -13411,9 +16242,9 @@
     "no": 55,
     "title": "포켓몬카드 메가브레이브 힛카드 리스트, 92장과 정가 3만원 박스",
     "game": "포켓몬",
-    "ageH": 469,
+    "ageH": 470,
     "indexed": false,
-    "checkedAt": "2026-10-25T04:00:58.462Z",
+    "checkedAt": "2026-10-26T00:24:54.923Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -13422,9 +16253,9 @@
     "no": 44,
     "title": "포켓몬 팀 마스터즈 2027 서울 참가 방법, 3인 1조 접수 규칙",
     "game": "포켓몬",
-    "ageH": 451,
+    "ageH": 453,
     "indexed": false,
-    "checkedAt": "2026-10-25T04:00:54.579Z",
+    "checkedAt": "2026-10-26T00:24:51.269Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -13433,9 +16264,9 @@
     "no": 56,
     "title": "포켓몬카드 30주년 피카츄 30종 리스트, 복각 피카츄와 전종 시세",
     "game": "포켓몬",
-    "ageH": 444,
+    "ageH": 446,
     "indexed": false,
-    "checkedAt": "2026-10-24T23:01:31.702Z",
+    "checkedAt": "2026-10-26T00:24:48.049Z",
     "firstIndexedAt": null,
     "lastIndexedAt": null
    },
@@ -13444,7 +16275,7 @@
     "no": 76,
     "title": "포켓몬카드 퓨처리스틱 박스 당첨 결제, 10월 14일 자정 마감",
     "game": "포켓몬",
-    "ageH": 441,
+    "ageH": 443,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:40.846Z",
     "firstIndexedAt": null,
@@ -13455,7 +16286,7 @@
     "no": 46,
     "title": "포켓몬카드 센터링 뜻, PSA 10 기준 55/45와 재는 법 4단계",
     "game": "포켓몬",
-    "ageH": 433,
+    "ageH": 434,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:37.405Z",
     "firstIndexedAt": null,
@@ -13466,7 +16297,7 @@
     "no": 77,
     "title": "포켓몬카드 메가브레이브 메가심포니아 일판 박스 가격과 시세 비교",
     "game": "포켓몬",
-    "ageH": 428,
+    "ageH": 429,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:34.057Z",
     "firstIndexedAt": null,
@@ -13477,7 +16308,7 @@
     "no": 58,
     "title": "탑로더 추천 3종 비교, 35pt 일반 UV차단 자석케이스 가격 기준",
     "game": "용품",
-    "ageH": 420,
+    "ageH": 422,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:31.643Z",
     "firstIndexedAt": null,
@@ -13488,7 +16319,7 @@
     "no": 59,
     "title": "포켓몬카드 30주년 박스 시세 기준, 한글판 1.9배 일본판 3.6배",
     "game": "포켓몬",
-    "ageH": 409,
+    "ageH": 410,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:28.164Z",
     "firstIndexedAt": null,
@@ -13499,7 +16330,7 @@
     "no": 60,
     "title": "포켓몬카드 슈링크 뜻과 확인방법, 박스 비닐 5단계와 제거 판매 이유",
     "game": "포켓몬",
-    "ageH": 404,
+    "ageH": 405,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:24.572Z",
     "firstIndexedAt": null,
@@ -13510,7 +16341,7 @@
     "no": 61,
     "title": "원피스카드 발매일정, EBK-04 10월 23일과 2027년 로드맵",
     "game": "원피스",
-    "ageH": 396,
+    "ageH": 398,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:21.055Z",
     "firstIndexedAt": null,
@@ -13521,7 +16352,7 @@
     "no": 62,
     "title": "포켓몬카드 대전 파는곳 총정리, 공식 카드샵 1곳과 자판기 8곳 위치",
     "game": "포켓몬",
-    "ageH": 385,
+    "ageH": 386,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:17.512Z",
     "firstIndexedAt": null,
@@ -13532,7 +16363,7 @@
     "no": 63,
     "title": "포켓몬카드 슬리브 추천 3종, 퍼펙트핏 스탠다드 탑로더용 가격 비교",
     "game": "포켓몬",
-    "ageH": 380,
+    "ageH": 381,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:14.065Z",
     "firstIndexedAt": null,
@@ -13543,7 +16374,7 @@
     "no": 64,
     "title": "포켓몬카드 중고거래 파는법, 당근 번개장터 수수료와 가격 정하는 순서",
     "game": "포켓몬",
-    "ageH": 372,
+    "ageH": 374,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:10.686Z",
     "firstIndexedAt": null,
@@ -13554,7 +16385,7 @@
     "no": 65,
     "title": "포켓몬 카드 가장 비싼 카드 가격 순위 8장, 222억 원 피카츄",
     "game": "포켓몬",
-    "ageH": 360,
+    "ageH": 362,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:07.214Z",
     "firstIndexedAt": null,
@@ -13565,7 +16396,7 @@
     "no": 67,
     "title": "포켓몬 카드 직구 사이트 3곳 비교, 수수료 3.5%와 관세 기준",
     "game": "포켓몬",
-    "ageH": 349,
+    "ageH": 350,
     "indexed": false,
     "checkedAt": "2026-10-25T23:01:03.767Z",
     "firstIndexedAt": null,
@@ -13575,7 +16406,7 @@
   "dropped": []
  },
  "perf": {
-  "at": "2026-10-25T23:01:40.887Z",
+  "at": "2026-10-26T00:25:06.684Z",
   "rpm7": 1727,
   "logDays": 11,
   "base7Date": "2026-10-19",
@@ -13587,12 +16418,12 @@
     "game": "포켓몬",
     "keyword": "CU 포켓몬카드 30주년",
     "ageD": 6,
-    "views": 3923,
-    "perDay": 651.4,
-    "v7": 3923,
+    "views": 3929,
+    "perDay": 646.2,
+    "v7": 3929,
     "v7src": "new",
     "est7": 7162,
-    "mBest": null,
+    "mBest": 9,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -13605,12 +16436,12 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 서치팩",
     "ageD": 26,
-    "views": 1336,
+    "views": 1341,
     "perDay": 51.8,
-    "v7": 270,
+    "v7": 275,
     "v7src": "log",
     "est7": 473,
-    "mBest": 8,
+    "mBest": null,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -13623,12 +16454,12 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 등급 받는법",
     "ageD": 8,
-    "views": 284,
-    "perDay": 36.4,
-    "v7": 247,
+    "views": 285,
+    "perDay": 36.2,
+    "v7": 248,
     "v7src": "log",
     "est7": 432,
-    "mBest": 1,
+    "mBest": 2,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -13641,12 +16472,12 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 30주년 뮤",
     "ageD": 14,
-    "views": 383,
-    "perDay": 27.3,
-    "v7": 162,
+    "views": 386,
+    "perDay": 27.4,
+    "v7": 165,
     "v7src": "log",
     "est7": 277,
-    "mBest": 10,
+    "mBest": 13,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -13660,11 +16491,11 @@
     "keyword": "다이소 카드 슬리브",
     "ageD": 10,
     "views": 218,
-    "perDay": 22.9,
+    "perDay": 22.8,
     "v7": 149,
     "v7src": "log",
     "est7": 343,
-    "mBest": 9,
+    "mBest": 11,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -13678,11 +16509,11 @@
     "keyword": "잠실 포켓몬카드 자판기",
     "ageD": 9,
     "views": 268,
-    "perDay": 29.7,
+    "perDay": 29.5,
     "v7": 149,
     "v7src": "log",
     "est7": 281,
-    "mBest": 4,
+    "mBest": 8,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -13695,12 +16526,12 @@
     "game": "포켓몬",
     "keyword": "용산 포켓몬카드샵",
     "ageD": 13,
-    "views": 280,
-    "perDay": 21.8,
-    "v7": 144,
+    "views": 282,
+    "perDay": 21.9,
+    "v7": 146,
     "v7src": "log",
     "est7": 241,
-    "mBest": 6,
+    "mBest": 8,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -13714,7 +16545,7 @@
     "keyword": "포켓몬카드 일본판 한글판 차이",
     "ageD": 27,
     "views": 766,
-    "perDay": 28.4,
+    "perDay": 28.3,
     "v7": 118,
     "v7src": "log",
     "est7": 178,
@@ -13732,7 +16563,7 @@
     "keyword": "포켓몬카드 편의점 재고 조회",
     "ageD": 22,
     "views": 1439,
-    "perDay": 66.4,
+    "perDay": 66.2,
     "v7": 109,
     "v7src": "log",
     "est7": 158,
@@ -13749,11 +16580,29 @@
     "game": "원피스",
     "keyword": "원피스카드 EBK-04",
     "ageD": 3,
-    "views": 100,
+    "views": 102,
     "perDay": 35.6,
-    "v7": 100,
+    "v7": 102,
     "v7src": "new",
     "est7": 163,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": true,
+    "comments": 0,
+    "grade": "top"
+   },
+   {
+    "logNo": "224434946013",
+    "no": 80,
+    "title": "포켓몬카드 인천 파는곳, 부평 공식 카드샵 1곳과 자판기 11대 위치",
+    "game": "포켓몬",
+    "keyword": "인천 포켓몬카드 파는곳",
+    "ageD": 11,
+    "views": 241,
+    "perDay": 22.2,
+    "v7": 100,
+    "v7src": "log",
+    "est7": 146,
     "mBest": null,
     "pcBlog": null,
     "indexed": true,
@@ -13767,30 +16616,12 @@
     "game": "포켓몬",
     "keyword": "수원 포켓몬카드 파는곳",
     "ageD": 4,
-    "views": 99,
-    "perDay": 26.1,
-    "v7": 99,
+    "views": 100,
+    "perDay": 25.9,
+    "v7": 100,
     "v7src": "new",
     "est7": 164,
     "mBest": 1,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "top"
-   },
-   {
-    "logNo": "224434946013",
-    "no": 80,
-    "title": "포켓몬카드 인천 파는곳, 부평 공식 카드샵 1곳과 자판기 11대 위치",
-    "game": "포켓몬",
-    "keyword": "인천 포켓몬카드 파는곳",
-    "ageD": 11,
-    "views": 239,
-    "perDay": 22.1,
-    "v7": 98,
-    "v7src": "log",
-    "est7": 146,
-    "mBest": null,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -13803,9 +16634,9 @@
     "game": "포켓몬",
     "keyword": "청주 포켓몬카드",
     "ageD": 5,
-    "views": 93,
+    "views": 94,
     "perDay": 18.5,
-    "v7": 93,
+    "v7": 94,
     "v7src": "new",
     "est7": 191,
     "mBest": 2,
@@ -13822,11 +16653,11 @@
     "keyword": "닌자스피너 리스트",
     "ageD": 12,
     "views": 259,
-    "perDay": 21.9,
+    "perDay": 21.8,
     "v7": 89,
     "v7src": "log",
     "est7": 154,
-    "mBest": 1,
+    "mBest": 2,
     "pcBlog": null,
     "indexed": true,
     "comments": 7,
@@ -13840,7 +16671,7 @@
     "keyword": "포켓몬카드 30주년 힛카드",
     "ageD": 27,
     "views": 687,
-    "perDay": 25.9,
+    "perDay": 25.8,
     "v7": 88,
     "v7src": "log",
     "est7": 152,
@@ -13857,12 +16688,12 @@
     "game": "포켓몬",
     "keyword": "대구 포켓몬카드샵",
     "ageD": 12,
-    "views": 208,
+    "views": 209,
     "perDay": 17.3,
-    "v7": 87,
+    "v7": 88,
     "v7src": "log",
     "est7": 162,
-    "mBest": 6,
+    "mBest": 11,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -13880,7 +16711,7 @@
     "v7": 85,
     "v7src": "log",
     "est7": 166,
-    "mBest": 7,
+    "mBest": null,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -13894,11 +16725,11 @@
     "keyword": "포켓몬카드 30주년 재입고",
     "ageD": 21,
     "views": 879,
-    "perDay": 41.8,
+    "perDay": 41.7,
     "v7": 84,
     "v7src": "log",
     "est7": 145,
-    "mBest": 12,
+    "mBest": 11,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -13911,12 +16742,12 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 자판기 재고",
     "ageD": 6,
-    "views": 78,
-    "perDay": 13.4,
-    "v7": 78,
+    "views": 81,
+    "perDay": 13.8,
+    "v7": 81,
     "v7src": "new",
-    "est7": 135,
-    "mBest": null,
+    "est7": 140,
+    "mBest": 7,
     "pcBlog": null,
     "indexed": true,
     "comments": 4,
@@ -13929,11 +16760,11 @@
     "game": "포켓몬",
     "keyword": "포켓몬 카드 발매 순서",
     "ageD": 25,
-    "views": 290,
+    "views": 291,
     "perDay": 11.6,
-    "v7": 75,
+    "v7": 76,
     "v7src": "log",
-    "est7": 130,
+    "est7": 131,
     "mBest": 1,
     "pcBlog": null,
     "indexed": true,
@@ -13948,7 +16779,7 @@
     "keyword": "광주 포켓몬카드 파는곳",
     "ageD": 7,
     "views": 99,
-    "perDay": 14.5,
+    "perDay": 14.4,
     "v7": 75,
     "v7src": "log",
     "est7": 130,
@@ -13966,7 +16797,7 @@
     "keyword": "천안 포켓몬카드샵",
     "ageD": 11,
     "views": 152,
-    "perDay": 13.8,
+    "perDay": 13.7,
     "v7": 61,
     "v7src": "log",
     "est7": 105,
@@ -13984,11 +16815,11 @@
     "keyword": "원피스 카드 시세",
     "ageD": 6,
     "views": 60,
-    "perDay": 10.9,
+    "perDay": 10.7,
     "v7": 60,
     "v7src": "new",
     "est7": 104,
-    "mBest": null,
+    "mBest": 5,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -14002,7 +16833,7 @@
     "keyword": "포켓몬카드 인페르노x 박스 정가",
     "ageD": 13,
     "views": 278,
-    "perDay": 21.4,
+    "perDay": 21.3,
     "v7": 59,
     "v7src": "log",
     "est7": 102,
@@ -14020,7 +16851,7 @@
     "keyword": "원피스 카드 파는곳",
     "ageD": 8,
     "views": 84,
-    "perDay": 11.2,
+    "perDay": 11.1,
     "v7": 59,
     "v7src": "log",
     "est7": 102,
@@ -14038,11 +16869,29 @@
     "keyword": "포켓몬카드 151",
     "ageD": 24,
     "views": 292,
-    "perDay": 12.2,
+    "perDay": 12.1,
     "v7": 55,
     "v7src": "log",
     "est7": 95,
-    "mBest": 7,
+    "mBest": 6,
+    "pcBlog": null,
+    "indexed": true,
+    "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224442282743",
+    "no": 98,
+    "title": "포켓몬카드 30주년 카드 리스트 176번까지, 레어도 장수와 시크릿",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 30주년 카드",
+    "ageD": 5,
+    "views": 55,
+    "perDay": 11.3,
+    "v7": 55,
+    "v7src": "new",
+    "est7": 95,
+    "mBest": null,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -14056,7 +16905,7 @@
     "keyword": "포켓몬카드 정품 가품 차이",
     "ageD": 14,
     "views": 143,
-    "perDay": 10.6,
+    "perDay": 10.5,
     "v7": 54,
     "v7src": "log",
     "est7": 93,
@@ -14078,28 +16927,10 @@
     "v7": 54,
     "v7src": "log",
     "est7": 93,
-    "mBest": 6,
+    "mBest": 9,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224442282743",
-    "no": 98,
-    "title": "포켓몬카드 30주년 카드 리스트 176번까지, 레어도 장수와 시크릿",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 30주년 카드",
-    "ageD": 5,
-    "views": 54,
-    "perDay": 11.2,
-    "v7": 54,
-    "v7src": "new",
-    "est7": 93,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
     "grade": "mid"
    },
    {
@@ -14109,11 +16940,11 @@
     "game": "포켓몬",
     "keyword": "일본 포켓몬카드 파는곳",
     "ageD": 10,
-    "views": 91,
+    "views": 92,
     "perDay": 9.3,
-    "v7": 53,
+    "v7": 54,
     "v7src": "log",
-    "est7": 92,
+    "est7": 93,
     "mBest": null,
     "pcBlog": null,
     "indexed": true,
@@ -14128,28 +16959,10 @@
     "keyword": "포켓몬카드 할로윈",
     "ageD": 2,
     "views": 46,
-    "perDay": 22.7,
+    "perDay": 22.1,
     "v7": 46,
     "v7src": "new",
     "est7": 79,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224442287156",
-    "no": 100,
-    "title": "포켓몬카드 매입 방법 3가지, 매입가 정해지는 기준과 준비물 4가지",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 매입",
-    "ageD": 4,
-    "views": 45,
-    "perDay": 11.2,
-    "v7": 45,
-    "v7src": "new",
-    "est7": 78,
     "mBest": null,
     "pcBlog": null,
     "indexed": true,
@@ -14163,15 +16976,33 @@
     "game": "포켓몬",
     "keyword": "오사카 포켓몬카드 파는곳",
     "ageD": 8,
-    "views": 63,
+    "views": 64,
     "perDay": 7.9,
-    "v7": 44,
+    "v7": 45,
     "v7src": "log",
-    "est7": 76,
-    "mBest": null,
+    "est7": 78,
+    "mBest": 1,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224442287156",
+    "no": 100,
+    "title": "포켓몬카드 매입 방법 3가지, 매입가 정해지는 기준과 준비물 4가지",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 매입",
+    "ageD": 4,
+    "views": 45,
+    "perDay": 11,
+    "v7": 45,
+    "v7src": "new",
+    "est7": 78,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": true,
+    "comments": 0,
     "grade": "mid"
    },
    {
@@ -14186,7 +17017,7 @@
     "v7": 41,
     "v7src": "log",
     "est7": 71,
-    "mBest": 5,
+    "mBest": null,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -14200,7 +17031,7 @@
     "keyword": "도쿄 포켓몬카드 파는곳",
     "ageD": 7,
     "views": 49,
-    "perDay": 7,
+    "perDay": 6.9,
     "v7": 41,
     "v7src": "log",
     "est7": 71,
@@ -14236,7 +17067,7 @@
     "keyword": "포켓몬카드 30주년 추첨",
     "ageD": 3,
     "views": 39,
-    "perDay": 12.9,
+    "perDay": 12.6,
     "v7": 39,
     "v7src": "new",
     "est7": 67,
@@ -14253,11 +17084,11 @@
     "game": "포켓몬",
     "keyword": "울산 포켓몬카드",
     "ageD": 2,
-    "views": 38,
-    "perDay": 20.9,
-    "v7": 38,
+    "views": 39,
+    "perDay": 20.8,
+    "v7": 39,
     "v7src": "new",
-    "est7": 66,
+    "est7": 67,
     "mBest": null,
     "pcBlog": null,
     "indexed": true,
@@ -14271,11 +17102,11 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 등급",
     "ageD": 32,
-    "views": 512,
+    "views": 513,
     "perDay": 16,
-    "v7": 37,
+    "v7": 38,
     "v7src": "log",
-    "est7": 64,
+    "est7": 66,
     "mBest": null,
     "pcBlog": null,
     "indexed": true,
@@ -14290,7 +17121,7 @@
     "keyword": "포켓몬카드 어디서 사",
     "ageD": 31,
     "views": 2646,
-    "perDay": 85.9,
+    "perDay": 85.7,
     "v7": 37,
     "v7src": "log",
     "est7": 64,
@@ -14312,7 +17143,7 @@
     "v7": 32,
     "v7src": "log",
     "est7": 55,
-    "mBest": 7,
+    "mBest": null,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -14348,7 +17179,7 @@
     "v7": 29,
     "v7src": "log",
     "est7": 50,
-    "mBest": null,
+    "mBest": 5,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -14362,11 +17193,11 @@
     "keyword": "전주 포켓몬카드",
     "ageD": 1,
     "views": 29,
-    "perDay": 28.6,
+    "perDay": 27,
     "v7": 29,
     "v7src": "new",
     "est7": 50,
-    "mBest": null,
+    "mBest": 2,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -14402,7 +17233,7 @@
     "v7": 24,
     "v7src": "log",
     "est7": 41,
-    "mBest": 7,
+    "mBest": 5,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -14427,6 +17258,24 @@
     "grade": "mid"
    },
    {
+    "logNo": "224422745611",
+    "no": 27,
+    "title": "포켓몬카드 ex 뜻과 카드 보는 법, 특성 약점 후퇴까지 7칸 읽기",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 ex 뜻",
+    "ageD": 25,
+    "views": 98,
+    "perDay": 4,
+    "v7": 23,
+    "v7src": "log",
+    "est7": 40,
+    "mBest": 12,
+    "pcBlog": null,
+    "indexed": true,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
     "logNo": "224442289706",
     "no": 102,
     "title": "리프트바운드 레디언스 발매 전 체크 5가지, 사전 공개와 전설 9종",
@@ -14434,7 +17283,7 @@
     "keyword": "리프트바운드 레디언스",
     "ageD": 4,
     "views": 23,
-    "perDay": 6.5,
+    "perDay": 6.4,
     "v7": 23,
     "v7src": "new",
     "est7": 40,
@@ -14452,11 +17301,11 @@
     "keyword": "포켓몬카드 보관함",
     "ageD": 2,
     "views": 23,
-    "perDay": 15.2,
+    "perDay": 14.6,
     "v7": 23,
     "v7src": "new",
     "est7": 40,
-    "mBest": null,
+    "mBest": 1,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -14474,7 +17323,7 @@
     "v7": 22,
     "v7src": "log",
     "est7": 38,
-    "mBest": 7,
+    "mBest": 6,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -14517,24 +17366,6 @@
     "grade": "mid"
    },
    {
-    "logNo": "224422745611",
-    "no": 27,
-    "title": "포켓몬카드 ex 뜻과 카드 보는 법, 특성 약점 후퇴까지 7칸 읽기",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 ex 뜻",
-    "ageD": 25,
-    "views": 96,
-    "perDay": 3.9,
-    "v7": 21,
-    "v7src": "log",
-    "est7": 36,
-    "mBest": 3,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
     "logNo": "224438737498",
     "no": 82,
     "title": "포켓몬카드 가격 유형별 정가, 팩 1,500원부터 세트 10만원까지",
@@ -14571,16 +17402,16 @@
     "grade": "mid"
    },
    {
-    "logNo": "224446261611",
-    "no": 105,
-    "title": "탑로더 35PT 55PT 차이, 파브 탑로더 두께별 가격과 용도",
-    "game": "용품",
-    "keyword": "파브 탑로더 (구매형)",
-    "ageD": 3,
-    "views": 19,
-    "perDay": 7.5,
+    "logNo": "224422743869",
+    "no": 24,
+    "title": "포켓몬카드 메가 진화 방법, 메가진화 ex 룰과 프라이즈 3장 정리",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 메가 진화",
+    "ageD": 26,
+    "views": 86,
+    "perDay": 3.4,
     "v7": 19,
-    "v7src": "new",
+    "v7src": "log",
     "est7": 33,
     "mBest": null,
     "pcBlog": null,
@@ -14589,18 +17420,18 @@
     "grade": "mid"
    },
    {
-    "logNo": "224422743869",
-    "no": 24,
-    "title": "포켓몬카드 메가 진화 방법, 메가진화 ex 룰과 프라이즈 3장 정리",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 메가 진화",
-    "ageD": 26,
-    "views": 85,
-    "perDay": 3.3,
-    "v7": 18,
-    "v7src": "log",
-    "est7": 31,
-    "mBest": null,
+    "logNo": "224446261611",
+    "no": 105,
+    "title": "탑로더 35PT 55PT 차이, 파브 탑로더 두께별 가격과 용도",
+    "game": "용품",
+    "keyword": "파브 탑로더 (구매형)",
+    "ageD": 3,
+    "views": 19,
+    "perDay": 7.4,
+    "v7": 19,
+    "v7src": "new",
+    "est7": 33,
+    "mBest": 2,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -14668,11 +17499,11 @@
     "keyword": "포켓몬카드 할로윈 팩",
     "ageD": 22,
     "views": 165,
-    "perDay": 7.6,
+    "perDay": 7.5,
     "v7": 16,
     "v7src": "log",
     "est7": 28,
-    "mBest": 7,
+    "mBest": 6,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -14776,7 +17607,7 @@
     "keyword": "카드 세이버 (구매형)",
     "ageD": 5,
     "views": 12,
-    "perDay": 2.7,
+    "perDay": 2.6,
     "v7": 12,
     "v7src": "new",
     "est7": 21,
@@ -14852,7 +17683,7 @@
     "v7": 10,
     "v7src": "log",
     "est7": 17,
-    "mBest": 3,
+    "mBest": null,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -14870,7 +17701,7 @@
     "v7": 10,
     "v7src": "log",
     "est7": 17,
-    "mBest": null,
+    "mBest": 9,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -14888,7 +17719,7 @@
     "v7": 9,
     "v7src": "new",
     "est7": 16,
-    "mBest": null,
+    "mBest": 1,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -14956,7 +17787,7 @@
     "keyword": "원피스카드 스타트덱",
     "ageD": 26,
     "views": 142,
-    "perDay": 5.5,
+    "perDay": 5.4,
     "v7": 7,
     "v7src": "log",
     "est7": 12,
@@ -14974,7 +17805,7 @@
     "keyword": "포켓몬카드 30주년 피카츄",
     "ageD": 19,
     "views": 25,
-    "perDay": 1.4,
+    "perDay": 1.3,
     "v7": 7,
     "v7src": "log",
     "est7": 12,
@@ -14996,7 +17827,7 @@
     "v7": 7,
     "v7src": "log",
     "est7": 12,
-    "mBest": 5,
+    "mBest": 9,
     "pcBlog": null,
     "indexed": true,
     "comments": 2,
@@ -15104,7 +17935,7 @@
     "v7": 3,
     "v7src": "log",
     "est7": 5,
-    "mBest": 18,
+    "mBest": null,
     "pcBlog": null,
     "indexed": true,
     "comments": 0,
@@ -15145,6 +17976,24 @@
     "indexed": false,
     "comments": 0,
     "grade": "noindex"
+   },
+   {
+    "logNo": "224446271539",
+    "no": 112,
+    "title": "포켓몬카드 창원 파는곳, 공식 자판기 0대와 김해 부산 가까운 매장",
+    "game": "포켓몬",
+    "keyword": "창원 포켓몬카드",
+    "ageD": 1,
+    "views": 2,
+    "perDay": 2,
+    "v7": 2,
+    "v7src": "new",
+    "est7": 3,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
    },
    {
     "logNo": "224420644720",
@@ -15415,24 +18264,6 @@
     "indexed": false,
     "comments": 0,
     "grade": "noindex"
-   },
-   {
-    "logNo": "224446271539",
-    "no": 112,
-    "title": "포켓몬카드 창원 파는곳, 공식 자판기 0대와 김해 부산 가까운 매장",
-    "game": "포켓몬",
-    "keyword": "창원 포켓몬카드",
-    "ageD": 1,
-    "views": 0,
-    "perDay": 0,
-    "v7": 0,
-    "v7src": "new",
-    "est7": 0,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": null,
-    "comments": 0,
-    "grade": "mid"
    }
   ],
   "counts": {
@@ -15514,19 +18345,6 @@
   ],
   "retarget": [
    {
-    "kw": "포켓몬카드 30주년",
-    "total": 73170,
-    "no": 1,
-    "logNo": "224419166297",
-    "title": "포켓몬카드 30주년 팩 궁금증 7가지, 구성 봉입 중복 대회 사용까지",
-    "game": "포켓몬",
-    "age": 35,
-    "pcBlog": null,
-    "moBlog": null,
-    "rankDate": "2026-10-19",
-    "aib": null
-   },
-   {
     "kw": "포켓몬카드 박스",
     "total": 12750,
     "no": 5,
@@ -15536,7 +18354,7 @@
     "age": 34,
     "pcBlog": null,
     "moBlog": null,
-    "rankDate": "2026-10-19",
+    "rankDate": "2026-10-26",
     "aib": null
    },
    {
@@ -15549,20 +18367,20 @@
     "age": 34,
     "pcBlog": null,
     "moBlog": null,
-    "rankDate": "2026-10-19",
+    "rankDate": "2026-10-26",
     "aib": null
    },
    {
-    "kw": "포켓몬카드 탑로더",
-    "total": 2900,
-    "no": 26,
-    "logNo": "224422744989",
-    "title": "탑로더 사이즈 35pt 정리, 포켓몬카드 넣는 법 4단계와 보관 기준",
-    "game": "용품",
-    "age": 25,
+    "kw": "리프트바운드 T1",
+    "total": 1990,
+    "no": 30,
+    "logNo": "224422747557",
+    "title": "리프트바운드 T1 시그니처 에디션 정가 50만원, 구성 5장 구매법",
+    "game": "리프트바운드",
+    "age": 24,
     "pcBlog": null,
     "moBlog": null,
-    "rankDate": "2026-10-19",
+    "rankDate": "2026-10-26",
     "aib": null
    },
    {
@@ -15575,8 +18393,21 @@
     "age": 27,
     "pcBlog": null,
     "moBlog": null,
-    "rankDate": "2026-10-19",
+    "rankDate": "2026-10-26",
     "aib": null
+   },
+   {
+    "kw": "포켓몬카드 스타터세트",
+    "total": 1260,
+    "no": 22,
+    "logNo": "224422742437",
+    "title": "포켓몬카드 스타터세트 ex 3종, 9월 30일 발매 정가와 구성 차이",
+    "game": "포켓몬",
+    "age": 28,
+    "pcBlog": null,
+    "moBlog": null,
+    "rankDate": "2026-10-26",
+    "aib": false
    },
    {
     "kw": "카드 바인더",
@@ -15588,7 +18419,7 @@
     "age": 23,
     "pcBlog": null,
     "moBlog": null,
-    "rankDate": "2026-10-19",
+    "rankDate": "2026-10-26",
     "aib": null
    }
   ],
