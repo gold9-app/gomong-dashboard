@@ -1,7 +1,7 @@
 {
- "collectedAt": "2026-10-27T23:01:31.241Z",
- "collectedAtText": "2026-10-28 08:01",
- "elapsedMs": 754,
+ "collectedAt": "2026-10-28T04:01:20.212Z",
+ "collectedAtText": "2026-10-28 13:01",
+ "elapsedMs": 753,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 5,
@@ -26,7 +26,7 @@
   "target": 8,
   "done": 22,
   "thisWeek": 4,
-  "reads": 122,
+  "reads": 123,
   "comments": 0,
   "posts": [
    {
@@ -476,7 +476,7 @@
    "writeDate": "2026-10-06 10:07",
    "ts": 1791248839787,
    "commentCount": 0,
-   "readCount": 5,
+   "readCount": 6,
    "likeCount": 0,
    "isNotice": false,
    "hasImage": false,
@@ -1002,7 +1002,7 @@
    "writeDate": "2026-10-06 10:07",
    "ts": 1791248839787,
    "commentCount": 0,
-   "readCount": 5,
+   "readCount": 6,
    "likeCount": 0,
    "isNotice": false,
    "hasImage": false,
