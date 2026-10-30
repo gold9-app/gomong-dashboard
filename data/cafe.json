@@ -1,7 +1,7 @@
 {
- "collectedAt": "2026-10-30T11:30:52.664Z",
- "collectedAtText": "2026-10-30 20:30",
- "elapsedMs": 602,
+ "collectedAt": "2026-10-30T23:01:27.321Z",
+ "collectedAtText": "2026-10-31 08:01",
+ "elapsedMs": 638,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 5,
@@ -9,7 +9,7 @@
  "grade": null,
  "pendingLevelUps": null,
  "todayAttendance": 0,
- "todayMission": "내 덱/컬렉션에서 가장 아끼는 카드 이름 하나만 적어주세요!",
+ "todayMission": "할로윈이에요! 할로윈 느낌 나는 카드나 일러스트 하나 추천해주세요!",
  "useMemberLevel": true,
  "account": {
   "nick": "고몽이TCG",
