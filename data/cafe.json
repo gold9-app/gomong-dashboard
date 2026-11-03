@@ -1,11 +1,11 @@
 {
- "collectedAt": "2026-11-02T23:01:29.830Z",
- "collectedAtText": "2026-11-03 08:01",
- "elapsedMs": 664,
+ "collectedAt": "2026-11-03T01:05:06.619Z",
+ "collectedAtText": "2026-11-03 10:05",
+ "elapsedMs": 666,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 5,
- "articles": 60,
+ "articles": 62,
  "grade": null,
  "pendingLevelUps": null,
  "todayAttendance": 0,
@@ -16,7 +16,7 @@
   "grade": "매니저",
   "mode": "매니저",
   "managerExpected": "2026-10-07",
-  "checkedAt": "2026-11-02 20:30",
+  "checkedAt": "2026-11-03 10:00",
   "becameManagerAt": "2026-10-06 10:01",
   "note": "rmarn99 계정. 2026-09-22 카페 가입. 매니저 위임 신청 중(옛 계정 닉 고몽이). 루틴 cafeAccountCheck(pg)가 매 회차 갱신."
  },
@@ -24,11 +24,47 @@
  "infoPlan": {
   "start": "2026-09-22",
   "target": 8,
-  "done": 24,
-  "thisWeek": 4,
+  "done": 26,
+  "thisWeek": 6,
   "reads": 142,
   "comments": 0,
   "posts": [
+   {
+    "articleId": 66,
+    "menuId": 12,
+    "menuName": "포켓몬카드 덱·룰·대회",
+    "title": "포켓몬카드 코리안리그 제한 시간 규정 표, 50분 3판 2선승",
+    "prefix": null,
+    "writer": "고몽이TCG",
+    "writerLevel": "매니저",
+    "mine": true,
+    "writeDate": "2026-11-03 10:03",
+    "ts": 1793667800153,
+    "commentCount": 0,
+    "readCount": 0,
+    "likeCount": 0,
+    "isNotice": false,
+    "hasImage": false,
+    "url": "https://cafe.naver.com/gurapaduck/66"
+   },
+   {
+    "articleId": 65,
+    "menuId": 16,
+    "menuName": "원피스카드 정보·시세",
+    "title": "원피스카드 턴 5페이즈 순서 표, 리프레시부터 엔드까지",
+    "prefix": null,
+    "writer": "고몽이TCG",
+    "writerLevel": "매니저",
+    "mine": true,
+    "writeDate": "2026-11-03 10:02",
+    "ts": 1793667769230,
+    "commentCount": 0,
+    "readCount": 0,
+    "likeCount": 0,
+    "isNotice": false,
+    "hasImage": false,
+    "url": "https://cafe.naver.com/gurapaduck/65"
+   },
    {
     "articleId": 64,
     "menuId": 10,
@@ -208,46 +244,46 @@
     "isNotice": false,
     "hasImage": false,
     "url": "https://cafe.naver.com/gurapaduck/55"
-   },
-   {
-    "articleId": 54,
-    "menuId": 10,
-    "menuName": "포켓몬카드 정보·입문",
-    "title": "포켓몬카드 한 차례 제한 7가지 표, 에너지 1장 서포트 1장",
-    "prefix": null,
-    "writer": "고몽이TCG",
-    "writerLevel": "매니저",
-    "mine": true,
-    "writeDate": "2026-10-13 10:05",
-    "ts": 1791853516357,
-    "commentCount": 0,
-    "readCount": 2,
-    "likeCount": 0,
-    "isNotice": false,
-    "hasImage": false,
-    "url": "https://cafe.naver.com/gurapaduck/54"
-   },
-   {
-    "articleId": 53,
-    "menuId": 12,
-    "menuName": "포켓몬카드 덱·룰·대회",
-    "title": "포켓몬카드 특수 상태 5가지 표, 독 10 화상 20 혼란 30",
-    "prefix": null,
-    "writer": "고몽이TCG",
-    "writerLevel": "매니저",
-    "mine": true,
-    "writeDate": "2026-10-13 10:04",
-    "ts": 1791853487353,
-    "commentCount": 0,
-    "readCount": 5,
-    "likeCount": 0,
-    "isNotice": false,
-    "hasImage": false,
-    "url": "https://cafe.naver.com/gurapaduck/53"
    }
   ]
  },
  "infoPosts": [
+  {
+   "articleId": 66,
+   "menuId": 12,
+   "menuName": "포켓몬카드 덱·룰·대회",
+   "title": "포켓몬카드 코리안리그 제한 시간 규정 표, 50분 3판 2선승",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-03 10:03",
+   "ts": 1793667800153,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/66"
+  },
+  {
+   "articleId": 65,
+   "menuId": 16,
+   "menuName": "원피스카드 정보·시세",
+   "title": "원피스카드 턴 5페이즈 순서 표, 리프레시부터 엔드까지",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-03 10:02",
+   "ts": 1793667769230,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/65"
+  },
   {
    "articleId": 64,
    "menuId": 10,
@@ -571,42 +607,6 @@
    "isNotice": false,
    "hasImage": false,
    "url": "https://cafe.naver.com/gurapaduck/47"
-  },
-  {
-   "articleId": 46,
-   "menuId": 7,
-   "menuName": "포켓몬카드 신제품·발매 일정",
-   "title": "포켓몬카드 프로모 번호 뜻, M-P SV-P 배포처 7곳",
-   "prefix": null,
-   "writer": "고몽이의 고씨",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-09-29 10:17",
-   "ts": 1790644626000,
-   "commentCount": 0,
-   "readCount": 5,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/46"
-  },
-  {
-   "articleId": 45,
-   "menuId": 12,
-   "menuName": "포켓몬카드 덱·룰·대회",
-   "title": "포켓몬카드 덱 60장 비율표, 포켓몬 15 트레이너스 30",
-   "prefix": null,
-   "writer": "고몽이의 고씨",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-09-29 10:16",
-   "ts": 1790644602967,
-   "commentCount": 0,
-   "readCount": 3,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/45"
   }
  ],
  "links": {
@@ -656,13 +656,13 @@
    "menuId": 12,
    "name": "포켓몬카드 덱·룰·대회",
    "count": 7,
-   "latest": "2026-10-27 10:05"
+   "latest": "2026-11-03 10:03"
   },
   {
    "menuId": 13,
    "name": "Q&A 질문(시세질문 X)",
-   "count": 1,
-   "latest": "2026-09-19 18:55"
+   "count": 0,
+   "latest": null
   },
   {
    "menuId": 14,
@@ -679,8 +679,8 @@
   {
    "menuId": 16,
    "name": "원피스카드 정보·시세",
-   "count": 3,
-   "latest": "2026-10-27 10:05"
+   "count": 4,
+   "latest": "2026-11-03 10:02"
   },
   {
    "menuId": 17,
@@ -774,6 +774,42 @@
   }
  ],
  "recentArticles": [
+  {
+   "articleId": 66,
+   "menuId": 12,
+   "menuName": "포켓몬카드 덱·룰·대회",
+   "title": "포켓몬카드 코리안리그 제한 시간 규정 표, 50분 3판 2선승",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-03 10:03",
+   "ts": 1793667800153,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/66"
+  },
+  {
+   "articleId": 65,
+   "menuId": 16,
+   "menuName": "원피스카드 정보·시세",
+   "title": "원피스카드 턴 5페이즈 순서 표, 리프레시부터 엔드까지",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-03 10:02",
+   "ts": 1793667769230,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/65"
+  },
   {
    "articleId": 64,
    "menuId": 10,
@@ -1277,42 +1313,6 @@
    "isNotice": false,
    "hasImage": false,
    "url": "https://cafe.naver.com/gurapaduck/37"
-  },
-  {
-   "articleId": 36,
-   "menuId": 35,
-   "menuName": "협력업체·제휴 안내",
-   "title": "[안내] 협력업체 게시판 이용법과 매장 등록 양식",
-   "prefix": "안내",
-   "writer": "고몽이",
-   "writerLevel": "새싹",
-   "mine": false,
-   "writeDate": "2026-09-19 23:49",
-   "ts": 1789829396497,
-   "commentCount": 0,
-   "readCount": 1,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/36"
-  },
-  {
-   "articleId": 35,
-   "menuId": 8,
-   "menuName": "공지사항",
-   "title": "[공지] 제휴·광고 문의 안내, 초기 협력업체 등록 무료",
-   "prefix": "공지",
-   "writer": "고몽이",
-   "writerLevel": "새싹",
-   "mine": false,
-   "writeDate": "2026-09-19 23:49",
-   "ts": 1789829381507,
-   "commentCount": 0,
-   "readCount": 1,
-   "likeCount": 0,
-   "isNotice": true,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/35"
   }
  ],
  "unansweredQuestions": [],
@@ -1341,7 +1341,7 @@
  "alerts": [],
  "counts": {
   "notices": 6,
-  "questions": 3,
+  "questions": 2,
   "trades": 1,
   "byMember": 2,
   "infoPosts": 33
