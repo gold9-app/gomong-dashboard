@@ -1,7 +1,7 @@
 {
- "collectedAt": "2026-11-05T11:30:29.855Z",
- "collectedAtText": "2026-11-05 20:30",
- "elapsedMs": 512,
+ "collectedAt": "2026-11-05T23:01:39.316Z",
+ "collectedAtText": "2026-11-06 08:01",
+ "elapsedMs": 694,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 5,
@@ -9,7 +9,7 @@
  "grade": null,
  "pendingLevelUps": null,
  "todayAttendance": 0,
- "todayMission": "카드 보관할 때 꼭 챙기는 용품 하나 적어주세요!",
+ "todayMission": "요즘 매장에서 봤던 TCG 신제품이나 이벤트 하나 적어주세요!",
  "useMemberLevel": true,
  "account": {
   "nick": "고몽이TCG",
