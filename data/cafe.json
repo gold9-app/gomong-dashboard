@@ -1,7 +1,7 @@
 {
- "collectedAt": "2026-11-08T04:01:21.829Z",
- "collectedAtText": "2026-11-08 13:01",
- "elapsedMs": 600,
+ "collectedAt": "2026-11-08T11:30:52.274Z",
+ "collectedAtText": "2026-11-08 20:30",
+ "elapsedMs": 502,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 5,
@@ -16,7 +16,7 @@
   "grade": "매니저",
   "mode": "매니저",
   "managerExpected": "2026-10-07",
-  "checkedAt": "2026-11-07 20:30",
+  "checkedAt": "2026-11-08 20:30",
   "becameManagerAt": "2026-10-06 10:01",
   "note": "rmarn99 계정. 2026-09-22 카페 가입. 매니저 위임 신청 중(옛 계정 닉 고몽이). 루틴 cafeAccountCheck(pg)가 매 회차 갱신."
  },
@@ -26,7 +26,7 @@
   "target": 8,
   "done": 28,
   "thisWeek": 4,
-  "reads": 153,
+  "reads": 154,
   "comments": 0,
   "posts": [
    {
@@ -566,7 +566,7 @@
    "writeDate": "2026-10-08 10:08",
    "ts": 1791421686157,
    "commentCount": 0,
-   "readCount": 26,
+   "readCount": 27,
    "likeCount": 0,
    "isNotice": false,
    "hasImage": false,
@@ -1092,7 +1092,7 @@
    "writeDate": "2026-10-08 10:08",
    "ts": 1791421686157,
    "commentCount": 0,
-   "readCount": 26,
+   "readCount": 27,
    "likeCount": 0,
    "isNotice": false,
    "hasImage": false,
