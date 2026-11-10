@@ -1,11 +1,11 @@
 {
- "collectedAt": "2026-11-09T23:01:48.140Z",
- "collectedAtText": "2026-11-10 08:01",
- "elapsedMs": 620,
+ "collectedAt": "2026-11-10T01:08:18.677Z",
+ "collectedAtText": "2026-11-10 10:08",
+ "elapsedMs": 526,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 5,
- "articles": 64,
+ "articles": 66,
  "grade": null,
  "pendingLevelUps": null,
  "todayAttendance": 0,
@@ -16,7 +16,7 @@
   "grade": "매니저",
   "mode": "매니저",
   "managerExpected": "2026-10-07",
-  "checkedAt": "2026-11-09 20:30",
+  "checkedAt": "2026-11-10 10:00",
   "becameManagerAt": "2026-10-06 10:01",
   "note": "rmarn99 계정. 2026-09-22 카페 가입. 매니저 위임 신청 중(옛 계정 닉 고몽이). 루틴 cafeAccountCheck(pg)가 매 회차 갱신."
  },
@@ -24,11 +24,47 @@
  "infoPlan": {
   "start": "2026-09-22",
   "target": 8,
-  "done": 28,
+  "done": 30,
   "thisWeek": 4,
   "reads": 156,
   "comments": 0,
   "posts": [
+   {
+    "articleId": 70,
+    "menuId": 15,
+    "menuName": "리프트바운드 덱·대회",
+    "title": "리프트바운드 레디언스 쇼다운 덱 구성 표, 세라핀 이블린 56장",
+    "prefix": null,
+    "writer": "고몽이TCG",
+    "writerLevel": "매니저",
+    "mine": true,
+    "writeDate": "2026-11-10 10:06",
+    "ts": 1794272766173,
+    "commentCount": 0,
+    "readCount": 0,
+    "likeCount": 0,
+    "isNotice": false,
+    "hasImage": false,
+    "url": "https://cafe.naver.com/gurapaduck/70"
+   },
+   {
+    "articleId": 69,
+    "menuId": 10,
+    "menuName": "포켓몬카드 정보·입문",
+    "title": "포켓몬카드 특성과 기술 차이 7가지 표, 특성은 차례가 안 끝남",
+    "prefix": null,
+    "writer": "고몽이TCG",
+    "writerLevel": "매니저",
+    "mine": true,
+    "writeDate": "2026-11-10 10:05",
+    "ts": 1794272737007,
+    "commentCount": 0,
+    "readCount": 0,
+    "likeCount": 0,
+    "isNotice": false,
+    "hasImage": false,
+    "url": "https://cafe.naver.com/gurapaduck/69"
+   },
    {
     "articleId": 68,
     "menuId": 14,
@@ -208,46 +244,46 @@
     "isNotice": false,
     "hasImage": false,
     "url": "https://cafe.naver.com/gurapaduck/59"
-   },
-   {
-    "articleId": 58,
-    "menuId": 10,
-    "menuName": "포켓몬카드 정보·입문",
-    "title": "포켓몬카드 룰을 가진 포켓몬 6종 표, ex VMAX 프라이즈",
-    "prefix": null,
-    "writer": "고몽이TCG",
-    "writerLevel": "매니저",
-    "mine": true,
-    "writeDate": "2026-10-20 10:05",
-    "ts": 1792458335650,
-    "commentCount": 0,
-    "readCount": 1,
-    "likeCount": 0,
-    "isNotice": false,
-    "hasImage": false,
-    "url": "https://cafe.naver.com/gurapaduck/58"
-   },
-   {
-    "articleId": 57,
-    "menuId": 12,
-    "menuName": "포켓몬카드 덱·룰·대회",
-    "title": "포켓몬카드 약점 저항력 계산법, 2배와 마이너스 30 예시 표",
-    "prefix": null,
-    "writer": "고몽이TCG",
-    "writerLevel": "매니저",
-    "mine": true,
-    "writeDate": "2026-10-20 10:05",
-    "ts": 1792458302327,
-    "commentCount": 0,
-    "readCount": 4,
-    "likeCount": 0,
-    "isNotice": false,
-    "hasImage": false,
-    "url": "https://cafe.naver.com/gurapaduck/57"
    }
   ]
  },
  "infoPosts": [
+  {
+   "articleId": 70,
+   "menuId": 15,
+   "menuName": "리프트바운드 덱·대회",
+   "title": "리프트바운드 레디언스 쇼다운 덱 구성 표, 세라핀 이블린 56장",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-10 10:06",
+   "ts": 1794272766173,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/70"
+  },
+  {
+   "articleId": 69,
+   "menuId": 10,
+   "menuName": "포켓몬카드 정보·입문",
+   "title": "포켓몬카드 특성과 기술 차이 7가지 표, 특성은 차례가 안 끝남",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-10 10:05",
+   "ts": 1794272737007,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/69"
+  },
   {
    "articleId": 68,
    "menuId": 14,
@@ -571,42 +607,6 @@
    "isNotice": false,
    "hasImage": false,
    "url": "https://cafe.naver.com/gurapaduck/51"
-  },
-  {
-   "articleId": 50,
-   "menuId": 15,
-   "menuName": "리프트바운드 덱·대회",
-   "title": "리프트바운드 대회 4종류 표, 넥서스 나이트부터 코리아 메이저",
-   "prefix": null,
-   "writer": "고몽이의 고씨",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-10-06 10:07",
-   "ts": 1791248839787,
-   "commentCount": 0,
-   "readCount": 6,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/50"
-  },
-  {
-   "articleId": 49,
-   "menuId": 17,
-   "menuName": "카드용품·보관",
-   "title": "포켓몬카드 등급 슬랩 보관법 3단계, 자외선 습도 케이스 기준",
-   "prefix": null,
-   "writer": "고몽이의 고씨",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-10-06 10:06",
-   "ts": 1791248807267,
-   "commentCount": 0,
-   "readCount": 9,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/49"
   }
  ],
  "links": {
@@ -643,8 +643,8 @@
   {
    "menuId": 10,
    "name": "포켓몬카드 정보·입문",
-   "count": 8,
-   "latest": "2026-10-29 10:06"
+   "count": 9,
+   "latest": "2026-11-10 10:05"
   },
   {
    "menuId": 11,
@@ -673,8 +673,8 @@
   {
    "menuId": 15,
    "name": "리프트바운드 덱·대회",
-   "count": 1,
-   "latest": "2026-10-06 10:07"
+   "count": 2,
+   "latest": "2026-11-10 10:06"
   },
   {
    "menuId": 16,
@@ -721,14 +721,14 @@
   {
    "menuId": 26,
    "name": "시세질문 게시판",
-   "count": 1,
-   "latest": "2026-09-19 19:14"
+   "count": 0,
+   "latest": null
   },
   {
    "menuId": 27,
    "name": "정가품 확인 질문",
-   "count": 1,
-   "latest": "2026-09-19 19:14"
+   "count": 0,
+   "latest": null
   },
   {
    "menuId": 28,
@@ -774,6 +774,42 @@
   }
  ],
  "recentArticles": [
+  {
+   "articleId": 70,
+   "menuId": 15,
+   "menuName": "리프트바운드 덱·대회",
+   "title": "리프트바운드 레디언스 쇼다운 덱 구성 표, 세라핀 이블린 56장",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-10 10:06",
+   "ts": 1794272766173,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/70"
+  },
+  {
+   "articleId": 69,
+   "menuId": 10,
+   "menuName": "포켓몬카드 정보·입문",
+   "title": "포켓몬카드 특성과 기술 차이 7가지 표, 특성은 차례가 안 끝남",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-10 10:05",
+   "ts": 1794272737007,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/69"
+  },
   {
    "articleId": 68,
    "menuId": 14,
@@ -1277,42 +1313,6 @@
    "isNotice": false,
    "hasImage": false,
    "url": "https://cafe.naver.com/gurapaduck/41"
-  },
-  {
-   "articleId": 40,
-   "menuId": 9,
-   "menuName": "가입인사",
-   "title": "안녕하세요 :) 잘 부탁드립니다!",
-   "prefix": null,
-   "writer": "메타몽",
-   "writerLevel": "챔피언",
-   "mine": false,
-   "writeDate": "2026-09-21 20:56",
-   "ts": 1789991772313,
-   "commentCount": 2,
-   "readCount": 3,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/40"
-  },
-  {
-   "articleId": 39,
-   "menuId": 9,
-   "menuName": "가입인사",
-   "title": "안녕하세요!",
-   "prefix": null,
-   "writer": "서울나영진영",
-   "writerLevel": "새싹",
-   "mine": false,
-   "writeDate": "2026-09-20 09:11",
-   "ts": 1789863093757,
-   "commentCount": 2,
-   "readCount": 4,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/39"
   }
  ],
  "unansweredQuestions": [],
@@ -1341,10 +1341,10 @@
  "alerts": [],
  "counts": {
   "notices": 6,
-  "questions": 2,
+  "questions": 0,
   "trades": 1,
   "byMember": 2,
-  "infoPosts": 33
+  "infoPosts": 35
  },
  "errors": []
 }
