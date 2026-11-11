@@ -1,7 +1,7 @@
 {
- "collectedAt": "2026-11-11T11:30:42.014Z",
- "collectedAtText": "2026-11-11 20:30",
- "elapsedMs": 643,
+ "collectedAt": "2026-11-11T23:01:51.035Z",
+ "collectedAtText": "2026-11-12 08:01",
+ "elapsedMs": 628,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 5,
@@ -9,7 +9,7 @@
  "grade": null,
  "pendingLevelUps": null,
  "todayAttendance": 0,
- "todayMission": "포켓몬카드/원피스카드/리프트바운드 중 요즘 제일 많이 하는 것은?",
+ "todayMission": "보관 중인 카드 중 가장 애착 가는 카드 이름을 적어주세요!",
  "useMemberLevel": true,
  "account": {
   "nick": "고몽이TCG",
