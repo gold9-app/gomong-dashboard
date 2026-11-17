@@ -1,11 +1,11 @@
 {
- "collectedAt": "2026-11-16T23:01:37.703Z",
- "collectedAtText": "2026-11-17 08:01",
- "elapsedMs": 646,
+ "collectedAt": "2026-11-17T01:05:45.135Z",
+ "collectedAtText": "2026-11-17 10:05",
+ "elapsedMs": 548,
  "cafeName": "고몽이의 TCG 센터",
  "url": "https://cafe.naver.com/gurapaduck",
  "members": 5,
- "articles": 68,
+ "articles": 70,
  "grade": null,
  "pendingLevelUps": null,
  "todayAttendance": 0,
@@ -16,7 +16,7 @@
   "grade": "매니저",
   "mode": "매니저",
   "managerExpected": "2026-10-07",
-  "checkedAt": "2026-11-16 20:30",
+  "checkedAt": "2026-11-17 10:01",
   "becameManagerAt": "2026-10-06 10:01",
   "note": "rmarn99 계정. 2026-09-22 카페 가입. 매니저 위임 신청 중(옛 계정 닉 고몽이). 루틴 cafeAccountCheck(pg)가 매 회차 갱신."
  },
@@ -24,11 +24,47 @@
  "infoPlan": {
   "start": "2026-09-22",
   "target": 8,
-  "done": 32,
-  "thisWeek": 4,
+  "done": 34,
+  "thisWeek": 5,
   "reads": 176,
   "comments": 0,
   "posts": [
+   {
+    "articleId": 74,
+    "menuId": 10,
+    "menuName": "포켓몬카드 정보·입문",
+    "title": "포켓몬카드 대전 준비 8단계 순서 표, 패 7장 프라이즈 6장",
+    "prefix": null,
+    "writer": "고몽이TCG",
+    "writerLevel": "매니저",
+    "mine": true,
+    "writeDate": "2026-11-17 10:04",
+    "ts": 1794877460023,
+    "commentCount": 0,
+    "readCount": 0,
+    "likeCount": 0,
+    "isNotice": false,
+    "hasImage": false,
+    "url": "https://cafe.naver.com/gurapaduck/74"
+   },
+   {
+    "articleId": 73,
+    "menuId": 16,
+    "menuName": "원피스카드 정보·시세",
+    "title": "원피스카드 카드 종류 4가지 표, 라이프는 리더에 적힌 수만큼",
+    "prefix": null,
+    "writer": "고몽이TCG",
+    "writerLevel": "매니저",
+    "mine": true,
+    "writeDate": "2026-11-17 10:03",
+    "ts": 1794877428003,
+    "commentCount": 0,
+    "readCount": 0,
+    "likeCount": 0,
+    "isNotice": false,
+    "hasImage": false,
+    "url": "https://cafe.naver.com/gurapaduck/73"
+   },
    {
     "articleId": 72,
     "menuId": 12,
@@ -208,46 +244,46 @@
     "isNotice": false,
     "hasImage": false,
     "url": "https://cafe.naver.com/gurapaduck/63"
-   },
-   {
-    "articleId": 62,
-    "menuId": 12,
-    "menuName": "포켓몬카드 덱·룰·대회",
-    "title": "포켓몬카드 덱 셔플과 컷 규정 표, 매쉬 셔플 권장 2개 나누기",
-    "prefix": null,
-    "writer": "고몽이TCG",
-    "writerLevel": "매니저",
-    "mine": true,
-    "writeDate": "2026-10-27 10:05",
-    "ts": 1793063138167,
-    "commentCount": 0,
-    "readCount": 1,
-    "likeCount": 0,
-    "isNotice": false,
-    "hasImage": false,
-    "url": "https://cafe.naver.com/gurapaduck/62"
-   },
-   {
-    "articleId": 61,
-    "menuId": 16,
-    "menuName": "원피스카드 정보·시세",
-    "title": "원피스카드 덱 구성 규칙 표, 리더 색 제한과 같은 넘버 4장",
-    "prefix": null,
-    "writer": "고몽이TCG",
-    "writerLevel": "매니저",
-    "mine": true,
-    "writeDate": "2026-10-27 10:05",
-    "ts": 1793063108777,
-    "commentCount": 0,
-    "readCount": 0,
-    "likeCount": 0,
-    "isNotice": false,
-    "hasImage": false,
-    "url": "https://cafe.naver.com/gurapaduck/61"
    }
   ]
  },
  "infoPosts": [
+  {
+   "articleId": 74,
+   "menuId": 10,
+   "menuName": "포켓몬카드 정보·입문",
+   "title": "포켓몬카드 대전 준비 8단계 순서 표, 패 7장 프라이즈 6장",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-17 10:04",
+   "ts": 1794877460023,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/74"
+  },
+  {
+   "articleId": 73,
+   "menuId": 16,
+   "menuName": "원피스카드 정보·시세",
+   "title": "원피스카드 카드 종류 4가지 표, 라이프는 리더에 적힌 수만큼",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-17 10:03",
+   "ts": 1794877428003,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/73"
+  },
   {
    "articleId": 72,
    "menuId": 12,
@@ -571,42 +607,6 @@
    "isNotice": false,
    "hasImage": false,
    "url": "https://cafe.naver.com/gurapaduck/55"
-  },
-  {
-   "articleId": 54,
-   "menuId": 10,
-   "menuName": "포켓몬카드 정보·입문",
-   "title": "포켓몬카드 한 차례 제한 7가지 표, 에너지 1장 서포트 1장",
-   "prefix": null,
-   "writer": "고몽이TCG",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-10-13 10:05",
-   "ts": 1791853516357,
-   "commentCount": 0,
-   "readCount": 2,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/54"
-  },
-  {
-   "articleId": 53,
-   "menuId": 12,
-   "menuName": "포켓몬카드 덱·룰·대회",
-   "title": "포켓몬카드 특수 상태 5가지 표, 독 10 화상 20 혼란 30",
-   "prefix": null,
-   "writer": "고몽이TCG",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-10-13 10:04",
-   "ts": 1791853487353,
-   "commentCount": 0,
-   "readCount": 5,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/53"
   }
  ],
  "links": {
@@ -643,8 +643,8 @@
   {
    "menuId": 10,
    "name": "포켓몬카드 정보·입문",
-   "count": 9,
-   "latest": "2026-11-10 10:05"
+   "count": 10,
+   "latest": "2026-11-17 10:04"
   },
   {
    "menuId": 11,
@@ -679,8 +679,8 @@
   {
    "menuId": 16,
    "name": "원피스카드 정보·시세",
-   "count": 4,
-   "latest": "2026-11-03 10:02"
+   "count": 5,
+   "latest": "2026-11-17 10:03"
   },
   {
    "menuId": 17,
@@ -757,14 +757,14 @@
   {
    "menuId": 32,
    "name": "덱 레시피·피드백",
-   "count": 1,
-   "latest": "2026-09-19 19:15"
+   "count": 0,
+   "latest": null
   },
   {
    "menuId": 33,
    "name": "자랑 게시판(개봉·수집·등급카드)",
-   "count": 1,
-   "latest": "2026-09-19 19:16"
+   "count": 0,
+   "latest": null
   },
   {
    "menuId": 35,
@@ -774,6 +774,42 @@
   }
  ],
  "recentArticles": [
+  {
+   "articleId": 74,
+   "menuId": 10,
+   "menuName": "포켓몬카드 정보·입문",
+   "title": "포켓몬카드 대전 준비 8단계 순서 표, 패 7장 프라이즈 6장",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-17 10:04",
+   "ts": 1794877460023,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/74"
+  },
+  {
+   "articleId": 73,
+   "menuId": 16,
+   "menuName": "원피스카드 정보·시세",
+   "title": "원피스카드 카드 종류 4가지 표, 라이프는 리더에 적힌 수만큼",
+   "prefix": null,
+   "writer": "고몽이TCG",
+   "writerLevel": "매니저",
+   "mine": true,
+   "writeDate": "2026-11-17 10:03",
+   "ts": 1794877428003,
+   "commentCount": 0,
+   "readCount": 0,
+   "likeCount": 0,
+   "isNotice": false,
+   "hasImage": false,
+   "url": "https://cafe.naver.com/gurapaduck/73"
+  },
   {
    "articleId": 72,
    "menuId": 12,
@@ -1277,42 +1313,6 @@
    "isNotice": false,
    "hasImage": false,
    "url": "https://cafe.naver.com/gurapaduck/45"
-  },
-  {
-   "articleId": 44,
-   "menuId": 14,
-   "menuName": "리프트바운드 정보·시세",
-   "title": "리프트바운드 레어도 7종류 표, 희귀도 보석 모양으로 구분",
-   "prefix": null,
-   "writer": "고몽이의 고씨",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-09-24 10:07",
-   "ts": 1790212028470,
-   "commentCount": 0,
-   "readCount": 8,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/44"
-  },
-  {
-   "articleId": 43,
-   "menuId": 10,
-   "menuName": "포켓몬카드 정보·입문",
-   "title": "포켓몬카드 가품 구별 체크포인트 7가지, 뒷면 색과 홀로 패턴",
-   "prefix": null,
-   "writer": "고몽이의 고씨",
-   "writerLevel": "매니저",
-   "mine": true,
-   "writeDate": "2026-09-24 10:06",
-   "ts": 1790212007017,
-   "commentCount": 0,
-   "readCount": 8,
-   "likeCount": 0,
-   "isNotice": false,
-   "hasImage": false,
-   "url": "https://cafe.naver.com/gurapaduck/43"
   }
  ],
  "unansweredQuestions": [],
@@ -1325,7 +1325,7 @@
   "questions": 0,
   "trades": 0,
   "byMember": 2,
-  "infoPosts": 37
+  "infoPosts": 39
  },
  "errors": []
 }
