@@ -1,20 +1,20 @@
 {
- "collectedAt": "2026-11-27T04:00:38.124Z",
- "collectedAtText": "2026-11-27 13:00",
+ "collectedAt": "2026-11-27T08:05:14.641Z",
+ "collectedAtText": "2026-11-27 17:05",
  "blogId": "rmarn99",
  "blogUrl": "https://blog.naver.com/rmarn99",
  "blogName": "고몽이의 TCG 센터",
  "reopenedAt": "2026-09-21",
  "previousBlogId": "gold_ggu",
- "elapsedMs": 23053,
+ "elapsedMs": 22021,
  "errors": [],
  "summary": {
   "publicCount": 220,
   "queueCount": 0,
   "totalCount": 220,
-  "todayCv": 294,
+  "todayCv": 479,
   "yesterdayCv": 771,
-  "todayVisitor": 271,
+  "todayVisitor": 443,
   "buddyCount": 464,
   "citations": {
    "cumulative": 348195,
@@ -23,20 +23,18 @@
    "currentMonth": 11,
    "selectionPeriodMonth": 9
   },
-  "unansweredComments": 21,
-  "totalComments": 141,
+  "unansweredComments": 1,
+  "totalComments": 128,
   "v5Pending": 0,
   "probeFail": 0,
   "searchOff": 0,
-  "totalReadCount": 59263,
-  "notIndexed48": 20,
-  "indexRatio48": 90.7
+  "totalReadCount": 59447
  },
  "alerts": [
   {
    "level": "warn",
    "type": "comment",
-   "text": "미답변 댓글 21건"
+   "text": "미답변 댓글 1건"
   }
  ],
  "posts": [
@@ -74,8 +72,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 2,
@@ -111,8 +108,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 3,
@@ -148,8 +144,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 4,
@@ -185,8 +180,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 5,
@@ -222,8 +216,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 6,
@@ -259,8 +252,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 7,
@@ -296,8 +288,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 8,
@@ -333,8 +324,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 9,
@@ -370,8 +360,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 10,
@@ -407,8 +396,7 @@
     "mBlogRank": 15,
     "mContentRank": 17,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 11,
@@ -422,7 +410,7 @@
    "url": "https://blog.naver.com/rmarn99/224421189221",
    "openType": "2",
    "searchYn": true,
-   "readCount": 2728,
+   "readCount": 2729,
    "commentCount": 6,
    "unanswered": 0,
    "v5": true,
@@ -444,8 +432,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 12,
@@ -481,8 +468,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 13,
@@ -518,8 +504,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 14,
@@ -555,8 +540,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 15,
@@ -592,8 +576,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 16,
@@ -629,8 +612,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 17,
@@ -666,8 +648,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 18,
@@ -703,8 +684,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 19,
@@ -740,8 +720,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 20,
@@ -777,8 +756,7 @@
     "mBlogRank": 10,
     "mContentRank": 18,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 21,
@@ -792,7 +770,7 @@
    "url": "https://blog.naver.com/rmarn99/224421389946",
    "openType": "2",
    "searchYn": true,
-   "readCount": 1929,
+   "readCount": 1933,
    "commentCount": 5,
    "unanswered": 0,
    "v5": true,
@@ -814,8 +792,7 @@
     "mBlogRank": 15,
     "mContentRank": 20,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 22,
@@ -851,8 +828,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 23,
@@ -888,8 +864,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 24,
@@ -925,8 +900,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 25,
@@ -940,7 +914,7 @@
    "url": "https://blog.naver.com/rmarn99/224422744444",
    "openType": "2",
    "searchYn": true,
-   "readCount": 444,
+   "readCount": 445,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -962,8 +936,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 26,
@@ -999,8 +972,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 27,
@@ -1036,8 +1008,7 @@
     "mBlogRank": 5,
     "mContentRank": 6,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 28,
@@ -1073,8 +1044,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 29,
@@ -1110,8 +1080,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 30,
@@ -1147,8 +1116,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 31,
@@ -1184,8 +1152,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 32,
@@ -1221,8 +1188,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 33,
@@ -1258,8 +1224,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 34,
@@ -1295,8 +1260,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 35,
@@ -1332,8 +1296,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 39,
@@ -1369,8 +1332,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 41,
@@ -1406,8 +1368,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 44,
@@ -1443,8 +1404,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 46,
@@ -1480,8 +1440,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 49,
@@ -1517,8 +1476,7 @@
     "mBlogRank": 10,
     "mContentRank": 10,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 50,
@@ -1554,8 +1512,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 51,
@@ -1569,7 +1526,7 @@
    "url": "https://blog.naver.com/rmarn99/224431135228",
    "openType": "2",
    "searchYn": true,
-   "readCount": 1540,
+   "readCount": 1541,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -1591,8 +1548,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 52,
@@ -1628,8 +1584,7 @@
     "mBlogRank": 12,
     "mContentRank": 14,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 53,
@@ -1665,8 +1620,7 @@
     "mBlogRank": 7,
     "mContentRank": 13,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 54,
@@ -1702,8 +1656,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 55,
@@ -1739,8 +1692,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 56,
@@ -1776,8 +1728,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 57,
@@ -1813,8 +1764,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 58,
@@ -1850,8 +1800,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 59,
@@ -1887,8 +1836,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 60,
@@ -1924,8 +1872,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 61,
@@ -1961,8 +1908,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 62,
@@ -1998,8 +1944,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 63,
@@ -2035,8 +1980,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 64,
@@ -2072,8 +2016,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 65,
@@ -2109,8 +2052,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 66,
@@ -2146,8 +2088,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 67,
@@ -2183,8 +2124,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 68,
@@ -2198,7 +2138,7 @@
    "url": "https://blog.naver.com/rmarn99/224431720572",
    "openType": "2",
    "searchYn": true,
-   "readCount": 744,
+   "readCount": 745,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -2220,8 +2160,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 69,
@@ -2257,8 +2196,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 70,
@@ -2294,8 +2232,7 @@
     "mBlogRank": 12,
     "mContentRank": 15,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 71,
@@ -2331,8 +2268,7 @@
     "mBlogRank": 9,
     "mContentRank": 10,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 72,
@@ -2368,8 +2304,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 73,
@@ -2383,7 +2318,7 @@
    "url": "https://blog.naver.com/rmarn99/224433500029",
    "openType": "2",
    "searchYn": true,
-   "readCount": 228,
+   "readCount": 231,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -2405,8 +2340,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 74,
@@ -2442,8 +2376,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 75,
@@ -2479,8 +2412,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 76,
@@ -2516,8 +2448,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 77,
@@ -2553,8 +2484,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 78,
@@ -2590,8 +2520,7 @@
     "mBlogRank": 2,
     "mContentRank": 3,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 79,
@@ -2605,7 +2534,7 @@
    "url": "https://blog.naver.com/rmarn99/224434944911",
    "openType": "2",
    "searchYn": true,
-   "readCount": 404,
+   "readCount": 405,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -2627,8 +2556,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 80,
@@ -2664,8 +2592,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 81,
@@ -2701,8 +2628,7 @@
     "mBlogRank": 2,
     "mContentRank": 3,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 82,
@@ -2738,8 +2664,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 83,
@@ -2753,7 +2678,7 @@
    "url": "https://blog.naver.com/rmarn99/224438738647",
    "openType": "2",
    "searchYn": true,
-   "readCount": 281,
+   "readCount": 282,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -2775,8 +2700,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 84,
@@ -2812,8 +2736,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 85,
@@ -2849,8 +2772,7 @@
     "mBlogRank": 14,
     "mContentRank": 18,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 86,
@@ -2886,8 +2808,7 @@
     "mBlogRank": 12,
     "mContentRank": 16,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 87,
@@ -2901,7 +2822,7 @@
    "url": "https://blog.naver.com/rmarn99/224438744951",
    "openType": "2",
    "searchYn": true,
-   "readCount": 145,
+   "readCount": 146,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -2923,8 +2844,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 88,
@@ -2960,8 +2880,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 89,
@@ -2997,8 +2916,7 @@
     "mBlogRank": 12,
     "mContentRank": 16,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 90,
@@ -3012,7 +2930,7 @@
    "url": "https://blog.naver.com/rmarn99/224438748487",
    "openType": "2",
    "searchYn": true,
-   "readCount": 236,
+   "readCount": 237,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -3034,8 +2952,7 @@
     "mBlogRank": 10,
     "mContentRank": 16,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 91,
@@ -3049,7 +2966,7 @@
    "url": "https://blog.naver.com/rmarn99/224438749845",
    "openType": "2",
    "searchYn": true,
-   "readCount": 313,
+   "readCount": 316,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3071,8 +2988,7 @@
     "mBlogRank": 8,
     "mContentRank": 12,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 92,
@@ -3086,7 +3002,7 @@
    "url": "https://blog.naver.com/rmarn99/224438751150",
    "openType": "2",
    "searchYn": true,
-   "readCount": 316,
+   "readCount": 317,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3108,8 +3024,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 93,
@@ -3123,7 +3038,7 @@
    "url": "https://blog.naver.com/rmarn99/224438753288",
    "openType": "2",
    "searchYn": true,
-   "readCount": 53,
+   "readCount": 54,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -3145,8 +3060,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 94,
@@ -3182,8 +3096,7 @@
     "mBlogRank": 16,
     "mContentRank": 21,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 95,
@@ -3219,8 +3132,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 96,
@@ -3256,8 +3168,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 97,
@@ -3271,7 +3182,7 @@
    "url": "https://blog.naver.com/rmarn99/224442281297",
    "openType": "2",
    "searchYn": true,
-   "readCount": 373,
+   "readCount": 375,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -3293,8 +3204,7 @@
     "mBlogRank": 10,
     "mContentRank": 13,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 98,
@@ -3308,7 +3218,7 @@
    "url": "https://blog.naver.com/rmarn99/224442282743",
    "openType": "2",
    "searchYn": true,
-   "readCount": 749,
+   "readCount": 750,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -3330,8 +3240,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 99,
@@ -3345,7 +3254,7 @@
    "url": "https://blog.naver.com/rmarn99/224442285878",
    "openType": "2",
    "searchYn": true,
-   "readCount": 53,
+   "readCount": 54,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3367,8 +3276,7 @@
     "mBlogRank": 8,
     "mContentRank": 9,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 100,
@@ -3382,7 +3290,7 @@
    "url": "https://blog.naver.com/rmarn99/224442287156",
    "openType": "2",
    "searchYn": true,
-   "readCount": 256,
+   "readCount": 257,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3404,8 +3312,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 101,
@@ -3419,7 +3326,7 @@
    "url": "https://blog.naver.com/rmarn99/224442288371",
    "openType": "2",
    "searchYn": true,
-   "readCount": 560,
+   "readCount": 563,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3441,8 +3348,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 102,
@@ -3480,8 +3386,7 @@
     "mBlogRank": 4,
     "mContentRank": 7,
     "mTabRank": 22
-   },
-   "indexed": true
+   }
   },
   {
    "no": 103,
@@ -3517,8 +3422,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 104,
@@ -3554,8 +3458,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 105,
@@ -3591,8 +3494,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 106,
@@ -3606,7 +3508,7 @@
    "url": "https://blog.naver.com/rmarn99/224446262953",
    "openType": "2",
    "searchYn": true,
-   "readCount": 113,
+   "readCount": 114,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3628,8 +3530,7 @@
     "mBlogRank": 6,
     "mContentRank": 6,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 107,
@@ -3643,7 +3544,7 @@
    "url": "https://blog.naver.com/rmarn99/224446264175",
    "openType": "2",
    "searchYn": true,
-   "readCount": 281,
+   "readCount": 282,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3665,8 +3566,7 @@
     "mBlogRank": 4,
     "mContentRank": 4,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 108,
@@ -3702,8 +3602,7 @@
     "mBlogRank": 17,
     "mContentRank": 21,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 109,
@@ -3717,7 +3616,7 @@
    "url": "https://blog.naver.com/rmarn99/224446266584",
    "openType": "2",
    "searchYn": true,
-   "readCount": 313,
+   "readCount": 315,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3739,8 +3638,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 110,
@@ -3776,8 +3674,7 @@
     "mBlogRank": 7,
     "mContentRank": 9,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 111,
@@ -3813,8 +3710,7 @@
     "mBlogRank": 1,
     "mContentRank": 3,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 112,
@@ -3850,8 +3746,7 @@
     "mBlogRank": 3,
     "mContentRank": 6,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 113,
@@ -3887,8 +3782,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 114,
@@ -3902,7 +3796,7 @@
    "url": "https://blog.naver.com/rmarn99/224446274230",
    "openType": "2",
    "searchYn": true,
-   "readCount": 274,
+   "readCount": 277,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3924,8 +3818,7 @@
     "mBlogRank": 2,
     "mContentRank": 4,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 115,
@@ -3961,8 +3854,7 @@
     "mBlogRank": 5,
     "mContentRank": 8,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 116,
@@ -3976,7 +3868,7 @@
    "url": "https://blog.naver.com/rmarn99/224448104700",
    "openType": "2",
    "searchYn": true,
-   "readCount": 141,
+   "readCount": 142,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -3998,8 +3890,7 @@
     "mBlogRank": 9,
     "mContentRank": 12,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 117,
@@ -4013,7 +3904,7 @@
    "url": "https://blog.naver.com/rmarn99/224448105797",
    "openType": "2",
    "searchYn": true,
-   "readCount": 286,
+   "readCount": 289,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -4035,8 +3926,7 @@
     "mBlogRank": 11,
     "mContentRank": 14,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 118,
@@ -4072,8 +3962,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 119,
@@ -4087,7 +3976,7 @@
    "url": "https://blog.naver.com/rmarn99/224448107789",
    "openType": "2",
    "searchYn": true,
-   "readCount": 359,
+   "readCount": 361,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -4109,8 +3998,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 120,
@@ -4146,8 +4034,7 @@
     "mBlogRank": 11,
     "mContentRank": 12,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 121,
@@ -4161,7 +4048,7 @@
    "url": "https://blog.naver.com/rmarn99/224448109685",
    "openType": "2",
    "searchYn": true,
-   "readCount": 132,
+   "readCount": 134,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -4183,8 +4070,7 @@
     "mBlogRank": 8,
     "mContentRank": 10,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 122,
@@ -4199,8 +4085,8 @@
    "openType": "2",
    "searchYn": true,
    "readCount": 106,
-   "commentCount": 3,
-   "unanswered": 1,
+   "commentCount": 2,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 15,
    "imgs": 4,
@@ -4220,8 +4106,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 123,
@@ -4235,7 +4120,7 @@
    "url": "https://blog.naver.com/rmarn99/224448111681",
    "openType": "2",
    "searchYn": true,
-   "readCount": 324,
+   "readCount": 325,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -4257,8 +4142,7 @@
     "mBlogRank": 9,
     "mContentRank": 10,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 124,
@@ -4272,7 +4156,7 @@
    "url": "https://blog.naver.com/rmarn99/224448112592",
    "openType": "2",
    "searchYn": true,
-   "readCount": 1004,
+   "readCount": 1006,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -4294,8 +4178,7 @@
     "mBlogRank": 8,
     "mContentRank": 11,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 125,
@@ -4331,8 +4214,7 @@
     "mBlogRank": 7,
     "mContentRank": 11,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 126,
@@ -4346,7 +4228,7 @@
    "url": "https://blog.naver.com/rmarn99/224448114405",
    "openType": "2",
    "searchYn": true,
-   "readCount": 298,
+   "readCount": 299,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -4368,8 +4250,7 @@
     "mBlogRank": 6,
     "mContentRank": 8,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 127,
@@ -4405,8 +4286,7 @@
     "mBlogRank": 1,
     "mContentRank": 4,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 128,
@@ -4442,8 +4322,7 @@
     "mBlogRank": 3,
     "mContentRank": 7,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 129,
@@ -4479,8 +4358,7 @@
     "mBlogRank": 2,
     "mContentRank": 2,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 130,
@@ -4494,7 +4372,7 @@
    "url": "https://blog.naver.com/rmarn99/224453848032",
    "openType": "2",
    "searchYn": true,
-   "readCount": 238,
+   "readCount": 240,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -4516,8 +4394,7 @@
     "mBlogRank": 10,
     "mContentRank": 11,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 131,
@@ -4531,7 +4408,7 @@
    "url": "https://blog.naver.com/rmarn99/224453849725",
    "openType": "2",
    "searchYn": true,
-   "readCount": 509,
+   "readCount": 510,
    "commentCount": 1,
    "unanswered": 1,
    "v5": true,
@@ -4553,8 +4430,7 @@
     "mBlogRank": 6,
     "mContentRank": 10,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 132,
@@ -4590,8 +4466,7 @@
     "mBlogRank": 1,
     "mContentRank": 4,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 133,
@@ -4605,7 +4480,7 @@
    "url": "https://blog.naver.com/rmarn99/224453853474",
    "openType": "2",
    "searchYn": true,
-   "readCount": 420,
+   "readCount": 423,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -4627,8 +4502,7 @@
     "mBlogRank": 4,
     "mContentRank": 8,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 134,
@@ -4642,7 +4516,7 @@
    "url": "https://blog.naver.com/rmarn99/224453855175",
    "openType": "2",
    "searchYn": true,
-   "readCount": 232,
+   "readCount": 233,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -4664,8 +4538,7 @@
     "mBlogRank": 8,
     "mContentRank": 11,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 135,
@@ -4701,8 +4574,7 @@
     "mBlogRank": 2,
     "mContentRank": 3,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 136,
@@ -4738,8 +4610,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 137,
@@ -4775,8 +4646,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 138,
@@ -4812,8 +4682,7 @@
     "mBlogRank": 15,
     "mContentRank": 18,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 139,
@@ -4828,8 +4697,8 @@
    "openType": "2",
    "searchYn": true,
    "readCount": 74,
-   "commentCount": 3,
-   "unanswered": 3,
+   "commentCount": 0,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 17,
    "imgs": 9,
@@ -4849,8 +4718,7 @@
     "mBlogRank": 6,
     "mContentRank": 8,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 140,
@@ -4886,8 +4754,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 141,
@@ -4901,7 +4768,7 @@
    "url": "https://blog.naver.com/rmarn99/224457503730",
    "openType": "2",
    "searchYn": true,
-   "readCount": 241,
+   "readCount": 246,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -4923,8 +4790,7 @@
     "mBlogRank": 3,
     "mContentRank": 3,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 142,
@@ -4938,7 +4804,7 @@
    "url": "https://blog.naver.com/rmarn99/224457505338",
    "openType": "2",
    "searchYn": true,
-   "readCount": 154,
+   "readCount": 156,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -4960,8 +4826,7 @@
     "mBlogRank": 14,
     "mContentRank": 15,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 143,
@@ -4997,8 +4862,7 @@
     "mBlogRank": 6,
     "mContentRank": 9,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 144,
@@ -5034,8 +4898,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 145,
@@ -5049,7 +4912,7 @@
    "url": "https://blog.naver.com/rmarn99/224457510240",
    "openType": "2",
    "searchYn": true,
-   "readCount": 148,
+   "readCount": 149,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -5071,8 +4934,7 @@
     "mBlogRank": 3,
     "mContentRank": 6,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 146,
@@ -5086,7 +4948,7 @@
    "url": "https://blog.naver.com/rmarn99/224457511943",
    "openType": "2",
    "searchYn": true,
-   "readCount": 147,
+   "readCount": 150,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -5108,8 +4970,7 @@
     "mBlogRank": 4,
     "mContentRank": 6,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 147,
@@ -5145,8 +5006,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 148,
@@ -5182,8 +5042,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 149,
@@ -5197,7 +5056,7 @@
    "url": "https://blog.naver.com/rmarn99/224458815016",
    "openType": "2",
    "searchYn": true,
-   "readCount": 433,
+   "readCount": 434,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -5219,8 +5078,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 150,
@@ -5256,8 +5114,7 @@
     "mBlogRank": 11,
     "mContentRank": 12,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 151,
@@ -5293,8 +5150,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 152,
@@ -5330,8 +5186,7 @@
     "mBlogRank": 1,
     "mContentRank": 3,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 153,
@@ -5345,7 +5200,7 @@
    "url": "https://blog.naver.com/rmarn99/224461951127",
    "openType": "2",
    "searchYn": true,
-   "readCount": 397,
+   "readCount": 402,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -5367,8 +5222,7 @@
     "mBlogRank": 2,
     "mContentRank": 3,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 154,
@@ -5404,8 +5258,7 @@
     "mBlogRank": 12,
     "mContentRank": 17,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 155,
@@ -5441,8 +5294,7 @@
     "mBlogRank": 7,
     "mContentRank": 10,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 156,
@@ -5456,9 +5308,9 @@
    "url": "https://blog.naver.com/rmarn99/224461957097",
    "openType": "2",
    "searchYn": true,
-   "readCount": 242,
-   "commentCount": 6,
-   "unanswered": 1,
+   "readCount": 243,
+   "commentCount": 5,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 17,
    "imgs": 9,
@@ -5478,8 +5330,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 157,
@@ -5493,7 +5344,7 @@
    "url": "https://blog.naver.com/rmarn99/224461958875",
    "openType": "2",
    "searchYn": true,
-   "readCount": 86,
+   "readCount": 87,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -5515,8 +5366,7 @@
     "mBlogRank": 2,
     "mContentRank": 2,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 158,
@@ -5530,7 +5380,7 @@
    "url": "https://blog.naver.com/rmarn99/224461960629",
    "openType": "2",
    "searchYn": true,
-   "readCount": 133,
+   "readCount": 135,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -5552,8 +5402,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 159,
@@ -5567,7 +5416,7 @@
    "url": "https://blog.naver.com/rmarn99/224461962471",
    "openType": "2",
    "searchYn": true,
-   "readCount": 366,
+   "readCount": 369,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -5589,8 +5438,7 @@
     "mBlogRank": 2,
     "mContentRank": 2,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 160,
@@ -5626,8 +5474,7 @@
     "mBlogRank": 1,
     "mContentRank": 2,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 161,
@@ -5641,7 +5488,7 @@
    "url": "https://blog.naver.com/rmarn99/224461966867",
    "openType": "2",
    "searchYn": true,
-   "readCount": 166,
+   "readCount": 174,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -5663,8 +5510,7 @@
     "mBlogRank": 1,
     "mContentRank": 1,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 162,
@@ -5700,8 +5546,7 @@
     "mBlogRank": 4,
     "mContentRank": 9,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 163,
@@ -5715,7 +5560,7 @@
    "url": "https://blog.naver.com/rmarn99/224461970599",
    "openType": "2",
    "searchYn": true,
-   "readCount": 140,
+   "readCount": 141,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -5737,8 +5582,7 @@
     "mBlogRank": 2,
     "mContentRank": 3,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 164,
@@ -5774,8 +5618,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": false
+   }
   },
   {
    "no": 165,
@@ -5811,8 +5654,7 @@
     "mBlogRank": 11,
     "mContentRank": 13,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 166,
@@ -5848,8 +5690,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 167,
@@ -5863,7 +5704,7 @@
    "url": "https://blog.naver.com/rmarn99/224465651468",
    "openType": "2",
    "searchYn": true,
-   "readCount": 297,
+   "readCount": 301,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -5885,8 +5726,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 168,
@@ -5922,8 +5762,7 @@
     "mBlogRank": 10,
     "mContentRank": 11,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 169,
@@ -5937,9 +5776,9 @@
    "url": "https://blog.naver.com/rmarn99/224465656016",
    "openType": "2",
    "searchYn": true,
-   "readCount": 111,
-   "commentCount": 2,
-   "unanswered": 2,
+   "readCount": 115,
+   "commentCount": 0,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 17,
    "imgs": 9,
@@ -5959,8 +5798,7 @@
     "mBlogRank": 8,
     "mContentRank": 10,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 170,
@@ -5974,7 +5812,7 @@
    "url": "https://blog.naver.com/rmarn99/224465657847",
    "openType": "2",
    "searchYn": true,
-   "readCount": 335,
+   "readCount": 338,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -5996,8 +5834,7 @@
     "mBlogRank": 12,
     "mContentRank": 16,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 171,
@@ -6011,7 +5848,7 @@
    "url": "https://blog.naver.com/rmarn99/224465659704",
    "openType": "2",
    "searchYn": true,
-   "readCount": 245,
+   "readCount": 248,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -6033,8 +5870,7 @@
     "mBlogRank": 4,
     "mContentRank": 7,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 172,
@@ -6048,7 +5884,7 @@
    "url": "https://blog.naver.com/rmarn99/224465661513",
    "openType": "2",
    "searchYn": true,
-   "readCount": 1147,
+   "readCount": 1148,
    "commentCount": 6,
    "unanswered": 0,
    "v5": true,
@@ -6070,8 +5906,7 @@
     "mBlogRank": 4,
     "mContentRank": 6,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 173,
@@ -6107,8 +5942,7 @@
     "mBlogRank": 7,
     "mContentRank": 9,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 174,
@@ -6122,7 +5956,7 @@
    "url": "https://blog.naver.com/rmarn99/224465665687",
    "openType": "2",
    "searchYn": true,
-   "readCount": 82,
+   "readCount": 83,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -6144,8 +5978,7 @@
     "mBlogRank": 2,
     "mContentRank": 2,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 175,
@@ -6159,7 +5992,7 @@
    "url": "https://blog.naver.com/rmarn99/224465667365",
    "openType": "2",
    "searchYn": true,
-   "readCount": 172,
+   "readCount": 174,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -6181,8 +6014,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 176,
@@ -6197,8 +6029,8 @@
    "openType": "2",
    "searchYn": true,
    "readCount": 188,
-   "commentCount": 1,
-   "unanswered": 1,
+   "commentCount": 0,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 17,
    "imgs": 8,
@@ -6218,8 +6050,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 177,
@@ -6233,7 +6064,7 @@
    "url": "https://blog.naver.com/rmarn99/224466961082",
    "openType": "2",
    "searchYn": true,
-   "readCount": 411,
+   "readCount": 419,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -6255,8 +6086,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": 8
-   },
-   "indexed": true
+   }
   },
   {
    "no": 178,
@@ -6292,8 +6122,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 179,
@@ -6329,8 +6158,7 @@
     "mBlogRank": 5,
     "mContentRank": 5,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 180,
@@ -6366,8 +6194,7 @@
     "mBlogRank": 6,
     "mContentRank": 8,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 181,
@@ -6381,7 +6208,7 @@
    "url": "https://blog.naver.com/rmarn99/224469987148",
    "openType": "2",
    "searchYn": true,
-   "readCount": 214,
+   "readCount": 218,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -6403,8 +6230,7 @@
     "mBlogRank": 4,
     "mContentRank": 7,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 182,
@@ -6440,8 +6266,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 183,
@@ -6455,7 +6280,7 @@
    "url": "https://blog.naver.com/rmarn99/224469991846",
    "openType": "2",
    "searchYn": true,
-   "readCount": 870,
+   "readCount": 872,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -6477,8 +6302,7 @@
     "mBlogRank": 11,
     "mContentRank": 17,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 184,
@@ -6514,8 +6338,7 @@
     "mBlogRank": 2,
     "mContentRank": 6,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 185,
@@ -6529,7 +6352,7 @@
    "url": "https://blog.naver.com/rmarn99/224469995613",
    "openType": "2",
    "searchYn": true,
-   "readCount": 212,
+   "readCount": 213,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -6551,8 +6374,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 186,
@@ -6588,8 +6410,7 @@
     "mBlogRank": 1,
     "mContentRank": 1,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 187,
@@ -6603,7 +6424,7 @@
    "url": "https://blog.naver.com/rmarn99/224469999121",
    "openType": "2",
    "searchYn": true,
-   "readCount": 60,
+   "readCount": 61,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -6625,8 +6446,7 @@
     "mBlogRank": 7,
     "mContentRank": 10,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 188,
@@ -6640,7 +6460,7 @@
    "url": "https://blog.naver.com/rmarn99/224470001774",
    "openType": "2",
    "searchYn": true,
-   "readCount": 74,
+   "readCount": 75,
    "commentCount": 4,
    "unanswered": 0,
    "v5": true,
@@ -6662,8 +6482,7 @@
     "mBlogRank": 14,
     "mContentRank": 20,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 189,
@@ -6699,8 +6518,7 @@
     "mBlogRank": 3,
     "mContentRank": 6,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 190,
@@ -6736,8 +6554,7 @@
     "mBlogRank": 3,
     "mContentRank": 4,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 191,
@@ -6773,8 +6590,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": null
+   }
   },
   {
    "no": 192,
@@ -6810,8 +6626,7 @@
     "mBlogRank": 1,
     "mContentRank": 2,
     "mTabRank": 14
-   },
-   "indexed": true
+   }
   },
   {
    "no": 193,
@@ -6825,7 +6640,7 @@
    "url": "https://blog.naver.com/rmarn99/224473978926",
    "openType": "2",
    "searchYn": true,
-   "readCount": 234,
+   "readCount": 235,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -6847,8 +6662,7 @@
     "mBlogRank": null,
     "mContentRank": null,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 194,
@@ -6884,8 +6698,7 @@
     "mBlogRank": 6,
     "mContentRank": 10,
     "mTabRank": null
-   },
-   "indexed": true
+   }
   },
   {
    "no": 195,
@@ -6899,7 +6712,7 @@
    "url": "https://blog.naver.com/rmarn99/224473983219",
    "openType": "2",
    "searchYn": true,
-   "readCount": 145,
+   "readCount": 146,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -6915,8 +6728,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 196,
@@ -6930,7 +6742,7 @@
    "url": "https://blog.naver.com/rmarn99/224473984999",
    "openType": "2",
    "searchYn": true,
-   "readCount": 79,
+   "readCount": 81,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -6946,8 +6758,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 197,
@@ -6961,7 +6772,7 @@
    "url": "https://blog.naver.com/rmarn99/224473988141",
    "openType": "2",
    "searchYn": true,
-   "readCount": 29,
+   "readCount": 30,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -6977,8 +6788,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 198,
@@ -7008,8 +6818,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 199,
@@ -7024,8 +6833,8 @@
    "openType": "2",
    "searchYn": true,
    "readCount": 46,
-   "commentCount": 2,
-   "unanswered": 2,
+   "commentCount": 0,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 17,
    "imgs": 9,
@@ -7039,8 +6848,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 200,
@@ -7054,7 +6862,7 @@
    "url": "https://blog.naver.com/rmarn99/224473994214",
    "openType": "2",
    "searchYn": true,
-   "readCount": 252,
+   "readCount": 254,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -7070,8 +6878,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 201,
@@ -7101,8 +6908,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 202,
@@ -7138,8 +6944,7 @@
     "mBlogRank": 6,
     "mContentRank": 6,
     "mTabRank": 13
-   },
-   "indexed": true
+   }
   },
   {
    "no": 203,
@@ -7175,8 +6980,7 @@
     "mBlogRank": 3,
     "mContentRank": 3,
     "mTabRank": 16
-   },
-   "indexed": true
+   }
   },
   {
    "no": 204,
@@ -7190,7 +6994,7 @@
    "url": "https://blog.naver.com/rmarn99/224478024934",
    "openType": "2",
    "searchYn": true,
-   "readCount": 56,
+   "readCount": 57,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -7212,8 +7016,7 @@
     "mBlogRank": 1,
     "mContentRank": 4,
     "mTabRank": 9
-   },
-   "indexed": true
+   }
   },
   {
    "no": 205,
@@ -7227,7 +7030,7 @@
    "url": "https://blog.naver.com/rmarn99/224478745213",
    "openType": "2",
    "searchYn": true,
-   "readCount": 96,
+   "readCount": 102,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -7243,8 +7046,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 206,
@@ -7274,8 +7076,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 207,
@@ -7289,9 +7090,9 @@
    "url": "https://blog.naver.com/rmarn99/224478749838",
    "openType": "2",
    "searchYn": true,
-   "readCount": 130,
-   "commentCount": 3,
-   "unanswered": 1,
+   "readCount": 133,
+   "commentCount": 2,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 21,
    "imgs": 9,
@@ -7305,8 +7106,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 208,
@@ -7320,7 +7120,7 @@
    "url": "https://blog.naver.com/rmarn99/224478751864",
    "openType": "2",
    "searchYn": true,
-   "readCount": 34,
+   "readCount": 38,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -7336,8 +7136,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 209,
@@ -7351,7 +7150,7 @@
    "url": "https://blog.naver.com/rmarn99/224478753644",
    "openType": "2",
    "searchYn": true,
-   "readCount": 36,
+   "readCount": 37,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -7367,8 +7166,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 210,
@@ -7382,9 +7180,9 @@
    "url": "https://blog.naver.com/rmarn99/224478755773",
    "openType": "2",
    "searchYn": true,
-   "readCount": 148,
-   "commentCount": 3,
-   "unanswered": 3,
+   "readCount": 149,
+   "commentCount": 2,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 25,
    "imgs": 8,
@@ -7398,8 +7196,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 211,
@@ -7429,8 +7226,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 212,
@@ -7444,7 +7240,7 @@
    "url": "https://blog.naver.com/rmarn99/224478760858",
    "openType": "2",
    "searchYn": true,
-   "readCount": 16,
+   "readCount": 17,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -7460,8 +7256,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 213,
@@ -7475,7 +7270,7 @@
    "url": "https://blog.naver.com/rmarn99/224478762614",
    "openType": "2",
    "searchYn": true,
-   "readCount": 26,
+   "readCount": 27,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -7491,8 +7286,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 214,
@@ -7522,8 +7316,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 215,
@@ -7537,7 +7330,7 @@
    "url": "https://blog.naver.com/rmarn99/224478766342",
    "openType": "2",
    "searchYn": true,
-   "readCount": 29,
+   "readCount": 32,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -7547,8 +7340,7 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 216,
@@ -7562,9 +7354,9 @@
    "url": "https://blog.naver.com/rmarn99/224478768232",
    "openType": "2",
    "searchYn": true,
-   "readCount": 37,
-   "commentCount": 3,
-   "unanswered": 1,
+   "readCount": 38,
+   "commentCount": 4,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 21,
    "imgs": 6,
@@ -7572,8 +7364,7 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 217,
@@ -7603,8 +7394,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 218,
@@ -7618,7 +7408,7 @@
    "url": "https://blog.naver.com/rmarn99/224480277533",
    "openType": "2",
    "searchYn": true,
-   "readCount": 27,
+   "readCount": 28,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -7634,8 +7424,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 219,
@@ -7665,8 +7454,7 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 220,
@@ -7680,7 +7468,7 @@
    "url": "https://blog.naver.com/rmarn99/224483062634",
    "openType": "2",
    "searchYn": true,
-   "readCount": 85,
+   "readCount": 89,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -7690,8 +7478,7 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 221,
@@ -7705,9 +7492,9 @@
    "url": "https://blog.naver.com/rmarn99/224483065715",
    "openType": "2",
    "searchYn": true,
-   "readCount": 10,
-   "commentCount": 1,
-   "unanswered": 1,
+   "readCount": 12,
+   "commentCount": 2,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 21,
    "imgs": 8,
@@ -7715,8 +7502,7 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 222,
@@ -7730,7 +7516,7 @@
    "url": "https://blog.naver.com/rmarn99/224483067613",
    "openType": "2",
    "searchYn": true,
-   "readCount": 40,
+   "readCount": 43,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -7740,8 +7526,7 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 223,
@@ -7755,7 +7540,7 @@
    "url": "https://blog.naver.com/rmarn99/224483069344",
    "openType": "2",
    "searchYn": true,
-   "readCount": 37,
+   "readCount": 38,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -7765,8 +7550,7 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 224,
@@ -7780,7 +7564,7 @@
    "url": "https://blog.naver.com/rmarn99/224483071151",
    "openType": "2",
    "searchYn": true,
-   "readCount": 66,
+   "readCount": 67,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -7790,8 +7574,7 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 225,
@@ -7815,8 +7598,7 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 226,
@@ -7830,7 +7612,7 @@
    "url": "https://blog.naver.com/rmarn99/224483074858",
    "openType": "2",
    "searchYn": true,
-   "readCount": 20,
+   "readCount": 23,
    "commentCount": 0,
    "unanswered": 0,
    "v5": true,
@@ -7840,8 +7622,7 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 227,
@@ -7855,9 +7636,9 @@
    "url": "https://blog.naver.com/rmarn99/224483077735",
    "openType": "2",
    "searchYn": true,
-   "readCount": 9,
-   "commentCount": 3,
-   "unanswered": 3,
+   "readCount": 10,
+   "commentCount": 6,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 19,
    "imgs": 8,
@@ -7865,8 +7646,7 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 228,
@@ -7880,9 +7660,9 @@
    "url": "https://blog.naver.com/rmarn99/224483079810",
    "openType": "2",
    "searchYn": true,
-   "readCount": 60,
-   "commentCount": 1,
-   "unanswered": 1,
+   "readCount": 69,
+   "commentCount": 2,
+   "unanswered": 0,
    "v5": true,
    "internalLinks": 17,
    "imgs": 8,
@@ -7890,8 +7670,7 @@
    "priceUpdate": null,
    "rank": null,
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   },
   {
    "no": 229,
@@ -7905,7 +7684,7 @@
    "url": "https://blog.naver.com/rmarn99/224484504000",
    "openType": "2",
    "searchYn": true,
-   "readCount": 534,
+   "readCount": 542,
    "commentCount": 2,
    "unanswered": 0,
    "v5": true,
@@ -7921,12 +7700,109 @@
     "blogRank": null
    },
    "aiCited": false,
-   "mRank": null,
-   "indexed": true
+   "mRank": null
   }
  ],
  "queue": [],
  "comments": [
+  {
+   "logNo": "224483065715",
+   "commentNo": "911693047945756871",
+   "parentCommentNo": "911437178876198913",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "따님이 루핑루이 좋아하면 포켓몬판도 금방 빠질 것 같네요 ㅋㅋ 33,600원이라 셋 중엔 제일 비싸서 선물 날 맞춰 사주셔도 좋겠어요",
+   "regTime": "2026-11-27T16:38:36+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224478768232",
+   "commentNo": "911693036134596747",
+   "parentCommentNo": "911470054955024423",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "오 이건 몰랐던 곳이네요, 제보 고맙습니다 ㅎㅎ 공식 자판기 지도엔 안 잡히는 곳이라 가시는 분들은 재고 한 번 확인하고 가시면 좋겠어요",
+   "regTime": "2026-11-27T16:38:26+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224478755773",
+   "commentNo": "911693025397178450",
+   "parentCommentNo": "911481405781835940",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "항상 봐주신다니 힘이 나네요 ㅎㅎ 피카츄 ex만 모아도 18장이라 은근 많죠. 다른 포켓몬 도감도 하나씩 이어서 올리는 중이에요",
+   "regTime": "2026-11-27T16:38:15+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224483077735",
+   "commentNo": "911693013485355029",
+   "parentCommentNo": "911590162541052115",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "귀엽죠 ㅋㅋ 정식 라이선스 문구 있는지도 상품마다 적어뒀으니 고르실 때 같이 보시면 돼요",
+   "regTime": "2026-11-27T16:38:05+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224483077735",
+   "commentNo": "911692995667951868",
+   "parentCommentNo": "911618256979099873",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "버티컬이 39,900원으로 셋 중엔 제일 비싸긴 한데 디자인은 제일 탐나죠 ㅎㅎ 키보드까지 같이 보시면 19,800원 세트도 있어요",
+   "regTime": "2026-11-27T16:37:48+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224483077735",
+   "commentNo": "911692984695652537",
+   "parentCommentNo": "911665871607300325",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "수집욕 자극되는 거 인정입니다 ㅋㅋ 피카츄 블루투스가 리뷰도 제일 많아서 처음 고르시기엔 무난해요",
+   "regTime": "2026-11-27T16:37:38+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224483079810",
+   "commentNo": "911692972616056964",
+   "parentCommentNo": "911670345503604820",
+   "replyLevel": 2,
+   "userName": "고몽이",
+   "contents": "헷갈리던 게 풀렸다니 다행이네요 ㅎㅎ 팩 3,500원이랑 박스 70,000원만 기억해두셔도 웃돈 붙은 가격 거르기 편해요. 오늘 나온 카드 세트 12,000원짜리도 따로 정리해뒀어요",
+   "regTime": "2026-11-27T16:37:27+0900",
+   "mine": true,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
   {
    "logNo": "224483079810",
    "commentNo": "911670345503604820",
@@ -7936,10 +7812,10 @@
    "contents": "30주년 제품 가격을 한눈에 정리해 주셔서 헷갈리던 게 풀리네요, 잘 봤습니다-!",
    "regTime": "2026-11-27T10:46:14+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": false,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224483077735",
@@ -7950,10 +7826,10 @@
    "contents": "피카츄 마우스라니 정말 수집욕을 자극하는 글이네요 ㅎㅎ 잘보고갑니다!!",
    "regTime": "2026-11-27T09:36:47+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": false,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224483077735",
@@ -7964,10 +7840,10 @@
    "contents": "와우 버티컬마우스는 탐나네요!",
    "regTime": "2026-11-26T21:17:42+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": false,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224483077735",
@@ -7978,10 +7854,10 @@
    "contents": "마우스 너무 귀여운데요 ㅋㅋㅋㅋ<br>추천 감사합니다 !!!",
    "regTime": "2026-11-26T14:01:38+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": false,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224478755773",
@@ -7992,10 +7868,10 @@
    "contents": "포켓몬 대표 마스코트 <br>피카츄 정리 글 잘 봤습니다!<br>항상 포스팅 잘 보구 있습니다!",
    "regTime": "2026-11-25T09:53:30+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": false,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224478768232",
@@ -8006,10 +7882,10 @@
    "contents": "사월역  바로 옆 문구야 놀자에 미니 자판기 있습니다.",
    "regTime": "2026-11-25T06:57:19+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": false,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224483065715",
@@ -8020,10 +7896,10 @@
    "contents": "진짜 포켓몬 보드게임까지! 저희 딸은 루핑루이가 있는데.. 포켓몬꺼 또 사달라고 하네요!",
    "regTime": "2026-11-24T22:27:00+0900",
    "mine": false,
-   "replyCount": 0,
+   "replyCount": 1,
    "deleted": false,
    "secret": false,
-   "unanswered": true
+   "unanswered": false
   },
   {
    "logNo": "224465661513",
@@ -8152,48 +8028,6 @@
    "unanswered": false
   },
   {
-   "logNo": "224448110588",
-   "commentNo": "911266404232069133",
-   "parentCommentNo": "911266404232069133",
-   "replyLevel": 1,
-   "userName": "studio",
-   "contents": "안녕하세요 고몽이님 :) 「포켓몬카드 홍대 파는곳」 글 잘 읽었어요 🤍<br>감각적인 포스팅이 좋아서 조심스럽게 댓글 남겨 봅니다..!<br><br>저희는 네이버 프리미엄 셀프 스튜디오 부문 검색량 1위,<br>누적 1만 명이 선택한 유앤이 스튜디오 (성수 / 홍대 / 동탄) 입니다 ",
-   "regTime": "2026-11-23T02:16:14+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": true,
-   "unanswered": true
-  },
-  {
-   "logNo": "224478755773",
-   "commentNo": "911155857092247640",
-   "parentCommentNo": "911155857092247640",
-   "replyLevel": 1,
-   "userName": "대표 크리에이터 연정",
-   "contents": "포스팅 잘 보고 갑니다 :) 파이업 관련 내용을 하나씩 정리한 블로그 글이 있어 소개해 드려요! 부업 정보를 찾고 계신 분들께 작은 참고가 되었으면 좋겠어요 💗",
-   "regTime": "2026-11-21T21:40:19+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": false,
-   "unanswered": true
-  },
-  {
-   "logNo": "224478755773",
-   "commentNo": "911150187970297914",
-   "parentCommentNo": "911150187970297914",
-   "replyLevel": 1,
-   "userName": "판다",
-   "contents": "포스팅 잘 보고 갑니다 😊 블로그 수익화가 광고 수익만 있는 줄 알았는데 다른 방법도 있더라고요!<br>https://blog.naver.com/tpqdl3057/224477017274",
-   "regTime": "2026-11-21T20:12:18+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": true,
-   "unanswered": true
-  },
-  {
    "logNo": "224478749838",
    "commentNo": "911142633710026760",
    "parentCommentNo": "911142633710026760",
@@ -8206,20 +8040,6 @@
    "deleted": false,
    "secret": false,
    "unanswered": false
-  },
-  {
-   "logNo": "224478749838",
-   "commentNo": "911057478014206021",
-   "parentCommentNo": "911057478014206021",
-   "replyLevel": 1,
-   "userName": "히나",
-   "contents": "공감하며 잘 읽고 갑니다!<br>제 블로그도 한번 들러주세요^^",
-   "regTime": "2026-11-20T20:13:17+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": true,
-   "unanswered": true
   },
   {
    "logNo": "224478745213",
@@ -8248,34 +8068,6 @@
    "deleted": false,
    "secret": false,
    "unanswered": false
-  },
-  {
-   "logNo": "224473992199",
-   "commentNo": "910922327993090201",
-   "parentCommentNo": "910922327993090201",
-   "replyLevel": 1,
-   "userName": "지니",
-   "contents": "고몽이님 올 겨울 난방비 걱정 끝낼 수 있는 방법!! <br>자세한 내용은 블로그 놀러오세요~",
-   "regTime": "2026-11-19T09:15:28+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": true,
-   "unanswered": true
-  },
-  {
-   "logNo": "224473992199",
-   "commentNo": "910914922395730003",
-   "parentCommentNo": "910914922395730003",
-   "replyLevel": 1,
-   "userName": "수호정",
-   "contents": "파이업 진짜 몰라서 안 하시는 분들 너무 안타까워요 ㅠㅠ 제 블로그 와서 딱 3분만 읽어보세요!",
-   "regTime": "2026-11-19T07:20:31+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": true,
-   "unanswered": true
   },
   {
    "logNo": "224465661513",
@@ -8768,34 +8560,6 @@
    "unanswered": false
   },
   {
-   "logNo": "224465656016",
-   "commentNo": "910128139668029452",
-   "parentCommentNo": "910128139668029452",
-   "replyLevel": 1,
-   "userName": "파이업은주",
-   "contents": "파이업 진짜 딱 한번만 ! 제 블로그와서 알아보세여<br>진짜 완전 일생일대의 기회에요!..",
-   "regTime": "2026-11-10T19:48:02+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": true,
-   "unanswered": true
-  },
-  {
-   "logNo": "224465656016",
-   "commentNo": "910128129752695005",
-   "parentCommentNo": "910128129752695005",
-   "replyLevel": 1,
-   "userName": "한결",
-   "contents": "애들 케어하면서 집에서 클릭 한 번 해놓고 2만원씩 벌고 있어요!!! <br>궁금하시죵..!? 제가 꿀정보 알려드릴테니 놀러오세용🩷",
-   "regTime": "2026-11-10T19:47:54+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": true,
-   "unanswered": true
-  },
-  {
    "logNo": "224461970599",
    "commentNo": "910084908540493829",
    "parentCommentNo": "910084908540493829",
@@ -8965,20 +8729,6 @@
   },
   {
    "logNo": "224461957097",
-   "commentNo": "909822828897894606",
-   "parentCommentNo": "909822828897894606",
-   "replyLevel": 1,
-   "userName": "MINAAA",
-   "contents": "글 잘 읽었어용♡ 근데 진짜 요즘 돈 때문에 정신없져ㅋㅋ<br>저도 부업 알아보다가 별의별 걸 다 봤거든여.<br>그중에 적립 구조가 특이한 걸 발견했어욧!<br>시작 비용도 있고 조건도 있어서 싹 정리해뒀어용.<br>궁금하면 제 블로그 놀러오세여🔥<br><br>https://blog",
-   "regTime": "2026-11-07T12:48:59+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": true,
-   "unanswered": true
-  },
-  {
-   "logNo": "224461957097",
    "commentNo": "909822331285667897",
    "parentCommentNo": "909822331285667897",
    "replyLevel": 1,
@@ -9032,20 +8782,6 @@
    "deleted": false,
    "secret": false,
    "unanswered": false
-  },
-  {
-   "logNo": "224465723252",
-   "commentNo": "909655644930310498",
-   "parentCommentNo": "909655644930310498",
-   "replyLevel": 1,
-   "userName": "오늘뷰티 잠실점",
-   "contents": "안녕하세요 :)<br>오늘뷰티 잠실점입니다💛<br>https://naver.me/xGFhnT9v<br><br>새롭게 오픈한 '오늘 뷰티'에서 <br>✨시그니처 관리 후기 이벤트✨를 안내드립니다.<br><br>이벤트 안내는 하단을 카카오채널을 통해 확인 부탁드려요 ☺️<br>http:/",
-   "regTime": "2026-11-05T17:33:57+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": true,
-   "unanswered": true
   },
   {
    "logNo": "224421189221",
@@ -9158,48 +8894,6 @@
    "deleted": false,
    "secret": false,
    "unanswered": false
-  },
-  {
-   "logNo": "224457500391",
-   "commentNo": "909439360946929942",
-   "parentCommentNo": "909439360946929942",
-   "replyLevel": 1,
-   "userName": "라파엘",
-   "contents": "요즘 엄청 핫한 하루 5분 세팅 수익 모델! 제 블로그에 자세히 포스팅해 뒀어요~",
-   "regTime": "2026-11-03T09:36:48+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": false,
-   "unanswered": true
-  },
-  {
-   "logNo": "224457500391",
-   "commentNo": "909437713977966669",
-   "parentCommentNo": "909437713977966669",
-   "replyLevel": 1,
-   "userName": "MINAAA",
-   "contents": "공감 누르고 갑니당♡<br>근데 결혼 전후로 돈 나갈 일 진짜 끝도 없잖아여ㅋㅋ<br>저도 그래서 부업 하나 새롭게 시작했거든용.<br>짧은 활동으로 적립 기회를 얻는 방식이라 관심이 갔어욧!<br>대체 뭐 하는 건지 궁금하면 제 블로그 놀러오세용🔥<br><br>https://blog",
-   "regTime": "2026-11-03T09:11:14+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": true,
-   "unanswered": true
-  },
-  {
-   "logNo": "224457500391",
-   "commentNo": "909434807593730063",
-   "parentCommentNo": "909434807593730063",
-   "replyLevel": 1,
-   "userName": "대표 크리에이터 연정",
-   "contents": "글 잘 보고 갑니다~ 😊 파이업에 관한 정보를 블로그에 정리해 두었는데, 새로운 부업을 비교하고 계신 분들께 도움이 되면 좋겠어요. 편하게 구경 오세요!",
-   "regTime": "2026-11-03T08:26:06+0900",
-   "mine": false,
-   "replyCount": 0,
-   "deleted": false,
-   "secret": false,
-   "unanswered": true
   },
   {
    "logNo": "224421389946",
@@ -9326,16 +9020,100 @@
    "deleted": false,
    "secret": false,
    "unanswered": false
+  },
+  {
+   "logNo": "224438743702",
+   "commentNo": "909345987418390665",
+   "parentCommentNo": "909345987418390665",
+   "replyLevel": 1,
+   "userName": "기관총엑셀",
+   "contents": "정말 꼼꼼한 비교네요. 덕분에 잘 골랐어요!",
+   "regTime": "2026-11-02T09:27:26+0900",
+   "mine": false,
+   "replyCount": 1,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224453853474",
+   "commentNo": "909342480527261699",
+   "parentCommentNo": "909342480527261699",
+   "replyLevel": 1,
+   "userName": "선부기",
+   "contents": "유용한 꿀팁 공유해주셔서 감사해요~!<br>저도 자판기 도전해봐야겠어요!!",
+   "regTime": "2026-11-02T08:33:01+0900",
+   "mine": false,
+   "replyCount": 1,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224453851436",
+   "commentNo": "909341466428440634",
+   "parentCommentNo": "909341466428440634",
+   "replyLevel": 1,
+   "userName": "하루일기",
+   "contents": "피드 구경 잘 하구 가요!<br>소통하며 지내요<br>답방 부탁드려요 :)",
+   "regTime": "2026-11-02T08:17:16+0900",
+   "mine": false,
+   "replyCount": 1,
+   "deleted": false,
+   "secret": true,
+   "unanswered": false
+  },
+  {
+   "logNo": "224460930670",
+   "commentNo": "909267920163438746",
+   "parentCommentNo": "909267920163438746",
+   "replyLevel": 1,
+   "userName": "밤비",
+   "contents": "한국, 일본도 행사하면 좋을텐데 아쉽네요 😖",
+   "regTime": "2026-11-01T13:15:41+0900",
+   "mine": false,
+   "replyCount": 1,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
+  },
+  {
+   "logNo": "224453849725",
+   "commentNo": "909265984408256651",
+   "parentCommentNo": "909265984408256651",
+   "replyLevel": 1,
+   "userName": "미래부자",
+   "contents": "저도 컴퓨터 잘 못하는데.. 이 부업은 다 떠먹여 주더라구요.. 하루 5분이면 부업 계속 할 수 있어요 ㅎㅎ 제 블로그 놀러오실래요?",
+   "regTime": "2026-11-01T12:45:38+0900",
+   "mine": false,
+   "replyCount": 0,
+   "deleted": false,
+   "secret": true,
+   "unanswered": true
+  },
+  {
+   "logNo": "224421389946",
+   "commentNo": "909263302134071494",
+   "parentCommentNo": "909263302134071494",
+   "replyLevel": 1,
+   "userName": "게임 기록노트",
+   "contents": "싸도 문제, 비싸도 문제네요<br>항상 글 잘 읽고 갑니다",
+   "regTime": "2026-11-01T12:03:59+0900",
+   "mine": false,
+   "replyCount": 2,
+   "deleted": false,
+   "secret": false,
+   "unanswered": false
   }
  ],
  "stats": {
   "dailyCv": [
    {
     "date": "2026-11-27",
-    "total": 294,
-    "friend": 10,
-    "follow": 0,
-    "etc": 284
+    "total": 479,
+    "friend": 13,
+    "follow": 1,
+    "etc": 465
    },
    {
     "date": "2026-11-26",
@@ -9438,23 +9216,23 @@
   ],
   "today": {
    "date": "2026-11-27",
-   "utime": "2026-11-27T13:00:23",
+   "utime": "2026-11-27T17:04:59",
    "dashboard": {
-    "dailyComment": 2,
+    "dailyComment": 9,
     "dailyPlayCount": "0",
-    "dailyCv": 294,
-    "dailyLike": 6,
-    "dailyCommentUtime": "2026-11-27T13:00:24",
-    "dailyRelationDeltaUtime": "2026-11-27T13:00:24",
+    "dailyCv": 479,
+    "dailyLike": 8,
+    "dailyCommentUtime": "2026-11-27T17:04:59",
+    "dailyRelationDeltaUtime": "2026-11-27T17:04:59",
     "dailyRelationDelta": 0,
     "isToday": true,
-    "dailyLikeUtime": "2026-11-27T13:00:23",
-    "dailyCvUtime": "2026-11-27T13:00:23"
+    "dailyLikeUtime": "2026-11-27T17:04:59",
+    "dailyCvUtime": "2026-11-27T17:04:59"
    },
    "dailyCv": [
     {
      "date": "2026-11-27",
-     "cv": 294
+     "cv": 479
     },
     {
      "date": "2026-11-26",
@@ -9516,216 +9294,221 @@
    "rankCv": [
     {
      "rank": 1,
-     "cv": 27,
+     "cv": 36,
      "title": "포켓몬카드 30주년 정가 제품 5종, 팩 3,500원부터 박스까지",
      "logNo": "224483079810",
      "createDate": "2026.11.26. 19:40"
     },
     {
      "rank": 2,
-     "cv": 24,
+     "cv": 32,
      "title": "원피스카드 신의 섬 모험 발매일 11월 27일, 15탄 가격과 구성",
      "logNo": "224466961082",
      "createDate": "2026.11.06. 11:12"
     },
     {
      "rank": 3,
-     "cv": 16,
+     "cv": 24,
      "title": "포켓몬카드 30주년 카드 세트 9종, 11월 27일 12,000원",
      "logNo": "224484504000",
      "createDate": "2026.11.20. 11:11"
     },
     {
      "rank": 4,
-     "cv": 14,
+     "cv": 15,
      "title": "포켓몬카드 서울 카드쇼 12월, 성수 TCG 콘 4일부터 6일 일정",
      "logNo": "224483071151",
      "createDate": "2026.11.25. 12:40"
     },
     {
      "rank": 5,
-     "cv": 10,
+     "cv": 13,
      "title": "포켓몬카드 파동시커 발매일 11월 27일, 메가루카리오 Z ex 정리",
      "logNo": "224465657847",
      "createDate": "2026.11.11. 07:40"
     },
     {
      "rank": 6,
-     "cv": 8,
-     "title": "포켓몬카드 아트박스 판매 확인, 공식 자판기 0곳과 온라인몰 3건",
-     "logNo": "224465661513",
-     "createDate": "2026.11.11. 19:40"
+     "cv": 12,
+     "title": "포켓몬카드 박스 인기순위, 검색량으로 본 MEGA 9종 순서와 정가",
+     "logNo": "224461951127",
+     "createDate": "2026.11.06. 12:40"
     }
    ],
    "referer": [
     {
      "name": "네이버 통합검색_모바일",
-     "cv": 195,
-     "pct": 69.1
+     "cv": 325,
+     "pct": 70.7
     },
     {
      "name": "네이버 통합검색_PC",
-     "cv": 42,
-     "pct": 14.9
+     "cv": 74,
+     "pct": 16.1
     },
     {
      "name": "네이버 메인_모바일_홈판",
-     "cv": 25,
-     "pct": 8.9
+     "cv": 34,
+     "pct": 7.4
     },
     {
      "name": "네이버 블로그_모바일",
-     "cv": 11,
-     "pct": 3.9
+     "cv": 14,
+     "pct": 3
     },
     {
      "name": "네이버 블로그_PC",
-     "cv": 3,
+     "cv": 5,
      "pct": 1.1
+    },
+    {
+     "name": "네이버 메인_PC",
+     "cv": 2,
+     "pct": 0.4
     },
     {
      "name": "네이버 메인_모바일",
      "cv": 2,
-     "pct": 0.7
+     "pct": 0.4
+    },
+    {
+     "name": "Daum 검색_모바일",
+     "cv": 1,
+     "pct": 0.2
     },
     {
      "name": "네이버 검색_기타",
      "cv": 1,
-     "pct": 0.4
-    },
-    {
-     "name": "네이버 메인_PC",
-     "cv": 1,
-     "pct": 0.4
+     "pct": 0.2
     },
     {
      "name": "네이버 블로그검색_모바일",
      "cv": 1,
-     "pct": 0.4
+     "pct": 0.2
     },
     {
      "name": "네이버 이미지검색_PC",
      "cv": 1,
-     "pct": 0.4
+     "pct": 0.2
     }
    ],
    "searchQueries": [
     {
      "query": "원피스 15탄",
-     "cv": 6,
-     "pct": 3.1
+     "cv": 7,
+     "pct": 2.2
+    },
+    {
+     "query": "메가브레이브 힛카드",
+     "cv": 5,
+     "pct": 1.5
     },
     {
      "query": "포켓몬 30주년",
      "cv": 4,
-     "pct": 2.1
+     "pct": 1.2
     },
     {
-     "query": "메가브레이브 힛카드",
+     "query": "brg 보내는 방법",
      "cv": 3,
-     "pct": 1.5
+     "pct": 0.9
+    },
+    {
+     "query": "군산 포켓몬카드",
+     "cv": 3,
+     "pct": 0.9
+    },
+    {
+     "query": "메가심포니아 힛카드",
+     "cv": 3,
+     "pct": 0.9
     },
     {
      "query": "서울 카드쇼",
      "cv": 3,
-     "pct": 1.5
+     "pct": 0.9
+    },
+    {
+     "query": "원피스카드 15탄",
+     "cv": 3,
+     "pct": 0.9
     },
     {
      "query": "카드쇼",
      "cv": 3,
-     "pct": 1.5
+     "pct": 0.9
+    },
+    {
+     "query": "포켓몬 30주년 박스",
+     "cv": 3,
+     "pct": 0.9
+    },
+    {
+     "query": "포켓몬스터 자판기 안양",
+     "cv": 3,
+     "pct": 0.9
     },
     {
      "query": "11월 27일 30주년 카드세트",
      "cv": 2,
-     "pct": 1
+     "pct": 0.6
+    },
+    {
+     "query": "gs 포켓몬 30주년 카드",
+     "cv": 2,
+     "pct": 0.6
     },
     {
      "query": "건대 포켓몬캍 자판기",
      "cv": 2,
-     "pct": 1
+     "pct": 0.6
     },
     {
-     "query": "군산 포켓몬카드",
+     "query": "닌자스피너 힛카드",
      "cv": 2,
-     "pct": 1
+     "pct": 0.6
+    },
+    {
+     "query": "동탄 호수 포켓몬카드",
+     "cv": 2,
+     "pct": 0.6
     },
     {
      "query": "세종 포켓몬카드",
      "cv": 2,
-     "pct": 1
+     "pct": 0.6
+    },
+    {
+     "query": "아트박스 포켓몬카드",
+     "cv": 2,
+     "pct": 0.6
+    },
+    {
+     "query": "안양 포켓몬 카드샵",
+     "cv": 2,
+     "pct": 0.6
     },
     {
      "query": "원피스 공인샵 매장",
      "cv": 2,
-     "pct": 1
-    },
-    {
-     "query": "원피스카드 15탄",
-     "cv": 2,
-     "pct": 1
-    },
-    {
-     "query": "일산 포켓몬카드샵",
-     "cv": 2,
-     "pct": 1
-    },
-    {
-     "query": "탑로더 보관함",
-     "cv": 2,
-     "pct": 1
-    },
-    {
-     "query": "포켓몬 30주년 박스",
-     "cv": 2,
-     "pct": 1
-    },
-    {
-     "query": "포켓몬 오프라인 공식샵",
-     "cv": 2,
-     "pct": 1
-    },
-    {
-     "query": "포켓몬 카드 출시 순서 2026",
-     "cv": 2,
-     "pct": 1
-    },
-    {
-     "query": "포켓몬카드 복각 뜻",
-     "cv": 2,
-     "pct": 1
-    },
-    {
-     "query": "151박스 파는곳",
-     "cv": 1,
-     "pct": 0.5
-    },
-    {
-     "query": "30주년 카드덱",
-     "cv": 1,
-     "pct": 0.5
-    },
-    {
-     "query": "30주년 카드세트 구매처",
-     "cv": 1,
-     "pct": 0.5
+     "pct": 0.6
     }
    ]
   },
   "yesterday": {
    "date": "2026-11-26",
-   "utime": "2026-11-27T13:00:24",
+   "utime": "2026-11-27T17:05",
    "dashboard": {
     "dailyComment": 2,
     "dailyPlayCount": "0",
     "dailyCv": 771,
     "dailyLike": 36,
-    "dailyCommentUtime": "2026-11-27T13:00:24",
-    "dailyRelationDeltaUtime": "2026-11-27T13:00:24",
+    "dailyCommentUtime": "2026-11-27T17:05",
+    "dailyRelationDeltaUtime": "2026-11-27T17:05",
     "dailyRelationDelta": 0,
     "isToday": false,
-    "dailyLikeUtime": "2026-11-27T13:00:24",
-    "dailyCvUtime": "2026-11-27T13:00:24"
+    "dailyLikeUtime": "2026-11-27T17:05",
+    "dailyCvUtime": "2026-11-27T17:05"
    },
    "dailyCv": [
     {
@@ -33889,11 +33672,21 @@
  ],
  "routines": [
   {
+   "id": "tXI4r80O1fAnlQoq",
+   "name": "[1회 보강] 신규 글 11/26(목) 회차 (API 키 무효로 실패분)",
+   "status": "active",
+   "rrule": "DTSTART;TZID=Asia/Seoul:20261127T180000\nRRULE:FREQ=DAILY;COUNT=1",
+   "nextRunAt": "2026-11-27T09:00:00.000Z",
+   "last": null,
+   "missed": false,
+   "maxGapH": null
+  },
+  {
    "id": "sDx4wDCs66q0bp8I",
    "name": "고몽이 TCG 센터 이슈 감시 + 즉시 발행 (rmarn99, 하루 4번째 자리)",
    "status": "active",
    "rrule": "DTSTART;TZID=Asia/Seoul:20261030T110000\nRRULE:FREQ=DAILY;BYHOUR=11,17;BYMINUTE=0",
-   "nextRunAt": "2026-11-27T08:00:00.000Z",
+   "nextRunAt": "2026-11-28T02:00:00.000Z",
    "last": null,
    "missed": false,
    "maxGapH": 18
@@ -33991,14 +33784,14 @@
    "name": "고몽이 PWA 작업 요청 실행 (앱 → ntfy task)",
    "status": "active",
    "rrule": "DTSTART;TZID=Asia/Seoul:20261014T183000\nRRULE:FREQ=DAILY;BYHOUR=12,15,18,21;BYMINUTE=30",
-   "nextRunAt": "2026-11-27T06:30:00.000Z",
+   "nextRunAt": "2026-11-27T09:30:00.000Z",
    "last": {
-    "id": "wdAg7WohgX8hr7Ac",
-    "at": "2026-11-27T03:30:07.000Z",
-    "endAt": "2026-11-27T03:30:33.000Z",
-    "runs": 274,
+    "id": "ubZTrgRHyHn2NPgw",
+    "at": "2026-11-27T06:30:10.000Z",
+    "endAt": "2026-11-27T06:30:36.000Z",
+    "runs": 275,
     "result": "ok",
-    "summary": "12:30 회차 끝. 대기 작업 0건이야. · PWA(ntfy) 대기 작업: 0건 (ntfyPendingTasks() → [], tasks.json '대기' 항목 없음)"
+    "summary": "15:30 회차 끝. 대기 작업 0건이야. · PWA(ntfy) 대기 작업: 0건 (ntfyPendingTasks() → [], tasks.json '대기' 항목 없음)"
    },
    "missed": false,
    "maxGapH": 15
@@ -34029,10 +33822,10 @@
    "last": {
     "id": "xBPsDqXAzVMdQwsq",
     "at": "2026-11-27T04:00:07.000Z",
-    "endAt": "2026-11-27T04:00:15.000Z",
+    "endAt": "2026-11-27T04:02:12.000Z",
     "runs": 136,
-    "result": "running",
-    "summary": "On schedule (13:00 회차), running the standard checks now."
+    "result": "ok",
+    "summary": "13:00 회차 정상 완료했어. · 색인 정상 (48시간 색인율 90.7%, 미색인 20개 - 137·148·164 포함 전 회차와 동일 구성, dropped 0)"
    },
    "missed": false,
    "maxGapH": 19
@@ -34291,7 +34084,7 @@
    "mediaEnabled": true,
    "approvedAt": "2026-10-05T02:50:13.000Z",
    "report": {
-    "at": "2026-11-27T04:00:33.026Z",
+    "at": "2026-11-27T08:05:09.023Z",
     "dataThrough": "2026-11-26",
     "start": "2026-10-28",
     "yesterday": {
@@ -34823,243 +34616,13 @@
    "selectionMonth": 1,
    "betaEnds": "2026-12"
   },
-  "at": "2026-11-27T04:00:38.124Z"
+  "at": "2026-11-27T08:05:14.641Z"
  },
  "loginOk": true,
  "preflight": "ok",
- "indexing": {
-  "at": "2026-11-27T04:01:18.886Z",
-  "checked": 14,
-  "indexed": 199,
-  "notIndexed": 20,
-  "unknown": 1,
-  "ratio48": 90.7,
-  "missing48": [
-   {
-    "logNo": "224431137457",
-    "no": 54,
-    "title": "포켓몬카드 시세 사이트 4곳, 조회 순서와 체결가 읽는 법",
-    "game": "포켓몬",
-    "ageH": 1254,
-    "indexed": false,
-    "checkedAt": "2026-11-27T04:01:14.004Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224427965084",
-    "no": 41,
-    "title": "리프트바운드 레디언스 출시일 10월 23일, 신규 체계 3개 정리",
-    "game": "리프트바운드",
-    "ageH": 1249,
-    "indexed": false,
-    "checkedAt": "2026-11-26T23:00:44.523Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224431138041",
-    "no": 55,
-    "title": "포켓몬카드 메가브레이브 힛카드 리스트, 92장과 정가 3만원 박스",
-    "game": "포켓몬",
-    "ageH": 1242,
-    "indexed": false,
-    "checkedAt": "2026-11-27T04:01:10.580Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224427969059",
-    "no": 44,
-    "title": "포켓몬 팀 마스터즈 2027 서울 참가 방법, 3인 1조 접수 규칙",
-    "game": "포켓몬",
-    "ageH": 1224,
-    "indexed": false,
-    "checkedAt": "2026-11-27T04:01:07.026Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224431136669",
-    "no": 56,
-    "title": "포켓몬카드 30주년 피카츄 30종 리스트, 복각 피카츄와 전종 시세",
-    "game": "포켓몬",
-    "ageH": 1217,
-    "indexed": false,
-    "checkedAt": "2026-11-27T04:01:03.677Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224434569345",
-    "no": 76,
-    "title": "포켓몬카드 퓨처리스틱 박스 당첨 결제, 10월 14일 자정 마감",
-    "game": "포켓몬",
-    "ageH": 1214,
-    "indexed": false,
-    "checkedAt": "2026-11-27T04:00:56.701Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224427971701",
-    "no": 46,
-    "title": "포켓몬카드 센터링 뜻, PSA 10 기준 55/45와 재는 법 4단계",
-    "game": "포켓몬",
-    "ageH": 1206,
-    "indexed": false,
-    "checkedAt": "2026-11-27T04:00:53.351Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224434655685",
-    "no": 77,
-    "title": "포켓몬카드 메가브레이브 메가심포니아 일판 박스 가격과 시세 비교",
-    "game": "포켓몬",
-    "ageH": 1201,
-    "indexed": false,
-    "checkedAt": "2026-11-27T04:00:50.060Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224431710952",
-    "no": 58,
-    "title": "탑로더 추천 3종 비교, 35pt 일반 UV차단 자석케이스 가격 기준",
-    "game": "용품",
-    "ageH": 1193,
-    "indexed": false,
-    "checkedAt": "2026-11-27T04:00:47.681Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224431711706",
-    "no": 59,
-    "title": "포켓몬카드 30주년 박스 시세 기준, 한글판 1.9배 일본판 3.6배",
-    "game": "포켓몬",
-    "ageH": 1182,
-    "indexed": false,
-    "checkedAt": "2026-11-27T04:00:44.292Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224431712498",
-    "no": 60,
-    "title": "포켓몬카드 슈링크 뜻과 확인방법, 박스 비닐 5단계와 제거 판매 이유",
-    "game": "포켓몬",
-    "ageH": 1177,
-    "indexed": false,
-    "checkedAt": "2026-11-26T23:01:08.883Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224431713458",
-    "no": 61,
-    "title": "원피스카드 발매일정, EBK-04 10월 23일과 2027년 로드맵",
-    "game": "원피스",
-    "ageH": 1169,
-    "indexed": false,
-    "checkedAt": "2026-11-26T23:01:05.436Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224431714247",
-    "no": 62,
-    "title": "포켓몬카드 대전 파는곳 총정리, 공식 카드샵 1곳과 자판기 8곳 위치",
-    "game": "포켓몬",
-    "ageH": 1158,
-    "indexed": false,
-    "checkedAt": "2026-11-26T23:01:01.846Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224431716369",
-    "no": 63,
-    "title": "포켓몬카드 슬리브 추천 3종, 퍼펙트핏 스탠다드 탑로더용 가격 비교",
-    "game": "포켓몬",
-    "ageH": 1153,
-    "indexed": false,
-    "checkedAt": "2026-11-26T23:00:58.356Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224431717214",
-    "no": 64,
-    "title": "포켓몬카드 중고거래 파는법, 당근 번개장터 수수료와 가격 정하는 순서",
-    "game": "포켓몬",
-    "ageH": 1145,
-    "indexed": false,
-    "checkedAt": "2026-11-26T23:00:54.948Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224431718047",
-    "no": 65,
-    "title": "포켓몬 카드 가장 비싼 카드 가격 순위 8장, 222억 원 피카츄",
-    "game": "포켓몬",
-    "ageH": 1133,
-    "indexed": false,
-    "checkedAt": "2026-11-26T23:00:51.480Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224431719692",
-    "no": 67,
-    "title": "포켓몬 카드 직구 사이트 3곳 비교, 수수료 3.5%와 관세 기준",
-    "game": "포켓몬",
-    "ageH": 1122,
-    "indexed": false,
-    "checkedAt": "2026-11-26T23:00:48.020Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224454689061",
-    "no": 137,
-    "title": "포켓몬카드 이마트 쓱데이 30주년 6,000박스, 디지털그랩 구매법",
-    "game": "포켓몬",
-    "ageH": 741,
-    "indexed": false,
-    "checkedAt": "2026-11-26T23:01:16.260Z",
-    "firstIndexedAt": "2026-10-27T23:00:48.286Z",
-    "lastIndexedAt": "2026-10-27T23:00:48.286Z"
-   },
-   {
-    "logNo": "224458271641",
-    "no": 148,
-    "title": "포켓몬 쿠우쿠우 콜라보 키링 5종 증정, 간장종지 8,900원 정리",
-    "game": "포켓몬",
-    "ageH": 687,
-    "indexed": false,
-    "checkedAt": "2026-11-27T04:01:00.228Z",
-    "firstIndexedAt": null,
-    "lastIndexedAt": null
-   },
-   {
-    "logNo": "224462016960",
-    "no": 164,
-    "title": "포켓몬 CU 빼빼로데이 굿즈, 성수 콘셉트 스토어와 30% 할인 조건",
-    "game": "포켓몬",
-    "ageH": 602,
-    "indexed": false,
-    "checkedAt": "2026-11-26T23:01:12.586Z",
-    "firstIndexedAt": "2026-11-02T06:35:12.841Z",
-    "lastIndexedAt": "2026-11-02T06:35:12.841Z"
-   }
-  ],
-  "dropped": []
- },
+ "indexing": null,
  "perf": {
-  "at": "2026-11-27T04:01:18.905Z",
+  "at": "2026-11-27T08:05:14.664Z",
   "rpm7": 701,
   "logDays": 41,
   "base7Date": "2026-11-20",
@@ -35071,14 +34634,14 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 30주년 카드 세트 (이슈)",
     "ageD": 7,
-    "views": 534,
-    "perDay": 75.5,
-    "v7": 524,
+    "views": 542,
+    "perDay": 74.8,
+    "v7": 532,
     "v7src": "log",
     "est7": 438,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "top"
    },
@@ -35089,33 +34652,15 @@
     "game": "용품",
     "keyword": "다이소 카드 바인더",
     "ageD": 8,
-    "views": 252,
-    "perDay": 31.5,
-    "v7": 201,
+    "views": 254,
+    "perDay": 31.1,
+    "v7": 203,
     "v7src": "log",
     "est7": 146,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
-    "grade": "top"
-   },
-   {
-    "logNo": "224465661513",
-    "no": 172,
-    "title": "포켓몬카드 아트박스 판매 확인, 공식 자판기 0곳과 온라인몰 3건",
-    "game": "포켓몬",
-    "keyword": "아트박스 포켓몬카드",
-    "ageD": 16,
-    "views": 1147,
-    "perDay": 72.9,
-    "v7": 160,
-    "v7src": "log",
-    "est7": 107,
-    "mBest": 4,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 6,
     "grade": "top"
    },
    {
@@ -35125,15 +34670,33 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 30주년 SAR",
     "ageD": 13,
-    "views": 870,
-    "perDay": 68.3,
-    "v7": 160,
+    "views": 872,
+    "perDay": 67.6,
+    "v7": 162,
     "v7src": "log",
     "est7": 95,
     "mBest": 11,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
+    "grade": "top"
+   },
+   {
+    "logNo": "224465661513",
+    "no": 172,
+    "title": "포켓몬카드 아트박스 판매 확인, 공식 자판기 0곳과 온라인몰 3건",
+    "game": "포켓몬",
+    "keyword": "아트박스 포켓몬카드",
+    "ageD": 16,
+    "views": 1148,
+    "perDay": 72.2,
+    "v7": 161,
+    "v7src": "log",
+    "est7": 107,
+    "mBest": 4,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 6,
     "grade": "top"
    },
    {
@@ -35143,15 +34706,15 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 피카츄 ex",
     "ageD": 6,
-    "views": 148,
-    "perDay": 25.8,
-    "v7": 148,
+    "views": 149,
+    "perDay": 25.3,
+    "v7": 149,
     "v7src": "new",
     "est7": 117,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 3,
+    "indexed": null,
+    "comments": 2,
     "grade": "top"
    },
    {
@@ -35161,14 +34724,14 @@
     "game": "포켓몬",
     "keyword": "롯데시네마 포켓몬",
     "ageD": 10,
-    "views": 234,
-    "perDay": 22.9,
-    "v7": 140,
+    "views": 235,
+    "perDay": 22.6,
+    "v7": 141,
     "v7src": "log",
-    "est7": 98,
+    "est7": 99,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "top"
    },
@@ -35179,15 +34742,15 @@
     "game": "포켓몬",
     "keyword": "메가브레이브 SAR",
     "ageD": 7,
-    "views": 130,
+    "views": 133,
     "perDay": 19.3,
-    "v7": 130,
+    "v7": 133,
     "v7src": "new",
     "est7": 104,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 3,
+    "indexed": null,
+    "comments": 2,
     "grade": "top"
    },
    {
@@ -35197,15 +34760,33 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 사이트",
     "ageD": 25,
-    "views": 420,
+    "views": 423,
     "perDay": 16.6,
-    "v7": 112,
+    "v7": 115,
     "v7src": "log",
     "est7": 61,
     "mBest": 4,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
+    "grade": "top"
+   },
+   {
+    "logNo": "224461962471",
+    "no": 159,
+    "title": "포켓몬카드 동탄 파는곳, 화성 공식 자판기 4대와 가까운 공식 카드샵",
+    "game": "포켓몬",
+    "keyword": "동탄 포켓몬카드",
+    "ageD": 19,
+    "views": 369,
+    "perDay": 19.2,
+    "v7": 112,
+    "v7src": "log",
+    "est7": 83,
+    "mBest": 2,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
     "grade": "top"
    },
    {
@@ -35215,14 +34796,14 @@
     "game": "포켓몬",
     "keyword": "메가리자몽X ex",
     "ageD": 12,
-    "views": 212,
-    "perDay": 17.6,
-    "v7": 111,
+    "views": 213,
+    "perDay": 17.5,
+    "v7": 112,
     "v7src": "log",
     "est7": 72,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "top"
    },
@@ -35233,32 +34814,14 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 롯데마트",
     "ageD": 28,
-    "views": 1004,
-    "perDay": 35.6,
-    "v7": 109,
+    "views": 1006,
+    "perDay": 35.4,
+    "v7": 111,
     "v7src": "log",
     "est7": 64,
     "mBest": 8,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "top"
-   },
-   {
-    "logNo": "224461962471",
-    "no": 159,
-    "title": "포켓몬카드 동탄 파는곳, 화성 공식 자판기 4대와 가까운 공식 카드샵",
-    "game": "포켓몬",
-    "keyword": "동탄 포켓몬카드",
-    "ageD": 19,
-    "views": 366,
-    "perDay": 19.3,
-    "v7": 109,
-    "v7src": "log",
-    "est7": 83,
-    "mBest": 2,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35269,14 +34832,14 @@
     "game": "포켓몬",
     "keyword": "영등포 포켓몬카드",
     "ageD": 13,
-    "views": 214,
-    "perDay": 16.2,
-    "v7": 101,
+    "views": 218,
+    "perDay": 16.3,
+    "v7": 105,
     "v7src": "log",
     "est7": 57,
     "mBest": 4,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "top"
    },
@@ -35287,14 +34850,14 @@
     "game": "원피스",
     "keyword": "원피스카드 신의 섬 모험 (이슈)",
     "ageD": 21,
-    "views": 411,
-    "perDay": 19.5,
-    "v7": 95,
+    "views": 419,
+    "perDay": 19.7,
+    "v7": 103,
     "v7src": "log",
-    "est7": 67,
+    "est7": 72,
     "mBest": 8,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35305,14 +34868,14 @@
     "game": "포켓몬",
     "keyword": "하남 포켓몬카드",
     "ageD": 7,
-    "views": 96,
-    "perDay": 13.3,
-    "v7": 89,
+    "views": 102,
+    "perDay": 13.8,
+    "v7": 95,
     "v7src": "log",
     "est7": 72,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "top"
    },
@@ -35323,14 +34886,14 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 박스 인기순위",
     "ageD": 21,
-    "views": 397,
-    "perDay": 18.9,
-    "v7": 88,
+    "views": 402,
+    "perDay": 19,
+    "v7": 93,
     "v7src": "log",
     "est7": 61,
     "mBest": 2,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "top"
    },
@@ -35341,14 +34904,14 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 스타트덱100",
     "ageD": 3,
-    "views": 85,
-    "perDay": 26.4,
-    "v7": 85,
+    "views": 89,
+    "perDay": 26.2,
+    "v7": 89,
     "v7src": "new",
-    "est7": 60,
+    "est7": 62,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35359,15 +34922,33 @@
     "game": "포켓몬",
     "keyword": "포켓몬 팝업",
     "ageD": 17,
-    "views": 297,
-    "perDay": 17.2,
-    "v7": 82,
+    "views": 301,
+    "perDay": 17.3,
+    "v7": 86,
     "v7src": "log",
-    "est7": 57,
+    "est7": 60,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
+    "grade": "top"
+   },
+   {
+    "logNo": "224421389946",
+    "no": 21,
+    "title": "포켓몬카드 서치팩 재포장 구별법 6가지, 정가보다 싼 낱팩 확인 순서",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 서치팩",
+    "ageD": 58,
+    "views": 1933,
+    "perDay": 33.2,
+    "v7": 85,
+    "v7src": "log",
+    "est7": 59,
+    "mBest": 15,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 5,
     "grade": "top"
    },
    {
@@ -35377,14 +34958,32 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 매입하는곳",
     "ageD": 16,
-    "views": 245,
+    "views": 248,
     "perDay": 15.3,
-    "v7": 82,
+    "v7": 85,
     "v7src": "log",
-    "est7": 57,
+    "est7": 60,
     "mBest": 4,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
+    "comments": 0,
+    "grade": "top"
+   },
+   {
+    "logNo": "224465657847",
+    "no": 170,
+    "title": "포켓몬카드 파동시커 발매일 11월 27일, 메가루카리오 Z ex 정리",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 파동시커",
+    "ageD": 16,
+    "views": 338,
+    "perDay": 20.6,
+    "v7": 84,
+    "v7src": "log",
+    "est7": 59,
+    "mBest": 12,
+    "pcBlog": null,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35396,49 +34995,13 @@
     "keyword": "인페르노X AR",
     "ageD": 14,
     "views": 181,
-    "perDay": 13.2,
+    "perDay": 13,
     "v7": 82,
     "v7src": "log",
     "est7": 57,
     "mBest": 6,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "top"
-   },
-   {
-    "logNo": "224421389946",
-    "no": 21,
-    "title": "포켓몬카드 서치팩 재포장 구별법 6가지, 정가보다 싼 낱팩 확인 순서",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 서치팩",
-    "ageD": 58,
-    "views": 1929,
-    "perDay": 33.2,
-    "v7": 81,
-    "v7src": "log",
-    "est7": 59,
-    "mBest": 15,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 5,
-    "grade": "top"
-   },
-   {
-    "logNo": "224465657847",
-    "no": 170,
-    "title": "포켓몬카드 파동시커 발매일 11월 27일, 메가루카리오 Z ex 정리",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 파동시커",
-    "ageD": 16,
-    "views": 335,
-    "perDay": 20.6,
-    "v7": 81,
-    "v7src": "log",
-    "est7": 57,
-    "mBest": 12,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35450,13 +35013,13 @@
     "keyword": "의정부 포켓몬카드",
     "ageD": 21,
     "views": 300,
-    "perDay": 14.1,
+    "perDay": 14,
     "v7": 80,
     "v7src": "log",
     "est7": 53,
     "mBest": 1,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35467,14 +35030,32 @@
     "game": "포켓몬",
     "keyword": "닌자스피너 SAR",
     "ageD": 10,
-    "views": 145,
-    "perDay": 14.9,
-    "v7": 76,
+    "views": 146,
+    "perDay": 14.7,
+    "v7": 77,
     "v7src": "log",
-    "est7": 53,
+    "est7": 54,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
+    "comments": 2,
+    "grade": "top"
+   },
+   {
+    "logNo": "224483079810",
+    "no": 228,
+    "title": "포켓몬카드 30주년 정가 제품 5종, 팩 3,500원부터 박스까지",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 30주년 정가",
+    "ageD": 1,
+    "views": 69,
+    "perDay": 69,
+    "v7": 69,
+    "v7src": "new",
+    "est7": 48,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
     "comments": 2,
     "grade": "top"
    },
@@ -35485,14 +35066,14 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 니힐제로",
     "ageD": 26,
-    "views": 509,
-    "perDay": 19.6,
-    "v7": 67,
+    "views": 510,
+    "perDay": 19.5,
+    "v7": 68,
     "v7src": "log",
-    "est7": 47,
+    "est7": 48,
     "mBest": 6,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 1,
     "grade": "top"
    },
@@ -35503,14 +35084,32 @@
     "game": "포켓몬",
     "keyword": "서울 카드쇼",
     "ageD": 2,
-    "views": 66,
-    "perDay": 32.8,
-    "v7": 66,
+    "views": 67,
+    "perDay": 30.7,
+    "v7": 67,
     "v7src": "new",
-    "est7": 46,
+    "est7": 47,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
+    "comments": 0,
+    "grade": "top"
+   },
+   {
+    "logNo": "224446274230",
+    "no": 114,
+    "title": "포켓몬카드샵 강릉 위치와 운영시간, 9월 오픈 매장과 강원 자판기",
+    "game": "포켓몬",
+    "keyword": "강릉 포켓몬카드",
+    "ageD": 32,
+    "views": 277,
+    "perDay": 8.7,
+    "v7": 62,
+    "v7src": "log",
+    "est7": 43,
+    "mBest": 2,
+    "pcBlog": null,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35522,49 +35121,67 @@
     "keyword": "포켓몬카드 뮤",
     "ageD": 11,
     "views": 128,
-    "perDay": 11.9,
+    "perDay": 11.7,
     "v7": 62,
     "v7src": "log",
     "est7": 43,
     "mBest": 3,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "top"
    },
    {
-    "logNo": "224483079810",
-    "no": 228,
-    "title": "포켓몬카드 30주년 정가 제품 5종, 팩 3,500원부터 박스까지",
+    "logNo": "224457503730",
+    "no": 141,
+    "title": "포켓몬카드 제주 파는곳, 공식 자판기 1대 위치와 서귀포 0대 대안",
     "game": "포켓몬",
-    "keyword": "포켓몬카드 30주년 정가",
-    "ageD": 1,
-    "views": 60,
-    "perDay": 60,
-    "v7": 60,
-    "v7src": "new",
-    "est7": 42,
-    "mBest": null,
+    "keyword": "제주 포켓몬카드",
+    "ageD": 24,
+    "views": 246,
+    "perDay": 10.3,
+    "v7": 61,
+    "v7src": "log",
+    "est7": 43,
+    "mBest": 3,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 1,
+    "indexed": null,
+    "comments": 0,
     "grade": "top"
    },
    {
-    "logNo": "224446274230",
-    "no": 114,
-    "title": "포켓몬카드샵 강릉 위치와 운영시간, 9월 오픈 매장과 강원 자판기",
+    "logNo": "224473984999",
+    "no": 196,
+    "title": "포켓몬카드 군산 파는곳, 롯데몰 공식 자판기 1대와 전주 4대 동선",
     "game": "포켓몬",
-    "keyword": "강릉 포켓몬카드",
-    "ageD": 32,
-    "views": 274,
+    "keyword": "군산 포켓몬카드",
+    "ageD": 9,
+    "views": 81,
     "perDay": 8.6,
     "v7": 59,
     "v7src": "log",
     "est7": 41,
-    "mBest": 2,
+    "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
+    "comments": 0,
+    "grade": "top"
+   },
+   {
+    "logNo": "224461966867",
+    "no": 161,
+    "title": "포켓몬카드 안양 파는곳, 평촌 공식 자판기 1대와 안양역 0대 대안",
+    "game": "포켓몬",
+    "keyword": "안양 포켓몬카드",
+    "ageD": 18,
+    "views": 174,
+    "perDay": 9.4,
+    "v7": 58,
+    "v7src": "log",
+    "est7": 41,
+    "mBest": 1,
+    "pcBlog": null,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35576,50 +35193,50 @@
     "keyword": "포항 포켓몬카드",
     "ageD": 26,
     "views": 228,
-    "perDay": 8.9,
+    "perDay": 8.8,
     "v7": 57,
     "v7src": "log",
     "est7": 40,
     "mBest": 1,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "top"
    },
    {
-    "logNo": "224473984999",
-    "no": 196,
-    "title": "포켓몬카드 군산 파는곳, 롯데몰 공식 자판기 1대와 전주 4대 동선",
+    "logNo": "224448107789",
+    "no": 119,
+    "title": "포켓몬카드 BRG 그레이딩 신청 방법, 19,800원과 특별 요금",
     "game": "포켓몬",
-    "keyword": "군산 포켓몬카드",
-    "ageD": 9,
-    "views": 79,
-    "perDay": 8.6,
-    "v7": 57,
+    "keyword": "BRG 그레이딩",
+    "ageD": 30,
+    "views": 361,
+    "perDay": 12,
+    "v7": 55,
     "v7src": "log",
-    "est7": 40,
+    "est7": 39,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
    {
-    "logNo": "224457503730",
-    "no": 141,
-    "title": "포켓몬카드 제주 파는곳, 공식 자판기 1대 위치와 서귀포 0대 대안",
+    "logNo": "224448114405",
+    "no": 126,
+    "title": "포켓몬카드 서면 파는곳, 부산진구 자판기 1대와 동래 공식 매장",
     "game": "포켓몬",
-    "keyword": "제주 포켓몬카드",
-    "ageD": 24,
-    "views": 241,
-    "perDay": 10.1,
-    "v7": 56,
+    "keyword": "서면 포켓몬카드",
+    "ageD": 28,
+    "views": 299,
+    "perDay": 10.7,
+    "v7": 55,
     "v7src": "log",
     "est7": 39,
-    "mBest": 3,
+    "mBest": 6,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
+    "indexed": null,
+    "comments": 2,
     "grade": "top"
    },
    {
@@ -35630,13 +35247,13 @@
     "keyword": "여수 포켓몬카드",
     "ageD": 12,
     "views": 93,
-    "perDay": 7.9,
+    "perDay": 7.8,
     "v7": 55,
     "v7src": "log",
     "est7": 39,
     "mBest": 1,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35648,49 +35265,13 @@
     "keyword": "창원 포켓몬카드",
     "ageD": 32,
     "views": 309,
-    "perDay": 9.6,
+    "perDay": 9.5,
     "v7": 54,
     "v7src": "log",
     "est7": 38,
     "mBest": 3,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "top"
-   },
-   {
-    "logNo": "224448114405",
-    "no": 126,
-    "title": "포켓몬카드 서면 파는곳, 부산진구 자판기 1대와 동래 공식 매장",
-    "game": "포켓몬",
-    "keyword": "서면 포켓몬카드",
-    "ageD": 28,
-    "views": 298,
-    "perDay": 10.7,
-    "v7": 54,
-    "v7src": "log",
-    "est7": 38,
-    "mBest": 6,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
-    "grade": "top"
-   },
-   {
-    "logNo": "224448107789",
-    "no": 119,
-    "title": "포켓몬카드 BRG 그레이딩 신청 방법, 19,800원과 특별 요금",
-    "game": "포켓몬",
-    "keyword": "BRG 그레이딩",
-    "ageD": 30,
-    "views": 359,
-    "perDay": 12,
-    "v7": 53,
-    "v7src": "log",
-    "est7": 37,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35701,14 +35282,14 @@
     "game": "포켓몬",
     "keyword": "기업은행 포켓몬카드 (이슈)",
     "ageD": 28,
-    "views": 433,
+    "views": 434,
     "perDay": 15.4,
-    "v7": 53,
+    "v7": 54,
     "v7src": "log",
-    "est7": 37,
+    "est7": 38,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "top"
    },
@@ -35720,13 +35301,31 @@
     "keyword": "서울옥션 포켓몬카드 (이슈)",
     "ageD": 24,
     "views": 181,
-    "perDay": 7.6,
+    "perDay": 7.5,
     "v7": 53,
     "v7src": "log",
     "est7": 37,
     "mBest": 11,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
+    "comments": 0,
+    "grade": "top"
+   },
+   {
+    "logNo": "224446264175",
+    "no": 107,
+    "title": "포켓몬카드 울산 파는곳, 중구 공식 카드샵 1곳과 남구 자판기 1대",
+    "game": "포켓몬",
+    "keyword": "울산 포켓몬카드",
+    "ageD": 34,
+    "views": 282,
+    "perDay": 8.2,
+    "v7": 50,
+    "v7src": "log",
+    "est7": 35,
+    "mBest": 4,
+    "pcBlog": null,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35744,43 +35343,7 @@
     "est7": 35,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "top"
-   },
-   {
-    "logNo": "224461966867",
-    "no": 161,
-    "title": "포켓몬카드 안양 파는곳, 평촌 공식 자판기 1대와 안양역 0대 대안",
-    "game": "포켓몬",
-    "keyword": "안양 포켓몬카드",
-    "ageD": 18,
-    "views": 166,
-    "perDay": 9.1,
-    "v7": 50,
-    "v7src": "log",
-    "est7": 35,
-    "mBest": 1,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "top"
-   },
-   {
-    "logNo": "224446264175",
-    "no": 107,
-    "title": "포켓몬카드 울산 파는곳, 중구 공식 카드샵 1곳과 남구 자판기 1대",
-    "game": "포켓몬",
-    "keyword": "울산 포켓몬카드",
-    "ageD": 34,
-    "views": 281,
-    "perDay": 8.3,
-    "v7": 49,
-    "v7src": "log",
-    "est7": 34,
-    "mBest": 4,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "top"
    },
@@ -35792,13 +35355,13 @@
     "keyword": "BRG 감사제 (이슈)",
     "ageD": 11,
     "views": 144,
-    "perDay": 13,
+    "perDay": 12.8,
     "v7": 49,
     "v7src": "log",
     "est7": 34,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "top"
    },
@@ -35809,14 +35372,14 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 30주년 카드",
     "ageD": 37,
-    "views": 749,
+    "views": 750,
     "perDay": 20.2,
-    "v7": 47,
+    "v7": 48,
     "v7src": "log",
-    "est7": 33,
+    "est7": 34,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "top"
    },
@@ -35827,15 +35390,33 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 메가팬텀 ex",
     "ageD": 22,
-    "views": 147,
-    "perDay": 6.7,
-    "v7": 44,
+    "views": 150,
+    "perDay": 6.8,
+    "v7": 47,
     "v7src": "log",
-    "est7": 31,
+    "est7": 33,
     "mBest": 4,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
+    "grade": "top"
+   },
+   {
+    "logNo": "224453848032",
+    "no": 130,
+    "title": "포켓몬카드 부천 파는곳, 공식 자판기 3대 위치와 가까운 공식 카드샵",
+    "game": "포켓몬",
+    "keyword": "부천 포켓몬카드",
+    "ageD": 26,
+    "views": 240,
+    "perDay": 9.1,
+    "v7": 45,
+    "v7src": "log",
+    "est7": 32,
+    "mBest": 10,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 2,
     "grade": "top"
    },
    {
@@ -35852,61 +35433,7 @@
     "est7": 30,
     "mBest": 1,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
-    "grade": "top"
-   },
-   {
-    "logNo": "224453848032",
-    "no": 130,
-    "title": "포켓몬카드 부천 파는곳, 공식 자판기 3대 위치와 가까운 공식 카드샵",
-    "game": "포켓몬",
-    "keyword": "부천 포켓몬카드",
-    "ageD": 26,
-    "views": 238,
-    "perDay": 9.1,
-    "v7": 43,
-    "v7src": "log",
-    "est7": 30,
-    "mBest": 10,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224448111681",
-    "no": 123,
-    "title": "포켓몬카드 하이클래스팩 종류 11가지, 뜻과 정가 5,000원 구성",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 하이클래스팩",
-    "ageD": 29,
-    "views": 324,
-    "perDay": 11.3,
-    "v7": 41,
-    "v7src": "log",
-    "est7": 29,
-    "mBest": 9,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 4,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224461970599",
-    "no": 163,
-    "title": "포켓몬카드 노원 파는곳, 서울 동북 4개 구 자판기와 7호선 동선",
-    "game": "포켓몬",
-    "keyword": "노원 포켓몬카드",
-    "ageD": 18,
-    "views": 140,
-    "perDay": 7.9,
-    "v7": 41,
-    "v7src": "log",
-    "est7": 29,
-    "mBest": 2,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
@@ -35917,15 +35444,51 @@
     "game": "포켓몬",
     "keyword": "어비스아이 AR",
     "ageD": 3,
-    "views": 40,
-    "perDay": 14.6,
-    "v7": 40,
+    "views": 43,
+    "perDay": 14.8,
+    "v7": 43,
     "v7src": "new",
-    "est7": 28,
+    "est7": 30,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224448111681",
+    "no": 123,
+    "title": "포켓몬카드 하이클래스팩 종류 11가지, 뜻과 정가 5,000원 구성",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 하이클래스팩",
+    "ageD": 29,
+    "views": 325,
+    "perDay": 11.2,
+    "v7": 42,
+    "v7src": "log",
+    "est7": 29,
+    "mBest": 9,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 4,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224461970599",
+    "no": 163,
+    "title": "포켓몬카드 노원 파는곳, 서울 동북 4개 구 자판기와 7호선 동선",
+    "game": "포켓몬",
+    "keyword": "노원 포켓몬카드",
+    "ageD": 18,
+    "views": 141,
+    "perDay": 7.9,
+    "v7": 42,
+    "v7src": "log",
+    "est7": 29,
+    "mBest": 2,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 2,
     "grade": "mid"
    },
    {
@@ -35935,15 +35498,33 @@
     "game": "포켓몬",
     "keyword": "포켓몬카드 스톰에메랄다",
     "ageD": 20,
-    "views": 242,
-    "perDay": 12.1,
-    "v7": 39,
+    "views": 243,
+    "perDay": 12,
+    "v7": 40,
     "v7src": "log",
+    "est7": 28,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 5,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224478751864",
+    "no": 208,
+    "title": "포켓몬카드 루기아 카드 종류 30장, 형태 8가지와 수록 팩 정리",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 루기아",
+    "ageD": 6,
+    "views": 38,
+    "perDay": 5.9,
+    "v7": 38,
+    "v7src": "new",
     "est7": 27,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 6,
+    "indexed": null,
+    "comments": 0,
     "grade": "mid"
    },
    {
@@ -35953,15 +35534,15 @@
     "game": "포켓몬",
     "keyword": "경산 포켓몬카드",
     "ageD": 4,
-    "views": 37,
-    "perDay": 9.9,
-    "v7": 37,
+    "views": 38,
+    "perDay": 9.7,
+    "v7": 38,
     "v7src": "new",
-    "est7": 26,
+    "est7": 27,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 3,
+    "indexed": null,
+    "comments": 4,
     "grade": "mid"
    },
    {
@@ -35971,14 +35552,14 @@
     "game": "포켓몬",
     "keyword": "용인 포켓몬카드",
     "ageD": 2,
-    "views": 37,
-    "perDay": 16.5,
-    "v7": 37,
+    "views": 38,
+    "perDay": 15.8,
+    "v7": 38,
     "v7src": "new",
-    "est7": 26,
+    "est7": 27,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -35989,14 +35570,14 @@
     "game": "포켓몬",
     "keyword": "일본 포켓몬카드 시세",
     "ageD": 25,
-    "views": 232,
+    "views": 233,
     "perDay": 9.3,
-    "v7": 36,
+    "v7": 37,
     "v7src": "log",
-    "est7": 25,
+    "est7": 26,
     "mBest": 8,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36007,14 +35588,32 @@
     "game": "용품",
     "keyword": "포카 탑로더",
     "ageD": 6,
-    "views": 36,
+    "views": 37,
     "perDay": 6,
-    "v7": 36,
+    "v7": 37,
     "v7src": "new",
+    "est7": 26,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224465667365",
+    "no": 175,
+    "title": "슬리브 포카용과 포켓몬카드용 차이, 포카슬리브 규격과 고르는 법",
+    "game": "용품",
+    "keyword": "포카슬리브",
+    "ageD": 15,
+    "views": 174,
+    "perDay": 11.7,
+    "v7": 36,
+    "v7src": "log",
     "est7": 25,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36026,49 +35625,31 @@
     "keyword": "포켓몬카드 메타몽",
     "ageD": 9,
     "views": 63,
-    "perDay": 7.2,
+    "perDay": 7.1,
     "v7": 35,
     "v7src": "log",
     "est7": 25,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
    {
-    "logNo": "224465667365",
-    "no": 175,
-    "title": "슬리브 포카용과 포켓몬카드용 차이, 포카슬리브 규격과 고르는 법",
-    "game": "용품",
-    "keyword": "포카슬리브",
-    "ageD": 15,
-    "views": 172,
-    "perDay": 11.7,
-    "v7": 34,
-    "v7src": "log",
-    "est7": 24,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224478751864",
-    "no": 208,
-    "title": "포켓몬카드 루기아 카드 종류 30장, 형태 8가지와 수록 팩 정리",
+    "logNo": "224434944911",
+    "no": 79,
+    "title": "포켓몬카드샵 천안 위치와 운영시간, 백석로 공식 매장과 자판기 3곳",
     "game": "포켓몬",
-    "keyword": "포켓몬카드 루기아",
-    "ageD": 6,
-    "views": 34,
-    "perDay": 5.5,
-    "v7": 34,
-    "v7src": "new",
-    "est7": 24,
+    "keyword": "천안 포켓몬카드샵",
+    "ageD": 43,
+    "views": 405,
+    "perDay": 9.3,
+    "v7": 33,
+    "v7src": "log",
+    "est7": 23,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36080,31 +35661,13 @@
     "keyword": "포켓몬카드 갸라도스",
     "ageD": 4,
     "views": 33,
-    "perDay": 7.8,
+    "perDay": 7.5,
     "v7": 33,
     "v7src": "new",
     "est7": 23,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224434944911",
-    "no": 79,
-    "title": "포켓몬카드샵 천안 위치와 운영시간, 백석로 공식 매장과 자판기 3곳",
-    "game": "포켓몬",
-    "keyword": "천안 포켓몬카드샵",
-    "ageD": 43,
-    "views": 404,
-    "perDay": 9.3,
-    "v7": 32,
-    "v7src": "log",
-    "est7": 22,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36122,115 +35685,7 @@
     "est7": 22,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224465665687",
-    "no": 174,
-    "title": "포켓몬 가습기 추천 2종, 꼬부기 고라파덕 가격과 용량 비교",
-    "game": "포켓몬",
-    "keyword": "포켓몬 가습기 (구매형)",
-    "ageD": 15,
-    "views": 82,
-    "perDay": 5.5,
-    "v7": 31,
-    "v7src": "log",
-    "est7": 22,
-    "mBest": 2,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224481713916",
-    "no": 219,
-    "title": "포켓몬카드 성수 TCG 팝업 2차 예약, 오후 1시부터 자유 입장",
-    "game": "포켓몬",
-    "keyword": "성수 TCG 팝업 2차 예약 (이슈)",
-    "ageD": 9,
-    "views": 78,
-    "perDay": 8.6,
-    "v7": 31,
-    "v7src": "log",
-    "est7": 22,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224473992199",
-    "no": 199,
-    "title": "포켓몬카드 레쿠쟈 카드 종류 49장, SAR 번호와 수록 팩 정리",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 레쿠쟈",
-    "ageD": 8,
-    "views": 46,
-    "perDay": 5.6,
-    "v7": 29,
-    "v7src": "log",
-    "est7": 20,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224478766342",
-    "no": 215,
-    "title": "카드 프로텍터 뜻과 보드게임 슬리브로 포켓몬카드 되나, 규격 4가지",
-    "game": "용품",
-    "keyword": "카드프로텍터",
-    "ageD": 4,
-    "views": 29,
-    "perDay": 7.2,
-    "v7": 29,
-    "v7src": "new",
-    "est7": 20,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224431720572",
-    "no": 68,
-    "title": "포켓몬카드 30주년 뮤 뮤츠 카드 6장 번호, FUR 2장과 SAR",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 30주년 뮤",
-    "ageD": 46,
-    "views": 744,
-    "perDay": 16.1,
-    "v7": 28,
-    "v7src": "log",
-    "est7": 20,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224442288371",
-    "no": 101,
-    "title": "포켓몬카드 수원 파는곳, 영통 공식 카드샵 1곳과 구별 자판기 6대",
-    "game": "포켓몬",
-    "keyword": "수원 포켓몬카드 파는곳",
-    "ageD": 36,
-    "views": 560,
-    "perDay": 15.6,
-    "v7": 28,
-    "v7src": "log",
-    "est7": 20,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36241,14 +35696,158 @@
     "game": "포켓몬",
     "keyword": "메가심포니아 SAR",
     "ageD": 17,
-    "views": 111,
-    "perDay": 6.6,
-    "v7": 28,
+    "views": 115,
+    "perDay": 6.8,
+    "v7": 32,
+    "v7src": "log",
+    "est7": 22,
+    "mBest": 8,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224465665687",
+    "no": 174,
+    "title": "포켓몬 가습기 추천 2종, 꼬부기 고라파덕 가격과 용량 비교",
+    "game": "포켓몬",
+    "keyword": "포켓몬 가습기 (구매형)",
+    "ageD": 15,
+    "views": 83,
+    "perDay": 5.5,
+    "v7": 32,
+    "v7src": "log",
+    "est7": 22,
+    "mBest": 2,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224478766342",
+    "no": 215,
+    "title": "카드 프로텍터 뜻과 보드게임 슬리브로 포켓몬카드 되나, 규격 4가지",
+    "game": "용품",
+    "keyword": "카드프로텍터",
+    "ageD": 4,
+    "views": 32,
+    "perDay": 7.6,
+    "v7": 32,
+    "v7src": "new",
+    "est7": 22,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224442288371",
+    "no": 101,
+    "title": "포켓몬카드 수원 파는곳, 영통 공식 카드샵 1곳과 구별 자판기 6대",
+    "game": "포켓몬",
+    "keyword": "수원 포켓몬카드 파는곳",
+    "ageD": 36,
+    "views": 563,
+    "perDay": 15.6,
+    "v7": 31,
+    "v7src": "log",
+    "est7": 22,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224481713916",
+    "no": 219,
+    "title": "포켓몬카드 성수 TCG 팝업 2차 예약, 오후 1시부터 자유 입장",
+    "game": "포켓몬",
+    "keyword": "성수 TCG 팝업 2차 예약 (이슈)",
+    "ageD": 9,
+    "views": 78,
+    "perDay": 8.4,
+    "v7": 31,
+    "v7src": "log",
+    "est7": 22,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224431720572",
+    "no": 68,
+    "title": "포켓몬카드 30주년 뮤 뮤츠 카드 6장 번호, FUR 2장과 SAR",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 30주년 뮤",
+    "ageD": 46,
+    "views": 745,
+    "perDay": 16.1,
+    "v7": 29,
+    "v7src": "log",
+    "est7": 20,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224438749845",
+    "no": 91,
+    "title": "포켓몬카드 도쿄 파는곳, 포켓몬센터 4곳과 아키하바라 카드샵 67곳",
+    "game": "포켓몬",
+    "keyword": "도쿄 포켓몬카드 파는곳",
+    "ageD": 39,
+    "views": 316,
+    "perDay": 8,
+    "v7": 29,
     "v7src": "log",
     "est7": 20,
     "mBest": 8,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224473992199",
+    "no": 199,
+    "title": "포켓몬카드 레쿠쟈 카드 종류 49장, SAR 번호와 수록 팩 정리",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 레쿠쟈",
+    "ageD": 8,
+    "views": 46,
+    "perDay": 5.5,
+    "v7": 29,
+    "v7src": "log",
+    "est7": 20,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224438748487",
+    "no": 90,
+    "title": "원피스카드 파는곳 총정리, 공인 점포 54곳 취급 점포 21곳과 정가",
+    "game": "원피스",
+    "keyword": "원피스 카드 파는곳",
+    "ageD": 40,
+    "views": 237,
+    "perDay": 5.9,
+    "v7": 28,
+    "v7src": "log",
+    "est7": 20,
+    "mBest": 10,
+    "pcBlog": null,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
@@ -36260,13 +35859,13 @@
     "keyword": "포켓몬카드 뮤츠",
     "ageD": 10,
     "views": 50,
-    "perDay": 5,
+    "perDay": 4.9,
     "v7": 28,
     "v7src": "log",
     "est7": 20,
     "mBest": 6,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36278,13 +35877,13 @@
     "keyword": "포켓몬 무드등 (구매형)",
     "ageD": 7,
     "views": 28,
-    "perDay": 4,
+    "perDay": 3.9,
     "v7": 28,
     "v7src": "log",
     "est7": 20,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36302,26 +35901,8 @@
     "est7": 19,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224438748487",
-    "no": 90,
-    "title": "원피스카드 파는곳 총정리, 공인 점포 54곳 취급 점포 21곳과 정가",
-    "game": "원피스",
-    "keyword": "원피스 카드 파는곳",
-    "ageD": 40,
-    "views": 236,
-    "perDay": 5.9,
-    "v7": 27,
-    "v7src": "log",
-    "est7": 19,
-    "mBest": 10,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
     "grade": "mid"
    },
    {
@@ -36332,31 +35913,49 @@
     "keyword": "포켓몬카드 등급표",
     "ageD": 33,
     "views": 263,
-    "perDay": 8,
+    "perDay": 7.9,
     "v7": 27,
     "v7src": "log",
     "est7": 19,
     "mBest": 7,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
    {
-    "logNo": "224438749845",
-    "no": 91,
-    "title": "포켓몬카드 도쿄 파는곳, 포켓몬센터 4곳과 아키하바라 카드샵 67곳",
+    "logNo": "224478762614",
+    "no": 213,
+    "title": "포켓몬카드 신촌 파는곳, 서대문구 자판기 0대와 마포 용산 동선",
     "game": "포켓몬",
-    "keyword": "도쿄 포켓몬카드 파는곳",
-    "ageD": 39,
-    "views": 313,
-    "perDay": 8,
+    "keyword": "신촌 포켓몬카드",
+    "ageD": 5,
+    "views": 27,
+    "perDay": 5.5,
+    "v7": 27,
+    "v7src": "new",
+    "est7": 19,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224438738647",
+    "no": 83,
+    "title": "포켓몬카드 일본 파는곳 5가지 유형, 포켓몬센터 18곳과 취급점 지도",
+    "game": "포켓몬",
+    "keyword": "일본 포켓몬카드 파는곳",
+    "ageD": 42,
+    "views": 282,
+    "perDay": 6.7,
     "v7": 26,
     "v7src": "log",
     "est7": 18,
-    "mBest": 8,
+    "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36368,13 +35967,13 @@
     "keyword": "포켓몬카드 자판기 재고",
     "ageD": 38,
     "views": 315,
-    "perDay": 8.3,
+    "perDay": 8.2,
     "v7": 26,
     "v7src": "log",
     "est7": 18,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "mid"
    },
@@ -36392,7 +35991,25 @@
     "est7": 18,
     "mBest": 6,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
+    "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224469999121",
+    "no": 187,
+    "title": "원피스 카드팩 종류 3가지와 정가, 한글판 부스터 19종 발매 순서",
+    "game": "원피스",
+    "keyword": "원피스 카드팩",
+    "ageD": 11,
+    "views": 61,
+    "perDay": 5.3,
+    "v7": 26,
+    "v7src": "log",
+    "est7": 18,
+    "mBest": 7,
+    "pcBlog": null,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
@@ -36404,49 +36021,13 @@
     "keyword": "고풍에디션 카드 실드 (이슈)",
     "ageD": 16,
     "views": 104,
-    "perDay": 6.6,
+    "perDay": 6.5,
     "v7": 26,
     "v7src": "log",
     "est7": 18,
     "mBest": 1,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224478762614",
-    "no": 213,
-    "title": "포켓몬카드 신촌 파는곳, 서대문구 자판기 0대와 마포 용산 동선",
-    "game": "포켓몬",
-    "keyword": "신촌 포켓몬카드",
-    "ageD": 5,
-    "views": 26,
-    "perDay": 5.5,
-    "v7": 26,
-    "v7src": "new",
-    "est7": 18,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224438738647",
-    "no": 83,
-    "title": "포켓몬카드 일본 파는곳 5가지 유형, 포켓몬센터 18곳과 취급점 지도",
-    "game": "포켓몬",
-    "keyword": "일본 포켓몬카드 파는곳",
-    "ageD": 42,
-    "views": 281,
-    "perDay": 6.7,
-    "v7": 25,
-    "v7src": "log",
-    "est7": 18,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36458,32 +36039,14 @@
     "keyword": "포켓몬카드 등급 받는법",
     "ageD": 40,
     "views": 660,
-    "perDay": 16.5,
+    "perDay": 16.4,
     "v7": 25,
     "v7src": "log",
     "est7": 18,
     "mBest": 12,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 3,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224469999121",
-    "no": 187,
-    "title": "원피스 카드팩 종류 3가지와 정가, 한글판 부스터 19종 발매 순서",
-    "game": "원피스",
-    "keyword": "원피스 카드팩",
-    "ageD": 11,
-    "views": 60,
-    "perDay": 5.3,
-    "v7": 25,
-    "v7src": "log",
-    "est7": 18,
-    "mBest": 7,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
     "grade": "mid"
    },
    {
@@ -36493,14 +36056,14 @@
     "game": "포켓몬",
     "keyword": "광주 포켓몬카드 파는곳",
     "ageD": 39,
-    "views": 316,
+    "views": 317,
     "perDay": 8.1,
-    "v7": 24,
+    "v7": 25,
     "v7src": "log",
-    "est7": 17,
+    "est7": 18,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36511,14 +36074,14 @@
     "game": "포켓몬",
     "keyword": "PSA 그레이딩 비용",
     "ageD": 31,
-    "views": 141,
-    "perDay": 4.5,
-    "v7": 24,
+    "views": 142,
+    "perDay": 4.6,
+    "v7": 25,
     "v7src": "log",
-    "est7": 17,
+    "est7": 18,
     "mBest": 9,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36529,15 +36092,105 @@
     "game": "포켓몬",
     "keyword": "포켓몬 카드 발매 순서",
     "ageD": 57,
-    "views": 444,
+    "views": 445,
     "perDay": 7.8,
-    "v7": 23,
+    "v7": 24,
     "v7src": "log",
-    "est7": 16,
+    "est7": 17,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224442281297",
+    "no": 97,
+    "title": "포켓몬카드 청주 파는곳, 공식 자판기 3대 위치와 가까운 공식 매장",
+    "game": "포켓몬",
+    "keyword": "청주 포켓몬카드",
+    "ageD": 37,
+    "views": 375,
+    "perDay": 10,
+    "v7": 24,
+    "v7src": "log",
+    "est7": 17,
+    "mBest": 10,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224448105797",
+    "no": 117,
+    "title": "포켓몬카드 GS25 재고 찾는 법, 우리동네GS 조회와 30주년 입고",
+    "game": "포켓몬",
+    "keyword": "GS25 포켓몬카드",
+    "ageD": 31,
+    "views": 289,
+    "perDay": 9.4,
+    "v7": 24,
+    "v7src": "log",
+    "est7": 17,
+    "mBest": 11,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224457505338",
+    "no": 142,
+    "title": "포켓몬카드 PSA 10 조건 4가지, 센터링 55/45와 9 차이",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 PSA 10",
+    "ageD": 23,
+    "views": 156,
+    "perDay": 6.7,
+    "v7": 24,
+    "v7src": "log",
+    "est7": 17,
+    "mBest": 14,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224457510240",
+    "no": 145,
+    "title": "포켓몬스터카드 처음 살 때 알아야 할 7가지, 종류 정가 사는 곳",
+    "game": "포켓몬",
+    "keyword": "포켓몬스터카드",
+    "ageD": 22,
+    "views": 149,
+    "perDay": 6.6,
+    "v7": 24,
+    "v7src": "log",
+    "est7": 17,
+    "mBest": 3,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224461958875",
+    "no": 157,
+    "title": "포켓몬카드 안산 파는곳, 상록구 공식 자판기 2대와 단원구 0대 대안",
+    "game": "포켓몬",
+    "keyword": "안산 포켓몬카드",
+    "ageD": 20,
+    "views": 87,
+    "perDay": 4.4,
+    "v7": 24,
+    "v7src": "log",
+    "est7": 17,
+    "mBest": 2,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
     "grade": "mid"
    },
    {
@@ -36554,43 +36207,7 @@
     "est7": 16,
     "mBest": 14,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224457510240",
-    "no": 145,
-    "title": "포켓몬스터카드 처음 살 때 알아야 할 7가지, 종류 정가 사는 곳",
-    "game": "포켓몬",
-    "keyword": "포켓몬스터카드",
-    "ageD": 22,
-    "views": 148,
-    "perDay": 6.7,
-    "v7": 23,
-    "v7src": "log",
-    "est7": 16,
-    "mBest": 3,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224461958875",
-    "no": 157,
-    "title": "포켓몬카드 안산 파는곳, 상록구 공식 자판기 2대와 단원구 0대 대안",
-    "game": "포켓몬",
-    "keyword": "안산 포켓몬카드",
-    "ageD": 20,
-    "views": 86,
-    "perDay": 4.4,
-    "v7": 23,
-    "v7src": "log",
-    "est7": 16,
-    "mBest": 2,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36608,8 +36225,44 @@
     "est7": 16,
     "mBest": 7,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224470001774",
+    "no": 188,
+    "title": "바인더 포카바인더에 포켓몬카드 넣기, 포켓 70x96과 탑로더 바인더",
+    "game": "용품",
+    "keyword": "포카바인더 (구매형)",
+    "ageD": 11,
+    "views": 75,
+    "perDay": 6.7,
+    "v7": 23,
+    "v7src": "log",
+    "est7": 16,
+    "mBest": 14,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 4,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224483074858",
+    "no": 226,
+    "title": "포켓몬카드 이브이 ex 카드 종류 5장, 번호와 스타터 세트 정리",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 이브이 ex",
+    "ageD": 1,
+    "views": 23,
+    "perDay": 16.4,
+    "v7": 23,
+    "v7src": "new",
+    "est7": 16,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
     "grade": "mid"
    },
    {
@@ -36620,68 +36273,14 @@
     "keyword": "포켓몬카드 30주년 힛카드",
     "ageD": 59,
     "views": 844,
-    "perDay": 14.4,
+    "perDay": 14.3,
     "v7": 22,
     "v7src": "log",
     "est7": 15,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224442281297",
-    "no": 97,
-    "title": "포켓몬카드 청주 파는곳, 공식 자판기 3대 위치와 가까운 공식 매장",
-    "game": "포켓몬",
-    "keyword": "청주 포켓몬카드",
-    "ageD": 37,
-    "views": 373,
-    "perDay": 10,
-    "v7": 22,
-    "v7src": "log",
-    "est7": 15,
-    "mBest": 10,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224457505338",
-    "no": 142,
-    "title": "포켓몬카드 PSA 10 조건 4가지, 센터링 55/45와 9 차이",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 PSA 10",
-    "ageD": 23,
-    "views": 154,
-    "perDay": 6.6,
-    "v7": 22,
-    "v7src": "log",
-    "est7": 15,
-    "mBest": 14,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224470001774",
-    "no": 188,
-    "title": "바인더 포카바인더에 포켓몬카드 넣기, 포켓 70x96과 탑로더 바인더",
-    "game": "용품",
-    "keyword": "포카바인더 (구매형)",
-    "ageD": 11,
-    "views": 74,
-    "perDay": 6.7,
-    "v7": 22,
-    "v7src": "log",
-    "est7": 15,
-    "mBest": 14,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 4,
     "grade": "mid"
    },
    {
@@ -36692,31 +36291,13 @@
     "keyword": "리프트바운드 금지카드",
     "ageD": 5,
     "views": 22,
-    "perDay": 4.2,
+    "perDay": 4.1,
     "v7": 22,
     "v7src": "new",
     "est7": 15,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224448105797",
-    "no": 117,
-    "title": "포켓몬카드 GS25 재고 찾는 법, 우리동네GS 조회와 30주년 입고",
-    "game": "포켓몬",
-    "keyword": "GS25 포켓몬카드",
-    "ageD": 31,
-    "views": 286,
-    "perDay": 9.3,
-    "v7": 21,
-    "v7src": "log",
-    "est7": 15,
-    "mBest": 11,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36728,13 +36309,13 @@
     "keyword": "포켓몬카드 정품 가품 차이",
     "ageD": 46,
     "views": 273,
-    "perDay": 6,
+    "perDay": 5.9,
     "v7": 20,
     "v7src": "log",
     "est7": 14,
     "mBest": 12,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36746,32 +36327,32 @@
     "keyword": "원피스카드 히로인즈2",
     "ageD": 14,
     "views": 128,
-    "perDay": 9.1,
+    "perDay": 9,
     "v7": 20,
     "v7src": "log",
     "est7": 14,
     "mBest": 5,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
    {
-    "logNo": "224483074858",
-    "no": 226,
-    "title": "포켓몬카드 이브이 ex 카드 종류 5장, 번호와 스타터 세트 정리",
+    "logNo": "224478024934",
+    "no": 204,
+    "title": "포켓몬 카드샵 대항전 2027 선발전, 11월 17일 18시 예약",
     "game": "포켓몬",
-    "keyword": "포켓몬카드 이브이 ex",
-    "ageD": 1,
-    "views": 20,
-    "perDay": 16.3,
+    "keyword": "포켓몬 카드샵 대항전 (이슈)",
+    "ageD": 12,
+    "views": 57,
+    "perDay": 4.8,
     "v7": 20,
-    "v7src": "new",
+    "v7src": "log",
     "est7": 14,
-    "mBest": null,
+    "mBest": 1,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
+    "indexed": null,
+    "comments": 2,
     "grade": "mid"
    },
    {
@@ -36782,13 +36363,31 @@
     "keyword": "포켓몬카드 메가드림ex",
     "ageD": 54,
     "views": 312,
-    "perDay": 5.8,
+    "perDay": 5.7,
     "v7": 19,
     "v7src": "log",
     "est7": 13,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224446266584",
+    "no": 109,
+    "title": "포켓몬카드 전주 파는곳, 완산구 공식 자판기 4대와 전북 5대 위치",
+    "game": "포켓몬",
+    "keyword": "전주 포켓몬카드",
+    "ageD": 33,
+    "views": 315,
+    "perDay": 9.4,
+    "v7": 19,
+    "v7src": "log",
+    "est7": 13,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36800,49 +36399,31 @@
     "keyword": "몬콜레 (구매형)",
     "ageD": 21,
     "views": 101,
-    "perDay": 4.9,
+    "perDay": 4.8,
     "v7": 19,
     "v7src": "log",
     "est7": 13,
     "mBest": 12,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
    {
-    "logNo": "224478024934",
-    "no": 204,
-    "title": "포켓몬 카드샵 대항전 2027 선발전, 11월 17일 18시 예약",
+    "logNo": "224461960629",
+    "no": 158,
+    "title": "포켓몬카드 프로모 카드 종류 5가지, 받는 방법과 11월 배포 카드",
     "game": "포켓몬",
-    "keyword": "포켓몬 카드샵 대항전 (이슈)",
-    "ageD": 12,
-    "views": 56,
-    "perDay": 4.7,
+    "keyword": "포켓몬카드 프로모",
+    "ageD": 19,
+    "views": 135,
+    "perDay": 7,
     "v7": 19,
     "v7src": "log",
     "est7": 13,
-    "mBest": 1,
+    "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 2,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224469993781",
-    "no": 184,
-    "title": "포켓몬카드 코리안리그 2027 일정 5번과 참가 자격, 승점 정리",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 코리안리그",
-    "ageD": 12,
-    "views": 46,
-    "perDay": 3.8,
-    "v7": 18,
-    "v7src": "log",
-    "est7": 13,
-    "mBest": 2,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36853,14 +36434,32 @@
     "game": "포켓몬",
     "keyword": "포켓몬 퍼즐 (구매형)",
     "ageD": 9,
-    "views": 29,
-    "perDay": 3.2,
-    "v7": 18,
+    "views": 30,
+    "perDay": 3.3,
+    "v7": 19,
     "v7src": "log",
     "est7": 13,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224469993781",
+    "no": 184,
+    "title": "포켓몬카드 코리안리그 2027 일정 5번과 참가 자격, 승점 정리",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 코리안리그",
+    "ageD": 12,
+    "views": 46,
+    "perDay": 3.7,
+    "v7": 18,
+    "v7src": "log",
+    "est7": 13,
+    "mBest": 2,
+    "pcBlog": null,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36872,13 +36471,13 @@
     "keyword": "포켓몬카드 거북왕",
     "ageD": 2,
     "views": 18,
-    "perDay": 10.4,
+    "perDay": 9.5,
     "v7": 18,
     "v7src": "new",
     "est7": 13,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36896,25 +36495,25 @@
     "est7": 12,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
    {
-    "logNo": "224446266584",
-    "no": 109,
-    "title": "포켓몬카드 전주 파는곳, 완산구 공식 자판기 4대와 전북 5대 위치",
+    "logNo": "224442287156",
+    "no": 100,
+    "title": "포켓몬카드 매입 방법 3가지, 매입가 정해지는 기준과 준비물 4가지",
     "game": "포켓몬",
-    "keyword": "전주 포켓몬카드",
-    "ageD": 33,
-    "views": 313,
-    "perDay": 9.4,
+    "keyword": "포켓몬카드 매입",
+    "ageD": 36,
+    "views": 257,
+    "perDay": 7.1,
     "v7": 17,
     "v7src": "log",
     "est7": 12,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36932,25 +36531,7 @@
     "est7": 12,
     "mBest": 5,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224461960629",
-    "no": 158,
-    "title": "포켓몬카드 프로모 카드 종류 5가지, 받는 방법과 11월 배포 카드",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 프로모",
-    "ageD": 19,
-    "views": 133,
-    "perDay": 6.9,
-    "v7": 17,
-    "v7src": "log",
-    "est7": 12,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -36962,31 +36543,31 @@
     "keyword": "원피스카드 발매기념대회 (이슈)",
     "ageD": 18,
     "views": 83,
-    "perDay": 4.7,
+    "perDay": 4.6,
     "v7": 17,
     "v7src": "log",
     "est7": 12,
     "mBest": 3,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
    {
-    "logNo": "224442287156",
-    "no": 100,
-    "title": "포켓몬카드 매입 방법 3가지, 매입가 정해지는 기준과 준비물 4가지",
+    "logNo": "224478760858",
+    "no": 212,
+    "title": "포켓몬 그립톡 추천 3종, 메타몽 실리콘과 맥세이프 아크릴 차이",
     "game": "포켓몬",
-    "keyword": "포켓몬카드 매입",
-    "ageD": 36,
-    "views": 256,
-    "perDay": 7.1,
-    "v7": 16,
-    "v7src": "log",
-    "est7": 11,
+    "keyword": "포켓몬 그립톡 (구매형)",
+    "ageD": 5,
+    "views": 17,
+    "perDay": 3.3,
+    "v7": 17,
+    "v7src": "new",
+    "est7": 12,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37004,25 +36585,7 @@
     "est7": 11,
     "mBest": 2,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224478760858",
-    "no": 212,
-    "title": "포켓몬 그립톡 추천 3종, 메타몽 실리콘과 맥세이프 아크릴 차이",
-    "game": "포켓몬",
-    "keyword": "포켓몬 그립톡 (구매형)",
-    "ageD": 5,
-    "views": 16,
-    "perDay": 3.2,
-    "v7": 16,
-    "v7src": "new",
-    "est7": 11,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37040,7 +36603,7 @@
     "est7": 11,
     "mBest": 1,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37052,13 +36615,13 @@
     "keyword": "포켓몬 피규어 (구매형)",
     "ageD": 13,
     "views": 48,
-    "perDay": 3.7,
+    "perDay": 3.6,
     "v7": 15,
     "v7src": "log",
     "est7": 11,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37076,7 +36639,7 @@
     "est7": 10,
     "mBest": 1,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "mid"
    },
@@ -37088,13 +36651,13 @@
     "keyword": "맥도날드 포켓몬 (이슈)",
     "ageD": 26,
     "views": 677,
-    "perDay": 26,
+    "perDay": 25.8,
     "v7": 14,
     "v7src": "log",
     "est7": 10,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
@@ -37112,8 +36675,8 @@
     "est7": 10,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 1,
+    "indexed": null,
+    "comments": 0,
     "grade": "mid"
    },
    {
@@ -37124,13 +36687,13 @@
     "keyword": "포켓몬 카드샵 일산",
     "ageD": 53,
     "views": 337,
-    "perDay": 6.4,
+    "perDay": 6.3,
     "v7": 13,
     "v7src": "log",
     "est7": 9,
     "mBest": 7,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 10,
     "grade": "mid"
    },
@@ -37142,13 +36705,13 @@
     "keyword": "성수 포켓몬카드",
     "ageD": 22,
     "views": 128,
-    "perDay": 5.9,
+    "perDay": 5.8,
     "v7": 13,
     "v7src": "log",
     "est7": 9,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37166,7 +36729,7 @@
     "est7": 8,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "mid"
    },
@@ -37178,14 +36741,32 @@
     "keyword": "CU 포켓몬카드 30주년",
     "ageD": 38,
     "views": 4441,
-    "perDay": 116.2,
+    "perDay": 115.7,
     "v7": 12,
     "v7src": "log",
     "est7": 8,
     "mBest": 16,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224448109685",
+    "no": 121,
+    "title": "원피스카드 등급 순서, 레어도 L C UC R SR과 패러렐 별표",
+    "game": "원피스",
+    "keyword": "원피스 카드 등급",
+    "ageD": 29,
+    "views": 134,
+    "perDay": 4.6,
+    "v7": 12,
+    "v7src": "log",
+    "est7": 8,
+    "mBest": 8,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
     "grade": "mid"
    },
    {
@@ -37196,13 +36777,13 @@
     "keyword": "탑로더 보관함 (구매형)",
     "ageD": 25,
     "views": 73,
-    "perDay": 3,
+    "perDay": 2.9,
     "v7": 12,
     "v7src": "log",
     "est7": 8,
     "mBest": 2,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37220,7 +36801,7 @@
     "est7": 8,
     "mBest": 10,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37232,14 +36813,32 @@
     "keyword": "포켓몬카드 잠만보",
     "ageD": 8,
     "views": 23,
-    "perDay": 3,
+    "perDay": 2.9,
     "v7": 12,
     "v7src": "log",
     "est7": 8,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224483065715",
+    "no": 221,
+    "title": "포켓몬 보드게임 추천 3가지, 할리갈리 루핑루이 칩스 인원 비교",
+    "game": "포켓몬",
+    "keyword": "포켓몬 보드게임 (구매형)",
+    "ageD": 3,
+    "views": 12,
+    "perDay": 3.8,
+    "v7": 12,
+    "v7src": "new",
+    "est7": 8,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 2,
     "grade": "mid"
    },
    {
@@ -37250,13 +36849,13 @@
     "keyword": "포켓몬카드 리자몽",
     "ageD": 60,
     "views": 220,
-    "perDay": 3.7,
+    "perDay": 3.6,
     "v7": 11,
     "v7src": "log",
     "est7": 8,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
@@ -37274,7 +36873,7 @@
     "est7": 8,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37292,7 +36891,7 @@
     "est7": 8,
     "mBest": 9,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "mid"
    },
@@ -37310,8 +36909,26 @@
     "est7": 8,
     "mBest": 6,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224421189221",
+    "no": 11,
+    "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 어디서 사",
+    "ageD": 63,
+    "views": 2729,
+    "perDay": 43.2,
+    "v7": 10,
+    "v7src": "log",
+    "est7": 7,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 6,
     "grade": "mid"
    },
    {
@@ -37322,13 +36939,13 @@
     "keyword": "오사카 포켓몬카드 파는곳",
     "ageD": 40,
     "views": 244,
-    "perDay": 6.1,
+    "perDay": 6,
     "v7": 10,
     "v7src": "log",
     "est7": 7,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
@@ -37346,7 +36963,7 @@
     "est7": 7,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37364,61 +36981,43 @@
     "est7": 7,
     "mBest": 11,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
    {
-    "logNo": "224448109685",
-    "no": 121,
-    "title": "원피스카드 등급 순서, 레어도 L C UC R SR과 패러렐 별표",
-    "game": "원피스",
-    "keyword": "원피스 카드 등급",
-    "ageD": 29,
-    "views": 132,
-    "perDay": 4.5,
+    "logNo": "224480277533",
+    "no": 218,
+    "title": "포켓몬카드 아크릴 카드 홀더 세트, 20일 3만원 개굴닌자 님피아",
+    "game": "포켓몬",
+    "keyword": "포켓몬 아크릴 카드 홀더 (이슈)",
+    "ageD": 10,
+    "views": 28,
+    "perDay": 2.7,
     "v7": 10,
     "v7src": "log",
     "est7": 7,
-    "mBest": 8,
+    "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
    {
-    "logNo": "224483065715",
-    "no": 221,
-    "title": "포켓몬 보드게임 추천 3가지, 할리갈리 루핑루이 칩스 인원 비교",
+    "logNo": "224483077735",
+    "no": 227,
+    "title": "포켓몬 마우스 추천 3종, 피카츄 블루투스와 버티컬 키보드 세트 비교",
     "game": "포켓몬",
-    "keyword": "포켓몬 보드게임 (구매형)",
-    "ageD": 3,
+    "keyword": "포켓몬 마우스 (구매형)",
+    "ageD": 1,
     "views": 10,
-    "perDay": 3.3,
+    "perDay": 8.4,
     "v7": 10,
     "v7src": "new",
     "est7": 7,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 1,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224421189221",
-    "no": 11,
-    "title": "포켓몬카드 어디서 사나요, 정가 구매처 7곳과 30주년 재고 확인법",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 어디서 사",
-    "ageD": 63,
-    "views": 2728,
-    "perDay": 43.3,
-    "v7": 9,
-    "v7src": "log",
-    "est7": 6,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 6,
     "grade": "mid"
    },
@@ -37436,44 +37035,26 @@
     "est7": 6,
     "mBest": 2,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "mid"
    },
    {
-    "logNo": "224480277533",
-    "no": 218,
-    "title": "포켓몬카드 아크릴 카드 홀더 세트, 20일 3만원 개굴닌자 님피아",
+    "logNo": "224438744951",
+    "no": 87,
+    "title": "포켓몬카드 30주년 일본판 한국판 차이 5가지, 정가 봉입 카드 수",
     "game": "포켓몬",
-    "keyword": "포켓몬 아크릴 카드 홀더 (이슈)",
-    "ageD": 10,
-    "views": 27,
-    "perDay": 2.7,
+    "keyword": "포켓몬카드 30주년 일본판",
+    "ageD": 41,
+    "views": 146,
+    "perDay": 3.6,
     "v7": 9,
     "v7src": "log",
     "est7": 6,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224483077735",
-    "no": 227,
-    "title": "포켓몬 마우스 추천 3종, 피카츄 블루투스와 버티컬 키보드 세트 비교",
-    "game": "포켓몬",
-    "keyword": "포켓몬 마우스 (구매형)",
-    "ageD": 1,
-    "views": 9,
-    "perDay": 8.8,
-    "v7": 9,
-    "v7src": "new",
-    "est7": 6,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 3,
     "grade": "mid"
    },
    {
@@ -37490,7 +37071,7 @@
     "est7": 6,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 3,
     "grade": "mid"
    },
@@ -37508,7 +37089,7 @@
     "est7": 6,
     "mBest": 5,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37526,26 +37107,8 @@
     "est7": 6,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224438744951",
-    "no": 87,
-    "title": "포켓몬카드 30주년 일본판 한국판 차이 5가지, 정가 봉입 카드 수",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 30주년 일본판",
-    "ageD": 41,
-    "views": 145,
-    "perDay": 3.6,
-    "v7": 8,
-    "v7src": "log",
-    "est7": 6,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
     "grade": "mid"
    },
    {
@@ -37556,14 +37119,14 @@
     "keyword": "홍대 포켓몬카드",
     "ageD": 29,
     "views": 106,
-    "perDay": 3.7,
+    "perDay": 3.6,
     "v7": 8,
     "v7src": "log",
     "est7": 6,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 3,
+    "indexed": null,
+    "comments": 2,
     "grade": "mid"
    },
    {
@@ -37580,7 +37143,7 @@
     "est7": 6,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37598,7 +37161,7 @@
     "est7": 5,
     "mBest": 17,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37610,13 +37173,13 @@
     "keyword": "리프트바운드 한정 상품",
     "ageD": 27,
     "views": 88,
-    "perDay": 3.3,
+    "perDay": 3.2,
     "v7": 7,
     "v7src": "log",
     "est7": 5,
     "mBest": 3,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37634,8 +37197,44 @@
     "est7": 4,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224431135228",
+    "no": 51,
+    "title": "포켓몬카드 편의점 재고 조회 방법, 4사 앱 순서와 예약 주의점",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 편의점 재고 조회",
+    "ageD": 54,
+    "views": 1541,
+    "perDay": 28.5,
+    "v7": 6,
+    "v7src": "log",
+    "est7": 4,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 4,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224433500029",
+    "no": 73,
+    "title": "포켓몬카드 메가심포니아 힛카드 17장, 메가가디안 MUR과 정가",
+    "game": "포켓몬",
+    "keyword": "메가심포니아 힛카드",
+    "ageD": 45,
+    "views": 231,
+    "perDay": 5.1,
+    "v7": 6,
+    "v7src": "log",
+    "est7": 4,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
     "grade": "mid"
    },
    {
@@ -37652,8 +37251,26 @@
     "est7": 4,
     "mBest": 2,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
+    "grade": "mid"
+   },
+   {
+    "logNo": "224446262953",
+    "no": 106,
+    "title": "포켓몬카드 할로윈 덱케이스 플레이매트 10월 24일 발매, 정가 규격",
+    "game": "포켓몬",
+    "keyword": "포켓몬카드 할로윈",
+    "ageD": 34,
+    "views": 114,
+    "perDay": 3.3,
+    "v7": 6,
+    "v7src": "log",
+    "est7": 4,
+    "mBest": 6,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
     "grade": "mid"
    },
    {
@@ -37670,7 +37287,7 @@
     "est7": 4,
     "mBest": 7,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
@@ -37688,7 +37305,7 @@
     "est7": 4,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37700,13 +37317,13 @@
     "keyword": "포켓몬카드 PSA 등급",
     "ageD": 59,
     "views": 737,
-    "perDay": 12.5,
+    "perDay": 12.4,
     "v7": 5,
     "v7src": "log",
     "est7": 4,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
@@ -37724,26 +37341,8 @@
     "est7": 4,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224431135228",
-    "no": 51,
-    "title": "포켓몬카드 편의점 재고 조회 방법, 4사 앱 순서와 예약 주의점",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 편의점 재고 조회",
-    "ageD": 54,
-    "views": 1540,
-    "perDay": 28.6,
-    "v7": 5,
-    "v7src": "log",
-    "est7": 4,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 4,
     "grade": "mid"
    },
    {
@@ -37760,7 +37359,7 @@
     "est7": 4,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
@@ -37772,13 +37371,13 @@
     "keyword": "다이소 카드 슬리브",
     "ageD": 42,
     "views": 699,
-    "perDay": 16.8,
+    "perDay": 16.7,
     "v7": 5,
     "v7src": "log",
     "est7": 4,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37796,7 +37395,7 @@
     "est7": 4,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37814,25 +37413,7 @@
     "est7": 4,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
-   },
-   {
-    "logNo": "224446262953",
-    "no": 106,
-    "title": "포켓몬카드 할로윈 덱케이스 플레이매트 10월 24일 발매, 정가 규격",
-    "game": "포켓몬",
-    "keyword": "포켓몬카드 할로윈",
-    "ageD": 34,
-    "views": 113,
-    "perDay": 3.3,
-    "v7": 5,
-    "v7src": "log",
-    "est7": 4,
-    "mBest": 6,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -37850,7 +37431,7 @@
     "est7": 4,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "mid"
    },
@@ -37862,14 +37443,14 @@
     "keyword": "포켓몬카드 메가엘레이드 ex",
     "ageD": 24,
     "views": 74,
-    "perDay": 3.1,
+    "perDay": 3,
     "v7": 5,
     "v7src": "log",
     "est7": 4,
     "mBest": 6,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 3,
+    "indexed": null,
+    "comments": 0,
     "grade": "mid"
    },
    {
@@ -37886,9 +37467,9 @@
     "est7": 3,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
-    "grade": "mid"
+    "grade": "low"
    },
    {
     "logNo": "224421190483",
@@ -37904,9 +37485,9 @@
     "est7": 3,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
-    "grade": "mid"
+    "grade": "low"
    },
    {
     "logNo": "224422747557",
@@ -37922,9 +37503,9 @@
     "est7": 3,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
-    "grade": "mid"
+    "grade": "low"
    },
    {
     "logNo": "224422749746",
@@ -37934,15 +37515,15 @@
     "keyword": "카드 바인더",
     "ageD": 55,
     "views": 96,
-    "perDay": 1.8,
+    "perDay": 1.7,
     "v7": 4,
     "v7src": "log",
     "est7": 3,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
-    "grade": "mid"
+    "grade": "low"
    },
    {
     "logNo": "224424491242",
@@ -37958,9 +37539,9 @@
     "est7": 3,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
-    "grade": "mid"
+    "grade": "low"
    },
    {
     "logNo": "224431136669",
@@ -37976,9 +37557,45 @@
     "est7": 3,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
+   },
+   {
+    "logNo": "224438753288",
+    "no": 93,
+    "title": "카드 자석 탑로더 추천 3종, 870원부터 3,300원 UV 차단까지",
+    "game": "용품",
+    "keyword": "자석 탑로더 (구매형)",
+    "ageD": 39,
+    "views": 54,
+    "perDay": 1.4,
+    "v7": 4,
+    "v7src": "log",
+    "est7": 3,
+    "mBest": null,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 4,
+    "grade": "low"
+   },
+   {
+    "logNo": "224442285878",
+    "no": 99,
+    "title": "카드 세이버 뜻과 등급 접수 준비물 3가지, 100매 13,900원",
+    "game": "용품",
+    "keyword": "카드 세이버 (구매형)",
+    "ageD": 37,
+    "views": 54,
+    "perDay": 1.5,
+    "v7": 4,
+    "v7src": "log",
+    "est7": 3,
+    "mBest": 8,
+    "pcBlog": null,
+    "indexed": null,
+    "comments": 0,
+    "grade": "mid"
    },
    {
     "logNo": "224461968805",
@@ -37988,13 +37605,13 @@
     "keyword": "원피스카드 챔피언십",
     "ageD": 18,
     "views": 28,
-    "perDay": 1.6,
+    "perDay": 1.5,
     "v7": 4,
     "v7src": "log",
     "est7": 3,
     "mBest": 4,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -38012,7 +37629,7 @@
     "est7": 2,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38030,7 +37647,7 @@
     "est7": 2,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "low"
    },
@@ -38048,7 +37665,7 @@
     "est7": 2,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38066,7 +37683,7 @@
     "est7": 2,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "low"
    },
@@ -38084,7 +37701,7 @@
     "est7": 2,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "low"
    },
@@ -38102,25 +37719,7 @@
     "est7": 2,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "low"
-   },
-   {
-    "logNo": "224433500029",
-    "no": 73,
-    "title": "포켓몬카드 메가심포니아 힛카드 17장, 메가가디안 MUR과 정가",
-    "game": "포켓몬",
-    "keyword": "메가심포니아 힛카드",
-    "ageD": 45,
-    "views": 228,
-    "perDay": 5.1,
-    "v7": 3,
-    "v7src": "log",
-    "est7": 2,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38138,45 +37737,9 @@
     "est7": 2,
     "mBest": 12,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "low"
-   },
-   {
-    "logNo": "224438753288",
-    "no": 93,
-    "title": "카드 자석 탑로더 추천 3종, 870원부터 3,300원 UV 차단까지",
-    "game": "용품",
-    "keyword": "자석 탑로더 (구매형)",
-    "ageD": 39,
-    "views": 53,
-    "perDay": 1.4,
-    "v7": 3,
-    "v7src": "log",
-    "est7": 2,
-    "mBest": null,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 4,
-    "grade": "low"
-   },
-   {
-    "logNo": "224442285878",
-    "no": 99,
-    "title": "카드 세이버 뜻과 등급 접수 준비물 3가지, 100매 13,900원",
-    "game": "용품",
-    "keyword": "카드 세이버 (구매형)",
-    "ageD": 37,
-    "views": 53,
-    "perDay": 1.4,
-    "v7": 3,
-    "v7src": "log",
-    "est7": 2,
-    "mBest": 8,
-    "pcBlog": null,
-    "indexed": true,
-    "comments": 0,
-    "grade": "mid"
    },
    {
     "logNo": "224454689061",
@@ -38186,15 +37749,15 @@
     "keyword": "포켓몬카드 이마트 쓱데이",
     "ageD": 31,
     "views": 3410,
-    "perDay": 110.4,
+    "perDay": 109.8,
     "v7": 3,
     "v7src": "log",
     "est7": 2,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 2,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224471389439",
@@ -38204,7 +37767,7 @@
     "keyword": "설빙 포켓몬 (이슈)",
     "ageD": 17,
     "views": 266,
-    "perDay": 15.6,
+    "perDay": 15.4,
     "v7": 3,
     "v7src": "log",
     "est7": 2,
@@ -38228,7 +37791,7 @@
     "est7": 2,
     "mBest": 3,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -38246,7 +37809,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 4,
     "grade": "low"
    },
@@ -38264,7 +37827,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38282,7 +37845,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38300,7 +37863,7 @@
     "est7": 1,
     "mBest": 10,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -38318,7 +37881,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38336,7 +37899,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38348,13 +37911,13 @@
     "keyword": "포켓몬카드 30주년 재입고",
     "ageD": 53,
     "views": 963,
-    "perDay": 18.1,
+    "perDay": 18,
     "v7": 2,
     "v7src": "log",
     "est7": 1,
     "mBest": 12,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "low"
    },
@@ -38372,9 +37935,9 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 2,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224431718856",
@@ -38390,7 +37953,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38408,7 +37971,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38426,7 +37989,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 7,
     "grade": "low"
    },
@@ -38438,13 +38001,13 @@
     "keyword": "포켓몬카드 오픈런",
     "ageD": 31,
     "views": 112,
-    "perDay": 3.7,
+    "perDay": 3.6,
     "v7": 2,
     "v7src": "log",
     "est7": 1,
     "mBest": 15,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38462,9 +38025,9 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224459952205",
@@ -38480,7 +38043,7 @@
     "est7": 1,
     "mBest": 11,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38498,7 +38061,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38516,7 +38079,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "low"
    },
@@ -38534,7 +38097,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38552,7 +38115,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "low"
    },
@@ -38570,7 +38133,7 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38588,9 +38151,9 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 2,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224431717214",
@@ -38606,9 +38169,9 @@
     "est7": 1,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 2,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224421176128",
@@ -38624,7 +38187,7 @@
     "est7": 0,
     "mBest": 15,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "low"
    },
@@ -38642,9 +38205,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": 21,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224427969059",
@@ -38660,9 +38223,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224427971701",
@@ -38678,9 +38241,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224428326179",
@@ -38696,7 +38259,7 @@
     "est7": 0,
     "mBest": 10,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "mid"
    },
@@ -38714,9 +38277,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224431138041",
@@ -38732,9 +38295,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224431710952",
@@ -38750,9 +38313,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224431713458",
@@ -38768,9 +38331,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224431714247",
@@ -38786,9 +38349,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224431716369",
@@ -38804,9 +38367,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224431718047",
@@ -38822,9 +38385,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224431719692",
@@ -38840,9 +38403,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224434569345",
@@ -38858,9 +38421,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 2,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224434655685",
@@ -38876,9 +38439,9 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 0,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224438737498",
@@ -38888,13 +38451,13 @@
     "keyword": "포켓몬카드 가격",
     "ageD": 42,
     "views": 108,
-    "perDay": 2.6,
+    "perDay": 2.5,
     "v7": 0,
     "v7src": "log",
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38912,7 +38475,7 @@
     "est7": 0,
     "mBest": 4,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
@@ -38930,7 +38493,7 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38948,7 +38511,7 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38966,7 +38529,7 @@
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    },
@@ -38984,7 +38547,7 @@
     "est7": 0,
     "mBest": 7,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 2,
     "grade": "mid"
    },
@@ -38996,15 +38559,15 @@
     "keyword": "CU 포켓몬 (이슈)",
     "ageD": 25,
     "views": 372,
-    "perDay": 14.8,
+    "perDay": 14.7,
     "v7": 0,
     "v7src": "log",
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": false,
+    "indexed": null,
     "comments": 2,
-    "grade": "noindex"
+    "grade": "low"
    },
    {
     "logNo": "224469981455",
@@ -39014,22 +38577,22 @@
     "keyword": "서울카드페스타 2026",
     "ageD": 14,
     "views": 126,
-    "perDay": 8.8,
+    "perDay": 8.7,
     "v7": 0,
     "v7src": "log",
     "est7": 0,
     "mBest": null,
     "pcBlog": null,
-    "indexed": true,
+    "indexed": null,
     "comments": 0,
     "grade": "low"
    }
   ],
   "counts": {
    "top": 44,
-   "low": 32,
-   "noindex": 20,
-   "mid": 124
+   "low": 56,
+   "noindex": 0,
+   "mid": 120
   }
  },
  "kw": {
@@ -39130,6 +38693,19 @@
     "aib": null
    },
    {
+    "kw": "포켓몬카드 시세 사이트",
+    "total": 9340,
+    "no": 54,
+    "logNo": "224431137457",
+    "title": "포켓몬카드 시세 사이트 4곳, 조회 순서와 체결가 읽는 법",
+    "game": "포켓몬",
+    "age": 53,
+    "pcBlog": null,
+    "moBlog": null,
+    "rankDate": "2026-11-23",
+    "aib": null
+   },
+   {
     "kw": "포켓몬 카드샵",
     "total": 7830,
     "no": 2,
@@ -39167,38 +38743,70 @@
     "moBlog": null,
     "rankDate": "2026-11-23",
     "aib": null
-   },
-   {
-    "kw": "포켓몬카드 30주년 힛카드",
-    "total": 1680,
-    "no": 23,
-    "logNo": "224422743238",
-    "title": "포켓몬카드 30주년 힛카드 리스트, 103번 뒤 번호 62장 정리",
-    "game": "포켓몬",
-    "age": 60,
-    "pcBlog": null,
-    "moBlog": null,
-    "rankDate": "2026-11-23",
-    "aib": null
    }
   ],
-  "retargetTotal": 26,
+  "retargetTotal": 36,
   "expandTotal": 394
+ },
+ "homefeed": {
+  "at": "2026-11-27T08:05:15.309Z",
+  "baseline": 86,
+  "days": [
+   {
+    "date": "2026-11-27",
+    "home": 34,
+    "share": 7.4,
+    "top": [
+     {
+      "logNo": "224483079810",
+      "title": "포켓몬카드 30주년 정가 제품 5종, 팩 3,500원부터 박스까지",
+      "cv": 36
+     },
+     {
+      "logNo": "224466961082",
+      "title": "원피스카드 신의 섬 모험 발매일 11월 27일, 15탄 가격과 구성",
+      "cv": 32
+     },
+     {
+      "logNo": "224484504000",
+      "title": "포켓몬카드 30주년 카드 세트 9종, 11월 27일 12,000원",
+      "cv": 24
+     }
+    ],
+    "spike": false
+   },
+   {
+    "date": "2026-11-26",
+    "home": 84,
+    "share": 11.1,
+    "top": [
+     {
+      "logNo": "224483079810",
+      "title": "포켓몬카드 30주년 정가 제품 5종, 팩 3,500원부터 박스까지",
+      "cv": 33
+     },
+     {
+      "logNo": "224466961082",
+      "title": "원피스카드 신의 섬 모험 발매일 11월 27일, 15탄 가격과 구성",
+      "cv": 29
+     },
+     {
+      "logNo": "224483062634",
+      "title": "포켓몬카드 스타트덱100 배틀컬렉션 구성, 9,000원 덱 100종",
+      "cv": 28
+     }
+    ],
+    "spike": false
+   }
+  ],
+  "spike": null
  },
  "todos": [
   {
    "level": "warn",
-   "type": "index",
-   "title": "검색 미색인 20개 (발행 48시간+) · 48시간 색인율 90.7%",
-   "text": "#41 #44 #46 #54 #55 #56 #58 #59 #60 #61 #62 #63 외 8개",
-   "note": "제목 검색(블로그탭) 기준, 수집 때마다 재확인. 글 수정·재발행은 하지 않음",
-   "goto": "posts:색인 안 됨"
-  },
-  {
-   "level": "warn",
    "type": "comment",
-   "title": "미답변 댓글 21건",
-   "text": "호군: 30주년 제품 가격을 한눈에 정리해 주셔서 헷갈리던 게 풀리네요, 잘 봤 / 펀케이브: 피카츄 마우스라니 정말 수집욕을 자극하는 글이네요 ㅎㅎ 잘보고갑니다!!",
+   "title": "미답변 댓글 1건",
+   "text": "미래부자: 저도 컴퓨터 잘 못하는데.. 이 부업은 다 떠먹여 주더라구요.. 하루 5",
    "action": {
     "label": "답글 요청",
     "preset": 1

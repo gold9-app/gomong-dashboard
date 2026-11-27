@@ -625,6 +625,7 @@ const TASK_PRESETS = [
   { l: '모바일 순위 점검', t: 'tools/mobile_rank.js 로 공개 글 주키워드의 모바일 통합검색 순위를 지금 조회해서 지난 측정 대비 변화 보고 (모바일순위_history.json 에 기록)' },
   { l: '대시보드 갱신', t: '대시보드 데이터만 다시 수집해서 push' },
   { l: '새 글 1개', t: 'SPEC v4.1로 신규 글 1개를 작성해 다음 빈 예약 슬롯(하루 3개 기준)에 예약 발행하고 제목·시각·URL 보고. 주제는 자동완성·AI 브리핑 근거로 고르고 포켓몬 80% 비중 유지' },
+  { l: '홈판 후속 글', t: '홈판 후속 글: 대시보드 dashboard.json homefeed.spike 의 1위 글(터진 글)과 같은 행사·상품을 다른 각도(재고·수령 방법·다음 차수·비교)로 다룬 후킹형 정보형 새 글 1개를 홈판 프로필(validateV4 profile:homefeed, post.lane=homefeed, CSV 주키워드 끝 (홈판))로 작성해 가장 빠른 빈 07:30/12:30 슬롯에 예약하고 관련 글 1개는 터진 글로. 터진 글은 고치지 말 것. 제목·시각·URL 보고' },
 ];
 const STATUS_CLS = { '대기': 'st-wait', '진행중': 'st-run', '완료': 'st-done', '보류': 'st-hold', '실패': 'st-fail', '거부': 'st-fail' };
 const stBadge = (s) => `<span class="badge ${STATUS_CLS[s] || 'st-wait'}">${s === '진행중' ? I.sync : s === '완료' ? I.check : (s === '실패' || s === '거부') ? I.x : s === '보류' ? I.alert : I.clock} ${esc(s || '대기')}</span>`;
